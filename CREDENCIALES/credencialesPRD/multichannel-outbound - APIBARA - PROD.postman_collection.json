@@ -1,0 +1,3047 @@
+{
+	"info": {
+		"_postman_id": "1b3d7a0f-e0c5-4bc9-80ab-845475d6cfd9",
+		"name": "multichannel-outbound | APIBARA | PROD",
+		"description": "API de Experiencia que expone las operaciones para manejar la recepción de documentos con las tiendas en su versión 1.0: \n1. Consulta la lista de documentos solicitados por tienda.\n2. Consulta de los documentos comprimidos en zip solicitados por tienda disponibles para descargar.\n3. Realiza la confirmación y actualización del estatus de los documentos previamente descargados.\n\nEl servicio cumple con lo siguiente:\n- **Protocolo**: *HTTPS*\n- **Seguridad**: *Oauth 2.0*\n- **Versionamiento**: *Explícito en la URL*\n- **Formato estándar de Intercambio**: *JSON*\n- **Estándares de Diseño**: *REST | HTTP | OpenAPI 3.x.x* \n\n**Lectura Recomendada**:\n1. [OpenAPI Documentation](https://swagger.io/specification/)\n2. [REST Dissertation](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)\n3. [RFC 7231](https://datatracker.ietf.org/doc/html/rfc7231)\n",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30203506"
+	},
+	"item": [
+		{
+			"name": "documents",
+			"item": [
+				{
+					"name": "acknowledgements",
+					"item": [
+						{
+							"name": "Realiza la confirmación y actualización del estatus de los documentos previamente descargados.",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "2f1f4b2e0a60404d8ae75260768d17b66b7bf9dcd4cc4b86bebc8c7da3de943a",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Tracking-Id",
+										"value": "3bff218c-6e30-4319-9441-ca040eb8ad41",
+										"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+									},
+									{
+										"key": "Channel-Id",
+										"value": "WEB",
+										"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+									},
+									{
+										"key": "Country-Code",
+										"value": "MX",
+										"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+									},
+									{
+										"key": "Language",
+										"value": "SPA",
+										"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+									},
+									{
+										"key": "User-Agent",
+										"value": "potsman/2.0",
+										"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+									},
+									{
+										"key": "x-Gateway-APIKey",
+										"value": "7371052d-ee88-43db-a2eb-48e8a513b60c",
+										"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"departmentId\": \"10MAN\",\n  \"storeId\": \"50I85\",\n  \"source\": \"CT\",\n  \"documents\": [\n    {\n      \"eventDate\": \"2023-12-07T15:57:45Z\",\n      \"fileType\": \"ITM\",\n      \"name\": \"ITM10MAN50I85231201160857.json.gz\",\n      \"status\": \"R\"\n    }\n  ]\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/documents/acknowledgements",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"documents",
+										"acknowledgements"
+									]
+								},
+								"description": "Realiza la confirmación y actualización del estatus de los documentos previamente descargados indicando si fue recibido, procesado o con error."
+							},
+							"response": [
+								{
+									"name": "Successful operation",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Tracking-Id",
+												"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+												"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+											},
+											{
+												"key": "Channel-Id",
+												"value": "X",
+												"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+											},
+											{
+												"key": "Country-Code",
+												"value": "A",
+												"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+											},
+											{
+												"key": "Language",
+												"value": "<string>",
+												"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+											},
+											{
+												"key": "User-Agent",
+												"value": "<string>",
+												"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+												"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json"
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "<API Key>",
+												"description": "Added as a part of security scheme: apikey"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"departmentId\": \"XZJCX\",\n  \"documents\": [\n    {\n      \"eventDate\": \"<dateTime>\",\n      \"fileType\": \"MLM\",\n      \"name\": \"TGmmkAvTGmmkAvTGmmkAvTGmmkAvTGmmkAvTGmmk\",\n      \"status\": \"Y\"\n    }\n  ],\n  \"source\": \"MFS\",\n  \"storeId\": \"11711\"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/documents/acknowledgements",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"documents",
+												"acknowledgements"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"code\": \"SXSXSX\",\n  \"message\": \"tĩ\"\n}"
+								},
+								{
+									"name": "Bad Request",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Tracking-Id",
+												"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+												"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+											},
+											{
+												"key": "Channel-Id",
+												"value": "X",
+												"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+											},
+											{
+												"key": "Country-Code",
+												"value": "A",
+												"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+											},
+											{
+												"key": "Language",
+												"value": "<string>",
+												"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+											},
+											{
+												"key": "User-Agent",
+												"value": "<string>",
+												"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+												"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json"
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "<API Key>",
+												"description": "Added as a part of security scheme: apikey"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"departmentId\": \"XZJCX\",\n  \"documents\": [\n    {\n      \"eventDate\": \"<dateTime>\",\n      \"fileType\": \"MLM\",\n      \"name\": \"TGmmkAvTGmmkAvTGmmkAvTGmmkAvTGmmkAvTGmmk\",\n      \"status\": \"Y\"\n    }\n  ],\n  \"source\": \"MFS\",\n  \"storeId\": \"11711\"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/documents/acknowledgements",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"documents",
+												"acknowledgements"
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"code\": \"X40011\",\n  \"message\": \"API Specification validation failed. Error on JSON schema validation for Request payload..\"\n}"
+								},
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Tracking-Id",
+												"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+												"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+											},
+											{
+												"key": "Channel-Id",
+												"value": "X",
+												"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+											},
+											{
+												"key": "Country-Code",
+												"value": "A",
+												"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+											},
+											{
+												"key": "Language",
+												"value": "<string>",
+												"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+											},
+											{
+												"key": "User-Agent",
+												"value": "<string>",
+												"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+												"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json"
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "<API Key>",
+												"description": "Added as a part of security scheme: apikey"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"departmentId\": \"XZJCX\",\n  \"documents\": [\n    {\n      \"eventDate\": \"<dateTime>\",\n      \"fileType\": \"MLM\",\n      \"name\": \"TGmmkAvTGmmkAvTGmmkAvTGmmkAvTGmmkAvTGmmk\",\n      \"status\": \"Y\"\n    }\n  ],\n  \"source\": \"MFS\",\n  \"storeId\": \"11711\"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/documents/acknowledgements",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"documents",
+												"acknowledgements"
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"code\": \"SXSXSX\",\n  \"message\": \"tĩ\"\n}"
+								},
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Tracking-Id",
+												"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+												"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+											},
+											{
+												"key": "Channel-Id",
+												"value": "X",
+												"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+											},
+											{
+												"key": "Country-Code",
+												"value": "A",
+												"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+											},
+											{
+												"key": "Language",
+												"value": "<string>",
+												"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+											},
+											{
+												"key": "User-Agent",
+												"value": "<string>",
+												"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+												"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json"
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "<API Key>",
+												"description": "Added as a part of security scheme: apikey"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"departmentId\": \"XZJCX\",\n  \"documents\": [\n    {\n      \"eventDate\": \"<dateTime>\",\n      \"fileType\": \"MLM\",\n      \"name\": \"TGmmkAvTGmmkAvTGmmkAvTGmmkAvTGmmkAvTGmmk\",\n      \"status\": \"Y\"\n    }\n  ],\n  \"source\": \"MFS\",\n  \"storeId\": \"11711\"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/documents/acknowledgements",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"documents",
+												"acknowledgements"
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"code\": \"SXSXSX\",\n  \"message\": \"tĩ\"\n}"
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Tracking-Id",
+												"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+												"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+											},
+											{
+												"key": "Channel-Id",
+												"value": "X",
+												"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+											},
+											{
+												"key": "Country-Code",
+												"value": "A",
+												"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+											},
+											{
+												"key": "Language",
+												"value": "<string>",
+												"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+											},
+											{
+												"key": "User-Agent",
+												"value": "<string>",
+												"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+												"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json"
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "<API Key>",
+												"description": "Added as a part of security scheme: apikey"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"departmentId\": \"XZJCX\",\n  \"documents\": [\n    {\n      \"eventDate\": \"<dateTime>\",\n      \"fileType\": \"MLM\",\n      \"name\": \"TGmmkAvTGmmkAvTGmmkAvTGmmkAvTGmmkAvTGmmk\",\n      \"status\": \"Y\"\n    }\n  ],\n  \"source\": \"MFS\",\n  \"storeId\": \"11711\"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/documents/acknowledgements",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"documents",
+												"acknowledgements"
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"code\": \"SXSXSX\",\n  \"message\": \"tĩ\"\n}"
+								},
+								{
+									"name": "Method Not Allowed",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Tracking-Id",
+												"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+												"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+											},
+											{
+												"key": "Channel-Id",
+												"value": "X",
+												"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+											},
+											{
+												"key": "Country-Code",
+												"value": "A",
+												"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+											},
+											{
+												"key": "Language",
+												"value": "<string>",
+												"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+											},
+											{
+												"key": "User-Agent",
+												"value": "<string>",
+												"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+												"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json"
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "<API Key>",
+												"description": "Added as a part of security scheme: apikey"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"departmentId\": \"XZJCX\",\n  \"documents\": [\n    {\n      \"eventDate\": \"<dateTime>\",\n      \"fileType\": \"MLM\",\n      \"name\": \"TGmmkAvTGmmkAvTGmmkAvTGmmkAvTGmmkAvTGmmk\",\n      \"status\": \"Y\"\n    }\n  ],\n  \"source\": \"MFS\",\n  \"storeId\": \"11711\"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/documents/acknowledgements",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"documents",
+												"acknowledgements"
+											]
+										}
+									},
+									"status": "Method Not Allowed",
+									"code": 405,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"code\": \"SXSXSX\",\n  \"message\": \"tĩ\"\n}"
+								},
+								{
+									"name": "Unsupported Media Type",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Tracking-Id",
+												"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+												"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+											},
+											{
+												"key": "Channel-Id",
+												"value": "X",
+												"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+											},
+											{
+												"key": "Country-Code",
+												"value": "A",
+												"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+											},
+											{
+												"key": "Language",
+												"value": "<string>",
+												"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+											},
+											{
+												"key": "User-Agent",
+												"value": "<string>",
+												"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+												"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json"
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "<API Key>",
+												"description": "Added as a part of security scheme: apikey"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"departmentId\": \"XZJCX\",\n  \"documents\": [\n    {\n      \"eventDate\": \"<dateTime>\",\n      \"fileType\": \"MLM\",\n      \"name\": \"TGmmkAvTGmmkAvTGmmkAvTGmmkAvTGmmkAvTGmmk\",\n      \"status\": \"Y\"\n    }\n  ],\n  \"source\": \"MFS\",\n  \"storeId\": \"11711\"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/documents/acknowledgements",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"documents",
+												"acknowledgements"
+											]
+										}
+									},
+									"status": "Unsupported Media Type",
+									"code": 415,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"code\": \"SXSXSX\",\n  \"message\": \"tĩ\"\n}"
+								},
+								{
+									"name": "Too Many Requests",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Tracking-Id",
+												"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+												"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+											},
+											{
+												"key": "Channel-Id",
+												"value": "X",
+												"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+											},
+											{
+												"key": "Country-Code",
+												"value": "A",
+												"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+											},
+											{
+												"key": "Language",
+												"value": "<string>",
+												"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+											},
+											{
+												"key": "User-Agent",
+												"value": "<string>",
+												"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+												"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json"
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "<API Key>",
+												"description": "Added as a part of security scheme: apikey"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"departmentId\": \"XZJCX\",\n  \"documents\": [\n    {\n      \"eventDate\": \"<dateTime>\",\n      \"fileType\": \"MLM\",\n      \"name\": \"TGmmkAvTGmmkAvTGmmkAvTGmmkAvTGmmkAvTGmmk\",\n      \"status\": \"Y\"\n    }\n  ],\n  \"source\": \"MFS\",\n  \"storeId\": \"11711\"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/documents/acknowledgements",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"documents",
+												"acknowledgements"
+											]
+										}
+									},
+									"status": "Too Many Requests",
+									"code": 429,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"code\": \"SXSXSX\",\n  \"message\": \"tĩ\"\n}"
+								},
+								{
+									"name": "Internal Server Error",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Tracking-Id",
+												"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+												"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+											},
+											{
+												"key": "Channel-Id",
+												"value": "X",
+												"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+											},
+											{
+												"key": "Country-Code",
+												"value": "A",
+												"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+											},
+											{
+												"key": "Language",
+												"value": "<string>",
+												"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+											},
+											{
+												"key": "User-Agent",
+												"value": "<string>",
+												"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+												"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json"
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "<API Key>",
+												"description": "Added as a part of security scheme: apikey"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"departmentId\": \"XZJCX\",\n  \"documents\": [\n    {\n      \"eventDate\": \"<dateTime>\",\n      \"fileType\": \"MLM\",\n      \"name\": \"TGmmkAvTGmmkAvTGmmkAvTGmmkAvTGmmkAvTGmmk\",\n      \"status\": \"Y\"\n    }\n  ],\n  \"source\": \"MFS\",\n  \"storeId\": \"11711\"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/documents/acknowledgements",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"documents",
+												"acknowledgements"
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"code\": \"X50011\",\n  \"message\": \"Internal server error has occurred, please try again later.\"\n}"
+								},
+								{
+									"name": "Service Unavailable",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Tracking-Id",
+												"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+												"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+											},
+											{
+												"key": "Channel-Id",
+												"value": "X",
+												"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+											},
+											{
+												"key": "Country-Code",
+												"value": "A",
+												"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+											},
+											{
+												"key": "Language",
+												"value": "<string>",
+												"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+											},
+											{
+												"key": "User-Agent",
+												"value": "<string>",
+												"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+												"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json"
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "<API Key>",
+												"description": "Added as a part of security scheme: apikey"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"departmentId\": \"XZJCX\",\n  \"documents\": [\n    {\n      \"eventDate\": \"<dateTime>\",\n      \"fileType\": \"MLM\",\n      \"name\": \"TGmmkAvTGmmkAvTGmmkAvTGmmkAvTGmmkAvTGmmk\",\n      \"status\": \"Y\"\n    }\n  ],\n  \"source\": \"MFS\",\n  \"storeId\": \"11711\"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/documents/acknowledgements",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"documents",
+												"acknowledgements"
+											]
+										}
+									},
+									"status": "Service Unavailable",
+									"code": 503,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"code\": \"SXSXSX\",\n  \"message\": \"tĩ\"\n}"
+								},
+								{
+									"name": "Gateway Timeout",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Tracking-Id",
+												"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+												"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+											},
+											{
+												"key": "Channel-Id",
+												"value": "X",
+												"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+											},
+											{
+												"key": "Country-Code",
+												"value": "A",
+												"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+											},
+											{
+												"key": "Language",
+												"value": "<string>",
+												"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+											},
+											{
+												"key": "User-Agent",
+												"value": "<string>",
+												"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+												"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json"
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "<API Key>",
+												"description": "Added as a part of security scheme: apikey"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"departmentId\": \"XZJCX\",\n  \"documents\": [\n    {\n      \"eventDate\": \"<dateTime>\",\n      \"fileType\": \"MLM\",\n      \"name\": \"TGmmkAvTGmmkAvTGmmkAvTGmmkAvTGmmkAvTGmmk\",\n      \"status\": \"Y\"\n    }\n  ],\n  \"source\": \"MFS\",\n  \"storeId\": \"11711\"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/documents/acknowledgements",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"documents",
+												"acknowledgements"
+											]
+										}
+									},
+									"status": "Gateway Timeout",
+									"code": 504,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"code\": \"SXSXSX\",\n  \"message\": \"tĩ\"\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "downloads",
+					"item": [
+						{
+							"name": "Consulta de los documentos comprimidos en zip solicitados por tienda disponibles para descargar.",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "53ed101bfe6f42fdada77cb199f68723826d311974174d0abc2cc1bf56c2afce",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Tracking-Id",
+										"value": "35e3599f-dbd2-4387-8648-6df6da783a29",
+										"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+									},
+									{
+										"key": "Channel-Id",
+										"value": "WEB",
+										"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+									},
+									{
+										"key": "Country-Code",
+										"value": "MX",
+										"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+									},
+									{
+										"key": "Language",
+										"value": "SPA",
+										"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+									},
+									{
+										"key": "User-Agent",
+										"value": "potsman/2.0",
+										"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+									},
+									{
+										"key": "x-Gateway-APIKey",
+										"value": "7371052d-ee88-43db-a2eb-48e8a513b60c",
+										"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"departmentId\": \"10CTG\",\n  \"storeId\": \"54PZN\",\n  \"source\": \"CT\",\n  \"documents\": [\n     {\n            \"name\": \"ITM10CTG54PZN231214150400.json.gz\",\n            \"fileType\": \"ITM\"\n        },\n        {\n            \"name\": \"ITM10CTG54PZN231214150414.json.gz\",\n            \"fileType\": \"ITM\"\n        }\n  ]\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/documents/downloads",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"documents",
+										"downloads"
+									]
+								},
+								"description": "Consulta de los documentos comprimidos en zip solicitados por tienda disponibles para descargar."
+							},
+							"response": [
+								{
+									"name": "Ok",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Tracking-Id",
+												"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+												"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+											},
+											{
+												"key": "Channel-Id",
+												"value": "X",
+												"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+											},
+											{
+												"key": "Country-Code",
+												"value": "A",
+												"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+											},
+											{
+												"key": "Language",
+												"value": "<string>",
+												"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+											},
+											{
+												"key": "User-Agent",
+												"value": "<string>",
+												"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+												"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json"
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "<API Key>",
+												"description": "Added as a part of security scheme: apikey"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"departmentId\": \"     \",\n  \"documents\": [\n    {\n      \"fileType\": \"GXX\",\n      \"name\": \"pppppppppppppppppppppppppppppppp\"\n    }\n  ],\n  \"source\": \"KQG\",\n  \"storeId\": \"     \"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/documents/downloads",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"documents",
+												"downloads"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"code\": \"000000\",\n  \"documents\": [\n    {\n      \"data\": \"<string>\",\n      \"fileType\": \"WWW\",\n      \"mimeType\": \"file/zip\",\n      \"name\": \"OONvw1RUntOONvw1RUntOONvw1RUntOONvw1RUnt\",\n      \"status\": \"<string>\"\n    }\n  ],\n  \"message\": \"ķŮlŎĆħūĥ\"\n}"
+								},
+								{
+									"name": "Bad Request",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Tracking-Id",
+												"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+												"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+											},
+											{
+												"key": "Channel-Id",
+												"value": "X",
+												"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+											},
+											{
+												"key": "Country-Code",
+												"value": "A",
+												"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+											},
+											{
+												"key": "Language",
+												"value": "<string>",
+												"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+											},
+											{
+												"key": "User-Agent",
+												"value": "<string>",
+												"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+												"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json"
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "<API Key>",
+												"description": "Added as a part of security scheme: apikey"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"departmentId\": \"     \",\n  \"documents\": [\n    {\n      \"fileType\": \"GXX\",\n      \"name\": \"pppppppppppppppppppppppppppppppp\"\n    }\n  ],\n  \"source\": \"KQG\",\n  \"storeId\": \"     \"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/documents/downloads",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"documents",
+												"downloads"
+											]
+										}
+									},
+									"status": "Bad Request",
+									"code": 400,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"code\": \"X40011\",\n  \"message\": \"API Specification validation failed. Error on JSON schema validation for Request payload..\"\n}"
+								},
+								{
+									"name": "Unauthorized",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Tracking-Id",
+												"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+												"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+											},
+											{
+												"key": "Channel-Id",
+												"value": "X",
+												"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+											},
+											{
+												"key": "Country-Code",
+												"value": "A",
+												"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+											},
+											{
+												"key": "Language",
+												"value": "<string>",
+												"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+											},
+											{
+												"key": "User-Agent",
+												"value": "<string>",
+												"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+												"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json"
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "<API Key>",
+												"description": "Added as a part of security scheme: apikey"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"departmentId\": \"     \",\n  \"documents\": [\n    {\n      \"fileType\": \"GXX\",\n      \"name\": \"pppppppppppppppppppppppppppppppp\"\n    }\n  ],\n  \"source\": \"KQG\",\n  \"storeId\": \"     \"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/documents/downloads",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"documents",
+												"downloads"
+											]
+										}
+									},
+									"status": "Unauthorized",
+									"code": 401,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"code\": \"SXSXSX\",\n  \"message\": \"tĩ\"\n}"
+								},
+								{
+									"name": "Forbidden",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Tracking-Id",
+												"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+												"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+											},
+											{
+												"key": "Channel-Id",
+												"value": "X",
+												"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+											},
+											{
+												"key": "Country-Code",
+												"value": "A",
+												"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+											},
+											{
+												"key": "Language",
+												"value": "<string>",
+												"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+											},
+											{
+												"key": "User-Agent",
+												"value": "<string>",
+												"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+												"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json"
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "<API Key>",
+												"description": "Added as a part of security scheme: apikey"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"departmentId\": \"     \",\n  \"documents\": [\n    {\n      \"fileType\": \"GXX\",\n      \"name\": \"pppppppppppppppppppppppppppppppp\"\n    }\n  ],\n  \"source\": \"KQG\",\n  \"storeId\": \"     \"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/documents/downloads",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"documents",
+												"downloads"
+											]
+										}
+									},
+									"status": "Forbidden",
+									"code": 403,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"code\": \"SXSXSX\",\n  \"message\": \"tĩ\"\n}"
+								},
+								{
+									"name": "Not Found",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Tracking-Id",
+												"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+												"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+											},
+											{
+												"key": "Channel-Id",
+												"value": "X",
+												"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+											},
+											{
+												"key": "Country-Code",
+												"value": "A",
+												"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+											},
+											{
+												"key": "Language",
+												"value": "<string>",
+												"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+											},
+											{
+												"key": "User-Agent",
+												"value": "<string>",
+												"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+												"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json"
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "<API Key>",
+												"description": "Added as a part of security scheme: apikey"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"departmentId\": \"     \",\n  \"documents\": [\n    {\n      \"fileType\": \"GXX\",\n      \"name\": \"pppppppppppppppppppppppppppppppp\"\n    }\n  ],\n  \"source\": \"KQG\",\n  \"storeId\": \"     \"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/documents/downloads",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"documents",
+												"downloads"
+											]
+										}
+									},
+									"status": "Not Found",
+									"code": 404,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"code\": \"SXSXSX\",\n  \"message\": \"tĩ\"\n}"
+								},
+								{
+									"name": "Method Not Allowed",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Tracking-Id",
+												"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+												"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+											},
+											{
+												"key": "Channel-Id",
+												"value": "X",
+												"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+											},
+											{
+												"key": "Country-Code",
+												"value": "A",
+												"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+											},
+											{
+												"key": "Language",
+												"value": "<string>",
+												"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+											},
+											{
+												"key": "User-Agent",
+												"value": "<string>",
+												"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+												"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json"
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "<API Key>",
+												"description": "Added as a part of security scheme: apikey"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"departmentId\": \"     \",\n  \"documents\": [\n    {\n      \"fileType\": \"GXX\",\n      \"name\": \"pppppppppppppppppppppppppppppppp\"\n    }\n  ],\n  \"source\": \"KQG\",\n  \"storeId\": \"     \"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/documents/downloads",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"documents",
+												"downloads"
+											]
+										}
+									},
+									"status": "Method Not Allowed",
+									"code": 405,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"code\": \"SXSXSX\",\n  \"message\": \"tĩ\"\n}"
+								},
+								{
+									"name": "Unsupported Media Type",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Tracking-Id",
+												"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+												"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+											},
+											{
+												"key": "Channel-Id",
+												"value": "X",
+												"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+											},
+											{
+												"key": "Country-Code",
+												"value": "A",
+												"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+											},
+											{
+												"key": "Language",
+												"value": "<string>",
+												"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+											},
+											{
+												"key": "User-Agent",
+												"value": "<string>",
+												"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+												"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json"
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "<API Key>",
+												"description": "Added as a part of security scheme: apikey"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"departmentId\": \"     \",\n  \"documents\": [\n    {\n      \"fileType\": \"GXX\",\n      \"name\": \"pppppppppppppppppppppppppppppppp\"\n    }\n  ],\n  \"source\": \"KQG\",\n  \"storeId\": \"     \"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/documents/downloads",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"documents",
+												"downloads"
+											]
+										}
+									},
+									"status": "Unsupported Media Type",
+									"code": 415,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"code\": \"SXSXSX\",\n  \"message\": \"tĩ\"\n}"
+								},
+								{
+									"name": "Too Many Requests",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Tracking-Id",
+												"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+												"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+											},
+											{
+												"key": "Channel-Id",
+												"value": "X",
+												"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+											},
+											{
+												"key": "Country-Code",
+												"value": "A",
+												"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+											},
+											{
+												"key": "Language",
+												"value": "<string>",
+												"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+											},
+											{
+												"key": "User-Agent",
+												"value": "<string>",
+												"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+												"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json"
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "<API Key>",
+												"description": "Added as a part of security scheme: apikey"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"departmentId\": \"     \",\n  \"documents\": [\n    {\n      \"fileType\": \"GXX\",\n      \"name\": \"pppppppppppppppppppppppppppppppp\"\n    }\n  ],\n  \"source\": \"KQG\",\n  \"storeId\": \"     \"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/documents/downloads",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"documents",
+												"downloads"
+											]
+										}
+									},
+									"status": "Too Many Requests",
+									"code": 429,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"code\": \"SXSXSX\",\n  \"message\": \"tĩ\"\n}"
+								},
+								{
+									"name": "Internal Server Error",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Tracking-Id",
+												"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+												"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+											},
+											{
+												"key": "Channel-Id",
+												"value": "X",
+												"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+											},
+											{
+												"key": "Country-Code",
+												"value": "A",
+												"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+											},
+											{
+												"key": "Language",
+												"value": "<string>",
+												"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+											},
+											{
+												"key": "User-Agent",
+												"value": "<string>",
+												"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+												"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json"
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "<API Key>",
+												"description": "Added as a part of security scheme: apikey"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"departmentId\": \"     \",\n  \"documents\": [\n    {\n      \"fileType\": \"GXX\",\n      \"name\": \"pppppppppppppppppppppppppppppppp\"\n    }\n  ],\n  \"source\": \"KQG\",\n  \"storeId\": \"     \"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/documents/downloads",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"documents",
+												"downloads"
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"code\": \"X50000\",\n  \"message\": \"Internal server error has occurred, please try again later.\"\n}"
+								},
+								{
+									"name": "Service Unavailable",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Tracking-Id",
+												"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+												"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+											},
+											{
+												"key": "Channel-Id",
+												"value": "X",
+												"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+											},
+											{
+												"key": "Country-Code",
+												"value": "A",
+												"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+											},
+											{
+												"key": "Language",
+												"value": "<string>",
+												"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+											},
+											{
+												"key": "User-Agent",
+												"value": "<string>",
+												"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+												"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json"
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "<API Key>",
+												"description": "Added as a part of security scheme: apikey"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"departmentId\": \"     \",\n  \"documents\": [\n    {\n      \"fileType\": \"GXX\",\n      \"name\": \"pppppppppppppppppppppppppppppppp\"\n    }\n  ],\n  \"source\": \"KQG\",\n  \"storeId\": \"     \"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/documents/downloads",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"documents",
+												"downloads"
+											]
+										}
+									},
+									"status": "Service Unavailable",
+									"code": 503,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"code\": \"SXSXSX\",\n  \"message\": \"tĩ\"\n}"
+								},
+								{
+									"name": "Gateway Timeout",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Tracking-Id",
+												"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+												"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+											},
+											{
+												"key": "Channel-Id",
+												"value": "X",
+												"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+											},
+											{
+												"key": "Country-Code",
+												"value": "A",
+												"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+											},
+											{
+												"key": "Language",
+												"value": "<string>",
+												"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+											},
+											{
+												"key": "User-Agent",
+												"value": "<string>",
+												"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+												"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+											},
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											},
+											{
+												"key": "Accept",
+												"value": "application/json"
+											},
+											{
+												"key": "x-Gateway-APIKey",
+												"value": "<API Key>",
+												"description": "Added as a part of security scheme: apikey"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"departmentId\": \"     \",\n  \"documents\": [\n    {\n      \"fileType\": \"GXX\",\n      \"name\": \"pppppppppppppppppppppppppppppppp\"\n    }\n  ],\n  \"source\": \"KQG\",\n  \"storeId\": \"     \"\n}",
+											"options": {
+												"raw": {
+													"headerFamily": "json",
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/documents/downloads",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"documents",
+												"downloads"
+											]
+										}
+									},
+									"status": "Gateway Timeout",
+									"code": 504,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"code\": \"SXSXSX\",\n  \"message\": \"tĩ\"\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Consulta la lista de documentos solicitados por tienda.",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "9a6ea88c1379469eb74f9eeeea9a2dbe20563d79eecc44798671a2693d935625",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Tracking-Id",
+								"value": "a306ef84-1ba0-4ac4-a782-9d69be3b4f44",
+								"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+							},
+							{
+								"key": "Channel-Id",
+								"value": "WEB",
+								"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+							},
+							{
+								"key": "Country-Code",
+								"value": "MX",
+								"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+							},
+							{
+								"key": "Language",
+								"value": "SPA",
+								"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+							},
+							{
+								"key": "User-Agent",
+								"value": "potsman/2.0",
+								"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+							},
+							{
+								"key": "x-Gateway-APIKey",
+								"value": "7371052d-ee88-43db-a2eb-48e8a513b60c",
+								"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"departmentId\":\"10MAN\",\n    \"storeId\":\"50N1Z\",\n    \"source\":\"CT\"\n}",
+							"options": {
+								"raw": {
+									"headerFamily": "json",
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/documents",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"documents"
+							]
+						},
+						"description": "Consulta la lista de documentos solicitados por tienda con los estatus de disponible para ser enviado, 'En espera de descarga' y 'En reenvío'."
+					},
+					"response": [
+						{
+							"name": "Successful operation",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Tracking-Id",
+										"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+										"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+									},
+									{
+										"key": "Channel-Id",
+										"value": "X",
+										"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+									},
+									{
+										"key": "Country-Code",
+										"value": "A",
+										"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+									},
+									{
+										"key": "Language",
+										"value": "<string>",
+										"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+									},
+									{
+										"key": "User-Agent",
+										"value": "<string>",
+										"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+									},
+									{
+										"key": "x-Gateway-APIKey",
+										"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+										"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									},
+									{
+										"key": "x-Gateway-APIKey",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"departmentId\": \"OH3TN\",\n  \"source\": \" \",\n  \"storeId\": \"SANVJ\"\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/documents",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"documents"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"code\": \"549254\",\n  \"documents\": [\n    {\n      \"fileType\": \"<string>\",\n      \"mimeType\": \"file/zip\",\n      \"name\": \"                                \",\n      \"numberOfRecords\": \"<number>\",\n      \"priority\": \"<string>\",\n      \"size\": \"<string>\"\n    }\n  ],\n  \"maxFiles\": \"7\",\n  \"message\": \"FŽSžRĝÓĉ#\"\n}"
+						},
+						{
+							"name": "Bad Request",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Tracking-Id",
+										"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+										"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+									},
+									{
+										"key": "Channel-Id",
+										"value": "X",
+										"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+									},
+									{
+										"key": "Country-Code",
+										"value": "A",
+										"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+									},
+									{
+										"key": "Language",
+										"value": "<string>",
+										"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+									},
+									{
+										"key": "User-Agent",
+										"value": "<string>",
+										"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+									},
+									{
+										"key": "x-Gateway-APIKey",
+										"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+										"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									},
+									{
+										"key": "x-Gateway-APIKey",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"departmentId\": \"OH3TN\",\n  \"source\": \" \",\n  \"storeId\": \"SANVJ\"\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/documents",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"documents"
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"code\": \"X40011\",\n  \"message\": \"API Specification validation failed. Error on JSON schema validation for Request payload..\"\n}"
+						},
+						{
+							"name": "Unauthorized",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Tracking-Id",
+										"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+										"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+									},
+									{
+										"key": "Channel-Id",
+										"value": "X",
+										"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+									},
+									{
+										"key": "Country-Code",
+										"value": "A",
+										"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+									},
+									{
+										"key": "Language",
+										"value": "<string>",
+										"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+									},
+									{
+										"key": "User-Agent",
+										"value": "<string>",
+										"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+									},
+									{
+										"key": "x-Gateway-APIKey",
+										"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+										"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									},
+									{
+										"key": "x-Gateway-APIKey",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"departmentId\": \"OH3TN\",\n  \"source\": \" \",\n  \"storeId\": \"SANVJ\"\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/documents",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"documents"
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"code\": \"SXSXSX\",\n  \"message\": \"tĩ\"\n}"
+						},
+						{
+							"name": "Forbidden",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Tracking-Id",
+										"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+										"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+									},
+									{
+										"key": "Channel-Id",
+										"value": "X",
+										"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+									},
+									{
+										"key": "Country-Code",
+										"value": "A",
+										"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+									},
+									{
+										"key": "Language",
+										"value": "<string>",
+										"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+									},
+									{
+										"key": "User-Agent",
+										"value": "<string>",
+										"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+									},
+									{
+										"key": "x-Gateway-APIKey",
+										"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+										"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									},
+									{
+										"key": "x-Gateway-APIKey",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"departmentId\": \"OH3TN\",\n  \"source\": \" \",\n  \"storeId\": \"SANVJ\"\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/documents",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"documents"
+									]
+								}
+							},
+							"status": "Forbidden",
+							"code": 403,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"code\": \"SXSXSX\",\n  \"message\": \"tĩ\"\n}"
+						},
+						{
+							"name": "Not Found",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Tracking-Id",
+										"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+										"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+									},
+									{
+										"key": "Channel-Id",
+										"value": "X",
+										"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+									},
+									{
+										"key": "Country-Code",
+										"value": "A",
+										"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+									},
+									{
+										"key": "Language",
+										"value": "<string>",
+										"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+									},
+									{
+										"key": "User-Agent",
+										"value": "<string>",
+										"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+									},
+									{
+										"key": "x-Gateway-APIKey",
+										"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+										"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									},
+									{
+										"key": "x-Gateway-APIKey",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"departmentId\": \"OH3TN\",\n  \"source\": \" \",\n  \"storeId\": \"SANVJ\"\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/documents",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"documents"
+									]
+								}
+							},
+							"status": "Not Found",
+							"code": 404,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"code\": \"SXSXSX\",\n  \"message\": \"tĩ\"\n}"
+						},
+						{
+							"name": "Method Not Allowed",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Tracking-Id",
+										"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+										"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+									},
+									{
+										"key": "Channel-Id",
+										"value": "X",
+										"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+									},
+									{
+										"key": "Country-Code",
+										"value": "A",
+										"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+									},
+									{
+										"key": "Language",
+										"value": "<string>",
+										"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+									},
+									{
+										"key": "User-Agent",
+										"value": "<string>",
+										"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+									},
+									{
+										"key": "x-Gateway-APIKey",
+										"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+										"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									},
+									{
+										"key": "x-Gateway-APIKey",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"departmentId\": \"OH3TN\",\n  \"source\": \" \",\n  \"storeId\": \"SANVJ\"\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/documents",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"documents"
+									]
+								}
+							},
+							"status": "Method Not Allowed",
+							"code": 405,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"code\": \"SXSXSX\",\n  \"message\": \"tĩ\"\n}"
+						},
+						{
+							"name": "Unsupported Media Type",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Tracking-Id",
+										"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+										"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+									},
+									{
+										"key": "Channel-Id",
+										"value": "X",
+										"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+									},
+									{
+										"key": "Country-Code",
+										"value": "A",
+										"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+									},
+									{
+										"key": "Language",
+										"value": "<string>",
+										"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+									},
+									{
+										"key": "User-Agent",
+										"value": "<string>",
+										"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+									},
+									{
+										"key": "x-Gateway-APIKey",
+										"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+										"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									},
+									{
+										"key": "x-Gateway-APIKey",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"departmentId\": \"OH3TN\",\n  \"source\": \" \",\n  \"storeId\": \"SANVJ\"\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/documents",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"documents"
+									]
+								}
+							},
+							"status": "Unsupported Media Type",
+							"code": 415,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"code\": \"SXSXSX\",\n  \"message\": \"tĩ\"\n}"
+						},
+						{
+							"name": "Too Many Requests",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Tracking-Id",
+										"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+										"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+									},
+									{
+										"key": "Channel-Id",
+										"value": "X",
+										"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+									},
+									{
+										"key": "Country-Code",
+										"value": "A",
+										"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+									},
+									{
+										"key": "Language",
+										"value": "<string>",
+										"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+									},
+									{
+										"key": "User-Agent",
+										"value": "<string>",
+										"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+									},
+									{
+										"key": "x-Gateway-APIKey",
+										"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+										"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									},
+									{
+										"key": "x-Gateway-APIKey",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"departmentId\": \"OH3TN\",\n  \"source\": \" \",\n  \"storeId\": \"SANVJ\"\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/documents",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"documents"
+									]
+								}
+							},
+							"status": "Too Many Requests",
+							"code": 429,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"code\": \"SXSXSX\",\n  \"message\": \"tĩ\"\n}"
+						},
+						{
+							"name": "Internal Server Error",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Tracking-Id",
+										"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+										"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+									},
+									{
+										"key": "Channel-Id",
+										"value": "X",
+										"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+									},
+									{
+										"key": "Country-Code",
+										"value": "A",
+										"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+									},
+									{
+										"key": "Language",
+										"value": "<string>",
+										"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+									},
+									{
+										"key": "User-Agent",
+										"value": "<string>",
+										"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+									},
+									{
+										"key": "x-Gateway-APIKey",
+										"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+										"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									},
+									{
+										"key": "x-Gateway-APIKey",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"departmentId\": \"OH3TN\",\n  \"source\": \" \",\n  \"storeId\": \"SANVJ\"\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/documents",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"documents"
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"code\": \"X50011\",\n  \"message\": \"Internal server error has occurred, please try again later.\"\n}"
+						},
+						{
+							"name": "Service Unavailable",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Tracking-Id",
+										"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+										"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+									},
+									{
+										"key": "Channel-Id",
+										"value": "X",
+										"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+									},
+									{
+										"key": "Country-Code",
+										"value": "A",
+										"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+									},
+									{
+										"key": "Language",
+										"value": "<string>",
+										"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+									},
+									{
+										"key": "User-Agent",
+										"value": "<string>",
+										"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+									},
+									{
+										"key": "x-Gateway-APIKey",
+										"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+										"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									},
+									{
+										"key": "x-Gateway-APIKey",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"departmentId\": \"OH3TN\",\n  \"source\": \" \",\n  \"storeId\": \"SANVJ\"\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/documents",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"documents"
+									]
+								}
+							},
+							"status": "Service Unavailable",
+							"code": 503,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"code\": \"SXSXSX\",\n  \"message\": \"tĩ\"\n}"
+						},
+						{
+							"name": "Gateway Timeout",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Tracking-Id",
+										"value": "\"4bd9e9c2-4989-4f21-8398-ad9d19ef0f66\"",
+										"description": "(Required) Identificador único utilizado para trazabilidad de la petición."
+									},
+									{
+										"key": "Channel-Id",
+										"value": "X",
+										"description": "(Required) Canal de consumo del servicio. Ejemplos - WEB|MOBILE|APP|POS."
+									},
+									{
+										"key": "Country-Code",
+										"value": "A",
+										"description": "(Required) País desde donde se ejecuta la petición. Ejemplos - MX|US|CO|CL|BR."
+									},
+									{
+										"key": "Language",
+										"value": "<string>",
+										"description": "(Required) Lenguaje soportado del contenido. Ejemplo - SPA = Español (Único soportado)."
+									},
+									{
+										"key": "User-Agent",
+										"value": "<string>",
+										"description": "(Required) Agente de usuario que permite a los servidores y servicios de red identificar la aplicación, sistema operativo, compañía, y/o la versión del user agent (en-US) que hace la invocación. Syntax - product / product-version comment."
+									},
+									{
+										"key": "x-Gateway-APIKey",
+										"value": "\"aacb0ad9-94dc-4dbb-85d5-e03f85fd068c\"",
+										"description": "(Required) identificador único que sirve para identificar a una aplicación o usuario. API Key se obtiene mediante la suscripción al API."
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json"
+									},
+									{
+										"key": "x-Gateway-APIKey",
+										"value": "<API Key>",
+										"description": "Added as a part of security scheme: apikey"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"departmentId\": \"OH3TN\",\n  \"source\": \" \",\n  \"storeId\": \"SANVJ\"\n}",
+									"options": {
+										"raw": {
+											"headerFamily": "json",
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/documents",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"documents"
+									]
+								}
+							},
+							"status": "Gateway Timeout",
+							"code": 504,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"code\": \"SXSXSX\",\n  \"message\": \"tĩ\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "getAccessToken",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var data = JSON.parse(responseBody);\r",
+							"postman.setGlobalVariable(\"token\", data.access_token);"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "abd74c50af004cb0b60d872efce6cc73",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "423f55af3377415b94295cd0544f4f90",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "grant_type",
+						"value": "client_credentials",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://ipaas.oxxo.io/integration/rest/oAuth/getToken?grant_type=client_credentials",
+					"protocol": "https",
+					"host": [
+						"ipaas",
+						"oxxo",
+						"io"
+					],
+					"path": [
+						"integration",
+						"rest",
+						"oAuth",
+						"getToken"
+					],
+					"query": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "key",
+				"value": "x-Gateway-APIKey",
+				"type": "string"
+			},
+			{
+				"key": "value",
+				"value": "{{apiKey}}",
+				"type": "string"
+			},
+			{
+				"key": "in",
+				"value": "header",
+				"type": "string"
+			}
+		]
+	},
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://api.oxxo.io/xapi-multichannel-outbound/api/v1"
+		}
+	]
+}

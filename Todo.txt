@@ -1,0 +1,11 @@
+1. 每个店各增加 pending promo_files, 如果当前时间还没到 promo start date，就先把这个 item 放到 pending promo_files 里面，把他从当前对接列表里面移除，先别对接。
+
+每天跑一遍 pending promo_files，如果当前时间已经到了 promo start date，就对接进去，然后从 pending promo_files 里面移除。
+
+2. 修改脚本逻辑，当未来有新的商店要对接的时候，只需要把新的商店放到 config.properties 里面，然后跑脚本就可以了。
+
+3.处理他们文件有 error code 的时候，要重试，不要 raise error
+Error: 500 - {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}

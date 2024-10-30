@@ -1,0 +1,10 @@
+{
+  "itemSku": "sku",
+  "startDate": "promoDateFrom",
+  "endDate": "promoDateTo",
+  "requiredQuantity": "rsrvInt1",
+  "discount": "rsrvDec1",
+  "percent": "rsrvDec2",
+  "discountType": "rsrvTxt1",
+  "description": "promoReason"
+}

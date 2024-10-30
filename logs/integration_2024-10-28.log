@@ -1,0 +1,8 @@
+2024-10-28 01:15:41: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500115",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-10-28 01:16:22: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500115",
+    "message": "Internal server error has occurred, please try again later."
+}
