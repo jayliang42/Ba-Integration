@@ -198,10 +198,14 @@ def get_raw_base64_data(bara_department_id: str, bara_store_id: str, source: str
         # get all the file names in the folder to a list
         existed_documents = os.listdir(store_folder)
 
+        # Incremental integration mode
         documents = [
             doc for doc in documents if today in doc["name"] and doc["name"].replace(".gz", "") not in existed_documents]
 
-        print(f"{len(documents)} documents found.")
+        # full integration mode
+        # documents = [doc for doc in documents if today in doc["name"]]
+
+        print(f"{len(documents)} documents found.\n")
         for doc in documents:
             print(doc["name"].replace(".gz", ""))
 
@@ -219,6 +223,10 @@ def get_raw_base64_data(bara_department_id: str, bara_store_id: str, source: str
     for doc in document_list:
         if doc["fileType"] in fileType:
             document_names_fileType[doc["name"]] = doc["fileType"]
+        else:
+            # save pending file for reference
+            with open(f"current_files/{store_code}/pending_promo/pending_promo.txt", "a") as f:
+                f.write(f"{doc['name']}: {doc['fileType']}\n")
 
     # Get the document names based on the file type filtered
     document_names = list(document_names_fileType.keys())
@@ -569,9 +577,9 @@ def main(customer_code: str, store_code: str, client_id: str, client_secret: str
         # Process the values
         processed_json = process_values(processed_json, document_names[i])
         # Send the integration
-        response = send_integration(
-            customer_code, store_code, client_id, client_secret, processed_json, document_names[i])
-        print(response)
+        # response = send_integration(
+        #     customer_code, store_code, client_id, client_secret, processed_json, document_names[i])
+        # print(response)
 
 
 if __name__ == "__main__":
@@ -583,21 +591,28 @@ if __name__ == "__main__":
     while True:
         now = datetime.datetime.now(
             utc_minus_6_tz).strftime("%Y-%m-%d %H:%M:%S")
+        print("------------------------------------")
         print(f"Now in UTC-6: {now}")
 
         customer_code = "Bara"
         client_id = "4cd23fb2d459abea9400d216a09071e6"
         client_secret = "1b179f2262c57028c11c74dfac8d9e3d"
 
+        # file_type = ["ITM", "PRM"]
         file_type = ["ITM"]
 
-        print("store 02 starts\n")
+        print(f"Only integrate {file_type} files\n")
+
+        print("Store 02 starts\n")
         main(customer_code, "02", client_id, client_secret,
              "12NEO", "52IGZ", "CT", file_type)
 
-        print("store 03 starts\n")
+        print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+
+        print("Store 03 starts\n")
         main(customer_code, "03", client_id, client_secret,
              "12NEO", "52RSW", "CT", file_type)
 
-        # run every 30 minutes
-        time.sleep(1800)
+        print("------------------------------------")
+        # run every 15 minutes
+        time.sleep(900)
