@@ -147,6 +147,8 @@ def get_document_base64_data(base_url: str, endpoint: str, bearer_token: str, do
     document_data_list = []
 
     for document in document_name_list:
+        # wait for 1 second before making the next request，to avoid the rate limit
+        time.sleep(1)
         # JSON body
         body = {
             "departmentId": department_id,
@@ -199,11 +201,12 @@ def get_raw_base64_data(bara_department_id: str, bara_store_id: str, source: str
         existed_documents = os.listdir(store_folder)
 
         # Incremental integration mode
-        documents = [
-            doc for doc in documents if today in doc["name"] and doc["name"].replace(".gz", "") not in existed_documents]
+        # documents = [
+        #     doc for doc in documents if today in doc["name"] and doc["name"].replace(".gz", "") not in existed_documents]
 
         # full integration mode
-        # documents = [doc for doc in documents if today in doc["name"]]
+        documents = [doc for doc in documents if doc["name"].replace(
+            ".gz", "") not in existed_documents]
 
         print(f"{len(documents)} documents found.\n")
         for doc in documents:
@@ -226,7 +229,12 @@ def get_raw_base64_data(bara_department_id: str, bara_store_id: str, source: str
         else:
             # save pending file for reference
             with open(f"current_files/{store_code}/pending_promo/pending_promo.txt", "a") as f:
-                f.write(f"{doc['name']}: {doc['fileType']}\n")
+                # read content from pending_promo.txt as list
+                content = f.readlines()
+                # check if the document name is already in the list
+                if doc["name"] not in content:
+                    # if not, append the document name to the list
+                    f.write(f"{doc['name']}: {doc['fileType']}\n")
 
     # Get the document names based on the file type filtered
     document_names = list(document_names_fileType.keys())
@@ -577,9 +585,9 @@ def main(customer_code: str, store_code: str, client_id: str, client_secret: str
         # Process the values
         processed_json = process_values(processed_json, document_names[i])
         # Send the integration
-        # response = send_integration(
-        #     customer_code, store_code, client_id, client_secret, processed_json, document_names[i])
-        # print(response)
+        response = send_integration(
+            customer_code, store_code, client_id, client_secret, processed_json, document_names[i])
+        print(response)
 
 
 if __name__ == "__main__":
@@ -587,7 +595,7 @@ if __name__ == "__main__":
     # main("hs", "77", "hs001", "hs001")
 
     # for bara
-    # run every 30 minutes:
+    # run every 15 minutes:
     while True:
         now = datetime.datetime.now(
             utc_minus_6_tz).strftime("%Y-%m-%d %H:%M:%S")
@@ -598,21 +606,29 @@ if __name__ == "__main__":
         client_id = "4cd23fb2d459abea9400d216a09071e6"
         client_secret = "1b179f2262c57028c11c74dfac8d9e3d"
 
+        file_type = ["ITM", "PRM"]
         # file_type = ["ITM", "PRM"]
-        file_type = ["ITM"]
+
+        store02_code = "52DUG"
+        store03_code = "52RSW"
 
         print(f"Only integrate {file_type} files\n")
 
         print("Store 02 starts\n")
         main(customer_code, "02", client_id, client_secret,
-             "12NEO", "52IGZ", "CT", file_type)
+             "12NEO", store02_code, "CT", file_type)
 
         print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
         print("Store 03 starts\n")
         main(customer_code, "03", client_id, client_secret,
-             "12NEO", "52RSW", "CT", file_type)
+             "12NEO", store03_code, "CT", file_type)
 
         print("------------------------------------")
+
+        # print("Store 04 starts\n")
+        # main(customer_code, "04", client_id, client_secret,
+        #      "12NEO", "52DUG", "CT", file_type)
+
         # run every 15 minutes
         time.sleep(900)
