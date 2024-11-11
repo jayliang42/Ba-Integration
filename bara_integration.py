@@ -227,13 +227,15 @@ def get_raw_base64_data(bara_department_id: str, bara_store_id: str, source: str
         if doc["fileType"] in fileType:
             document_names_fileType[doc["name"]] = doc["fileType"]
         else:
-            # save pending file for reference
-            with open(f"current_files/{store_code}/pending_promo/pending_promo.txt", "a") as f:
-                # read content from pending_promo.txt as list
+            # Save pending file for reference
+            with open(f"current_files/{store_code}/pending_promo/pending_promo.txt", "a+") as f:
+                # Move the file cursor to the beginning to read the existing content
+                f.seek(0)
+                # Read content from pending_promo.txt as a list
                 content = f.readlines()
-                # check if the document name is already in the list
-                if doc["name"] not in content:
-                    # if not, append the document name to the list
+                # Check if the document name is already in the list
+                if f"{doc['name']}: {doc['fileType']}\n" not in content:
+                    # If not, append the document name to the list
                     f.write(f"{doc['name']}: {doc['fileType']}\n")
 
     # Get the document names based on the file type filtered
@@ -606,7 +608,7 @@ if __name__ == "__main__":
         client_id = "4cd23fb2d459abea9400d216a09071e6"
         client_secret = "1b179f2262c57028c11c74dfac8d9e3d"
 
-        file_type = ["ITM", "PRM"]
+        file_type = ["ITM"]
         # file_type = ["ITM", "PRM"]
 
         store02_code = "52DUG"

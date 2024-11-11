@@ -1,5 +1,6 @@
 {
   "sku": "sku",
   "shortDescription": "itemName",
-  "salePrice": "price1"
+  "salePrice": "price1",
+  "unitOfMeasure": "unit"
 }
