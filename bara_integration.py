@@ -14,7 +14,7 @@ import pytz
 warnings.filterwarnings('ignore', category=InsecureRequestWarning)
 
 # Set the timezone to UTC-6 (Mexico City)
-utc_minus_6_tz = pytz.timezone('Etc/GMT+6')
+mexico_city_tz = pytz.timezone("America/Mexico_City")
 
 
 @retrying.retry(wait_fixed=5000, stop_max_attempt_number=10)
@@ -147,6 +147,7 @@ def get_document_base64_data(base_url: str, endpoint: str, bearer_token: str, do
     document_data_list = []
 
     for document in document_name_list:
+        print(f"Downloading {document}...")
         # wait for 1 second before making the next request，to avoid the rate limit
         time.sleep(1)
         # JSON body
@@ -193,7 +194,7 @@ def get_raw_base64_data(bara_department_id: str, bara_store_id: str, source: str
 
     def filter_documents(documents, store_code=store_code):
         # only get the documents with today's date
-        today = datetime.datetime.now(utc_minus_6_tz).strftime("%y%m%d")
+        today = datetime.datetime.now(mexico_city_tz).strftime("%y%m%d")
 
         # read current_files/store_id folder
         store_folder = f"current_files/{store_code}"
@@ -424,23 +425,30 @@ def process_values(items: list[dict], document_name: str) -> list[dict]:
                         item[key] = float(item[key])
                     elif datatype_keymap[key] == "startdate":
                         # Convert date format "20210101"00:00am to timestamp in milliseconds
-                        timestamp = str(
-                            int(datetime.datetime.strptime(item[key], "%Y%m%d").timestamp()) * 1000)
 
-                        # covert to mexican city time. two hours forward
-                        timestamp = str(int(timestamp) + 7200000)
+                        # Parse the input date string (YYYYMMDD) to a datetime object (assumes midnight time)
+                        dt = datetime.datetime.strptime(item[key], "%Y%m%d")
+
+                        # Localize the datetime to Mexico City timezone
+                        dt_localized = mexico_city_tz.localize(dt)
+
+                        # Convert to UTC timestamp and then to milliseconds
+                        timestamp = int(dt_localized.timestamp() * 1000)
 
                         item[key] = timestamp
                     elif datatype_keymap[key] == "enddate":
                         # Convert date format "20210101"11:59pm to timestamp in milliseconds
-                        timestamp = str(
-                            int(datetime.datetime.strptime(item[key], "%Y%m%d").timestamp()) * 1000)
+                        # Parse the input date string (YYYYMMDD) to a datetime object (midnight time by default)
+                        dt = datetime.datetime.strptime(item[key], "%Y%m%d")
 
-                        # covert to mexican city time. two hours forward
-                        timestamp = str(int(timestamp) + 7200000)
+                        # Localize the datetime to Mexico City timezone
+                        dt_localized = mexico_city_tz.localize(dt)
 
-                        # forward the end date by 23 hours 59 minutes 59 seconds
-                        timestamp = str(int(timestamp) + 86399000)
+                        # Convert to UTC timestamp and then to milliseconds
+                        timestamp = int(dt_localized.timestamp() * 1000)
+
+                        # Forward the end date by 23 hours 59 minutes 59 seconds (86399000 milliseconds)
+                        timestamp = timestamp + 86399000
 
                         item[key] = timestamp
 
@@ -482,8 +490,9 @@ def send_integration(customer_code: str, store_code: str, client_id: str,
         body = {
             "storeCode": store_code,
             "customerStoreCode": customer_code,
-            "batchNo": datetime.datetime.now(utc_minus_6_tz).strftime("%Y%m%d%H%M%S"),
+            "batchNo": datetime.datetime.now(mexico_city_tz).strftime("%Y%m%d%H%M%S"),
             "items": item_batch
+            # Todo：如果 item_batch只有sku，跳过这个item
         }
 
         response = post_request(base_url, endpoint, headers, body)
@@ -502,7 +511,7 @@ def send_integration(customer_code: str, store_code: str, client_id: str,
 
 def write_log(document_name, status, customer_code="", store_code="", error_message=None):
     # Generate log file name based on current date
-    today = datetime.datetime.now(utc_minus_6_tz).strftime("%Y-%m-%d")
+    today = datetime.datetime.now(mexico_city_tz).strftime("%Y-%m-%d")
     log_filename = f"integration_{today}.log"
 
     # Ensure the log directory exists (create if not)
@@ -514,12 +523,12 @@ def write_log(document_name, status, customer_code="", store_code="", error_mess
     with open(log_path, "a") as f:  # Append to the log file
         if status == "failed":
             time = datetime.datetime.now(
-                utc_minus_6_tz).strftime("%Y-%m-%d %H:%M:%S")
+                mexico_city_tz).strftime("%Y-%m-%d %H:%M:%S")
             f.write(
                 f"{time}: ERROR {document_name} failed to integrate to Customer: {customer_code}, Store: {store_code}. {error_message}\n")
         elif status == "success":
             time = datetime.datetime.now(
-                utc_minus_6_tz).strftime("%Y-%m-%d %H:%M:%S")
+                mexico_city_tz).strftime("%Y-%m-%d %H:%M:%S")
             f.write(
                 f"{time}: {document_name} successfully integrated to Customer: {customer_code}, Store: {store_code}.\n")
 
@@ -593,44 +602,44 @@ def main(customer_code: str, store_code: str, client_id: str, client_secret: str
 
 
 if __name__ == "__main__":
-    # for testing
-    # main("hs", "77", "hs001", "hs001")
-
-    # for bara
-    # run every 15 minutes:
     while True:
         now = datetime.datetime.now(
-            utc_minus_6_tz).strftime("%Y-%m-%d %H:%M:%S")
+            mexico_city_tz).strftime("%Y-%m-%d %H:%M:%S")
         print("------------------------------------")
-        print(f"Now in UTC-6: {now}")
+        print(f"Now in UTC-6 Mexico City: {now}")
 
         customer_code = "Bara"
         client_id = "4cd23fb2d459abea9400d216a09071e6"
         client_secret = "1b179f2262c57028c11c74dfac8d9e3d"
 
         file_type = ["ITM"]
-        # file_type = ["ITM", "PRM"]
-
         store02_code = "52DUG"
         store03_code = "52RSW"
 
         print(f"Only integrate {file_type} files\n")
 
         print("Store 02 starts\n")
-        main(customer_code, "02", client_id, client_secret,
-             "12NEO", store02_code, "CT", file_type)
+        try:
+            main(customer_code, "02", client_id, client_secret,
+                 "12NEO", store02_code, "CT", file_type)
+        except Exception as e:
+            print(f"Error occurred during Store 02 integration: {e}")
+            write_log("Store 02 Integration", "failed", error_message=str(e))
 
         print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
         print("Store 03 starts\n")
-        main(customer_code, "03", client_id, client_secret,
-             "12NEO", store03_code, "CT", file_type)
+        try:
+            main(customer_code, "03", client_id, client_secret,
+                 "12NEO", store03_code, "CT", file_type)
+        except Exception as e:
+            print(f"Error occurred during Store 03 integration: {e}")
+            write_log("Store 03 Integration", "failed", error_message=str(e))
 
         print("------------------------------------")
 
-        # print("Store 04 starts\n")
-        # main(customer_code, "04", client_id, client_secret,
-        #      "12NEO", "52DUG", "CT", file_type)
-
-        # run every 15 minutes
-        time.sleep(900)
+        sleep_time = 900
+        # Sleep for the next iteration
+        print(
+            f"Sleeping for the next period (in {int(sleep_time/60)} mins...)\n")
+        time.sleep(sleep_time)

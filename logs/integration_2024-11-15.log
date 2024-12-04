@@ -1,0 +1,100 @@
+2024-11-15 00:02:33: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X401000",
+    "message": "The specified token is invalid or has expired"
+}
+2024-11-15 00:03:13: ITM12NEO52DUG241111133153.json successfully integrated to Customer: Bara, Store: 02.
+2024-11-15 00:03:14: ITM12NEO52DUG241111203206.json successfully integrated to Customer: Bara, Store: 02.
+2024-11-15 00:03:16: ITM12NEO52DUG241112020842.json successfully integrated to Customer: Bara, Store: 02.
+2024-11-15 00:03:17: ITM12NEO52DUG241112133433.json successfully integrated to Customer: Bara, Store: 02.
+2024-11-15 00:03:19: ITM12NEO52DUG241112203309.json successfully integrated to Customer: Bara, Store: 02.
+2024-11-15 00:03:21: ITM12NEO52DUG241113020601.json successfully integrated to Customer: Bara, Store: 02.
+2024-11-15 00:03:23: ITM12NEO52DUG241113175532.json successfully integrated to Customer: Bara, Store: 02.
+2024-11-15 00:03:24: ITM12NEO52DUG241113203300.json successfully integrated to Customer: Bara, Store: 02.
+2024-11-15 00:03:25: ITM12NEO52DUG241114015414.json successfully integrated to Customer: Bara, Store: 02.
+2024-11-15 00:03:27: ITM12NEO52DUG241114203357.json successfully integrated to Customer: Bara, Store: 02.
+2024-11-15 00:04:01: ITM12NEO52RSW241111133148.json successfully integrated to Customer: Bara, Store: 03.
+2024-11-15 00:04:02: ITM12NEO52RSW241111203207.json successfully integrated to Customer: Bara, Store: 03.
+2024-11-15 00:04:04: ITM12NEO52RSW241112020835.json successfully integrated to Customer: Bara, Store: 03.
+2024-11-15 00:04:05: ITM12NEO52RSW241112133433.json successfully integrated to Customer: Bara, Store: 03.
+2024-11-15 00:04:07: ITM12NEO52RSW241112203310.json successfully integrated to Customer: Bara, Store: 03.
+2024-11-15 00:04:09: ITM12NEO52RSW241113020600.json successfully integrated to Customer: Bara, Store: 03.
+2024-11-15 00:04:11: ITM12NEO52RSW241113175532.json successfully integrated to Customer: Bara, Store: 03.
+2024-11-15 00:04:12: ITM12NEO52RSW241113203302.json successfully integrated to Customer: Bara, Store: 03.
+2024-11-15 00:04:14: ITM12NEO52RSW241114015415.json successfully integrated to Customer: Bara, Store: 03.
+2024-11-15 00:04:16: ITM12NEO52RSW241114203356.json successfully integrated to Customer: Bara, Store: 03.
+2024-11-15 01:03:13: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X400000",
+    "message": " API Specification validation failed. Error on JSON schema validation for Request payload: [/documents/0/fileType-string 5 is too short (length: 1, required minimum: 3),/documents/0/fileType-ECMA 262 regex ^[A-Z]*null does not match input string 5,/documents/0/name-string 5 is too short (length: 1, required minimum: 28),/storeId-instance type (array) does not match any allowed primitive type (allowed: [string])]"
+}
+2024-11-15 01:06:25: PRM12NEO52DUG241111205041.json successfully integrated to Customer: Bara, Store: 02.
+2024-11-15 01:06:26: PRM12NEO52DUG241112205000.json successfully integrated to Customer: Bara, Store: 02.
+2024-11-15 01:06:26: PRM12NEO52DUG241113022819.json successfully integrated to Customer: Bara, Store: 02.
+2024-11-15 01:06:26: PRM12NEO52DUG241113181136.json successfully integrated to Customer: Bara, Store: 02.
+2024-11-15 01:06:27: PRM12NEO52DUG241113205144.json successfully integrated to Customer: Bara, Store: 02.
+2024-11-15 01:06:27: PRM12NEO52DUG241114135149.json successfully integrated to Customer: Bara, Store: 02.
+2024-11-15 01:06:27: PRM12NEO52DUG241114204945.json successfully integrated to Customer: Bara, Store: 02.
+2024-11-15 01:06:45: PRM12NEO52RSW241111205042.json successfully integrated to Customer: Bara, Store: 03.
+2024-11-15 01:06:45: PRM12NEO52RSW241112205001.json successfully integrated to Customer: Bara, Store: 03.
+2024-11-15 01:06:45: PRM12NEO52RSW241113022818.json successfully integrated to Customer: Bara, Store: 03.
+2024-11-15 01:06:46: PRM12NEO52RSW241113181138.json successfully integrated to Customer: Bara, Store: 03.
+2024-11-15 01:06:46: PRM12NEO52RSW241113205146.json successfully integrated to Customer: Bara, Store: 03.
+2024-11-15 01:06:46: PRM12NEO52RSW241114135149.json successfully integrated to Customer: Bara, Store: 03.
+2024-11-15 01:06:46: PRM12NEO52RSW241114204946.json successfully integrated to Customer: Bara, Store: 03.
+2024-11-15 01:09:03: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X400000",
+    "message": " API Specification validation failed. Error on JSON schema validation for Request payload: [/documents/0/fileType-string 5 is too short (length: 1, required minimum: 3),/documents/0/fileType-ECMA 262 regex ^[A-Z]*null does not match input string 5,/documents/0/name-string 5 is too short (length: 1, required minimum: 28),/storeId-instance type (array) does not match any allowed primitive type (allowed: [string])]"
+}
+2024-11-15 01:15:39: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X400000",
+    "message": " API Specification validation failed. Error on JSON schema validation for Request payload: [/documents/0/fileType-string 5 is too short (length: 1, required minimum: 3),/documents/0/fileType-ECMA 262 regex ^[A-Z]*null does not match input string 5,/documents/0/name-string 5 is too short (length: 1, required minimum: 28),/storeId-instance type (array) does not match any allowed primitive type (allowed: [string])]"
+}
+2024-11-15 01:16:21: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500117",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-11-15 01:16:31: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500117",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-11-15 01:17:51: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500117",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-11-15 01:18:09: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500117",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-11-15 01:18:14: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500117",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-11-15 01:18:20: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500117",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-11-15 01:18:51: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500117",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-11-15 01:20:41: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500117",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-11-15 01:24:57: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500117",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-11-15 01:25:03: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500117",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-11-15 01:25:09: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500117",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-11-15 13:45:51: ITM12NEO52DUG241115133243.json successfully integrated to Customer: Bara, Store: 02.
+2024-11-15 13:45:55: ITM12NEO52RSW241115133240.json successfully integrated to Customer: Bara, Store: 03.
+2024-11-15 18:41:31: PRM12NEO52DUG241115135014.json successfully integrated to Customer: Bara, Store: 02.
+2024-11-15 18:41:35: PRM12NEO52RSW241115135014.json successfully integrated to Customer: Bara, Store: 03.
+2024-11-15 20:43:39: ITM12NEO52DUG241115203213.json successfully integrated to Customer: Bara, Store: 02.
+2024-11-15 20:43:42: ITM12NEO52RSW241115203213.json successfully integrated to Customer: Bara, Store: 03.

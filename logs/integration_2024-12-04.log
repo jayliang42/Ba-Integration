@@ -1,0 +1,30 @@
+2024-12-04 04:20:54: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-04 04:21:00: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-04 04:21:07: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-04 04:21:26: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-04 04:21:32: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-04 04:21:39: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-04 04:21:47: ITM12NEO52DUG241204015418.json successfully integrated to Customer: Bara, Store: 02.
+2024-12-04 04:21:50: ITM12NEO52RSW241204015419.json successfully integrated to Customer: Bara, Store: 03.
+2024-12-04 04:23:23: PRM12NEO52DUG241203022249.json successfully integrated to Customer: Bara, Store: 02.
+2024-12-04 04:23:23: PRM12NEO52DUG241203204940.json successfully integrated to Customer: Bara, Store: 02.
+2024-12-04 04:23:28: PRM12NEO52RSW241203022307.json successfully integrated to Customer: Bara, Store: 03.
+2024-12-04 04:23:29: PRM12NEO52RSW241203204941.json successfully integrated to Customer: Bara, Store: 03.
