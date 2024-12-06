@@ -9,6 +9,7 @@ import warnings
 from urllib3.exceptions import InsecureRequestWarning
 import retrying
 import pytz
+import bisect
 
 # Suppress the insecure request warning
 warnings.filterwarnings('ignore', category=InsecureRequestWarning)
@@ -196,16 +197,18 @@ def get_raw_base64_data(bara_department_id: str, bara_store_id: str, source: str
         # only get the documents with today's date
         today = datetime.datetime.now(mexico_city_tz).strftime("%y%m%d")
 
-        # read current_files/store_id folder
-        store_folder = f"current_files/{store_code}"
-        # get all the file names in the folder to a list
-        existed_documents = os.listdir(store_folder)
+        # read historical_files/{store_code}.txt
+        # filter documents that are already integrated
+        historical_file = f"historical_files/{store_code}.txt"
+        existed_documents = []
+        if os.path.exists(historical_file):
+            with open(historical_file, "r") as f:
+                existed_documents = f.readlines()
+                existed_documents = [doc.strip() for doc in existed_documents]
 
-        # Incremental integration mode
         # documents = [
         #     doc for doc in documents if today in doc["name"] and doc["name"].replace(".gz", "") not in existed_documents]
 
-        # full integration mode
         documents = [doc for doc in documents if doc["name"].replace(
             ".gz", "") not in existed_documents]
 
@@ -299,6 +302,22 @@ def process_base64_data(document_data_list: list[dict], document_names: list[dic
         document_names[i] = document_names[i].replace(".gz", "")
         with open(f"current_files/{store_code}/{document_names[i]}", "w") as f:
             json.dump(json_data, f, indent=4)
+
+        # add the document name to historical_files/{store_code}.txt
+        historical_file = f"historical_files/{store_code}.txt"
+        new_document = document_names[i]
+        # Read the existing documents from the historical file
+        lines = []
+        if os.path.exists(historical_file):
+            with open(historical_file, "r") as f:
+                lines = [line.strip() for line in f]
+
+        # Insert the new document in the correct position
+        bisect.insort(lines, new_document)  # binary search and insert
+
+        # Write the updated list of documents to the historical file
+        with open(historical_file, "w") as f:
+            f.writelines(f"{line}\n" for line in lines)
 
     return json_data_list
 

@@ -1,4 +1,5 @@
 import json
+import time
 from bara_integration import get_bearer_token, get_document_base64_data, convert_base64_to_json
 
 
@@ -17,6 +18,7 @@ def check_files(bara_store_id, document_names):
                                                     bearer_token, document_names, bara_department_id, source, bara_store_id)
 
     for i, document in enumerate(document_base64_data):
+        time.sleep(1)
         document_name = document_names[i].replace(".json.gz", "")
         # convert base64 to json
         document = convert_base64_to_json(document)
@@ -32,5 +34,5 @@ def main(store_code, document_list):
     check_files(store_code, document_list)
 
 
-main("52DUG", ["PRM12NEO52DUG241204135245.json.gz"])
+main("52RSW", ["PRM12NEO52RSW241205204805.json.gz"])
 # main("52RSW", ["PRM12NEO52RSW241204135246.json.gz"])
