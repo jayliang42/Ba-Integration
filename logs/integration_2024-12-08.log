@@ -1,0 +1,912 @@
+2024-12-08 01:57:42: ITM12NEO52DUG241208015244.json successfully integrated to Customer: Bara, Store: 02.
+2024-12-08 01:57:45: ITM12NEO52RSW241208015246.json successfully integrated to Customer: Bara, Store: 03.
+2024-12-08 02:42:52: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 02:42:58: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 02:43:04: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 02:43:10: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 02:43:16: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 02:43:22: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 02:43:27: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 02:43:33: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 08:31:16: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 08:32:34: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 08:32:41: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 08:32:48: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 08:32:54: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 09:34:10: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 10:34:48: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 10:34:54: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 10:35:00: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 10:35:06: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 10:35:12: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 10:35:17: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 10:35:23: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 10:35:29: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:20:55: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:21:01: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:21:07: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:21:12: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:21:18: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:21:24: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:21:30: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:21:35: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:21:41: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:21:47: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:21:47: ERROR Store 02 Integration failed to integrate to Customer: , Store: . Request failed.
+2024-12-08 11:21:48: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:21:54: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:21:59: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:22:05: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:22:11: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:22:17: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:22:22: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:22:28: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:22:34: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:22:40: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:22:40: ERROR Store 03 Integration failed to integrate to Customer: , Store: . Request failed.
+2024-12-08 11:37:43: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:37:49: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:37:55: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:38:01: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:38:06: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:38:12: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:38:18: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:38:23: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:38:29: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:38:35: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:38:35: ERROR Store 02 Integration failed to integrate to Customer: , Store: . Request failed.
+2024-12-08 11:38:36: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:38:42: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:38:47: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:38:53: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:38:59: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:39:05: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:39:10: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:39:16: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:39:22: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:39:27: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:39:27: ERROR Store 03 Integration failed to integrate to Customer: , Store: . Request failed.
+2024-12-08 11:55:31: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:56:36: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:57:42: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:58:48: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 11:59:54: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:00:59: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:02:05: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:03:11: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:04:17: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:05:23: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:05:23: ERROR Store 02 Integration failed to integrate to Customer: , Store: . Request failed.
+2024-12-08 12:06:24: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:07:30: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:08:36: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:09:41: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:10:47: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:11:53: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:12:59: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:14:04: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:15:10: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:16:16: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:16:16: ERROR Store 03 Integration failed to integrate to Customer: , Store: . Request failed.
+2024-12-08 12:32:18: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:33:24: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:34:30: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:35:36: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:36:42: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:37:47: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:38:53: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:39:59: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:41:05: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:42:10: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:42:10: ERROR Store 02 Integration failed to integrate to Customer: , Store: . Request failed.
+2024-12-08 12:43:12: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:44:18: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:45:23: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:46:29: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:47:35: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:48:40: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:49:46: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:50:52: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:51:58: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:53:04: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 12:53:04: ERROR Store 03 Integration failed to integrate to Customer: , Store: . Request failed.
+2024-12-08 13:09:06: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:10:12: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:11:17: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:12:23: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:13:29: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:14:35: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:15:41: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:16:46: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:17:52: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:18:58: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:18:58: ERROR Store 02 Integration failed to integrate to Customer: , Store: . Request failed.
+2024-12-08 13:19:59: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:21:05: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:22:10: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:23:16: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:24:22: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:25:28: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:26:33: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:27:39: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:28:45: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:29:50: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:29:50: ERROR Store 03 Integration failed to integrate to Customer: , Store: . Request failed.
+2024-12-08 13:45:52: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:46:58: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:48:04: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:49:09: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:50:15: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:51:21: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:52:26: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:53:32: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:54:38: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:55:43: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:55:43: ERROR Store 02 Integration failed to integrate to Customer: , Store: . Request failed.
+2024-12-08 13:56:45: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:57:50: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 13:58:56: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:00:02: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:01:08: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:02:13: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:03:19: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:04:25: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:05:30: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:06:36: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:06:36: ERROR Store 03 Integration failed to integrate to Customer: , Store: . Request failed.
+2024-12-08 14:22:39: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:23:45: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:24:51: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:25:57: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:27:02: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:28:08: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:29:14: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:30:20: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:31:25: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:32:31: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:32:31: ERROR Store 02 Integration failed to integrate to Customer: , Store: . Request failed.
+2024-12-08 14:33:32: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:34:38: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:35:44: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:36:50: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:37:55: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:39:01: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:40:07: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:41:12: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:42:18: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:43:24: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:43:24: ERROR Store 03 Integration failed to integrate to Customer: , Store: . Request failed.
+2024-12-08 14:58:26: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:58:32: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:58:37: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:58:43: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:58:49: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:58:55: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:59:01: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:59:06: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:59:12: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:59:18: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:59:18: ERROR Store 02 Integration failed to integrate to Customer: , Store: . Request failed.
+2024-12-08 14:59:19: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:59:25: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:59:31: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:59:36: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:59:42: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:59:48: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:59:54: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 14:59:59: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:00:05: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:00:11: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:00:11: ERROR Store 03 Integration failed to integrate to Customer: , Store: . Request failed.
+2024-12-08 15:16:13: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:17:19: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:18:25: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:19:31: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:20:36: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:21:42: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:22:48: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:22:58: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:23:04: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:23:10: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:23:10: ERROR Store 02 Integration failed to integrate to Customer: , Store: . Request failed.
+2024-12-08 15:23:11: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:23:17: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:23:23: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:23:29: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:23:35: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:23:41: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:23:46: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:23:52: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:23:58: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:24:04: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:24:04: ERROR Store 03 Integration failed to integrate to Customer: , Store: . Request failed.
+2024-12-08 15:39:07: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:39:13: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:39:18: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:39:24: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:39:30: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:39:36: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:39:43: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:39:49: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:39:55: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:40:00: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:40:00: ERROR Store 02 Integration failed to integrate to Customer: , Store: . Request failed.
+2024-12-08 15:40:01: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:40:07: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:40:13: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:40:19: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:40:25: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:40:30: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:40:36: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:40:42: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:40:48: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:40:54: ERROR API request failed to integrate to Customer: , Store: . {
+    "code": "X500113",
+    "message": "Internal server error has occurred, please try again later."
+}
+2024-12-08 15:40:54: ERROR Store 03 Integration failed to integrate to Customer: , Store: . Request failed.
+2024-12-08 16:56:33: ITM12NEO52DUG241208165213.json successfully integrated to Customer: Bara, Store: 02.
+2024-12-08 16:56:37: ITM12NEO52RSW241208165211.json successfully integrated to Customer: Bara, Store: 03.

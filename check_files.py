@@ -34,5 +34,5 @@ def main(store_code, document_list):
     check_files(store_code, document_list)
 
 
-main("52RSW", ["PRM12NEO52RSW241205204805.json.gz"])
-# main("52RSW", ["PRM12NEO52RSW241204135246.json.gz"])
+main("52RSW", ["PRM12NEO52RSW241210135235.json.gz"])
+main("52DUG", ["PRM12NEO52DUG241210135238.json.gz"])

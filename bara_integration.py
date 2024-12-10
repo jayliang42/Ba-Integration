@@ -476,6 +476,7 @@ def process_values(items: list[dict], document_name: str) -> list[dict]:
                               f"Error processing key {key}: {e}")
                     del item[key]
 
+        # Todo: 在这里可以检查下 startdate，如果 startdate > today, 跳过这个item, 把这个 item 放到 pending_promo 文件里
         # Append the processed item to the list
         processed_items.append(item)
 
@@ -550,42 +551,6 @@ def write_log(document_name, status, customer_code="", store_code="", error_mess
                 mexico_city_tz).strftime("%Y-%m-%d %H:%M:%S")
             f.write(
                 f"{time}: {document_name} successfully integrated to Customer: {customer_code}, Store: {store_code}.\n")
-
-
-def test():
-    # # FOR TESTING PURPOSES
-    json_data_list = []
-    for filename in os.listdir("JSON"):
-        # Check if the filename starts with "ITM" and ends with ".json"
-        if (filename.startswith("PRM")) and filename.endswith(".json"):
-            # Full file path
-            file_path = os.path.join("JSON", filename)
-
-            # Open and read the JSON file
-            with open(file_path, 'r') as file:
-                # Load the JSON data
-                json_data = json.load(file)
-                # Append the JSON data to the list
-                json_data_list.append(json_data)
-
-    new_items = []
-    for item in json_data_list:
-        items = item["promotions"]
-
-        # Process the JSON data
-        processed_items = process_json(items, "PRM")
-
-        # Process the values
-        processed_items = process_values(processed_items, "PRM")
-
-        # send_integration(
-        #     "hs", "77", "hs001", "hs001", processed_items, "PRM")
-
-        new_items.extend(processed_items)
-
-    # save
-    with open("new_items_new.json", "w") as f:
-        json.dump(new_items, f, indent=4)
 
 
 def main(customer_code: str, store_code: str, client_id: str, client_secret: str, bara_department_id, bara_store_id, bara_source, fileType) -> dict:
