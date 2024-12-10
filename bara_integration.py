@@ -485,6 +485,13 @@ def send_integration(customer_code: str, store_code: str, client_id: str,
                      client_secret: str, items: list[dict], document_name: str) -> dict:
     """send integration to Hanshow Allstar via integration API.
 
+    Parameters:
+    - customer_code: str, the customer code for the integration.
+    - store_code: str, the store code for the integration.
+    - client_id: str, the client ID for the integration.
+    - client_secret: str, the client secret for the integration.
+    - items: list, the list of items to integrate.
+    - document_name: str, the name of the document being integrated.
     """
 
     base_url = "https://americas-poc.hanshowcloud.net/integration/"
@@ -499,7 +506,7 @@ def send_integration(customer_code: str, store_code: str, client_id: str,
 
     items_list = []
 
-    # check if the items are more than 1000
+    # check if the items are more than 1000, hanshow integration only accept 1000 items at a time
     if len(items) > 1000:
         # if more than 1000, split the items into chunks of 1000
         items_list = [items[i:i + 1000] for i in range(0, len(items), 1000)]
@@ -533,6 +540,36 @@ def send_integration(customer_code: str, store_code: str, client_id: str,
                       store_code, json.dumps(response))
 
     return response
+
+
+def check_pending_promo_files(customer_code: str, store_code: str, client_id: str, client_secret: str):
+    """ Check pending_promo files and integrate the pending_promo items
+
+    Parameters:
+    - customer_code: str, the customer code for the integration.
+    - store_code: str, the store code for the integration.
+    - client_id: str, the client ID for the integration.
+    - client_secret: str, the client secret for the integration.
+    """
+    pending_promo_items = []
+    # check pending_promo files
+    if os.path.exists(f"current_files/{store_code}/pending_promo/pending_promo.json"):
+        with open(f"current_files/{store_code}/pending_promo/pending_promo.json", "r") as f:
+            pending_promo = json.load(f)
+            for promo in pending_promo:
+                # if the promo startdate is less than now, integrate it, means the promo is ready to start
+                if promo["startdate"] <= int(datetime.datetime.now(mexico_city_tz).timestamp() * 1000):
+                    pending_promo_items.append(promo)
+                    # remove the promo from the pending_promo file
+                    pending_promo.remove(promo)
+        # save the pending_promo file
+        with open(f"current_files/{store_code}/pending_promo/pending_promo.json", "w") as f:
+            json.dump(pending_promo, f, indent=4)
+
+    # integrate the pending_promo items
+    if len(pending_promo_items) > 0:
+        send_integration(
+            customer_code, store_code, client_id, client_secret, pending_promo_items, f"{store_code}/pending_promo.json")
 
 
 def write_log(document_name, status, customer_code="", store_code="", error_message=None):
@@ -584,10 +621,33 @@ def main(customer_code: str, store_code: str, client_id: str, client_secret: str
         processed_json = process_json(
             items, document_fileType[i])
         # Process the values
-        processed_json = process_values(processed_json, document_names[i])
+        processed_json = process_values(
+            processed_json, document_names[i], store_code)
         # Send the integration
         send_integration(
             customer_code, store_code, client_id, client_secret, processed_json, document_names[i])
+
+
+def test_pending_promo():
+    customer_code = "Bara"
+    client_id = "4cd23fb2d459abea9400d216a09071e6"
+    client_secret = "1b179f2262c57028c11c74dfac8d9e3d"
+    now = datetime.datetime.now(
+        mexico_city_tz).strftime("%Y-%m-%d %H:%M:%S")
+    print("------------------------------------")
+    print(f"Now in UTC-6 Mexico City: {now}")
+
+    customer_code = "Bara"
+    store_code = "01"
+    client_id = "4cd23fb2d459abea9400d216a09071e6"
+    client_secret = "1b179f2262c57028c11c74dfac8d9e3d"
+
+    file_type = ["ITM", "PRM"]
+
+    print(f"Only integrate {file_type} files\n")
+
+    check_pending_promo_files(
+        customer_code, store_code, client_id, client_secret)
 
 
 if __name__ == "__main__":
