@@ -231,16 +231,8 @@ def get_raw_base64_data(bara_department_id: str, bara_store_id: str, source: str
         if doc["fileType"] in fileType:
             document_names_fileType[doc["name"]] = doc["fileType"]
         else:
-            # Save pending file for reference
-            with open(f"current_files/{store_code}/pending_promo/pending_promo.txt", "a+") as f:
-                # Move the file cursor to the beginning to read the existing content
-                f.seek(0)
-                # Read content from pending_promo.txt as a list
-                content = f.readlines()
-                # Check if the document name is already in the list
-                if f"{doc['name']}: {doc['fileType']}\n" not in content:
-                    # If not, append the document name to the list
-                    f.write(f"{doc['name']}: {doc['fileType']}\n")
+            print(
+                f"Document {doc['name']} with fileType {doc['fileType']} not in the list. Skipped.")
 
     # Get the document names based on the file type filtered
     document_names = list(document_names_fileType.keys())
@@ -393,7 +385,7 @@ def process_json(items: list[dict], file_typ: str) -> list[dict]:
     return updated_items
 
 
-def process_values(items: list[dict], document_name: str) -> list[dict]:
+def process_values(items: list[dict], document_name: str, store_code: str) -> list[dict]:
     """Process the values in the JSON data based on hs_datatype_key_map.json.
 
     Note: The value on Bara API is all string, so need to covert the value to the correct datatype for hanshow integration.
@@ -403,6 +395,7 @@ def process_values(items: list[dict], document_name: str) -> list[dict]:
     Parameters:
     - items: list, the list of JSON data to process.
     - document_name: str, the name of the document being processed.
+    - store_code: str, the store code of hanshow allstar which needs to integrate.
 
     Returns:
     - A list of updated JSON data with values processed according to the hs_datatype_key_map.json.
@@ -477,10 +470,15 @@ def process_values(items: list[dict], document_name: str) -> list[dict]:
                     del item[key]
 
         # Todo: 在这里可以检查下 startdate，如果 startdate > today, 跳过这个item, 把这个 item 放到 pending_promo 文件里
-        # Append the processed item to the list
-        processed_items.append(item)
+        if "startdate" in item and item["startdate"] > int(datetime.datetime.now(mexico_city_tz).timestamp() * 1000):
+            # Todo: 把这个 item 放到 pending_promo.json 文件里
+            with open(f"current_files/{store_code}/pending_promo/pending_promo.json", "a") as f:
+                json.dump(item, f, indent=4)
+        else:
+            # Append the processed item to the list
+            processed_items.append(item)
 
-    return items
+    return processed_items
 
 
 def send_integration(customer_code: str, store_code: str, client_id: str,
@@ -499,20 +497,27 @@ def send_integration(customer_code: str, store_code: str, client_id: str,
         "client-secret": client_secret
     }
 
-    items_list = [items]
+    items_list = []
 
     # check if the items are more than 1000
     if len(items) > 1000:
         # if more than 1000, split the items into chunks of 1000
         items_list = [items[i:i + 1000] for i in range(0, len(items), 1000)]
+    else:
+        items_list = [items]
 
     for item_batch in items_list:
+        # remove the item with only sku, don't integrate
+        # Todo: Check this functionaility
+        for item in item_batch:
+            if len(item) == 1 and "sku" in item:
+                item_batch.remove(item)
+
         body = {
             "storeCode": store_code,
             "customerStoreCode": customer_code,
             "batchNo": datetime.datetime.now(mexico_city_tz).strftime("%Y%m%d%H%M%S"),
             "items": item_batch
-            # Todo：如果 item_batch只有sku，跳过这个item
         }
 
         response = post_request(base_url, endpoint, headers, body)
@@ -520,6 +525,7 @@ def send_integration(customer_code: str, store_code: str, client_id: str,
         # if the integration is successful, write the document_name to log file for future reference
         if response["storeCode"] == store_code:
             print(f"{document_name} successfully integrated.")
+            print(response)
             write_log(document_name, "success", customer_code, store_code)
         # if failed
         else:
@@ -580,9 +586,8 @@ def main(customer_code: str, store_code: str, client_id: str, client_secret: str
         # Process the values
         processed_json = process_values(processed_json, document_names[i])
         # Send the integration
-        response = send_integration(
+        send_integration(
             customer_code, store_code, client_id, client_secret, processed_json, document_names[i])
-        print(response)
 
 
 if __name__ == "__main__":
