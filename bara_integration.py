@@ -212,7 +212,7 @@ def get_raw_base64_data(bara_department_id: str, bara_store_id: str, source: str
         documents = [doc for doc in documents if doc["name"].replace(
             ".gz", "") not in existed_documents]
 
-        print(f"{len(documents)} documents found.\n")
+        print(f"{len(documents)} documents found in Bara DB.\n")
         for doc in documents:
             print(doc["name"].replace(".gz", ""))
 
@@ -595,6 +595,7 @@ def check_pending_promo_files(customer_code: str, store_code: str, client_id: st
     if os.path.exists(f"current_files/{store_code}/pending_promo/pending_promo.json"):
         with open(f"current_files/{store_code}/pending_promo/pending_promo.json", "r") as f:
             pending_promo = json.load(f)
+            print(f"Found {len(pending_promo)} pending promotions.")
             for promo in pending_promo[:]:
                 # if the promoDateFrom is less than now, integrate it, means the promo is ready to start
                 if promo["promoDateFrom"] <= int(datetime.datetime.now(mexico_city_tz).timestamp() * 1000):
@@ -607,11 +608,12 @@ def check_pending_promo_files(customer_code: str, store_code: str, client_id: st
 
     # integrate the pending_promo items
     if len(pending_promo_items) > 0:
-        print(f"Integrating {len(pending_promo_items)} pending promotions...")
+        print(
+            f"Integrating {len(pending_promo_items)} pending promotions...\n")
         send_integration(
             customer_code, store_code, client_id, client_secret, pending_promo_items, f"{store_code}/pending_promo.json")
     else:
-        print("No pending promotions to integrate.")
+        print("No pending promotions to integrate.\n")
 
 
 def write_log(document_name, status, customer_code="", store_code="", error_message=None):
@@ -639,6 +641,10 @@ def write_log(document_name, status, customer_code="", store_code="", error_mess
 
 
 def main(customer_code: str, store_code: str, client_id: str, client_secret: str, bara_department_id, bara_store_id, bara_source, fileType) -> dict:
+    # Check pending_promo files and integrate the pending_promo items if start date is ready
+    check_pending_promo_files(
+        customer_code, store_code, client_id, client_secret)
+
     raw_data_list, document_names_fileType = get_raw_base64_data(
         bara_department_id, bara_store_id, bara_source, fileType, store_code)
 
@@ -668,10 +674,6 @@ def main(customer_code: str, store_code: str, client_id: str, client_secret: str
         # Send the integration
         send_integration(
             customer_code, store_code, client_id, client_secret, processed_json, document_names[i])
-
-    # Check pending_promo files and integrate the pending_promo items if start date is ready
-    check_pending_promo_files(
-        customer_code, store_code, client_id, client_secret)
 
 
 def test_pending_promo():
