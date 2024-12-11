@@ -1,14 +1,29 @@
-# read historical_files/store_id.txt
-import os
+import pandas as pd
 
-store_code = "02"
+# File path
+file_path = '/Users/liangzhisong/Dropbox/script/Bara Integration/Init Files/3/12NEO52RSW.csv'
 
-historical_file = f"historical_files/{store_code}.txt"
-existed_documents = []
-if os.path.exists(historical_file):
-    with open(historical_file, "r") as f:
-        existed_documents = f.readlines()
-        existed_documents = [doc.strip() for doc in existed_documents]
+# Read the CSV file
+df = pd.read_csv(file_path)
 
+# Safely transform columns
+try:
+    # Change the fifth column (index 4) from text to float
+    df[df.columns[4]] = df[df.columns[4]].astype(
+        str).str.replace(',', '').astype(float)
 
-print(existed_documents)
+    # Change the third column (index 2) from text to float
+    df[df.columns[2]] = df[df.columns[2]].astype(
+        str).str.replace(',', '').astype(float)
+
+    # Change the seventh column (index 6) from text to int
+    df[df.columns[6]] = df[df.columns[6]].astype(
+        str).str.replace(',', '').astype(int)
+except ValueError as e:
+    print(f"Error while converting data: {e}")
+except KeyError as e:
+    print(f"Missing column: {e}")
+
+# Write back to the file
+df.to_csv(file_path, index=False)
+print("File updated successfully!")

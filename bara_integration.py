@@ -669,41 +669,41 @@ def main(customer_code: str, store_code: str, client_id: str, client_secret: str
         send_integration(
             customer_code, store_code, client_id, client_secret, processed_json, document_names[i])
 
-        # Check pending_promo files and integrate the pending_promo items if start date is ready
-        check_pending_promo_files(
-            customer_code, store_code, client_id, client_secret)
+    # Check pending_promo files and integrate the pending_promo items if start date is ready
+    check_pending_promo_files(
+        customer_code, store_code, client_id, client_secret)
 
 
-# def test_pending_promo():
-#     now = datetime.datetime.now(
-#         mexico_city_tz).strftime("%Y-%m-%d %H:%M:%S")
-#     print("------------------------------------")
-#     print(f"Now in UTC-6 Mexico City: {now}")
+def test_pending_promo():
+    now = datetime.datetime.now(
+        mexico_city_tz).strftime("%Y-%m-%d %H:%M:%S")
+    print("------------------------------------")
+    print(f"Now in UTC-6 Mexico City: {now}")
 
-#     customer_code = "Bara"
-#     store_code = "01"
-#     client_id = "4cd23fb2d459abea9400d216a09071e6"
-#     client_secret = "1b179f2262c57028c11c74dfac8d9e3d"
+    customer_code = "Bara"
+    store_code = "01"
+    client_id = "4cd23fb2d459abea9400d216a09071e6"
+    client_secret = "1b179f2262c57028c11c74dfac8d9e3d"
 
-#     file_type = ["ITM", "PRM"]
+    file_type = ["ITM", "PRM"]
 
-#     print(f"Only integrate {file_type} files\n")
+    print(f"Only integrate {file_type} files\n")
 
-#     file = "current_files/01/PRM12NEO52RSW241210135235.json"
+    file = "current_files/01/PRM12NEO52RSW241210135235.json"
 
-#     with open(file, "r") as f:
-#         json_data = json.load(f)
+    with open(file, "r") as f:
+        json_data = json.load(f)
 
-#     items = json_data["promotions"]
+    items = json_data["promotions"]
 
-#     processed_json = process_json(items, "PRM")
-#     processed_json = process_values(processed_json, file, store_code)
+    processed_json = process_json(items, "PRM")
+    processed_json = process_values(processed_json, file, store_code)
 
-#     send_integration(customer_code, store_code, client_id,
-#                      client_secret,  processed_json, file)
+    send_integration(customer_code, store_code, client_id,
+                     client_secret,  processed_json, file)
 
-#     # check_pending_promo_files(
-#     #     customer_code, store_code, client_id, client_secret)
+    # check_pending_promo_files(
+    #     customer_code, store_code, client_id, client_secret)
 
 
 if __name__ == "__main__":
@@ -722,6 +722,17 @@ if __name__ == "__main__":
         store03_code = "52RSW"
 
         print(f"Only integrate {file_type} files\n")
+
+        # this store is for testing, use the same data as store 03
+        print("Store 01 starts\n")
+        try:
+            main(customer_code, "01", client_id, client_secret,
+                 "12NEO", store03_code, "CT", file_type)
+        except Exception as e:
+            print(f"Error occurred during Store 01 integration: {e}")
+            write_log("Store 01 Integration", "failed", error_message=str(e))
+
+        print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
         print("Store 02 starts\n")
         try:
