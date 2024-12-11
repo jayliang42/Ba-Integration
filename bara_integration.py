@@ -385,6 +385,37 @@ def process_json(items: list[dict], file_typ: str) -> list[dict]:
     return updated_items
 
 
+def append_json_item(file_path: str, item: dict):
+    """
+    Append a JSON item to a JSON file, ensuring the file contains a valid JSON array.
+
+    Parameters:
+    - file_path: str, the path to the JSON file.
+    - item: dict, the JSON object to append.
+    """
+    # Check if the file exists and load its current contents (if any)
+    if os.path.exists(file_path):
+        with open(file_path, "r") as f:
+            try:
+                data = json.load(f)  # Load the existing JSON data
+                if not isinstance(data, list):
+                    raise ValueError(
+                        "JSON file does not contain a valid array")
+            except (json.JSONDecodeError, ValueError):
+                # If the file is invalid or not a list, start with an empty list
+                data = []
+    else:
+        # If the file doesn't exist, initialize an empty list
+        data = []
+
+    # Append the new item
+    data.append(item)
+
+    # Write the updated list back to the file
+    with open(file_path, "w") as f:
+        json.dump(data, f, indent=4)
+
+
 def process_values(items: list[dict], document_name: str, store_code: str) -> list[dict]:
     """Process the values in the JSON data based on hs_datatype_key_map.json.
 
@@ -469,11 +500,18 @@ def process_values(items: list[dict], document_name: str, store_code: str) -> li
                               f"Error processing key {key}: {e}")
                     del item[key]
 
-        # Todo: 在这里可以检查下 startdate，如果 startdate > today, 跳过这个item, 把这个 item 放到 pending_promo 文件里
-        if "startdate" in item and item["startdate"] > int(datetime.datetime.now(mexico_city_tz).timestamp() * 1000):
-            # Todo: 把这个 item 放到 pending_promo.json 文件里
-            with open(f"current_files/{store_code}/pending_promo/pending_promo.json", "a") as f:
-                json.dump(item, f, indent=4)
+        # Todo: 在这里可以检查下 promoDateFrom, promoDateFrom > today, 跳过这个item, 把这个 item 放到 pending_promo 文件里
+        if "promoDateFrom" in item and item["promoDateFrom"] > int(datetime.datetime.now(mexico_city_tz).timestamp() * 1000):
+            # convert the timestamp to datetime
+            promo_date = datetime.datetime.fromtimestamp(
+                item["promoDateFrom"] / 1000, tz=mexico_city_tz).strftime("%Y-%m-%d %H:%M:%S")
+            print(
+                f"Promotion {item['sku']} is not ready to start. {promo_date} is in the future.")
+
+            pending_file_path = f"current_files/{store_code}/pending_promo/pending_promo.json"
+            append_json_item(pending_file_path, item)
+            # Todo: 考虑一下需不需要考虑重复item的问题。每个文件其实只对进来一次，所以大概率不会有重复的问题？
+
         else:
             # Append the processed item to the list
             processed_items.append(item)
@@ -550,15 +588,16 @@ def check_pending_promo_files(customer_code: str, store_code: str, client_id: st
     - store_code: str, the store code for the integration.
     - client_id: str, the client ID for the integration.
     - client_secret: str, the client secret for the integration.
+
     """
     pending_promo_items = []
     # check pending_promo files
     if os.path.exists(f"current_files/{store_code}/pending_promo/pending_promo.json"):
         with open(f"current_files/{store_code}/pending_promo/pending_promo.json", "r") as f:
             pending_promo = json.load(f)
-            for promo in pending_promo:
-                # if the promo startdate is less than now, integrate it, means the promo is ready to start
-                if promo["startdate"] <= int(datetime.datetime.now(mexico_city_tz).timestamp() * 1000):
+            for promo in pending_promo[:]:
+                # if the promoDateFrom is less than now, integrate it, means the promo is ready to start
+                if promo["promoDateFrom"] <= int(datetime.datetime.now(mexico_city_tz).timestamp() * 1000):
                     pending_promo_items.append(promo)
                     # remove the promo from the pending_promo file
                     pending_promo.remove(promo)
@@ -568,8 +607,11 @@ def check_pending_promo_files(customer_code: str, store_code: str, client_id: st
 
     # integrate the pending_promo items
     if len(pending_promo_items) > 0:
+        print(f"Integrating {len(pending_promo_items)} pending promotions...")
         send_integration(
             customer_code, store_code, client_id, client_secret, pending_promo_items, f"{store_code}/pending_promo.json")
+    else:
+        print("No pending promotions to integrate.")
 
 
 def write_log(document_name, status, customer_code="", store_code="", error_message=None):
@@ -627,27 +669,41 @@ def main(customer_code: str, store_code: str, client_id: str, client_secret: str
         send_integration(
             customer_code, store_code, client_id, client_secret, processed_json, document_names[i])
 
+        # Check pending_promo files and integrate the pending_promo items if start date is ready
+        check_pending_promo_files(
+            customer_code, store_code, client_id, client_secret)
 
-def test_pending_promo():
-    customer_code = "Bara"
-    client_id = "4cd23fb2d459abea9400d216a09071e6"
-    client_secret = "1b179f2262c57028c11c74dfac8d9e3d"
-    now = datetime.datetime.now(
-        mexico_city_tz).strftime("%Y-%m-%d %H:%M:%S")
-    print("------------------------------------")
-    print(f"Now in UTC-6 Mexico City: {now}")
 
-    customer_code = "Bara"
-    store_code = "01"
-    client_id = "4cd23fb2d459abea9400d216a09071e6"
-    client_secret = "1b179f2262c57028c11c74dfac8d9e3d"
+# def test_pending_promo():
+#     now = datetime.datetime.now(
+#         mexico_city_tz).strftime("%Y-%m-%d %H:%M:%S")
+#     print("------------------------------------")
+#     print(f"Now in UTC-6 Mexico City: {now}")
 
-    file_type = ["ITM", "PRM"]
+#     customer_code = "Bara"
+#     store_code = "01"
+#     client_id = "4cd23fb2d459abea9400d216a09071e6"
+#     client_secret = "1b179f2262c57028c11c74dfac8d9e3d"
 
-    print(f"Only integrate {file_type} files\n")
+#     file_type = ["ITM", "PRM"]
 
-    check_pending_promo_files(
-        customer_code, store_code, client_id, client_secret)
+#     print(f"Only integrate {file_type} files\n")
+
+#     file = "current_files/01/PRM12NEO52RSW241210135235.json"
+
+#     with open(file, "r") as f:
+#         json_data = json.load(f)
+
+#     items = json_data["promotions"]
+
+#     processed_json = process_json(items, "PRM")
+#     processed_json = process_values(processed_json, file, store_code)
+
+#     send_integration(customer_code, store_code, client_id,
+#                      client_secret,  processed_json, file)
+
+#     # check_pending_promo_files(
+#     #     customer_code, store_code, client_id, client_secret)
 
 
 if __name__ == "__main__":
@@ -661,7 +717,7 @@ if __name__ == "__main__":
         client_id = "4cd23fb2d459abea9400d216a09071e6"
         client_secret = "1b179f2262c57028c11c74dfac8d9e3d"
 
-        file_type = ["ITM"]
+        file_type = ["ITM", "PRM"]
         store02_code = "52DUG"
         store03_code = "52RSW"
 
@@ -670,7 +726,8 @@ if __name__ == "__main__":
         print("Store 02 starts\n")
         try:
             main(customer_code, "02", client_id, client_secret,
-                 "12NEO", store02_code, "CT", file_type)
+                 "12NEO", store02_code, "CT", file_type)\
+
         except Exception as e:
             print(f"Error occurred during Store 02 integration: {e}")
             write_log("Store 02 Integration", "failed", error_message=str(e))
