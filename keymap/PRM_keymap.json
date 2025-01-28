@@ -6,5 +6,6 @@
   "discount": "rsrvDec1",
   "percent": "rsrvDec2",
   "discountType": "rsrvTxt1",
-  "description": "promoReason"
+  "description": "promoReason",
+  "type": "saleMode"
 }

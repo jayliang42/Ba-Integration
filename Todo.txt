@@ -1,6 +1,4 @@
-1. 每个店各增加 pending promo_files, 如果当前时间还没到 promo start date，就先把这个 item 放到 pending promo_files 里面，把他从当前对接列表里面移除，先别对接。
-
-每天跑一遍 pending promo_files，如果当前时间已经到了 promo start date，就对接进去，然后从 pending promo_files 里面移除。
+1. 如果 integration failed 了，要把已对接文件从文件记录里删除掉
 
 2. 修改脚本逻辑，当未来有新的商店要对接的时候，只需要把新的商店放到 config.properties 里面，然后跑脚本就可以了。
 
@@ -21,15 +19,7 @@ Store 02 starts
 } 
 这个卡死停机了。
 
-5.{
-    "sku" : "75076405"
-  }, {
-    "sku" : "75076740"
-  }
-
-  对接只有 sku 的时候不要对接。
-
-  6. 有时候对接卡在哪个地方不动了。比如下面那个在 03 store 卡住了。不知道为什么，应该是他们 api 卡住了。要加一个机制。或者使用定时任务 cron job 来跑脚本。写一个 bash 吧
+6. 有时候对接卡在哪个地方不动了。比如下面那个在 03 store 卡住了。不知道为什么，应该是他们 api 卡住了。要加一个机制。或者使用定时任务 cron job 来跑脚本。写一个 bash 吧
   
   在脚本中设置超时时间 防止脚本因某些问题无限制运行：
 

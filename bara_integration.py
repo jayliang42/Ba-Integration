@@ -18,7 +18,7 @@ warnings.filterwarnings('ignore', category=InsecureRequestWarning)
 mexico_city_tz = pytz.timezone("America/Mexico_City")
 
 
-@retrying.retry(wait_fixed=5000, stop_max_attempt_number=10)
+@retrying.retry(wait_fixed=5000, stop_max_attempt_number=3)
 def post_request(base_url, endpoint, headers, body=None, auth=None):
     """Make a POST request to the specified endpoint with the given headers and body.
 
@@ -97,7 +97,7 @@ def get_document_list(base_url: str, endpoint: str, bearer_token: str,
         "Channel-Id": "WEB",
         "Country-Code": "MX",
         "Language": "SPA",
-        "x-Gateway-APIKey": "7371052d-ee88-43db-a2eb-48e8a513b60c",
+        "x-Gateway-APIKey": "66001b2d-7410-4588-a404-6db151febc9b",
         "Content-Type": "application/json",
         "Accept": "application/json",
         "User-Agent": "MyApp/1.0 (Windows NT 10.0; Win64; x64)"
@@ -139,7 +139,7 @@ def get_document_base64_data(base_url: str, endpoint: str, bearer_token: str, do
         "Channel-Id": "WEB",
         "Country-Code": "MX",
         "Language": "SPA",
-        "x-Gateway-APIKey": "7371052d-ee88-43db-a2eb-48e8a513b60c",
+        "x-Gateway-APIKey": "66001b2d-7410-4588-a404-6db151febc9b",
         "Content-Type": "application/json",
         "Accept": "application/json",
         "User-Agent": "MyApp/1.0 (Windows NT 10.0; Win64; x64)"
@@ -331,7 +331,7 @@ def replace_keys(original_json, key_map) -> dict:
     for old_key, value in original_json.items():
         zero_pattern = re.compile(r'^0+(\.0+)?$')
         # Check if the old_key is in the key_map and the value is not empty or zero-like
-        if old_key in key_map and not (value == 0 or value == "" or (isinstance(value, str) and zero_pattern.match(value))):
+        if old_key in key_map and (old_key == "type" or not (value == 0 or value == "" or (isinstance(value, str) and zero_pattern.match(value)))):
             new_key = key_map[old_key]
             if isinstance(value, dict):
                 # Recursively replace keys in nested dictionaries
@@ -500,7 +500,6 @@ def process_values(items: list[dict], document_name: str, store_code: str) -> li
                               f"Error processing key {key}: {e}")
                     del item[key]
 
-        # Todo: 在这里可以检查下 promoDateFrom, promoDateFrom > today, 跳过这个item, 把这个 item 放到 pending_promo 文件里
         if "promoDateFrom" in item and item["promoDateFrom"] > int(datetime.datetime.now(mexico_city_tz).timestamp() * 1000):
             # convert the timestamp to datetime
             promo_date = datetime.datetime.fromtimestamp(
@@ -554,9 +553,10 @@ def send_integration(customer_code: str, store_code: str, client_id: str,
     for item_batch in items_list:
         # remove the item with only sku, don't integrate
         # Todo: Check this functionaility
-        for item in item_batch:
+        for item in item_batch[:]:
             if len(item) == 1 and "sku" in item:
                 item_batch.remove(item)
+                print(f"Item {item['sku']} only has sku, removed.")
 
         body = {
             "storeCode": store_code,
@@ -595,7 +595,7 @@ def check_pending_promo_files(customer_code: str, store_code: str, client_id: st
     if os.path.exists(f"current_files/{store_code}/pending_promo/pending_promo.json"):
         with open(f"current_files/{store_code}/pending_promo/pending_promo.json", "r") as f:
             pending_promo = json.load(f)
-            print(f"Found {len(pending_promo)} pending promotions.")
+            print(f"(Found {len(pending_promo)} pending promotions.")
             for promo in pending_promo[:]:
                 # if the promoDateFrom is less than now, integrate it, means the promo is ready to start
                 if promo["promoDateFrom"] <= int(datetime.datetime.now(mexico_city_tz).timestamp() * 1000):
@@ -609,11 +609,11 @@ def check_pending_promo_files(customer_code: str, store_code: str, client_id: st
     # integrate the pending_promo items
     if len(pending_promo_items) > 0:
         print(
-            f"Integrating {len(pending_promo_items)} pending promotions...\n")
+            f"Integrating {len(pending_promo_items)} pending promotions...)\n")
         send_integration(
             customer_code, store_code, client_id, client_secret, pending_promo_items, f"{store_code}/pending_promo.json")
     else:
-        print("No pending promotions to integrate.\n")
+        print("No pending promotions to integrate.)\n")
 
 
 def write_log(document_name, status, customer_code="", store_code="", error_message=None):
@@ -676,38 +676,6 @@ def main(customer_code: str, store_code: str, client_id: str, client_secret: str
             customer_code, store_code, client_id, client_secret, processed_json, document_names[i])
 
 
-def test_pending_promo():
-    now = datetime.datetime.now(
-        mexico_city_tz).strftime("%Y-%m-%d %H:%M:%S")
-    print("------------------------------------")
-    print(f"Now in UTC-6 Mexico City: {now}")
-
-    customer_code = "Bara"
-    store_code = "01"
-    client_id = "4cd23fb2d459abea9400d216a09071e6"
-    client_secret = "1b179f2262c57028c11c74dfac8d9e3d"
-
-    file_type = ["ITM", "PRM"]
-
-    print(f"Only integrate {file_type} files\n")
-
-    file = "current_files/01/PRM12NEO52RSW241210135235.json"
-
-    with open(file, "r") as f:
-        json_data = json.load(f)
-
-    items = json_data["promotions"]
-
-    processed_json = process_json(items, "PRM")
-    processed_json = process_values(processed_json, file, store_code)
-
-    send_integration(customer_code, store_code, client_id,
-                     client_secret,  processed_json, file)
-
-    # check_pending_promo_files(
-    #     customer_code, store_code, client_id, client_secret)
-
-
 if __name__ == "__main__":
     while True:
         now = datetime.datetime.now(
@@ -757,7 +725,7 @@ if __name__ == "__main__":
 
         print("------------------------------------")
 
-        sleep_time = 900
+        sleep_time = 1800
         # Sleep for the next iteration
         print(
             f"Sleeping for the next period (in {int(sleep_time/60)} mins...)\n")
