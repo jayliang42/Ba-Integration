@@ -1,1 +1,5509 @@
-[]
+[
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501005102735",
+        "rsrvInt1": 2,
+        "rsrvDec1": 65.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB Ades Soya Light Narural 946ml"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294223873",
+        "rsrvInt1": 28,
+        "rsrvDec1": 79.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB AGUA BONAMARK 500ML"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055305742",
+        "rsrvInt1": 2,
+        "rsrvDec1": 48.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB MINERAL 2L"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "078917223546",
+        "rsrvInt1": 2,
+        "rsrvDec1": 30.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB Vaso Crisa"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506105606077",
+        "rsrvInt1": 2,
+        "rsrvDec1": 40.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB TRIDENT VAL U 18S"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506105606060",
+        "rsrvInt1": 2,
+        "rsrvDec1": 40.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB TRIDENT VAL U 18S"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506105606053",
+        "rsrvInt1": 2,
+        "rsrvDec1": 40.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB TRIDENT VAL U 18S"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506105606084",
+        "rsrvInt1": 2,
+        "rsrvDec1": 40.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB TRIDENT VAL U 18S"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055381883",
+        "rsrvInt1": 2,
+        "rsrvDec1": 38.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB Flashlyte 625ml"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055381906",
+        "rsrvInt1": 2,
+        "rsrvDec1": 38.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB Flashlyte 625ml"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055303779",
+        "rsrvInt1": 2,
+        "rsrvDec1": 34.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB CC SABORES 600ML"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055304653",
+        "rsrvInt1": 2,
+        "rsrvDec1": 34.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB CC SABORES 600ML"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055305629",
+        "rsrvInt1": 2,
+        "rsrvDec1": 34.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB CC SABORES 600ML"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055339983",
+        "rsrvInt1": 2,
+        "rsrvDec1": 34.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB CC SABORES 600ML"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055379927",
+        "rsrvInt1": 2,
+        "rsrvDec1": 34.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB CC SABORES 600ML"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055330683",
+        "rsrvInt1": 2,
+        "rsrvDec1": 33.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB VALLEFRUT 600ML"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500810022801",
+        "rsrvInt1": 2,
+        "rsrvDec1": 40.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB CANELITAS POLVORONES"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500810028032",
+        "rsrvInt1": 2,
+        "rsrvDec1": 40.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB CANELITAS POLVORONES"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502271157962",
+        "rsrvInt1": 3,
+        "rsrvDec1": 18.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PASTA BONAMARK"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502271157979",
+        "rsrvInt1": 3,
+        "rsrvDec1": 18.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PASTA BONAMARK"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502271157986",
+        "rsrvInt1": 3,
+        "rsrvDec1": 18.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PASTA BONAMARK"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502271157993",
+        "rsrvInt1": 3,
+        "rsrvDec1": 18.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PASTA BONAMARK"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "757528042011",
+        "rsrvInt1": 2,
+        "rsrvDec1": 36.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB KRANKY 65 GR"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501061651543",
+        "rsrvInt1": 6,
+        "rsrvDec1": 62.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB CARTA BLANCA 355ML"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7503024416510",
+        "rsrvInt1": 6,
+        "rsrvDec1": 85.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB Heineken 0.0"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501049999360",
+        "rsrvInt1": 2,
+        "rsrvDec1": 49.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB HNK LATON 473ML"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7503024416138",
+        "rsrvInt1": 6,
+        "rsrvDec1": 109.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB ULTRA LATA 355ML"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7503028412570",
+        "rsrvInt1": 6,
+        "rsrvDec1": 90.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB BOHEMIA BOT 355ML"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7503032272771",
+        "rsrvInt1": 2,
+        "rsrvDec1": 45.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB BOHEMIA LOOSE"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501049912284",
+        "rsrvInt1": 2,
+        "rsrvDec1": 39.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB XX LAGER 437ML"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7503024416237",
+        "rsrvInt1": 2,
+        "rsrvDec1": 87.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB Miller NR 940ml"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501040092596",
+        "rsrvInt1": 4,
+        "rsrvDec1": 29.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB 228219 Yopla Mini 4X$25"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "75012533",
+        "rsrvInt1": 4,
+        "rsrvDec1": 58.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB 228232 Flan Danette 4X$58"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "75030896",
+        "rsrvInt1": 2,
+        "rsrvDec1": 16.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB 228259 Danette Choco 2X$16"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501020567663",
+        "rsrvInt1": 4,
+        "rsrvDec1": 20.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB 228257 NutriBat Fres4X$20"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501020532036",
+        "rsrvInt1": 4,
+        "rsrvDec1": 34.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB 228234 Arroz 4X$34.00"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501032332013",
+        "rsrvInt1": 2,
+        "rsrvDec1": 22.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB 228238 DanoneBipack 2X$22"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "75030551",
+        "rsrvInt1": 4,
+        "rsrvDec1": 25.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB 228246 Flan Yoplait 4X$25"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501073830509",
+        "rsrvInt1": 2,
+        "rsrvDec1": 28.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB PE\u00d1AFIEL 600ml NR"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501073839304",
+        "rsrvInt1": 2,
+        "rsrvDec1": 28.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB PE\u00d1AFIEL 600ml NR"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501073839328",
+        "rsrvInt1": 2,
+        "rsrvDec1": 28.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB PE\u00d1AFIEL 600ml NR"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501073839854",
+        "rsrvInt1": 2,
+        "rsrvDec1": 28.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB PE\u00d1AFIEL 600ml NR"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501073839885",
+        "rsrvInt1": 2,
+        "rsrvDec1": 28.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB PE\u00d1AFIEL 600ml NR"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501073840355",
+        "rsrvInt1": 2,
+        "rsrvDec1": 28.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB PE\u00d1AFIEL 600ml NR"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7622210575586",
+        "rsrvInt1": 2,
+        "rsrvDec1": 30.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB VariedadOreo2x"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7622210575609",
+        "rsrvInt1": 2,
+        "rsrvDec1": 30.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB VariedadOreo2x"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7622210833662",
+        "rsrvInt1": 2,
+        "rsrvDec1": 30.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB VariedadOreo2x"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7622210576200",
+        "rsrvInt1": 2,
+        "rsrvDec1": 30.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB VariedadOreo2x"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055310883",
+        "rsrvInt1": 2,
+        "rsrvDec1": 22.5,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB Agua ciel1L"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501295600126",
+        "rsrvInt1": 3,
+        "rsrvDec1": 74.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB 228227 Ent Sta Clara 3X$74"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501295600157",
+        "rsrvInt1": 3,
+        "rsrvDec1": 74.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB 228228 Desl staclara 3x$74"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "75045616",
+        "rsrvInt1": 3,
+        "rsrvDec1": 10.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB TRIDENT 4S 52GR"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "75045623",
+        "rsrvInt1": 3,
+        "rsrvDec1": 10.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB TRIDENT 4S 52GR"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501013103144",
+        "rsrvInt1": 6,
+        "rsrvDec1": 36.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB JUMEX MINIBRIK 200ML"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501013103120",
+        "rsrvInt1": 6,
+        "rsrvDec1": 36.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB JUMEX MINIBRIK 200ML"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "75078911",
+        "rsrvInt1": 6,
+        "rsrvDec1": 36.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB JUMEX MINIBRIK 200ML"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055356898",
+        "rsrvInt1": 6,
+        "rsrvDec1": 30.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB JUGO BOTELLIN 237ML"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055356928",
+        "rsrvInt1": 6,
+        "rsrvDec1": 30.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB JUGO BOTELLIN 237ML"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7622210573087",
+        "rsrvInt1": 3,
+        "rsrvDec1": 15.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB Tang 3x$15"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7622210572639",
+        "rsrvInt1": 3,
+        "rsrvDec1": 15.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB Tang 3x$15"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7622210572554",
+        "rsrvInt1": 3,
+        "rsrvDec1": 15.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB Tang 3x$15"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7622210572387",
+        "rsrvInt1": 3,
+        "rsrvDec1": 15.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB Tang 3x$15"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7622210267825",
+        "rsrvInt1": 2,
+        "rsrvDec1": 18.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB HALLS"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7622210267863",
+        "rsrvInt1": 2,
+        "rsrvDec1": 18.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB HALLS"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7622210529688",
+        "rsrvInt1": 2,
+        "rsrvDec1": 18.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB HALLS"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7622210267818",
+        "rsrvInt1": 2,
+        "rsrvDec1": 18.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB HALLS"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7622210833709",
+        "rsrvInt1": 2,
+        "rsrvDec1": 15.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB RITZ"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501073840942",
+        "rsrvInt1": 2,
+        "rsrvDec1": 54.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB PE\u00d1AFIEL 2L NR"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501073800908",
+        "rsrvInt1": 2,
+        "rsrvDec1": 54.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB PE\u00d1AFIEL 2L NR"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501073831964",
+        "rsrvInt1": 2,
+        "rsrvDec1": 54.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB PE\u00d1AFIEL 2L NR"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501073839861",
+        "rsrvInt1": 2,
+        "rsrvDec1": 54.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB PE\u00d1AFIEL 2L NR"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501073839892",
+        "rsrvInt1": 2,
+        "rsrvDec1": 54.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB PE\u00d1AFIEL 2L NR"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501073841949",
+        "rsrvInt1": 2,
+        "rsrvDec1": 54.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB PE\u00d1AFIEL 2L NR"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501013104073",
+        "rsrvInt1": 2,
+        "rsrvDec1": 45.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB JUMEX 960ML"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501013102789",
+        "rsrvInt1": 2,
+        "rsrvDec1": 45.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB JUMEX 960ML"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501013106992",
+        "rsrvInt1": 2,
+        "rsrvDec1": 45.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB JUMEX 960ML"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501013101942",
+        "rsrvInt1": 2,
+        "rsrvDec1": 31.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB HYDRILIT 625ML"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501013101911",
+        "rsrvInt1": 2,
+        "rsrvDec1": 31.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB HYDRILIT 625ML"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055370276",
+        "rsrvInt1": 3,
+        "rsrvDec1": 47.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB 228266 StaClara 250ml3X$47"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055358106",
+        "rsrvInt1": 3,
+        "rsrvDec1": 47.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB 228266 StaClara 250ml3X$47"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "604722006007",
+        "rsrvInt1": 2,
+        "rsrvDec1": 18.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB SIM BOTANAS LEO"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "604722008971",
+        "rsrvInt1": 2,
+        "rsrvDec1": 18.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB SIM BOTANAS LEO"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "604722009619",
+        "rsrvInt1": 2,
+        "rsrvDec1": 18.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB SIM BOTANAS LEO"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "604722013050",
+        "rsrvInt1": 2,
+        "rsrvDec1": 18.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB SIM BOTANAS LEO"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "604722013074",
+        "rsrvInt1": 2,
+        "rsrvDec1": 18.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB SIM BOTANAS LEO"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "604722013869",
+        "rsrvInt1": 2,
+        "rsrvDec1": 18.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB SIM BOTANAS LEO"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501161502011",
+        "rsrvInt1": 5,
+        "rsrvDec1": 35.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB Leche Leon fresa 236ml"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501161502028",
+        "rsrvInt1": 5,
+        "rsrvDec1": 35.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB Leche Leon fresa 236ml"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501161502035",
+        "rsrvInt1": 5,
+        "rsrvDec1": 35.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB Leche Leon fresa 236ml"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "706460249484",
+        "rsrvInt1": 4,
+        "rsrvDec1": 35.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB Pedigree y whiskas"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "706460000658",
+        "rsrvInt1": 4,
+        "rsrvDec1": 35.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB Pedigree y whiskas"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "706460000665",
+        "rsrvInt1": 4,
+        "rsrvDec1": 35.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB Pedigree y whiskas"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "706460249279",
+        "rsrvInt1": 4,
+        "rsrvDec1": 35.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB Pedigree y whiskas"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "706460249286",
+        "rsrvInt1": 4,
+        "rsrvDec1": 35.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB Pedigree y whiskas"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "706460249361",
+        "rsrvInt1": 4,
+        "rsrvDec1": 35.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB Pedigree y whiskas"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501072209801",
+        "rsrvInt1": 4,
+        "rsrvDec1": 35.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB Variedad purina"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501072210289",
+        "rsrvInt1": 4,
+        "rsrvDec1": 35.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB Variedad purina"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501072210265",
+        "rsrvInt1": 4,
+        "rsrvDec1": 35.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB Variedad purina"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055340002",
+        "rsrvInt1": 2,
+        "rsrvDec1": 58.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB SABORES CC 2L"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055303878",
+        "rsrvInt1": 2,
+        "rsrvDec1": 58.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB SABORES CC 2L"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055305650",
+        "rsrvInt1": 2,
+        "rsrvDec1": 58.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB SABORES CC 2L"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055379941",
+        "rsrvInt1": 2,
+        "rsrvDec1": 46.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB SABORES CC 2L"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501011104099",
+        "rsrvInt1": 2,
+        "rsrvDec1": 38.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB SABRITAS POPULARES"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501011101456",
+        "rsrvInt1": 2,
+        "rsrvDec1": 38.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB SABRITAS POPULARES"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501011123588",
+        "rsrvInt1": 2,
+        "rsrvDec1": 38.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB SABRITAS POPULARES"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "757528042042",
+        "rsrvInt1": 2,
+        "rsrvDec1": 38.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB PANDITAS Y DULCIGOMAS"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7503030374088",
+        "rsrvInt1": 2,
+        "rsrvDec1": 38.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB PANDITAS Y DULCIGOMAS"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501000278404",
+        "rsrvInt1": 2,
+        "rsrvDec1": 36.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB PALETA PAYASO"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "070847036074",
+        "rsrvInt1": 2,
+        "rsrvDec1": 76.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB Monster 473ml"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501295600614",
+        "rsrvInt1": 4,
+        "rsrvDec1": 50.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB 228261 Var Sab 4X$50"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501295600621",
+        "rsrvInt1": 4,
+        "rsrvDec1": 50.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB 228261 Var Sab 4X$50"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055363346",
+        "rsrvInt1": 2,
+        "rsrvDec1": 79.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB Leche de Almendra Ades"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294222555",
+        "rsrvInt1": 3,
+        "rsrvDec1": 45.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB Leche Parcial descr Bonamark 900ml"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502271157818",
+        "rsrvInt1": 3,
+        "rsrvDec1": 45.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB Leche Parcial descr Bonamark 900ml"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501032395599",
+        "rsrvInt1": 3,
+        "rsrvDec1": 49.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB 228253 OikosNat150G3X$49"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501032395582",
+        "rsrvInt1": 3,
+        "rsrvDec1": 49.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB 228253 OikosNat150G3X$49"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "089826001415",
+        "rsrvInt1": 4,
+        "rsrvDec1": 76.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB TECATE LATON 473ML"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501061669289",
+        "rsrvInt1": 4,
+        "rsrvDec1": 76.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB TECATE LATON 473ML"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7503032272818",
+        "rsrvInt1": 4,
+        "rsrvDec1": 92.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB PB MILLER LOOSE"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055912391",
+        "rsrvInt1": 2,
+        "rsrvDec1": 13.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB 228224 Varied. Batido2X$13"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055912438",
+        "rsrvInt1": 2,
+        "rsrvDec1": 13.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB 228224 Varied. Batido2X$13"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055912476",
+        "rsrvInt1": 2,
+        "rsrvDec1": 13.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB 228224 Varied. Batido2X$13"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501020561159",
+        "rsrvInt1": 4,
+        "rsrvDec1": 43.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB 228230 Yog Lala 4X$43"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501020561197",
+        "rsrvInt1": 4,
+        "rsrvDec1": 43.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB 228230 Yog Lala 4X$43"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501020561234",
+        "rsrvInt1": 4,
+        "rsrvDec1": 43.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB 228230 Yog Lala 4X$43"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501032397906",
+        "rsrvInt1": 2,
+        "rsrvDec1": 34.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB 228244 Danup Fresa 2x$34"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055914630",
+        "rsrvInt1": 4,
+        "rsrvDec1": 43.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB 228248 BebibVaried 4x$43"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055914807",
+        "rsrvInt1": 4,
+        "rsrvDec1": 43.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB 228248 BebibVaried 4x$43"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501032398255",
+        "rsrvInt1": 2,
+        "rsrvDec1": 25.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB 228251 ActiviaCiruela2x$25"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500478022496",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.0,
+        "promoReason": "SIMPLES PROMOBARA B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501061659365",
+        "rsrvInt1": 1,
+        "rsrvDec1": 179.0,
+        "promoReason": "SIMPLES PROMOBARA B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501061651024",
+        "rsrvInt1": 1,
+        "rsrvDec1": 36.0,
+        "promoReason": "SIMPLES PROMOBARA B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501061601128",
+        "rsrvInt1": 1,
+        "rsrvDec1": 179.0,
+        "promoReason": "SIMPLES PROMOBARA B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501049967062",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.0,
+        "promoReason": "SIMPLES PROMOBARA B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501011167735",
+        "rsrvInt1": 1,
+        "rsrvDec1": 51.0,
+        "promoReason": "SIMPLES PROMOBARA B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501011167674",
+        "rsrvInt1": 1,
+        "rsrvDec1": 41.0,
+        "promoReason": "SIMPLES PROMOBARA B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501011167650",
+        "rsrvInt1": 1,
+        "rsrvDec1": 41.0,
+        "promoReason": "SIMPLES PROMOBARA B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501011154902",
+        "rsrvInt1": 1,
+        "rsrvDec1": 51.0,
+        "promoReason": "SIMPLES PROMOBARA B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501011133884",
+        "rsrvInt1": 1,
+        "rsrvDec1": 51.0,
+        "promoReason": "SIMPLES PROMOBARA B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501011131064",
+        "rsrvInt1": 1,
+        "rsrvDec1": 41.0,
+        "promoReason": "SIMPLES PROMOBARA B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501000153107",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.0,
+        "promoReason": "SIMPLES PROMOBARA B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500478022502",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.0,
+        "promoReason": "SIMPLES PROMOBARA B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "014800515336",
+        "rsrvInt1": 1,
+        "rsrvDec1": 40.0,
+        "promoReason": "SIMPLES PROMOBARA B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "014800515343",
+        "rsrvInt1": 1,
+        "rsrvDec1": 64.0,
+        "promoReason": "SIMPLES PROMOBARA B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506306415775",
+        "rsrvInt1": 1,
+        "rsrvDec1": 40.0,
+        "promoReason": "SIMPLES PROMOBARA B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506306416079",
+        "rsrvInt1": 1,
+        "rsrvDec1": 46.0,
+        "promoReason": "SIMPLES PROMOBARA B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506306415799",
+        "rsrvInt1": 1,
+        "rsrvDec1": 40.0,
+        "promoReason": "SIMPLES PROMOBARA B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506390202831",
+        "rsrvInt1": 1,
+        "rsrvDec1": 37.0,
+        "promoReason": "SIMPLES PROMOBARA B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506390202848",
+        "rsrvInt1": 1,
+        "rsrvDec1": 32.0,
+        "promoReason": "SIMPLES PROMOBARA B02"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "025046021697",
+        "rsrvInt1": 3,
+        "rsrvDec1": 33.333,
+        "rsrvTxt1": "P",
+        "promoReason": "PB Variedad dulces 3x2"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7503029771218",
+        "rsrvInt1": 3,
+        "rsrvDec1": 33.333,
+        "rsrvTxt1": "P",
+        "promoReason": "PB Variedad dulces 3x2"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7503030374996",
+        "rsrvInt1": 3,
+        "rsrvDec1": 33.333,
+        "rsrvTxt1": "P",
+        "promoReason": "PB Variedad dulces 3x2"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7503030572002",
+        "rsrvInt1": 3,
+        "rsrvDec1": 33.333,
+        "rsrvTxt1": "P",
+        "promoReason": "PB Variedad dulces 3x2"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "757528003975",
+        "rsrvInt1": 3,
+        "rsrvDec1": 33.333,
+        "rsrvTxt1": "P",
+        "promoReason": "PB Variedad dulces 3x2"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "757528030339",
+        "rsrvInt1": 3,
+        "rsrvDec1": 33.333,
+        "rsrvTxt1": "P",
+        "promoReason": "PB Variedad dulces 3x2"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "757528030346",
+        "rsrvInt1": 3,
+        "rsrvDec1": 33.333,
+        "rsrvTxt1": "P",
+        "promoReason": "PB Variedad dulces 3x2"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "759686661127",
+        "rsrvInt1": 3,
+        "rsrvDec1": 33.333,
+        "rsrvTxt1": "P",
+        "promoReason": "PB Variedad dulces 3x2"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501000153800",
+        "rsrvInt1": 2,
+        "rsrvDec1": 40.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB Pinguinos 80 gr 2x$40"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "602499165644",
+        "rsrvInt1": 2,
+        "rsrvDec1": 40.0,
+        "rsrvTxt1": "F",
+        "promoReason": "Veladora d\u00eda de muertos 2x$40"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "602499165637",
+        "rsrvInt1": 2,
+        "rsrvDec1": 40.0,
+        "rsrvTxt1": "F",
+        "promoReason": "Veladora d\u00eda de muertos 2x$40"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "058897093087",
+        "rsrvInt1": 1,
+        "rsrvDec1": 65.01,
+        "promoReason": "RYC B02 2025"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501052417318",
+        "rsrvInt1": 1,
+        "rsrvDec1": 80.02,
+        "promoReason": "RYC B02 2025"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506475113700",
+        "rsrvInt1": 1,
+        "rsrvDec1": 80.01,
+        "promoReason": "RYC B02 2025"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506425619047",
+        "rsrvInt1": 1,
+        "rsrvDec1": 85.01,
+        "promoReason": "RYC B02 2025"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294223415",
+        "rsrvInt1": 1,
+        "rsrvDec1": 50.01,
+        "promoReason": "RYC B02 2025"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7503030196048",
+        "rsrvInt1": 1,
+        "rsrvDec1": 40.02,
+        "promoReason": "RYC B02 2025"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7503025984506",
+        "rsrvInt1": 1,
+        "rsrvDec1": 55.01,
+        "promoReason": "RYC B02 2025"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7503025984490",
+        "rsrvInt1": 1,
+        "rsrvDec1": 40.01,
+        "promoReason": "RYC B02 2025"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7503035393435",
+        "rsrvInt1": 1,
+        "rsrvDec1": 40.01,
+        "promoReason": "RYC B02 2025"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055343447",
+        "rsrvInt1": 1,
+        "rsrvDec1": 3.03,
+        "promoReason": "RYC B02 $3.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506174502645",
+        "rsrvInt1": 1,
+        "rsrvDec1": 3.03,
+        "promoReason": "RYC B02 $3.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501052421391",
+        "rsrvInt1": 1,
+        "rsrvDec1": 3.03,
+        "promoReason": "RYC B02 $3.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501039400951",
+        "rsrvInt1": 1,
+        "rsrvDec1": 3.03,
+        "promoReason": "RYC B02 $3.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501039400937",
+        "rsrvInt1": 1,
+        "rsrvDec1": 3.03,
+        "promoReason": "RYC B02 $3.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501039400913",
+        "rsrvInt1": 1,
+        "rsrvDec1": 3.03,
+        "promoReason": "RYC B02 $3.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501017005345",
+        "rsrvInt1": 1,
+        "rsrvDec1": 3.03,
+        "promoReason": "RYC B02 $3.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500810020524",
+        "rsrvInt1": 1,
+        "rsrvDec1": 3.03,
+        "promoReason": "RYC B02 $3.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500478013678",
+        "rsrvInt1": 1,
+        "rsrvDec1": 3.03,
+        "promoReason": "RYC B02 $3.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506174502652",
+        "rsrvInt1": 1,
+        "rsrvDec1": 3.03,
+        "promoReason": "RYC B02 $3.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500478008926",
+        "rsrvInt1": 1,
+        "rsrvDec1": 3.03,
+        "promoReason": "RYC B02 $3.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500478013654",
+        "rsrvInt1": 1,
+        "rsrvDec1": 3.03,
+        "promoReason": "RYC B02 $3.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501040002144",
+        "rsrvInt1": 1,
+        "rsrvDec1": 7.03,
+        "promoReason": "RYC B02 $7.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "75003463",
+        "rsrvInt1": 1,
+        "rsrvDec1": 7.02,
+        "promoReason": "RYC B02 $7.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055303885",
+        "rsrvInt1": 1,
+        "rsrvDec1": 7.03,
+        "promoReason": "RYC B02 $7.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "786342000044",
+        "rsrvInt1": 1,
+        "rsrvDec1": 7.02,
+        "promoReason": "RYC B02 $7.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "758104100422",
+        "rsrvInt1": 1,
+        "rsrvDec1": 7.02,
+        "promoReason": "RYC B02 $7.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506205807589",
+        "rsrvInt1": 1,
+        "rsrvDec1": 7.03,
+        "promoReason": "RYC B02 $7.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7503024779110",
+        "rsrvInt1": 1,
+        "rsrvDec1": 7.01,
+        "promoReason": "RYC B02 $7.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7503024779103",
+        "rsrvInt1": 1,
+        "rsrvDec1": 7.01,
+        "promoReason": "RYC B02 $7.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7503024779097",
+        "rsrvInt1": 1,
+        "rsrvDec1": 7.01,
+        "promoReason": "RYC B02 $7.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7503024779080",
+        "rsrvInt1": 1,
+        "rsrvDec1": 7.01,
+        "promoReason": "RYC B02 $7.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7503000437300",
+        "rsrvInt1": 1,
+        "rsrvDec1": 7.03,
+        "promoReason": "RYC B02 $7.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502271158150",
+        "rsrvInt1": 1,
+        "rsrvDec1": 7.03,
+        "promoReason": "RYC B02 $7.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502265070956",
+        "rsrvInt1": 1,
+        "rsrvDec1": 7.03,
+        "promoReason": "RYC B02 $7.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501125104275",
+        "rsrvInt1": 1,
+        "rsrvDec1": 7.03,
+        "promoReason": "RYC B02 $7.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055313006",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.02,
+        "promoReason": "RYC B02 $20.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501052474083",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.03,
+        "promoReason": "RYC B02 $20.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501039121993",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.01,
+        "promoReason": "RYC B02 $20.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501003339522",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.02,
+        "promoReason": "RYC B02 $20.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501000612406",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.02,
+        "promoReason": "RYC B02 $20.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506425602261",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.01,
+        "promoReason": "RYC B02 $20.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501000111091",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.02,
+        "promoReason": "RYC B02 $20.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500459001595",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.01,
+        "promoReason": "RYC B02 $20.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500459001571",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.01,
+        "promoReason": "RYC B02 $20.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "078918009637",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.01,
+        "promoReason": "RYC B02 $20.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "011848245508",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.01,
+        "promoReason": "RYC B02 $20.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501000336319",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.02,
+        "promoReason": "RYC B02 $20.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7702045554014",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.02,
+        "promoReason": "RYC B02 $25.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501008762097",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.01,
+        "promoReason": "RYC B02 $25.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501058623348",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.02,
+        "promoReason": "RYC B02 $25.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502271914404",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.02,
+        "promoReason": "RYC B02 $25.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502271916637",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.01,
+        "promoReason": "RYC B02 $25.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7503035425846",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.02,
+        "promoReason": "RYC B02 $25.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501008066232",
+        "rsrvInt1": 1,
+        "rsrvDec1": 30.01,
+        "promoReason": "RYC B02 $30.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501018314026",
+        "rsrvInt1": 1,
+        "rsrvDec1": 30.01,
+        "promoReason": "RYC B02 $30.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501110400054",
+        "rsrvInt1": 1,
+        "rsrvDec1": 30.02,
+        "promoReason": "RYC B02 $30.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7503004915149",
+        "rsrvInt1": 1,
+        "rsrvDec1": 30.02,
+        "promoReason": "RYC B02 $30.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7503035393824",
+        "rsrvInt1": 1,
+        "rsrvDec1": 30.02,
+        "promoReason": "RYC B02 $30.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506475119580",
+        "rsrvInt1": 1,
+        "rsrvDec1": 30.01,
+        "promoReason": "RYC B02 $30.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7508304660690",
+        "rsrvInt1": 1,
+        "rsrvDec1": 30.03,
+        "promoReason": "RYC B02 $30.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501017372737",
+        "rsrvInt1": 1,
+        "rsrvDec1": 35.03,
+        "promoReason": "RYC B02 $35.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501110400122",
+        "rsrvInt1": 1,
+        "rsrvDec1": 35.02,
+        "promoReason": "RYC B02 $35.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7503004911431",
+        "rsrvInt1": 1,
+        "rsrvDec1": 35.02,
+        "promoReason": "RYC B02 $35.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7509552845884",
+        "rsrvInt1": 1,
+        "rsrvDec1": 35.02,
+        "promoReason": "RYC B02 $35.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7509552845914",
+        "rsrvInt1": 1,
+        "rsrvDec1": 35.02,
+        "promoReason": "RYC B02 $35.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "078917162098",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.02,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "078917219044",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.02,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "735257013007",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "75002220",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500383050034",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500383058191",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500383065632",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500383065649",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500383092645",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500383100661",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500383168791",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500383174181",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500383175089",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500383180533",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500383180540",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500383180557",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500383180564",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500810020920",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.02,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500810026311",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.02,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501000140855",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501005110723",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501008004647",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501008004661",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501008006788",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501017004362",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501017013166",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.02,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501024513314",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501045402826",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501052420165",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501058626530",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501096200457",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501206901168",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501518463347",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501954901922",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502233118703",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502265072011",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502271158471",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7503030196253",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506174512200",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506205807633",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506205815942",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506306415973",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7509546075013",
+        "rsrvInt1": 1,
+        "rsrvDec1": 5.03,
+        "promoReason": "RYC B02 $5.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294221435",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.01,
+        "promoReason": "RYC B02 $15.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501071301087",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.02,
+        "promoReason": "RYC B02 $15.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294221770",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.01,
+        "promoReason": "RYC B02 $15.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294221794",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.01,
+        "promoReason": "RYC B02 $15.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7503023807296",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.03,
+        "promoReason": "RYC B02 $15.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7508304660621",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.03,
+        "promoReason": "RYC B02 $15.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7508304660638",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.03,
+        "promoReason": "RYC B02 $15.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7508304660645",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.03,
+        "promoReason": "RYC B02 $15.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7702045554052",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.03,
+        "promoReason": "RYC B02 $15.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7702045554090",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.03,
+        "promoReason": "RYC B02 $15.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "094331310235",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.02,
+        "promoReason": "RYC B02 $15.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "738545010016",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.02,
+        "promoReason": "RYC B02 $15.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500810030264",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.02,
+        "promoReason": "RYC B02 $15.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501000111206",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.03,
+        "promoReason": "RYC B02 $15.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501000153282",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.01,
+        "promoReason": "RYC B02 $15.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501000153374",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.01,
+        "promoReason": "RYC B02 $15.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501008042946",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.02,
+        "promoReason": "RYC B02 $15.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501030419389",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.02,
+        "promoReason": "RYC B02 $15.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294221459",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.01,
+        "promoReason": "RYC B02 $15.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7503030196246",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.02,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7509546682839",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.03,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7622202231742",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.02,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "8710449948529",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.03,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "011848126319",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.02,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "011848245638",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.01,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "038000846731",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.02,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "744607696012",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.03,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "744886034055",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.02,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "744886175055",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.02,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500326927911",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.03,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500326927928",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.03,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500478013647",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.01,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500478014477",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.01,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500810026540",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.02,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501003100085",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.02,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501003304919",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.02,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501003335029",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.01,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501003339133",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.02,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501008015339",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.03,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501008018125",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.03,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501008057476",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.03,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501008070789",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.03,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501008071113",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.03,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501020562163",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.03,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501022014622",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.02,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501071301148",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.02,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501518466195",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.03,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501518492460",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.03,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501736804700",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.03,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501954904183",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.01,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502233118741",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.03,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502271158464",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.03,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294220568",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.02,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294220810",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.01,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7503030196239",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.02,
+        "promoReason": "RYC B02 $10.00"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294224238",
+        "rsrvInt1": 2,
+        "rsrvDec1": 50.0,
+        "rsrvTxt1": "P",
+        "promoReason": "BOLSA TERMICA HIELERA BONAMARK 20 PZ 2x1"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7791293025797",
+        "rsrvInt1": 2,
+        "rsrvDec1": 109.0,
+        "rsrvTxt1": "F",
+        "promoReason": "AXE Dark Temptation 150ml 2x$109"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7791293022598",
+        "rsrvInt1": 2,
+        "rsrvDec1": 109.0,
+        "rsrvTxt1": "F",
+        "promoReason": "REXONA DEO ACTIVE 150ML 2x$109"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "75062927",
+        "rsrvInt1": 2,
+        "rsrvDec1": 105.0,
+        "rsrvTxt1": "F",
+        "promoReason": "REXONA DEO STICK AP POWDER 12X45G 2x$105"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502271158624",
+        "rsrvInt1": 4,
+        "rsrvDec1": 20.0,
+        "rsrvTxt1": "F",
+        "promoReason": "Variedad Pasta Siprecio 200G 4x$20"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502271158655",
+        "rsrvInt1": 4,
+        "rsrvDec1": 20.0,
+        "rsrvTxt1": "F",
+        "promoReason": "Variedad Pasta Siprecio 200G 4x$20"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502271158648",
+        "rsrvInt1": 4,
+        "rsrvDec1": 20.0,
+        "rsrvTxt1": "F",
+        "promoReason": "Variedad Pasta Siprecio 200G 4x$20"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502271158631",
+        "rsrvInt1": 4,
+        "rsrvDec1": 20.0,
+        "rsrvTxt1": "F",
+        "promoReason": "Variedad Pasta Siprecio 200G 4x$20"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294220926",
+        "rsrvInt1": 2,
+        "rsrvDec1": 15.0,
+        "rsrvTxt1": "F",
+        "promoReason": "variedad Sandwich  Bonamark 80 g 2x$15"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294220919",
+        "rsrvInt1": 2,
+        "rsrvDec1": 15.0,
+        "rsrvTxt1": "F",
+        "promoReason": "variedad Sandwich  Bonamark 80 g 2x$15"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501008057292",
+        "rsrvInt1": 2,
+        "rsrvDec1": 115.0,
+        "rsrvTxt1": "F",
+        "promoReason": "Zuca 600g o ChocoKris 540g 2x$115"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501008057032",
+        "rsrvInt1": 2,
+        "rsrvDec1": 115.0,
+        "rsrvTxt1": "F",
+        "promoReason": "Zuca 600g o ChocoKris 540g 2x$115"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055901043",
+        "rsrvInt1": 1,
+        "rsrvDec1": 43.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501052474076",
+        "rsrvInt1": 1,
+        "rsrvDec1": 39.5,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506425645466",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7509546072760",
+        "rsrvInt1": 1,
+        "rsrvDec1": 45.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7509546663388",
+        "rsrvInt1": 1,
+        "rsrvDec1": 70.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7509546681511",
+        "rsrvInt1": 1,
+        "rsrvDec1": 30.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7509546684260",
+        "rsrvInt1": 1,
+        "rsrvDec1": 38.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7509546687353",
+        "rsrvInt1": 1,
+        "rsrvDec1": 30.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "8445290925299",
+        "rsrvInt1": 1,
+        "rsrvDec1": 11.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055913411",
+        "rsrvInt1": 1,
+        "rsrvDec1": 39.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055915156",
+        "rsrvInt1": 1,
+        "rsrvDec1": 31.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501058611420",
+        "rsrvInt1": 1,
+        "rsrvDec1": 57.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501058757463",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501158414051",
+        "rsrvInt1": 1,
+        "rsrvDec1": 42.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501158414501",
+        "rsrvInt1": 1,
+        "rsrvDec1": 23.5,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501158414655",
+        "rsrvInt1": 1,
+        "rsrvDec1": 32.5,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501161513253",
+        "rsrvInt1": 1,
+        "rsrvDec1": 63.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501199406671",
+        "rsrvInt1": 1,
+        "rsrvDec1": 35.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501199413297",
+        "rsrvInt1": 1,
+        "rsrvDec1": 33.5,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501404603116",
+        "rsrvInt1": 1,
+        "rsrvDec1": 22.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501943489066",
+        "rsrvInt1": 1,
+        "rsrvDec1": 35.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502271159096",
+        "rsrvInt1": 1,
+        "rsrvDec1": 35.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294221299",
+        "rsrvInt1": 1,
+        "rsrvDec1": 16.5,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294223101",
+        "rsrvInt1": 1,
+        "rsrvDec1": 49.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294223125",
+        "rsrvInt1": 1,
+        "rsrvDec1": 49.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294223156",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294223170",
+        "rsrvInt1": 1,
+        "rsrvDec1": 30.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294223187",
+        "rsrvInt1": 1,
+        "rsrvDec1": 58.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294223194",
+        "rsrvInt1": 1,
+        "rsrvDec1": 29.5,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294223293",
+        "rsrvInt1": 1,
+        "rsrvDec1": 11.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "013117011180",
+        "rsrvInt1": 1,
+        "rsrvDec1": 120.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "013117011531",
+        "rsrvInt1": 1,
+        "rsrvDec1": 135.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "013117011753",
+        "rsrvInt1": 1,
+        "rsrvDec1": 125.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "013117023299",
+        "rsrvInt1": 1,
+        "rsrvDec1": 130.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "013117023305",
+        "rsrvInt1": 1,
+        "rsrvDec1": 135.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "038629002068",
+        "rsrvInt1": 1,
+        "rsrvDec1": 12.5,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "75000615",
+        "rsrvInt1": 1,
+        "rsrvDec1": 19.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500435126045",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500435138772",
+        "rsrvInt1": 1,
+        "rsrvDec1": 36.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500435150736",
+        "rsrvInt1": 1,
+        "rsrvDec1": 175.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500435161275",
+        "rsrvInt1": 1,
+        "rsrvDec1": 35.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500435196253",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500459000482",
+        "rsrvInt1": 1,
+        "rsrvDec1": 125.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501003336125",
+        "rsrvInt1": 1,
+        "rsrvDec1": 28.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501017372751",
+        "rsrvInt1": 1,
+        "rsrvDec1": 140.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501017372775",
+        "rsrvInt1": 1,
+        "rsrvDec1": 150.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501020562040",
+        "rsrvInt1": 1,
+        "rsrvDec1": 39.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501025403034",
+        "rsrvInt1": 1,
+        "rsrvDec1": 28.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501025403058",
+        "rsrvInt1": 1,
+        "rsrvDec1": 88.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501025413057",
+        "rsrvInt1": 1,
+        "rsrvDec1": 31.5,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501025416232",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501025422158",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501025430436",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501025440299",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501025440305",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501039122181",
+        "rsrvInt1": 1,
+        "rsrvDec1": 121.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501039127285",
+        "rsrvInt1": 1,
+        "rsrvDec1": 89.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501052421421",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501052421513",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501052472102",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7503000437652",
+        "rsrvInt1": 1,
+        "rsrvDec1": 43.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501209708078",
+        "rsrvInt1": 1,
+        "rsrvDec1": 18.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501209705640",
+        "rsrvInt1": 1,
+        "rsrvDec1": 38.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501518463156",
+        "rsrvInt1": 1,
+        "rsrvDec1": 32.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501761869149",
+        "rsrvInt1": 1,
+        "rsrvDec1": 44.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501943471900",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501943471962",
+        "rsrvInt1": 1,
+        "rsrvDec1": 39.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501954902318",
+        "rsrvInt1": 1,
+        "rsrvDec1": 49.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501954904664",
+        "rsrvInt1": 1,
+        "rsrvDec1": 49.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502271157801",
+        "rsrvInt1": 1,
+        "rsrvDec1": 16.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "013117000702",
+        "rsrvInt1": 1,
+        "rsrvDec1": 175.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "013117000719",
+        "rsrvInt1": 1,
+        "rsrvDec1": 180.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "013117019971",
+        "rsrvInt1": 1,
+        "rsrvDec1": 185.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "013117023312",
+        "rsrvInt1": 1,
+        "rsrvDec1": 140.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "013117029000",
+        "rsrvInt1": 1,
+        "rsrvDec1": 83.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "013117029284",
+        "rsrvInt1": 1,
+        "rsrvDec1": 145.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "735257002513",
+        "rsrvInt1": 1,
+        "rsrvDec1": 12.5,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "735257006306",
+        "rsrvInt1": 1,
+        "rsrvDec1": 29.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "75000622",
+        "rsrvInt1": 1,
+        "rsrvDec1": 27.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "75000639",
+        "rsrvInt1": 1,
+        "rsrvDec1": 50.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500435022811",
+        "rsrvInt1": 1,
+        "rsrvDec1": 45.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500435022828",
+        "rsrvInt1": 1,
+        "rsrvDec1": 45.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500435144476",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500435162241",
+        "rsrvInt1": 1,
+        "rsrvDec1": 119.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500435169035",
+        "rsrvInt1": 1,
+        "rsrvDec1": 61.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500435198011",
+        "rsrvInt1": 1,
+        "rsrvDec1": 28.5,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501006719932",
+        "rsrvInt1": 1,
+        "rsrvDec1": 27.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501008735299",
+        "rsrvInt1": 1,
+        "rsrvDec1": 43.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501018310233",
+        "rsrvInt1": 1,
+        "rsrvDec1": 9.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501020557688",
+        "rsrvInt1": 1,
+        "rsrvDec1": 36.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294225099",
+        "rsrvInt1": 1,
+        "rsrvDec1": 13.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7503000438321",
+        "rsrvInt1": 1,
+        "rsrvDec1": 36.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506425601769",
+        "rsrvInt1": 1,
+        "rsrvDec1": 11.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506425622016",
+        "rsrvInt1": 1,
+        "rsrvDec1": 35.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506425647873",
+        "rsrvInt1": 1,
+        "rsrvDec1": 99.5,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506443101616",
+        "rsrvInt1": 1,
+        "rsrvDec1": 47.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506475120227",
+        "rsrvInt1": 1,
+        "rsrvDec1": 65.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7509546052977",
+        "rsrvInt1": 1,
+        "rsrvDec1": 38.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7509546058955",
+        "rsrvInt1": 1,
+        "rsrvDec1": 45.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7509546666396",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7509546680262",
+        "rsrvInt1": 1,
+        "rsrvDec1": 22.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7509546680293",
+        "rsrvInt1": 1,
+        "rsrvDec1": 22.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7509546682358",
+        "rsrvInt1": 1,
+        "rsrvDec1": 35.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501020563733",
+        "rsrvInt1": 1,
+        "rsrvDec1": 35.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501025401610",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501025403041",
+        "rsrvInt1": 1,
+        "rsrvDec1": 50.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501025408121",
+        "rsrvInt1": 1,
+        "rsrvDec1": 60.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501025413002",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501025414054",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501025414108",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501025414153",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501025443979",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501027573919",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501035904118",
+        "rsrvInt1": 1,
+        "rsrvDec1": 32.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501052420172",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501052420431",
+        "rsrvInt1": 1,
+        "rsrvDec1": 16.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501161513246",
+        "rsrvInt1": 1,
+        "rsrvDec1": 34.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501199400815",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501199410913",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501199410937",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501199413280",
+        "rsrvInt1": 1,
+        "rsrvDec1": 33.5,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501199413327",
+        "rsrvInt1": 1,
+        "rsrvDec1": 75.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501199413334",
+        "rsrvInt1": 1,
+        "rsrvDec1": 75.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501209701024",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "75013820",
+        "rsrvInt1": 1,
+        "rsrvDec1": 45.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294223316",
+        "rsrvInt1": 1,
+        "rsrvDec1": 43.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506309837239",
+        "rsrvInt1": 1,
+        "rsrvDec1": 30.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506425606900",
+        "rsrvInt1": 1,
+        "rsrvDec1": 16.5,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7509546057545",
+        "rsrvInt1": 1,
+        "rsrvDec1": 50.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7509546061085",
+        "rsrvInt1": 1,
+        "rsrvDec1": 40.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7509546071275",
+        "rsrvInt1": 1,
+        "rsrvDec1": 40.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7509546672670",
+        "rsrvInt1": 1,
+        "rsrvDec1": 35.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7702018072439",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "735257002452",
+        "rsrvInt1": 1,
+        "rsrvDec1": 12.5,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "735257002469",
+        "rsrvInt1": 1,
+        "rsrvDec1": 12.5,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "735257002490",
+        "rsrvInt1": 1,
+        "rsrvDec1": 12.5,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "735257002506",
+        "rsrvInt1": 1,
+        "rsrvDec1": 12.5,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "735257002636",
+        "rsrvInt1": 1,
+        "rsrvDec1": 12.5,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "735257003909",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.5,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501001163983",
+        "rsrvInt1": 1,
+        "rsrvDec1": 55.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501008703441",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501008726402",
+        "rsrvInt1": 1,
+        "rsrvDec1": 11.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501008726488",
+        "rsrvInt1": 1,
+        "rsrvDec1": 30.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501008731413",
+        "rsrvInt1": 1,
+        "rsrvDec1": 23.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501008762899",
+        "rsrvInt1": 1,
+        "rsrvDec1": 33.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501018310530",
+        "rsrvInt1": 1,
+        "rsrvDec1": 9.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501018310943",
+        "rsrvInt1": 1,
+        "rsrvDec1": 19.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501018310974",
+        "rsrvInt1": 1,
+        "rsrvDec1": 19.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501018311018",
+        "rsrvInt1": 1,
+        "rsrvDec1": 19.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501019006654",
+        "rsrvInt1": 1,
+        "rsrvDec1": 33.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501020511468",
+        "rsrvInt1": 1,
+        "rsrvDec1": 72.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501020513134",
+        "rsrvInt1": 1,
+        "rsrvDec1": 19.5,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501020550672",
+        "rsrvInt1": 1,
+        "rsrvDec1": 39.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501020550733",
+        "rsrvInt1": 1,
+        "rsrvDec1": 39.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501020561906",
+        "rsrvInt1": 1,
+        "rsrvDec1": 35.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501020564082",
+        "rsrvInt1": 1,
+        "rsrvDec1": 18.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501020564990",
+        "rsrvInt1": 1,
+        "rsrvDec1": 22.5,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501020567687",
+        "rsrvInt1": 1,
+        "rsrvDec1": 32.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501020567694",
+        "rsrvInt1": 1,
+        "rsrvDec1": 32.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501032397258",
+        "rsrvInt1": 1,
+        "rsrvDec1": 49.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501032903596",
+        "rsrvInt1": 1,
+        "rsrvDec1": 91.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501032923501",
+        "rsrvInt1": 1,
+        "rsrvDec1": 39.5,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501035907508",
+        "rsrvInt1": 1,
+        "rsrvDec1": 50.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501058715364",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501069213903",
+        "rsrvInt1": 1,
+        "rsrvDec1": 32.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501072202314",
+        "rsrvInt1": 1,
+        "rsrvDec1": 165.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501072202697",
+        "rsrvInt1": 1,
+        "rsrvDec1": 210.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501072204431",
+        "rsrvInt1": 0,
+        "rsrvDec1": 129.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501079702848",
+        "rsrvInt1": 1,
+        "rsrvDec1": 35.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501209705695",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501518492262",
+        "rsrvInt1": 1,
+        "rsrvDec1": 40.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502271154114",
+        "rsrvInt1": 1,
+        "rsrvDec1": 17.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502271154121",
+        "rsrvInt1": 1,
+        "rsrvDec1": 17.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502271154145",
+        "rsrvInt1": 1,
+        "rsrvDec1": 17.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502271157757",
+        "rsrvInt1": 1,
+        "rsrvDec1": 30.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502271157764",
+        "rsrvInt1": 1,
+        "rsrvDec1": 11.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294220414",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294220933",
+        "rsrvInt1": 1,
+        "rsrvDec1": 30.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294220940",
+        "rsrvInt1": 1,
+        "rsrvDec1": 65.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294220957",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294220964",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294220971",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294221411",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294221428",
+        "rsrvInt1": 1,
+        "rsrvDec1": 30.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294221442",
+        "rsrvInt1": 1,
+        "rsrvDec1": 23.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294223279",
+        "rsrvInt1": 1,
+        "rsrvDec1": 50.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294223286",
+        "rsrvInt1": 1,
+        "rsrvDec1": 30.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294223309",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7622210894458",
+        "rsrvInt1": 1,
+        "rsrvDec1": 30.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7509546073767",
+        "rsrvInt1": 1,
+        "rsrvDec1": 50.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "8076809513050",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "8076809531351",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "8076809578387",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "75002794",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500478008285",
+        "rsrvInt1": 1,
+        "rsrvDec1": 30.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500478013739",
+        "rsrvInt1": 1,
+        "rsrvDec1": 30.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500478014484",
+        "rsrvInt1": 1,
+        "rsrvDec1": 30.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7500810005651",
+        "rsrvInt1": 1,
+        "rsrvDec1": 33.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501000601776",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501000625253",
+        "rsrvInt1": 1,
+        "rsrvDec1": 30.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501001604103",
+        "rsrvInt1": 1,
+        "rsrvDec1": 37.5,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501001604318",
+        "rsrvInt1": 1,
+        "rsrvDec1": 37.5,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501003110305",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501003150233",
+        "rsrvInt1": 1,
+        "rsrvDec1": 40.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501003305855",
+        "rsrvInt1": 1,
+        "rsrvDec1": 75.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501003311450",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501003314666",
+        "rsrvInt1": 1,
+        "rsrvDec1": 50.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501003340122",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501008759455",
+        "rsrvInt1": 1,
+        "rsrvDec1": 19.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501018203849",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501019068911",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501020537390",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501025408084",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501025410469",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501025444938",
+        "rsrvInt1": 1,
+        "rsrvDec1": 60.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501025444976",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501025456320",
+        "rsrvInt1": 1,
+        "rsrvDec1": 22.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501032398385",
+        "rsrvInt1": 1,
+        "rsrvDec1": 45.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501032907570",
+        "rsrvInt1": 1,
+        "rsrvDec1": 67.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501032910235",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501035905344",
+        "rsrvInt1": 1,
+        "rsrvDec1": 59.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501035905368",
+        "rsrvInt1": 1,
+        "rsrvDec1": 59.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501035910034",
+        "rsrvInt1": 1,
+        "rsrvDec1": 29.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501035910041",
+        "rsrvInt1": 1,
+        "rsrvDec1": 29.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501039120149",
+        "rsrvInt1": 1,
+        "rsrvDec1": 39.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501039122099",
+        "rsrvInt1": 1,
+        "rsrvDec1": 29.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501045400846",
+        "rsrvInt1": 1,
+        "rsrvDec1": 40.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501045400860",
+        "rsrvInt1": 1,
+        "rsrvDec1": 40.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501045403007",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501045403014",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501045403281",
+        "rsrvInt1": 1,
+        "rsrvDec1": 39.5,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055909520",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501055916016",
+        "rsrvInt1": 1,
+        "rsrvDec1": 34.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501058611062",
+        "rsrvInt1": 1,
+        "rsrvDec1": 21.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501071301698",
+        "rsrvInt1": 1,
+        "rsrvDec1": 31.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501077400050",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501209705701",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501518463200",
+        "rsrvInt1": 1,
+        "rsrvDec1": 56.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501518466072",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501518492484",
+        "rsrvInt1": 1,
+        "rsrvDec1": 40.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502271157740",
+        "rsrvInt1": 1,
+        "rsrvDec1": 23.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294220902",
+        "rsrvInt1": 1,
+        "rsrvDec1": 10.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294221404",
+        "rsrvInt1": 1,
+        "rsrvDec1": 17.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7502294225273",
+        "rsrvInt1": 1,
+        "rsrvDec1": 16.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506475113144",
+        "rsrvInt1": 1,
+        "rsrvDec1": 92.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506475117197",
+        "rsrvInt1": 1,
+        "rsrvDec1": 65.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7509546017389",
+        "rsrvInt1": 1,
+        "rsrvDec1": 55.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7509546068619",
+        "rsrvInt1": 1,
+        "rsrvDec1": 50.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7891024039625",
+        "rsrvInt1": 1,
+        "rsrvDec1": 25.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506306246256",
+        "rsrvInt1": 1,
+        "rsrvDec1": 60.0,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506306249202",
+        "rsrvInt1": 1,
+        "rsrvDec1": 37.5,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506306249325",
+        "rsrvInt1": 1,
+        "rsrvDec1": 37.5,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506306249240",
+        "rsrvInt1": 1,
+        "rsrvDec1": 37.5,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7506306249233",
+        "rsrvInt1": 1,
+        "rsrvDec1": 37.5,
+        "promoReason": "PSP SIMPLES NACIONAL B02"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501020500080",
+        "rsrvInt1": 1,
+        "rsrvDec1": 78.0,
+        "promoReason": "Leche Past Lala Entera $78 GTO AGS JAL"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501020547047",
+        "rsrvInt1": 1,
+        "rsrvDec1": 40.0,
+        "promoReason": "Leche Lala Entera 1.8L $40 AGS GTO JAL"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501020547054",
+        "rsrvInt1": 1,
+        "rsrvDec1": 39.5,
+        "promoReason": "Lala Past BG1.8Lt $39.50 GTO AGS JAL"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501020547061",
+        "rsrvInt1": 1,
+        "rsrvDec1": 41.0,
+        "promoReason": "Lala Leche PD1.8Lt $41 GTO AGS JAL HGO"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501020565911",
+        "rsrvInt1": 1,
+        "rsrvDec1": 29.0,
+        "promoReason": "UHT Lala Desl 1L $29 Nac sin SLP"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1738735200000,
+        "promoDateTo": 1741154399000,
+        "sku": "7501020565935",
+        "rsrvInt1": 1,
+        "rsrvDec1": 29.0,
+        "promoReason": "UHT Lala Entera 1 lt $29 AGS GTO"
+    }
+]
