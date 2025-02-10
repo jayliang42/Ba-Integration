@@ -1,0 +1,143 @@
+import json
+import os
+import re
+import bisect
+from log_helper import write_log
+
+
+def convert_base64_to_json(base64_data: str) -> dict:
+    """Convert the Base64 data to JSON format.
+
+    Parameters:
+    - base64_data: str, the Base64 data to convert.
+
+    Returns:
+    - The JSON data decoded from the Base64 string.
+    """
+
+    import base64
+    import gzip
+    import json
+    from io import BytesIO
+
+    # Decode the Base64 string
+    decoded_data = base64.b64decode(base64_data)
+
+    # Decompress the GZipped data
+    with gzip.GzipFile(fileobj=BytesIO(decoded_data)) as gz:
+        json_data = json.load(gz)
+
+    return json_data
+
+
+def process_base64_data(document_data_list: list[dict], document_names: list[dict], store_code) -> list[dict]:
+    """process the base64 data to JSON format and save the JSON files to current_files/{store_code} folder
+
+    Parameters:
+    - document_data_list: list, the list of base64 data of the documents.
+    - document_names: list, the list of document names.
+    - store_code: str, the store code of hanshow allstar which needs to integrate.
+
+    Returns:
+    - A list of JSON data decoded from the Base64 strings.
+    """
+
+    json_data_list = []
+
+    for i in range(len(document_data_list)):
+        json_data = convert_base64_to_json(document_data_list[i])
+        json_data_list.append(json_data)
+
+        # save Bara json files as reference
+        document_names[i] = document_names[i].replace(".gz", "")
+        with open(f"current_files/{store_code}/{document_names[i]}", "w") as f:
+            json.dump(json_data, f, indent=4)
+
+        # add the document name to historical_files/{store_code}.txt
+        historical_file = f"historical_files/{store_code}.txt"
+        new_document = document_names[i]
+        # Read the existing documents from the historical file
+        lines = []
+        if os.path.exists(historical_file):
+            with open(historical_file, "r") as f:
+                lines = [line.strip() for line in f]
+
+        # Insert the new document in the correct position
+        bisect.insort(lines, new_document)  # binary search and insert
+
+        # Write the updated list of documents to the historical file
+        with open(historical_file, "w") as f:
+            f.writelines(f"{line}\n" for line in lines)
+
+    return json_data_list
+
+
+def replace_keys(original_json, key_map) -> dict:
+    """Replace keys in the original JSON to hanshow keys based on the hs_datatype_key_map.json, and remove keys not in the key_map.
+
+    Note: values that are empty, zero or zero-like are also removed.
+
+    Parameters:
+    - original_json: dict, the JSON object with original keys.
+    - key_map: dict, a mapping of old keys to new keys.
+
+    Returns:
+    - A new dictionary with keys replaced according to the key_map, and keys not in the key_map removed.
+    """
+    new_json = {}
+
+    for old_key, value in original_json.items():
+        zero_pattern = re.compile(r'^0+(\.0+)?$')
+        # Check if the old_key is in the key_map and the value is not empty or zero-like
+        if old_key in key_map and (old_key == "type" or not (value == 0 or value == "" or (isinstance(value, str) and zero_pattern.match(value)))):
+            new_key = key_map[old_key]
+            if isinstance(value, dict):
+                # Recursively replace keys in nested dictionaries
+                new_json[new_key] = replace_keys(value, key_map)
+            elif isinstance(value, list):
+                # Replace keys in dictionaries within lists
+                new_json[new_key] = [
+                    replace_keys(item, key_map) if isinstance(
+                        item, dict) else item
+                    for item in value
+                ]
+            else:
+                new_json[new_key] = value
+
+    return new_json
+
+
+def process_json(items: list[dict], file_typ: str) -> list[dict]:
+    """process the JSON data based on the file type (ITM or PRM)
+
+    Parameters:
+    - items: list, the list of JSON data to process.
+    - file_typ: str, the file type (ITM or PRM).
+
+    Returns:
+    - A list of updated JSON data with keys replaced from Bara Keys to Hanshow keys according to the hs_datatype_key_map.json.
+    """
+
+    key_map = {}
+
+    # change the keys based on the file type
+    if file_typ == "ITM":
+        # read ITM key map json
+        with open("keymap/ITM_keymap.json", "r") as f:
+            key_map = json.load(f)
+    elif file_typ == "PRM":
+        with open("keymap/PRM_keymap.json", "r") as f:
+            key_map = json.load(f)
+    else:
+        write_log("", "Failed when processing JSON data",
+                  f"File type {file_typ} not supported.")
+        return None
+
+    updated_items = []
+
+    for json_data in items:
+        # Replace keys in the JSON data
+        json_data = replace_keys(json_data, key_map)
+        updated_items.append(json_data)
+
+    return updated_items

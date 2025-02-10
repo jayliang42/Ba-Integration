@@ -1,10 +1,10 @@
-import datetime
+from datetime import datetime
+import json
+import os
 from time import sleep
-import pytz
-from allstar_login_credentials import get_token as get_allstar_bearer_token, send_post_request, send_get_request
-from bara_integration import append_json_item
-
-mexico_city_tz = pytz.timezone("America/Mexico_City")
+from allstar_login_credentials import get_token as get_allstar_bearer_token, send_post_request
+from refresh_date import append_json_item
+from constants import mexico_city_tz, customer_code
 
 
 def get_all_items(customer_code: str, store_code: str, headers: dict) -> list[dict]:
@@ -12,12 +12,12 @@ def get_all_items(customer_code: str, store_code: str, headers: dict) -> list[di
     items = []
     pageNum = 1
     print(
-        f"getting items from allstar {customer_code} {store_code}", end="", flush=True)
+        f"getting items from allstar {customer_code} {store_code}")
     while True:
         url = f"https://americas-poc.hanshowcloud.net/proxy/allstar/v3/articles/{customer_code}/{store_code}/complex-with-blob-picture?pageNum={pageNum}&pageSize=1000"
         data = {"queryType": "SIMPLE", "logic": [], "params": []}
 
-        response = send_post_request(url, data, headers).json()
+        response = send_post_request(url, data, headers)
         if response["data"]["pageData"] != []:
             # get the target data from allstar data
             allstar_itemdata = response["data"]["pageData"]
@@ -63,7 +63,7 @@ def send_integration(customer_code: str, store_code: str, client_id: str,
         body = {
             "storeCode": store_code,
             "customerStoreCode": customer_code,
-            "batchNo": datetime.datetime.now(mexico_city_tz).strftime("%Y%m%d%H%M%S"),
+            "batchNo": datetime.now(mexico_city_tz).strftime("%Y%m%d%H%M%S"),
             "items": item_batch
         }
 
@@ -76,38 +76,97 @@ def check_promo_switch(customer_code: str, store_code: str, headers: dict):
     # Q:如果是促销期结束切换成正常模版的那个日期怎么办？
     # 每天晚上11点检测一下所有的商品，如果是促销期结束，那么就切换成正常模版，rsrvTxt2是促销结束日期
     items = get_all_items(customer_code, store_code, headers)
-    timestamp_now = int(datetime.datetime.now(
+    timestamp_now = int(datetime.now(
         mexico_city_tz).timestamp() * 1000)
-    print("checking promo switch", flush=True)
+    print("checking promo switch")
+
+    pending_file_path = f"current_files/{store_code}/pending_promo/pending_promo.json"
+
+    # read all skus in pending promo.
+    if os.path.exists(pending_file_path):
+        with open(pending_file_path, "r", encoding="utf-8") as f:
+            try:
+                pending_data = json.load(f)
+            except json.JSONDecodeError:
+                pending_data = []
+    else:
+        pending_data = []
+
+    pending_skus = {item["sku"] for item in pending_data}
+
+    oneday_duration_tsms = 86400000
+
     for item in items:
-        # 先判断是否在促销
         if "saleMode" in item and "promoDateFrom" in item:
-            # item
+            # It is in promotion
             if item["saleMode"] != "00" and item["promoDateFrom"] < timestamp_now and item["promoDateTo"] > timestamp_now:
-                # 如果目前正在促销，但是促销日期明天就到了，那么就切换成正常模版
-                if item["promoDateTo"] < timestamp_now + 86400000:
-                    # convert promoDateTo to dd/mm
-                    promoDateTo = datetime.datetime.fromtimestamp(
-                        item["promoDateTo"] / 1000).strftime("%d/%m")
-                    new_item = {"sku": item["sku"], "rsrvTxt2": promoDateTo}
-                    # 把它加进 pending promo 就好
-                    # Todo: Pending Promo那是通过 promoDateFrom 来判断的，
-                    # 这里不加 promoDateFrom，pending promo 那就会卡住。
-                    # 需要换一个方法
-                    pending_file_path = f"current_files/{store_code}/pending_promo/pending_promo.json"
-                    append_json_item(pending_file_path, new_item)
-                    print(
-                        f"append {new_item} to pending_promo.json", flush=True)
+                # Promo ends within a day.
+                if item["promoDateTo"] < timestamp_now + oneday_duration_tsms:
+                    refresh_date = datetime.fromtimestamp(
+                        item["promoDateTo"] / 1000).strftime("%Y/%m/%d")
+                    new_item = {"sku": item["sku"], "rsrvTxt2": refresh_date}
+
+                    # make sure there's no dulicate sku.
+                    if new_item["sku"] not in pending_skus:
+                        append_json_item(pending_file_path, new_item)
+                        print(
+                            f"append {new_item} to pending_promo.json")
+                # else:
+                #     print(
+                #         f"item promo ends on {datetime.fromtimestamp(item['promoDateTo'] / 1000).strftime('%Y/%m/%d')}")
+
+
+def check_pending_files(customer_code: str, store_code: str, client_id: str, client_secret: str):
+    """ Check pending_promo files and integrate the pending_promo items
+
+    Parameters:
+    - customer_code: str, the customer code for the integration.
+    - store_code: str, the store code for the integration.
+    - client_id: str, the client ID for the integration.
+    - client_secret: str, the client secret for the integration.
+
+    """
+    pending_items = []
+    now = int(datetime.now().timestamp() * 1000)
+    file_path = f"current_files/{store_code}/pending_promo/pending_promo.json"
+
+    if os.path.exists(file_path):
+        with open(file_path, "r") as f:
+            pending_promo = json.load(f)
+            print(f"Found {len(pending_promo)} pending items.")
+
+            for promo in pending_promo[:]:
+                if "promoDateFrom" in promo and promo["promoDateFrom"] <= now:
+                    pending_items.append(promo)
+                # promo结束，刷新日期
+                elif "promoDateFrom" not in promo and "rsrvTxt2" in promo:
+                    rsrvTxt2_time = int(datetime.strptime(
+                        promo["rsrvTxt2"], "%Y/%m/%d").timestamp() * 1000)
+                    if rsrvTxt2_time <= now:
+                        pending_items.append(promo)
+
+        if pending_items:
+            print(f"Integrating {len(pending_items)} pending files...\n")
+            response = send_integration(
+                customer_code, store_code, client_id, client_secret, pending_items)
+
+            if "errorCode" not in response:  # if integration success, delete the pending items.
+                pending_promo = [
+                    promo for promo in pending_promo if promo not in pending_items]
+                with open(file_path, "w") as f:
+                    json.dump(pending_promo, f, indent=4)
+            else:
+                print("Integration failed. Keeping pending items.")
+        else:
+            print("No pending files to integrate.")
 
 
 if __name__ == '__main__':
-    customer_code = "Bara"
-    client_id = "4cd23fb2d459abea9400d216a09071e6"
-    client_secret = "1b179f2262c57028c11c74dfac8d9e3d"
+
     headers = {
         "Content-Type": "application/json",
         "Authorization": f"Bearer {get_allstar_bearer_token()}"}
 
-    store_code = ["01"]
+    store_code = ["01", "02", "03"]
     for store in store_code:
         check_promo_switch(customer_code, store, headers)

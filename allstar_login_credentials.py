@@ -18,7 +18,7 @@ def send_post_request(url, data, headers):
     if response.status_code != requests.codes.ok:
         print(response.status_code)
         raise Exception("request failed.")
-    return response
+    return response.json()
 
 
 def send_get_request(url, headers):
@@ -27,14 +27,15 @@ def send_get_request(url, headers):
     if response.status_code != requests.codes.ok:
         print(response.status_code)
         raise Exception("request failed.")
-    return response
+    return response.json()
 
 
 def get_token(username="admin", password="5E811B934DC5B6465A2B9E482DC06D5B"):
     # request from as to get token
     loginResponse = send_post_request("https://americas-poc.hanshowcloud.net/proxy/allstar/user/login", {"username": username, "password": password},
                                       {"Content-Type": "application/json"})
-    access_token = json.loads(loginResponse.text)['data']['access_token']
+    access_token = loginResponse['data']['access_token']
+
     # refresh_token = json.loads(loginResponse.text)['data']['refresh_token']
     return access_token
 
@@ -54,4 +55,4 @@ def send_delete_request(url, headers, body):
     if response.status_code != requests.codes.ok:
         print(response.status_code)
         raise Exception("request failed.")
-    return response
+    return response.json()

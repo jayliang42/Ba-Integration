@@ -1,0 +1,42 @@
+[
+  {
+    "saleMode": "03",
+    "promoDateFrom": "20250207",
+    "promoDateTo": "20250304",
+    "sku": "   7506306418066",
+    "rsrvInt1": "001.000",
+    "rsrvDec1": "00046.000",
+    "rsrvTxt1": " ",
+    "promoReason": "PB SIMPLES NACIONAL B02                 "
+  },
+  {
+    "saleMode": "03",
+    "promoDateFrom": "20250207",
+    "promoDateTo": "20250304",
+    "sku": "   7506306416413",
+    "rsrvInt1": "001.000",
+    "rsrvDec1": "00040.000",
+    "rsrvTxt1": " ",
+    "promoReason": "PB SIMPLES NACIONAL B02                 "
+  },
+  {
+    "saleMode": "00",
+    "promoDateFrom": "20250207",
+    "promoDateTo": "20250304",
+    "sku": "   7501020567106",
+    "rsrvInt1": "001.000",
+    "rsrvDec1": "00077.000",
+    "rsrvTxt1": " ",
+    "promoReason": "UHT Lala Entera 1 Lt 3pz $77 AGS GTO    "
+  },
+  {
+    "saleMode": "03",
+    "promoDateFrom": "20250207",
+    "promoDateTo": "20250304",
+    "sku": "   7501020569339",
+    "rsrvInt1": "001.000",
+    "rsrvDec1": "00077.000",
+    "rsrvTxt1": " ",
+    "promoReason": "UHT Lala Desl Semi 1Lt 3pz $77 NAC s/SLP"
+  }
+]

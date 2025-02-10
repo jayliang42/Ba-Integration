@@ -1,0 +1,391 @@
+{
+  "customerStoreCode" : "Bara",
+  "batchNo" : "20250206211034",
+  "items" : [ {
+    "itemName" : "DEL VALLE MANGO 413M",
+    "sku" : "032239052000"
+  }, {
+    "itemName" : "VALLE DURAZNO 413ML",
+    "sku" : "032239052017"
+  }, {
+    "itemName" : "GATORADE LIMA LMN 1L",
+    "sku" : "036731323002"
+  }, {
+    "itemName" : "GATORADE UVA 1 LT",
+    "sku" : "036731324009"
+  }, {
+    "itemName" : "FRIJOLES RANCH 15OZ.",
+    "sku" : "046900001778"
+  }, {
+    "itemName" : "JOHNI WALK RED LAB 7",
+    "sku" : "5000267014203"
+  }, {
+    "itemName" : "WHISKYPASSPORT 200ML",
+    "sku" : "5000299210208"
+  }, {
+    "itemName" : "SUEROX MANZANA 630ML",
+    "sku" : "650240032257"
+  }, {
+    "itemName" : "SUEROX FRE-KIW 630ML",
+    "sku" : "650240032264"
+  }, {
+    "itemName" : "SUEROX MORAAZUL630ML",
+    "sku" : "650240032295"
+  }, {
+    "itemName" : "SUEROX NJAMAND 630ML",
+    "sku" : "650240032301"
+  }, {
+    "itemName" : "SUEROX LIMA LIMON",
+    "sku" : "650240032325"
+  }, {
+    "itemName" : "ZULKA AZUCAR MORE 1K",
+    "sku" : "661440000014"
+  }, {
+    "itemName" : "CHACHITOS CHOCO 250G",
+    "sku" : "740085000600"
+  }, {
+    "itemName" : "MARLBORO ROJO 20 CS",
+    "sku" : "75001315"
+  }, {
+    "itemName" : "BARRILITOS2LTSDURAZN",
+    "sku" : "7500326103407"
+  }, {
+    "itemName" : "BARRILITOSPONCHE2LTS",
+    "sku" : "7500326103421"
+  }, {
+    "itemName" : "BARRILITOSDURAZNO750",
+    "sku" : "7500326103445"
+  }, {
+    "itemName" : "BARRILITOSPINA750",
+    "sku" : "7500326103452"
+  }, {
+    "itemName" : "BARRILITOSPONCHE750",
+    "sku" : "7500326103469"
+  }, {
+    "itemName" : "BARRILITOSMANZANA750",
+    "sku" : "7500326103476"
+  }, {
+    "itemName" : "NESCAFE STICK 14G",
+    "sku" : "7501000911783"
+  }, {
+    "itemName" : "MAYONESAHELLMANS190G",
+    "sku" : "7501005151955"
+  }, {
+    "itemName" : "MAYONESAHELLMANS390G",
+    "sku" : "7501005151962"
+  }, {
+    "itemName" : "ACT II NATURAL 80 GR",
+    "sku" : "7501006559002"
+  }, {
+    "itemName" : "BELIGHT 1.5L MANZANA",
+    "sku" : "7501011169838"
+  }, {
+    "itemName" : "BE-LIGHTLIM1.5LT",
+    "sku" : "7501011181755"
+  }, {
+    "itemName" : "JUMEX 413ML DURAZNO",
+    "sku" : "7501013105537"
+  }, {
+    "itemName" : "JUMEX 960ML PINA",
+    "sku" : "7501013109689"
+  }, {
+    "itemName" : "FRIREFBAYOCOSTENA580",
+    "sku" : "7501017004270"
+  }, {
+    "itemName" : "SABA BUENAS NOCH 8PZ",
+    "sku" : "7501019006623"
+  }, {
+    "itemName" : "PINOL LAVANDA 828ML",
+    "sku" : "7501025400118"
+  }, {
+    "itemName" : "LIMPIADOR PINOL 500",
+    "sku" : "7501025403027"
+  }, {
+    "itemName" : "PINOL ORIGINAL 828ML",
+    "sku" : "7501025403485"
+  }, {
+    "itemName" : "FLASH BRISA MAR 500M",
+    "sku" : "7501025433024"
+  }, {
+    "itemName" : "FLASH FLORAL",
+    "sku" : "7501025440282"
+  }, {
+    "itemName" : "COLGATE ORIGINAL 50M",
+    "sku" : "7501035911567"
+  }, {
+    "itemName" : "NUTRIOLI 800ML",
+    "sku" : "7501039124932"
+  }, {
+    "itemName" : "ATUN AGUA TUNY 130GR",
+    "sku" : "7501041419996"
+  }, {
+    "itemName" : "POWER ION4 MORAS 500",
+    "sku" : "7501055329267"
+  }, {
+    "itemName" : "NESCAFECAPSTICK",
+    "sku" : "7501058629128"
+  }, {
+    "itemName" : "ISAREFRBAYOS 400G",
+    "sku" : "7501071308598"
+  }, {
+    "itemName" : "ISAFRIJREFRNEGR 400G",
+    "sku" : "7501071308604"
+  }, {
+    "itemName" : "PUPPY MYP 500G",
+    "sku" : "7501072217561"
+  }, {
+    "itemName" : "HARINA CUSPIDE 1K",
+    "sku" : "7501079334070"
+  }, {
+    "itemName" : "PURE DE TOMATE 345G",
+    "sku" : "7501079702855"
+  }, {
+    "itemName" : "E-PURA NATURAL 2L",
+    "sku" : "7501086800636"
+  }, {
+    "itemName" : "AGUA PURIFICADA ELEC",
+    "sku" : "7501086801015"
+  }, {
+    "itemName" : "AGUA EPURA 600ML",
+    "sku" : "7501086801121"
+  }, {
+    "itemName" : "VELADORA FAROLITO 5",
+    "sku" : "7501102212511"
+  }, {
+    "itemName" : "VASO LIMONERO LISO M",
+    "sku" : "7501102260024"
+  }, {
+    "itemName" : "ECO-FAROLITO SEMANAL",
+    "sku" : "7501102269508"
+  }, {
+    "itemName" : "KOLA LOKA 2 GR",
+    "sku" : "7501102610003"
+  }, {
+    "itemName" : "FRUDELIFRESACRE283GR",
+    "sku" : "7501110400047"
+  }, {
+    "itemName" : "ELECTROLIT MANZA 625",
+    "sku" : "7501125104343"
+  }, {
+    "itemName" : "ELECTROLIT LIMA 625M",
+    "unit" : "EA",
+    "sku" : "7501125118562",
+    "price1" : 23.0
+  }, {
+    "unit" : "EA",
+    "sku" : "7501125118562",
+    "price1" : 23.0
+  }, {
+    "itemName" : "ELECTROLIT LIMA 625M",
+    "sku" : "7501125118562"
+  }, {
+    "itemName" : "ELECTROLIT FK 625ML",
+    "sku" : "7501125149221"
+  }, {
+    "itemName" : "BONELESS BUFALO 500",
+    "sku" : "7501518441185"
+  }, {
+    "itemName" : "PETALO RENDIMAX 12R.",
+    "unit" : "EA",
+    "sku" : "7501943458451",
+    "price1" : 103.0
+  }, {
+    "itemName" : "PETALO RENDIMAX 12R.",
+    "sku" : "7501943458451"
+  }, {
+    "itemName" : "PETALO RENDIMAX 12R.",
+    "sku" : "7501943458451"
+  }, {
+    "itemName" : "VASOS FESTIVO NO 10",
+    "sku" : "7501954900338"
+  }, {
+    "itemName" : "FESTIV CHAR MED 20PZ",
+    "sku" : "7501954901298"
+  }, {
+    "itemName" : "VODKA ZAVERICH 1L",
+    "unit" : "EA",
+    "rsrvTxt2" : "2025/02/06",
+    "sku" : "7502213341350",
+    "price1" : 100.0
+  }, {
+    "unit" : "EA",
+    "rsrvTxt2" : "2025/02/06",
+    "sku" : "7502213341350",
+    "price1" : 100.0
+  }, {
+    "itemName" : "VODKA ZAVERICH 1L",
+    "sku" : "7502213341350"
+  }, {
+    "itemName" : "VODKA ZAVERICH 1L",
+    "sku" : "7502213341350"
+  }, {
+    "itemName" : "CHICHARRON VIKINGOS",
+    "sku" : "7502217371988"
+  }, {
+    "itemName" : "CHURRITOS VIKINGOS",
+    "sku" : "7502217372176"
+  }, {
+    "itemName" : "MANTECA INCA 250GRS",
+    "sku" : "7502223774001"
+  }, {
+    "itemName" : "ELECTROLITMORAAZUL1L",
+    "unit" : "EA",
+    "sku" : "7502268549565",
+    "price1" : 39.0
+  }, {
+    "itemName" : "ELECTROLITMORAAZUL1L",
+    "sku" : "7502268549565"
+  }, {
+    "itemName" : "ELECTROLITMORAAZUL1L",
+    "sku" : "7502268549565"
+  }, {
+    "itemName" : "BIOLEVE 1L 6PACK",
+    "sku" : "7502271154718"
+  }, {
+    "itemName" : "AZUCAR EST POSADA 1K",
+    "sku" : "7502271156736"
+  }, {
+    "itemName" : "BONA GALL CANELA 270",
+    "sku" : "7502294221404"
+  }, {
+    "itemName" : "BONA GALL CANELA",
+    "sku" : "7502294221404"
+  }, {
+    "itemName" : "TAE CHULIPHONE 145",
+    "unit" : "EA",
+    "sku" : "7502294225877",
+    "price1" : 145.0
+  }, {
+    "itemName" : "TAE CHULIPHONE 145",
+    "sku" : "7502294225877"
+  }, {
+    "itemName" : "VAINILLACAPUCCAFEOLE",
+    "sku" : "7503001453187"
+  }, {
+    "itemName" : "OLE CAPUCCINO 281 ML",
+    "sku" : "7503001453194"
+  }, {
+    "itemName" : "OLE MOKA 281 ML",
+    "sku" : "7503001453200"
+  }, {
+    "itemName" : "XTREME GEL 250G",
+    "sku" : "7503002163023"
+  }, {
+    "itemName" : "DON PEDRO 200ML",
+    "sku" : "7503023578295"
+  }, {
+    "itemName" : "PRESIDENTE 200ML",
+    "sku" : "7503023578301"
+  }, {
+    "itemName" : "VUALA VAINILLA",
+    "sku" : "7503023836135"
+  }, {
+    "itemName" : "NUTRALITATOREAD500GR",
+    "sku" : "7503025984391"
+  }, {
+    "itemName" : "NUTRYPIERNAMUSLO550",
+    "sku" : "7503025984476"
+  }, {
+    "itemName" : "NUTRYPECHPOLLO700",
+    "sku" : "7503025984483"
+  }, {
+    "itemName" : "ARAMSAMILANES2PZAS",
+    "unit" : "EA",
+    "sku" : "7503025984520",
+    "price1" : 65.0
+  }, {
+    "itemName" : "ARAMSAMILANES2PZAS",
+    "sku" : "7503025984520"
+  }, {
+    "itemName" : "ARAMSAMILANES2PZAS",
+    "sku" : "7503025984520"
+  }, {
+    "itemName" : "BIGCIFRUT 3.03LTS",
+    "sku" : "7503030524056"
+  }, {
+    "itemName" : "ARRACHERAMARINADA1KG",
+    "sku" : "7503034516446"
+  }, {
+    "itemName" : "CARNEAL PASTOR 500GR",
+    "sku" : "7503034516460"
+  }, {
+    "itemName" : "WALARRACHERAMAR500GR",
+    "sku" : "7503034516750"
+  }, {
+    "itemName" : "WALCARNEMOLRES500GR",
+    "sku" : "7503035393411"
+  }, {
+    "itemName" : "WALCARNEMOLCER500GR",
+    "sku" : "7503035393428"
+  }, {
+    "itemName" : "WALDNUGGETSPOLLO1KG",
+    "sku" : "7503035393534"
+  }, {
+    "itemName" : "BOLONIA HELA NAPO 1L",
+    "sku" : "7503035393718"
+  }, {
+    "itemName" : "BOLONIA HELA GALLE1L",
+    "sku" : "7503035393725"
+  }, {
+    "itemName" : "BOLONIA HELA CHOCO1L",
+    "sku" : "7503035393749"
+  }, {
+    "itemName" : "BOLONIAHELAPAYLIM1L",
+    "sku" : "7503035393787"
+  }, {
+    "itemName" : "CHICHARRONSALSVDE300",
+    "sku" : "7503035393978"
+  }, {
+    "itemName" : "ELECTROLIT PONCH625M",
+    "sku" : "7503046131224"
+  }, {
+    "itemName" : "BENSON & HEDGES MINT",
+    "sku" : "75047337"
+  }, {
+    "itemName" : "BONAF KIDS MANZA 300",
+    "sku" : "75061678"
+  }, {
+    "itemName" : "BONAFKIDSUVA300ML",
+    "sku" : "75061685"
+  }, {
+    "itemName" : "PEDIGREE CACHORRO 42",
+    "sku" : "7506174514747"
+  }, {
+    "itemName" : "AMPER PREDATOR 473ML",
+    "sku" : "7506192508216"
+  }, {
+    "itemName" : "AMPER SHARK 473ML",
+    "sku" : "7506192509084"
+  }, {
+    "itemName" : "VELADORA LIMONERO MI",
+    "sku" : "7506196296867"
+  }, {
+    "itemName" : "PETALO UJ 16 ROLLOS",
+    "sku" : "7506425600021"
+  }, {
+    "itemName" : "AGUA NAT BONAFONT600",
+    "sku" : "758104001712"
+  }, {
+    "itemName" : "AGUA NAT BONAFONT600",
+    "sku" : "758104001712"
+  }, {
+    "itemName" : "AGUAFRESCA GUAYABA1",
+    "sku" : "758104006281"
+  }, {
+    "itemName" : "AGUAFRESCA GUAYAB1.4",
+    "sku" : "758104007943"
+  }, {
+    "itemName" : "OREO ROLLO 14S 159.6",
+    "sku" : "7622210570505"
+  }, {
+    "itemName" : "OREO 4C 45.6G",
+    "sku" : "7622210827937"
+  }, {
+    "itemName" : "AVIKOPAPAFRA450GR",
+    "sku" : "8710449945429"
+  }, {
+    "itemName" : "AVIKO PAPA RECTO 1KG",
+    "sku" : "8710449949205"
+  } ],
+  "storeCode" : "01"
+}

@@ -1,0 +1,24 @@
+1. 把 1.txt那些替换成 sqlite 数据库 或者 PostgreSQL。 PostgreSQL 吧。
+
+2. 修改脚本逻辑，当未来有新的商店要对接的时候，只需要把新的商店放到 config.properties 里面，然后跑脚本就可以了。
+
+3.处理他们文件有 error code 的时候，要重试，不要 raise error
+Error: 500 - {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+
+
+6. 有时候对接卡在哪个地方不动了。比如下面那个在 03 store 卡住了。不知道为什么，应该是他们 api 卡住了。要加一个机制。或者使用定时任务 cron job 来跑脚本。写一个 bash 吧
+  
+  在脚本中设置超时时间 防止脚本因某些问题无限制运行：
+
+  如果使用 Bash，可以用 timeout：
+
+  bash
+  Copy code
+  timeout 3600 ./your_script.sh
+  上述命令会在 3600 秒后终止脚本。
+
+  如果是 Python 脚本，可以通过 signal 模块实现超时。
+
