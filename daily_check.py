@@ -162,11 +162,15 @@ def check_pending_files(customer_code: str, store_code: str, client_id: str, cli
 
 
 if __name__ == '__main__':
-
+    now = datetime.now(
+        mexico_city_tz).strftime("%Y-%m-%d %H:%M:%S")
+    print("------------------------------------")
+    print(f"Now in UTC-6 Mexico City: {now}")
     headers = {
         "Content-Type": "application/json",
         "Authorization": f"Bearer {get_allstar_bearer_token()}"}
 
     store_code = ["01", "02", "03"]
     for store in store_code:
+        print(f"store: {store}")
         check_promo_switch(customer_code, store, headers)
