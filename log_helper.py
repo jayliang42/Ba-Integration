@@ -1,6 +1,6 @@
 from datetime import datetime
 import os
-from constants import mexico_city_tz
+from credentials import mexico_city_tz
 
 
 def write_log(document_name, status, customer_code="", store_code="", error_message=None):

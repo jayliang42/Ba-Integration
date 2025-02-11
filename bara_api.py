@@ -6,7 +6,7 @@ import warnings
 from urllib3.exceptions import InsecureRequestWarning
 import retrying
 from log_helper import write_log
-from constants import mexico_city_tz
+from credentials import mexico_city_tz
 
 # Suppress the insecure request warning
 warnings.filterwarnings('ignore', category=InsecureRequestWarning)

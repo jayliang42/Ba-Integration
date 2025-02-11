@@ -1,8 +1,9 @@
+import concurrent.futures
 from datetime import datetime
 import json
 import os
 from allstar_login_credentials import get_token as get_allstar_bearer_token, send_post_request
-from constants import mexico_city_tz
+from credentials import mexico_city_tz
 
 
 def get_allstar_data(store_code, sku):
@@ -52,23 +53,27 @@ def refresh_by_price(sku, price1="0", rsrvDec1="0", saleMode="-1", store_code="0
         # 在促销模版中
         if rsrvDec1 != allstar_rsrvDec1 and rsrvDec1 != "0":
             # rsrvDec1变动，刷新
-            print("1")
+            print(
+                f"{sku} in promo，rsrvDec1 has changed，ESL refresh by price changing。原:{allstar_rsrvDec1}:现{rsrvDec1}")
             return True
         elif saleMode == "00":
             #  新推进来的saleMode == "00"，切换回正常模版，刷新
-            print("2")
+            print(
+                f"{sku} in promo，saleMode change to 00，stop promo, ESL refresh by price changing。原:{allstar_saleMode}:现{saleMode}")
             return True
     else:
         # 在正常模版
         if price1 != allstar_price1 and price1 != "0":
             # price1 变动，刷新
-            print("3")
+            print(
+                f"{sku} not in promo，price1 has changed，ESL refresh by price changing。原:{allstar_price1}:现{price1}")
             return True
         # 有 salesmode 进来的时候，都是 promo file 对进来的时候，
         # 因为我的 pending file 机制，所以，这个时候肯定是会切换成促销模版的
         if saleMode != "00" and saleMode != "-1":
             # 开始切换成促销模版，刷新
-            print("4")
+            print(
+                f"{sku} not in promo，saleMode has changed to promo，ESL refresh by price changing。原:{allstar_saleMode}:现{saleMode}")
             return True
 
         # 第 5 种情况，当促销结束，价签刷新回正常模版时，价格刷新。
@@ -110,6 +115,7 @@ def append_json_item(file_path: str, item: dict):
 
 
 def if_refresh(item, store_code):
+    # Utilize multithread to improve efficiency
     # pending promo
     if "promoDateFrom" in item and item["promoDateFrom"] > int(datetime.now(mexico_city_tz).timestamp() * 1000):
         promo_date = datetime.fromtimestamp(

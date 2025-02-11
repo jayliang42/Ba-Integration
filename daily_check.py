@@ -4,7 +4,7 @@ import os
 from time import sleep
 from allstar_login_credentials import get_token as get_allstar_bearer_token, send_post_request
 from refresh_date import append_json_item
-from constants import mexico_city_tz, customer_code
+from credentials import mexico_city_tz, customer_code
 
 
 def get_all_items(customer_code: str, store_code: str, headers: dict) -> list[dict]:
@@ -78,7 +78,7 @@ def check_promo_switch(customer_code: str, store_code: str, headers: dict):
     items = get_all_items(customer_code, store_code, headers)
     timestamp_now = int(datetime.now(
         mexico_city_tz).timestamp() * 1000)
-    print("checking promo switch")
+    print("checking promo switch\n")
 
     pending_file_path = f"current_files/{store_code}/pending_promo/pending_promo.json"
 

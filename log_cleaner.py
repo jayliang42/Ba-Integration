@@ -2,6 +2,7 @@ import os
 import time
 import configparser
 
+
 def clean_logs():
     config = configparser.ConfigParser()
     config.read('config/config.ini')

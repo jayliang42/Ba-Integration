@@ -1,5 +1,4 @@
 from datetime import datetime
-import time
 import json
 import warnings
 from urllib3.exceptions import InsecureRequestWarning
@@ -7,104 +6,12 @@ from urllib3.exceptions import InsecureRequestWarning
 from refresh_date import if_refresh
 from daily_check import check_pending_files
 from bara_api import get_raw_base64_data, post_request
-from data_process_helper import process_base64_data, process_json
+from data_process_helper import process_base64_data, process_json, process_values
 from log_helper import write_log
-from constants import mexico_city_tz, customer_code, hs_client_id as client_id, hs_client_secret as client_secret, store02_code, store03_code
+from credentials import mexico_city_tz, customer_code, hs_client_id as client_id, hs_client_secret as client_secret, store02_code, store03_code
 
 # Suppress the insecure request warning
 warnings.filterwarnings('ignore', category=InsecureRequestWarning)
-
-
-def process_values(items: list[dict], document_name: str, store_code: str) -> list[dict]:
-    """Process the values in the JSON data based on hs_datatype_key_map.json.
-
-    Note: The value on Bara API is all string, so need to covert the value to the correct datatype for hanshow integration.
-
-    strip() all the string values first, then process the values based on the data types.
-
-    Parameters:
-    - items: list, the list of JSON data to process.
-    - document_name: str, the name of the document being processed.
-    - store_code: str, the store code of hanshow allstar which needs to integrate.
-
-    Returns:
-    - A list of updated JSON data with values processed according to the hs_datatype_key_map.json.
-    """
-
-    # Open the keymap file
-    with open("keymap/hs_datatype_keymap.json", "r") as f:
-        datatype_keymap = json.load(f)
-
-    processed_items = []
-
-    # Process each item in the list
-    for item in items:
-        # Remove the key "lineNumber" if it exists
-        item.pop("lineNumber", None)
-
-        # if item doesn't have sku, remove it
-        if "sku" not in item:
-            continue
-
-        # Iterate over a copy of the dictionary's keys to avoid runtime errors
-        for key in list(item.keys()):
-            # Strip string values
-            if isinstance(item[key], str):
-                item[key] = item[key].strip()
-
-            # Check if the value is empty, None, or whitespace
-            if item[key] in ("", None):
-                # Remove the key if the value is empty
-                del item[key]
-
-            # Change the datatype of the value based on the keymap
-            elif key in datatype_keymap:
-                try:
-                    if datatype_keymap[key] == "integer":
-                        # Handle cases where the value might be a float or string representing a float
-                        item[key] = int(float(item[key]))
-                    elif datatype_keymap[key] == "number":
-                        item[key] = float(item[key])
-                    elif datatype_keymap[key] == "startdate":
-                        # Convert date format "20210101"00:00am to timestamp in milliseconds
-
-                        # Parse the input date string (YYYYMMDD) to a datetime object (assumes midnight time)
-                        dt = datetime.strptime(item[key], "%Y%m%d")
-
-                        # Localize the datetime to Mexico City timezone
-                        dt_localized = mexico_city_tz.localize(dt)
-
-                        # Convert to UTC timestamp and then to milliseconds
-                        timestamp = int(dt_localized.timestamp() * 1000)
-
-                        item[key] = timestamp
-                    elif datatype_keymap[key] == "enddate":
-                        # Convert date format "20210101"11:59pm to timestamp in milliseconds
-                        # Parse the input date string (YYYYMMDD) to a datetime object (midnight time by default)
-                        dt = datetime.strptime(item[key], "%Y%m%d")
-
-                        # Localize the datetime to Mexico City timezone
-                        dt_localized = mexico_city_tz.localize(dt)
-
-                        # Convert to UTC timestamp and then to milliseconds
-                        timestamp = int(dt_localized.timestamp() * 1000)
-
-                        # Forward the end date by 23 hours 59 minutes 59 seconds (86399000 milliseconds)
-                        timestamp = timestamp + 86399000
-
-                        item[key] = timestamp
-
-                except ValueError as e:
-                    write_log(document_name, "failed",
-                              f"Error processing key {key}: {e}")
-                    del item[key]
-
-        item = if_refresh(item, store_code)
-        if item:
-            # Append the processed item to the list
-            processed_items.append(item)
-
-    return processed_items
 
 
 def send_integration(customer_code: str, store_code: str, client_id: str,
