@@ -9,7 +9,7 @@ def write_log(document_name, status, customer_code="", store_code="", error_mess
     log_filename = f"integration_{today}.log"
 
     # Ensure the log directory exists (create if not)
-    log_directory = "logs"
+    log_directory = "logs/integration"
     os.makedirs(log_directory, exist_ok=True)
     log_path = os.path.join(log_directory, log_filename)
 

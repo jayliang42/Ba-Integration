@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, timedelta
 import json
 import os
 from time import sleep
@@ -102,8 +102,8 @@ def check_promo_switch(customer_code: str, store_code: str, headers: dict):
             if item["saleMode"] != "00" and item["promoDateFrom"] < timestamp_now and item["promoDateTo"] > timestamp_now:
                 # Promo ends within a day.
                 if item["promoDateTo"] < timestamp_now + oneday_duration_tsms:
-                    refresh_date = datetime.fromtimestamp(
-                        item["promoDateTo"] / 1000).strftime("%Y/%m/%d")
+                    refresh_date = (datetime.fromtimestamp(
+                        item["promoDateTo"] / 1000) + timedelta(days=1)).strftime("%Y/%m/%d")
                     new_item = {"sku": item["sku"], "rsrvTxt2": refresh_date}
 
                     # make sure there's no dulicate sku.
@@ -174,3 +174,4 @@ if __name__ == '__main__':
     for store in store_code:
         print(f"store: {store}")
         check_promo_switch(customer_code, store, headers)
+    print("------------------------------------")

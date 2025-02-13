@@ -1,16 +1,18 @@
 import os
-import time
-import configparser
+import tarfile
+from datetime import datetime
 
+# get script dir
+script_dir = os.path.dirname(os.path.abspath(__file__))
+log_dir = os.path.join(script_dir, "logs", "integration")
+backup_dir = os.path.join(script_dir, "logs")
 
-def clean_logs():
-    config = configparser.ConfigParser()
-    config.read('config/config.ini')
+# Get current year and date
+date_str = datetime.now().strftime("%Y-%m")
+backup_file = os.path.join(backup_dir, f"integration_{date_str}.tar.gz")
 
-    log_file = config['log']['log_file']
-    retention_days = int(config['log']['retention_days'])
+# compress
+with tarfile.open(backup_file, "w:gz") as tar:
+    tar.add(log_dir, arcname="integration")
 
-    if os.path.exists(log_file):
-        file_age = time.time() - os.path.getmtime(log_file)
-        if file_age > retention_days * 86400:  # 转换为秒
-            os.remove(log_file)
+print(f"Backup created: {backup_file}")
