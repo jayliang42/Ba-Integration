@@ -229,7 +229,7 @@ def process_values(items: list[dict], document_name: str, store_code: str) -> li
                     write_log(document_name, "failed",
                               f"Error processing key {key}: {e}")
                     del item[key]
-
+        # Todo: add concurrency here. Using python multithreading.
         item = if_refresh(item, store_code)
         if item:
             # Append the processed item to the list

@@ -1,0 +1,39 @@
+{
+    "organizationCountry": "MX",
+    "organizationName": "FEMSA Comercio",
+    "businessName": "OXXO",
+    "departmentId": "12NEO",
+    "storeId": "52DUG",
+    "numberOfRecords": "1",
+    "searchId": "000000000000000000000000",
+    "searchDate": "2025-02-14 02:18:01",
+    "promotions": [
+        {
+            "lineNumber": "1",
+            "folio": "  19710790",
+            "itemCategory": " 1",
+            "type": "03",
+            "startDate": "20250214",
+            "endDate": "20250304",
+            "itemSku": "   7506306246256",
+            "category": "",
+            "providerType": "0",
+            "requiredQuantity": "001.000",
+            "discount": "00055.000",
+            "discountType": " ",
+            "optative": " ",
+            "description": "PSP SIMPLES NACIONAL B02                ",
+            "itemSubcategory": "",
+            "itemSegment": "",
+            "itemSubsegment": "",
+            "durationCode": "1000023591111111",
+            "grouper": "000.000",
+            "percent": "000.00",
+            "optativeOne": " ",
+            "sent": " ",
+            "action": "A",
+            "binCode": "",
+            "messagePsg": ""
+        }
+    ]
+}
