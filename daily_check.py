@@ -138,7 +138,7 @@ def check_pending_files(customer_code: str, store_code: str, client_id: str, cli
             for promo in pending_promo[:]:
                 if "promoDateFrom" in promo and promo["promoDateFrom"] <= now:
                     pending_items.append(promo)
-                # promo结束，刷新日期
+                # promo结束刷新日期, 或者 itm 变价日期
                 elif "promoDateFrom" not in promo and "rsrvTxt2" in promo:
                     rsrvTxt2_time = int(datetime.strptime(
                         promo["rsrvTxt2"], "%Y/%m/%d").timestamp() * 1000)

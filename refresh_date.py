@@ -115,55 +115,71 @@ def append_json_item(file_path: str, item: dict):
 
 
 def if_refresh(item, store_code):
-    # Utilize multithread to improve efficiency
-    # pending promo
-    if "promoDateFrom" in item and item["promoDateFrom"] > int(datetime.now(mexico_city_tz).timestamp() * 1000):
-        promo_date = datetime.fromtimestamp(
-            item["promoDateFrom"] / 1000, tz=mexico_city_tz)
+    """Determine whether an item needs to be refreshed based on promotion or effective date."""
 
-        """"""
-        # Todo: refresh_by_price() function
-        if "rsrvDec1" in item or "saleMode" in item:
-            # 只会是 PRM file
-            rsrvDec1 = item.get("rsrvDec1", "0")
-            saleMode = item.get("saleMode", "0")
+    pending_file_path = f"current_files/{store_code}/pending_promo/pending_promo.json"
+    item_keys = set(item.keys())  # 使用 set 提高查找效率
+    now = datetime.now(mexico_city_tz)
+
+    # promoFile
+    if "promoDateFrom" in item_keys:
+        # Pending promo: Check if promoDateFrom is in the future
+        if item["promoDateFrom"] > int(now.timestamp() * 1000):
+            promo_date = datetime.fromtimestamp(
+                item["promoDateFrom"] / 1000, tz=mexico_city_tz)
+
+            if {"rsrvDec1", "saleMode"} & item_keys:  # 如果包含 rsrvDec1 或 saleMode
+                is_refresh = refresh_by_price(
+                    item["sku"],
+                    rsrvDec1=item.get("rsrvDec1", "0"),
+                    saleMode=item.get("saleMode", "0"),
+                    store_code=store_code
+                )
+                if is_refresh:
+                    item["rsrvTxt2"] = promo_date.strftime("%Y/%m/%d")
+
+            print(
+                f"Promotion {item['sku']} is not ready to start. {promo_date.strftime('%Y/%m/%d')} is in the future.")
+            append_json_item(pending_file_path, item)
+            return None
+        # Immediate promo update scenario
+        else:
             is_refresh = refresh_by_price(
-                item["sku"], rsrvDec1=rsrvDec1, saleMode=saleMode, store_code=store_code)
+                item["sku"],
+                rsrvDec1=item.get("rsrvDec1", "0"),
+                saleMode=item.get("saleMode", "0"),
+                store_code=store_code
+            )
 
-        refresh_date = promo_date.strftime("%Y/%m/%d")
-        if is_refresh:
-            # give me promo's date in %Y/%m/%d format
-            item["rsrvTxt2"] = refresh_date
-        """"""
+            if is_refresh:
+                item["rsrvTxt2"] = now.strftime("%Y/%m/%d")
 
-        print(
-            f"Promotion {item['sku']} is not ready to start. {refresh_date} is in the future.")
+            return item
 
-        pending_file_path = f"current_files/{store_code}/pending_promo/pending_promo.json"
-        append_json_item(pending_file_path, item)
-        # Todo: 考虑一下需不需要考虑重复item的问题。每个文件其实只对进来一次，所以大概率不会有重复的问题？
-        return None
+    # ITM file
+    elif "rsrvTxt3" in item_keys:
+        rsrv_date = datetime.strptime(item["rsrvTxt3"], "%Y%m%d")
+        rsrv_date = mexico_city_tz.localize(rsrv_date)  # 使其具有时区信息
+        today_date = now.replace(
+            hour=0, minute=0, second=0, microsecond=0)  # 仅保留日期部分
 
-    else:
-        """"""
-        # 非 pending promo 的情况, 如果刷新，就给当前的刷新日期
-        item_keys = list(item.keys())
-        is_refresh = False
-        if "price1" in item_keys:
-            # 只可能是 ITM 文件
-            is_refresh = refresh_by_price(
-                item["sku"], price1=item["price1"], store_code=store_code)
-        elif "rsrvDec1" in item_keys or "saleMode" in item_keys:
-            # 只可能是 PRM 文件
-            rsrvDec1 = item.get("rsrvDec1", "0")
-            saleMode = item.get("saleMode", "0")
-            is_refresh = refresh_by_price(
-                item["sku"], rsrvDec1=rsrvDec1, saleMode=saleMode, store_code=store_code)
+        # pending price change
+        if rsrv_date > today_date:
+            # Future effective date → Add to pending promo
+            if {"price1", "itemName"} & item_keys:
+                refresh_date = rsrv_date.strftime("%Y/%m/%d")
+                item.pop("rsrvTxt3")
+                item["rsrvTxt2"] = refresh_date
+                print(
+                    f"Item {item['sku']} is not ready to change price. {refresh_date} is in the future.")
+                append_json_item(pending_file_path, item)
+            return None
+        # Immediate price update scenario
+        else:
+            is_refresh = "price1" in item_keys and refresh_by_price(
+                item["sku"], price1=item["price1"], store_code=store_code
+            )
 
-        if is_refresh:
-            # give me today's date in %Y/%m/%d format
-            today_date = datetime.now(
-                mexico_city_tz).strftime("%Y/%m/%d")
-            item["rsrvTxt2"] = today_date
-        """"""
-        return item
+            if is_refresh:
+                item["rsrvTxt2"] = now.strftime("%Y/%m/%d")
+            return item

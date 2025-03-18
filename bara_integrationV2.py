@@ -135,6 +135,7 @@ if __name__ == "__main__":
 
     print(f"Only integrate {file_type} files\n")
 
+    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
     # this store is for testing, use the same data as store 03
     print("Store 01 starts\n")
     try:

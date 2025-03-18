@@ -1,0 +1,39 @@
+{
+    "organizationCountry": "MX",
+    "organizationName": "FEMSA Comercio",
+    "businessName": "OXXO",
+    "departmentId": "12NEO",
+    "storeId": "52DUG",
+    "numberOfRecords": "1",
+    "searchId": "000000000000000000000000",
+    "searchDate": "2025-03-07 13:48:36",
+    "promotions": [
+        {
+            "lineNumber": "1",
+            "folio": "  19711775",
+            "itemCategory": " 1",
+            "type": "03",
+            "startDate": "19900101",
+            "endDate": "20250306",
+            "itemSku": "   7501064196959",
+            "category": "",
+            "providerType": "0",
+            "requiredQuantity": "001.000",
+            "discount": "00078.000",
+            "discountType": " ",
+            "optative": " ",
+            "description": "Cerveza Barrilito lata 6 pack 355ml $68 ",
+            "itemSubcategory": "",
+            "itemSegment": "",
+            "itemSubsegment": "",
+            "durationCode": "1000023591111111",
+            "grouper": "000.000",
+            "percent": "000.00",
+            "optativeOne": " ",
+            "sent": " ",
+            "action": "F",
+            "binCode": "",
+            "messagePsg": ""
+        }
+    ]
+}

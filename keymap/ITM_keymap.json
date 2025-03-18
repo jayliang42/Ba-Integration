@@ -2,5 +2,6 @@
   "sku": "sku",
   "shortDescription": "itemName",
   "salePrice": "price1",
-  "unitOfMeasure": "unit"
+  "unitOfMeasure": "unit",
+  "effectiveDate": "rsrvTxt3"
 }
