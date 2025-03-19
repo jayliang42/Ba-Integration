@@ -5,6 +5,7 @@ from time import sleep
 from allstar_login_credentials import get_token as get_allstar_bearer_token, send_post_request
 from refresh_date import append_json_item
 from credentials import mexico_city_tz, customer_code
+from log_helper import write_log
 
 
 def get_all_items(customer_code: str, store_code: str, headers: dict) -> list[dict]:
@@ -68,6 +69,11 @@ def send_integration(customer_code: str, store_code: str, client_id: str,
         }
 
         response = send_post_request(base_url + endpoint, body, headers)
+        # if the integration is successful, write the document_name to log file for future reference
+        if response["storeCode"] == store_code:
+            print(f"pending files successfully integrated.")
+            print(response)
+            write_log("pending files", "success", customer_code, store_code)
 
     return response
 
