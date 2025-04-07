@@ -3,7 +3,6 @@ import json
 import warnings
 from urllib3.exceptions import InsecureRequestWarning
 
-from refresh_date import if_refresh
 from daily_check import check_pending_files
 from bara_api import get_raw_base64_data, post_request
 from data_process_helper import process_base64_data, process_json, process_values

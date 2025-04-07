@@ -2,6 +2,8 @@ from datetime import datetime, timedelta
 import json
 import os
 from time import sleep
+
+import pytz
 from allstar_login_credentials import get_token as get_allstar_bearer_token, send_post_request
 from refresh_date import append_json_item
 from credentials import mexico_city_tz, customer_code
@@ -108,8 +110,11 @@ def check_promo_switch(customer_code: str, store_code: str, headers: dict):
             if item["saleMode"] != "00" and item["promoDateFrom"] < timestamp_now and item["promoDateTo"] > timestamp_now:
                 # Promo ends within a day.
                 if item["promoDateTo"] < timestamp_now + oneday_duration_tsms:
-                    refresh_date = (datetime.fromtimestamp(
-                        item["promoDateTo"] / 1000) + timedelta(days=1)).strftime("%Y/%m/%d")
+                    dt_promo_to = datetime.fromtimestamp(
+                        item["promoDateTo"] / 1000, tz=pytz.utc)
+                    dt_in_mexico = dt_promo_to.astimezone(mexico_city_tz)
+                    refresh_date = (
+                        dt_in_mexico + timedelta(days=1)).strftime("%Y/%m/%d")
                     new_item = {"sku": item["sku"], "rsrvTxt2": refresh_date}
 
                     # make sure there's no dulicate sku.
@@ -117,9 +122,8 @@ def check_promo_switch(customer_code: str, store_code: str, headers: dict):
                         append_json_item(pending_file_path, new_item)
                         print(
                             f"append {new_item} to pending_promo.json")
-                # else:
-                #     print(
-                #         f"item promo ends on {datetime.fromtimestamp(item['promoDateTo'] / 1000).strftime('%Y/%m/%d')}")
+                        print(
+                            f"[{item['sku']}] promo ends on (MX): {dt_in_mexico.strftime('%Y-%m-%d %H:%M:%S')}, switch to normal on {refresh_date}")
 
 
 def check_pending_files(customer_code: str, store_code: str, client_id: str, client_secret: str):

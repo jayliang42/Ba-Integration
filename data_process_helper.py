@@ -198,33 +198,18 @@ def process_values(items: list[dict], document_name: str, store_code: str) -> li
                         item[key] = float(item[key])
                     elif datatype_keymap[key] == "startdate":
                         # Convert date format "20210101"00:00am to timestamp in milliseconds
-
-                        # Parse the input date string (YYYYMMDD) to a datetime object (assumes midnight time)
                         dt = datetime.strptime(item[key], "%Y%m%d")
-
-                        # Localize the datetime to Mexico City timezone
-                        dt_localized = mexico_city_tz.localize(dt)
-
-                        # Convert to UTC timestamp and then to milliseconds
+                        dt = dt.replace(hour=0, minute=0, second=0)
+                        dt_localized = mexico_city_tz.localize(dt, is_dst=None)
                         timestamp = int(dt_localized.timestamp() * 1000)
-
                         item[key] = timestamp
                     elif datatype_keymap[key] == "enddate":
                         # Convert date format "20210101"11:59pm to timestamp in milliseconds
-                        # Parse the input date string (YYYYMMDD) to a datetime object (midnight time by default)
                         dt = datetime.strptime(item[key], "%Y%m%d")
-
-                        # Localize the datetime to Mexico City timezone
-                        dt_localized = mexico_city_tz.localize(dt)
-
-                        # Convert to UTC timestamp and then to milliseconds
+                        dt = dt.replace(hour=23, minute=59, second=59)
+                        dt_localized = mexico_city_tz.localize(dt, is_dst=None)
                         timestamp = int(dt_localized.timestamp() * 1000)
-
-                        # Forward the end date by 23 hours 59 minutes 59 seconds (86399000 milliseconds)
-                        timestamp = timestamp + 86399000
-
                         item[key] = timestamp
-
                 except ValueError as e:
                     write_log(document_name, "failed",
                               f"Error processing key {key}: {e}")
