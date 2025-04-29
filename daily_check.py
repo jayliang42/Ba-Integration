@@ -81,8 +81,6 @@ def send_integration(customer_code: str, store_code: str, client_id: str,
 
 
 def check_promo_switch(customer_code: str, store_code: str, headers: dict):
-    # Q:如果是促销期结束切换成正常模版的那个日期怎么办？
-    # 每天晚上11点检测一下所有的商品，如果是促销期结束，那么就切换成正常模版，rsrvTxt2是促销结束日期
     items = get_all_items(customer_code, store_code, headers)
     timestamp_now = int(datetime.now(
         mexico_city_tz).timestamp() * 1000)
@@ -137,7 +135,7 @@ def check_pending_files(customer_code: str, store_code: str, client_id: str, cli
 
     """
     pending_items = []
-    now = int(datetime.now().timestamp() * 1000)
+    now = int(datetime.now(mexico_city_tz).timestamp() * 1000)
     file_path = f"current_files/{store_code}/pending_promo/pending_promo.json"
 
     if os.path.exists(file_path):
@@ -150,8 +148,9 @@ def check_pending_files(customer_code: str, store_code: str, client_id: str, cli
                     pending_items.append(promo)
                 # promo结束刷新日期, 或者 itm 变价日期
                 elif "promoDateFrom" not in promo and "rsrvTxt2" in promo:
-                    rsrvTxt2_time = int(datetime.strptime(
-                        promo["rsrvTxt2"], "%Y/%m/%d").timestamp() * 1000)
+                    dt = datetime.strptime(promo["rsrvTxt2"], "%Y/%m/%d")
+                    dt = mexico_city_tz.localize(dt)
+                    rsrvTxt2_time = int(dt.timestamp() * 1000)
                     if rsrvTxt2_time <= now:
                         pending_items.append(promo)
 
