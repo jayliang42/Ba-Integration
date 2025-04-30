@@ -7051,5 +7051,1606 @@
         "rsrvDec1": 20.0,
         "rsrvTxt1": "F",
         "promoReason": "PB NO CLORICOS"
+    },
+    {
+        "sku": "7622210894458",
+        "price1": 30.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501018310943",
+        "rsrvInt1": 1,
+        "rsrvDec1": 19.5,
+        "promoReason": "PSP SIMPLES NACIONAL B05",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501018310974",
+        "rsrvInt1": 1,
+        "rsrvDec1": 19.5,
+        "promoReason": "PSP SIMPLES NACIONAL B05",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501018311018",
+        "rsrvInt1": 1,
+        "rsrvDec1": 19.5,
+        "promoReason": "PSP SIMPLES NACIONAL B05",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501018310233",
+        "rsrvInt1": 1,
+        "rsrvDec1": 9.5,
+        "promoReason": "PSP SIMPLES NACIONAL B05",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1746511199000,
+        "sku": "7501064107153",
+        "rsrvInt1": 6,
+        "rsrvDec1": 86.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB SIX LIGHT"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1746511199000,
+        "sku": "7501064194214",
+        "rsrvInt1": 1,
+        "rsrvDec1": 171.0,
+        "promoReason": "PB 12 LIGTH"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7502294223187",
+        "rsrvInt1": 1,
+        "rsrvDec1": 62.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7502294221299",
+        "rsrvInt1": 1,
+        "rsrvDec1": 16.5,
+        "promoReason": "PSP SIMPLES NACIONAL B05",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7502294220414",
+        "rsrvInt1": 1,
+        "rsrvDec1": 26.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501943489066",
+        "rsrvInt1": 1,
+        "rsrvDec1": 34.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501761869149",
+        "rsrvInt1": 1,
+        "rsrvDec1": 42.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501404603116",
+        "rsrvInt1": 1,
+        "rsrvDec1": 22.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501209705640",
+        "rsrvInt1": 1,
+        "rsrvDec1": 38.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501209701024",
+        "rsrvInt1": 1,
+        "rsrvDec1": 20.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501158414655",
+        "rsrvInt1": 1,
+        "rsrvDec1": 32.5,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501158414501",
+        "rsrvInt1": 1,
+        "rsrvDec1": 23.5,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501158414051",
+        "rsrvInt1": 1,
+        "rsrvDec1": 42.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501077400050",
+        "rsrvInt1": 1,
+        "rsrvDec1": 19.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501071301698",
+        "rsrvInt1": 1,
+        "rsrvDec1": 31.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501071301094",
+        "rsrvInt1": 1,
+        "rsrvDec1": 45.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501069213903",
+        "rsrvInt1": 1,
+        "rsrvDec1": 33.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501059240681",
+        "rsrvInt1": 1,
+        "rsrvDec1": 55.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501059225411",
+        "rsrvInt1": 1,
+        "rsrvDec1": 82.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501059225350",
+        "rsrvInt1": 1,
+        "rsrvDec1": 160.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501058642134",
+        "rsrvInt1": 1,
+        "rsrvDec1": 44.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501058611420",
+        "rsrvInt1": 1,
+        "rsrvDec1": 57.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501055916030",
+        "rsrvInt1": 1,
+        "rsrvDec1": 40.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501055909544",
+        "rsrvInt1": 1,
+        "rsrvDec1": 68.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501055901043",
+        "rsrvInt1": 1,
+        "rsrvDec1": 43.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501032921040",
+        "rsrvInt1": 1,
+        "rsrvDec1": 108.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501032907570",
+        "rsrvInt1": 1,
+        "rsrvDec1": 70.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501032903596",
+        "rsrvInt1": 1,
+        "rsrvDec1": 95.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501020565935",
+        "rsrvInt1": 1,
+        "rsrvDec1": 32.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501020565911",
+        "rsrvInt1": 1,
+        "rsrvDec1": 32.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501020564990",
+        "rsrvInt1": 1,
+        "rsrvDec1": 22.5,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501020562040",
+        "rsrvInt1": 1,
+        "rsrvDec1": 42.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501020561906",
+        "rsrvInt1": 1,
+        "rsrvDec1": 35.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501020550733",
+        "rsrvInt1": 1,
+        "rsrvDec1": 41.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501020550672",
+        "rsrvInt1": 1,
+        "rsrvDec1": 41.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501020547061",
+        "rsrvInt1": 1,
+        "rsrvDec1": 45.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501020547054",
+        "rsrvInt1": 1,
+        "rsrvDec1": 44.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501020547047",
+        "rsrvInt1": 1,
+        "rsrvDec1": 44.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501020540666",
+        "rsrvInt1": 1,
+        "rsrvDec1": 22.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501020511468",
+        "rsrvInt1": 1,
+        "rsrvDec1": 76.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501020500080",
+        "rsrvInt1": 1,
+        "rsrvDec1": 86.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "067238891190",
+        "rsrvInt1": 1,
+        "rsrvDec1": 30.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7502294223194",
+        "rsrvInt1": 1,
+        "rsrvDec1": 32.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7502294225273",
+        "rsrvInt1": 1,
+        "rsrvDec1": 16.5,
+        "promoReason": "PSP SIMPLES NACIONAL B05",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7503000437652",
+        "rsrvInt1": 1,
+        "rsrvDec1": 43.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7503000438321",
+        "rsrvInt1": 1,
+        "rsrvDec1": 36.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7503036165437",
+        "rsrvInt1": 1,
+        "rsrvDec1": 35.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7591005574007",
+        "rsrvInt1": 1,
+        "rsrvDec1": 22.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7506425606900",
+        "rsrvInt1": 1,
+        "rsrvDec1": 15.0,
+        "promoReason": "PSP SIMPLES NACIONAL B05"
+    },
+    {
+        "sku": "4008400224022",
+        "price1": 25.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "55460",
+        "price1": 134.0,
+        "unit": "KG",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "604722006007",
+        "price1": 11.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "604722008971",
+        "price1": 11.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "604722009619",
+        "price1": 11.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "604722013050",
+        "price1": 11.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "604722013074",
+        "price1": 11.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "604722013869",
+        "price1": 11.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "63205",
+        "price1": 130.0,
+        "unit": "KG",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7500478008285",
+        "price1": 30.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7500478013739",
+        "price1": 30.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7500478014484",
+        "price1": 30.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7500810000960",
+        "price1": 30.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7500810000977",
+        "price1": 30.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7500810003251",
+        "price1": 30.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7500810005651",
+        "price1": 30.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501000101238",
+        "price1": 60.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501000146741",
+        "price1": 55.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501000300730",
+        "price1": 60.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501000625253",
+        "price1": 30.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501000662739",
+        "price1": 52.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501000912803",
+        "price1": 45.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501000913367",
+        "price1": 23.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501017003006",
+        "price1": 34.5,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501017003020",
+        "price1": 39.5,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501017004003",
+        "price1": 25.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501017004027",
+        "price1": 26.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501017004157",
+        "price1": 18.5,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501017005031",
+        "price1": 31.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501017005611",
+        "price1": 8.5,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501017005765",
+        "price1": 18.5,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501017005963",
+        "price1": 14.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501017043132",
+        "price1": 16.5,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501017051335",
+        "price1": 18.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501019006371",
+        "price1": 23.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501019006647",
+        "price1": 36.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501019006654",
+        "price1": 39.5,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501019035333",
+        "price1": 79.5,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501019040719",
+        "price1": 72.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501019068911",
+        "price1": 29.5,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501025408121",
+        "price1": 78.4,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501030467090",
+        "price1": 60.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501030486664",
+        "price1": 37.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501031310098",
+        "price1": 41.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501048103010",
+        "price1": 38.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501055356898",
+        "price1": 7.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501055356928",
+        "price1": 7.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501058616470",
+        "price1": 139.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501058618917",
+        "price1": 88.5,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501058618924",
+        "price1": 32.5,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501058620101",
+        "price1": 99.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501058624130",
+        "price1": 139.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501058628831",
+        "price1": 44.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501059224827",
+        "price1": 140.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501059296305",
+        "price1": 42.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501059296367",
+        "price1": 49.5,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501125104268",
+        "price1": 25.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501125104411",
+        "price1": 25.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501125104688",
+        "price1": 25.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501125118562",
+        "price1": 25.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501125144851",
+        "price1": 25.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501125174797",
+        "price1": 25.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502264930428",
+        "price1": 10.5,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502271157221",
+        "price1": 38.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502271157238",
+        "price1": 22.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502271157757",
+        "price1": 30.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502271157764",
+        "price1": 13.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502271158327",
+        "price1": 30.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502271158341",
+        "price1": 19.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502271158440",
+        "price1": 12.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502271158457",
+        "price1": 12.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502294220827",
+        "price1": 22.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502294220940",
+        "price1": 65.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502294222135",
+        "price1": 28.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502294223088",
+        "price1": 20.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502294223095",
+        "price1": 20.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502294223118",
+        "price1": 62.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502294223149",
+        "price1": 22.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502294223170",
+        "price1": 31.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502294223255",
+        "price1": 63.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502294223279",
+        "price1": 55.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502294223293",
+        "price1": 13.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502294223309",
+        "price1": 16.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502294224443",
+        "price1": 48.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502294225334",
+        "price1": 22.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502294225341",
+        "price1": 13.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502294225372",
+        "price1": 30.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7503004627028",
+        "price1": 48.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7503020528897",
+        "price1": 35.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7503020528903",
+        "price1": 38.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7503025984032",
+        "price1": 65.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7503028412587",
+        "price1": 20.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7503031361209",
+        "price1": 22.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7503034672074",
+        "price1": 25.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7503053309012",
+        "price1": 57.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7506475100557",
+        "price1": 89.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7506475101356",
+        "price1": 85.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "756702000328",
+        "price1": 35.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "758104000159",
+        "price1": 13.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "758104001972",
+        "price1": 15.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7622210572387",
+        "price1": 5.5,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7622210572554",
+        "price1": 5.5,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7622210572639",
+        "price1": 5.5,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7622210573087",
+        "price1": 5.5,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7622210576200",
+        "price1": 20.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7622210576965",
+        "price1": 5.5,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7622210577030",
+        "price1": 5.5,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7622210577153",
+        "price1": 5.5,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7622210577450",
+        "price1": 5.5,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "766324301215",
+        "price1": 26.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "766324304056",
+        "price1": 43.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "766324310828",
+        "price1": 28.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "766324311917",
+        "price1": 31.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7702018880409",
+        "price1": 27.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "8000500186930",
+        "price1": 24.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "8000500267035",
+        "price1": 17.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "80052760",
+        "price1": 27.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "80741244",
+        "price1": 27.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "80741251",
+        "price1": 27.0,
+        "unit": "EA",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "604722013869",
+        "rsrvInt1": 2,
+        "rsrvDec1": 20.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB BOTANAS LEO"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "604722008971",
+        "rsrvInt1": 2,
+        "rsrvDec1": 20.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB BOTANAS LEO"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "604722009619",
+        "rsrvInt1": 2,
+        "rsrvDec1": 20.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB BOTANAS LEO"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "604722013050",
+        "rsrvInt1": 2,
+        "rsrvDec1": 20.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB BOTANAS LEO"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "604722013074",
+        "rsrvInt1": 2,
+        "rsrvDec1": 20.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB BOTANAS LEO"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "604722006007",
+        "rsrvInt1": 2,
+        "rsrvDec1": 20.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PB BOTANAS LEO"
+    },
+    {
+        "saleMode": "03",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501025408121",
+        "rsrvInt1": 1,
+        "rsrvDec1": 65.0,
+        "promoReason": "PSP SIMPLE NACIONAL B05",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501846503111",
+        "rsrvInt1": 2,
+        "rsrvDec1": 68.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PSP SIMPLE NACIONAL B05"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501846503135",
+        "rsrvInt1": 2,
+        "rsrvDec1": 68.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PSP SIMPLE NACIONAL B05"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501846503197",
+        "rsrvInt1": 2,
+        "rsrvDec1": 68.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PSP SIMPLE NACIONAL B05"
+    },
+    {
+        "saleMode": "00",
+        "promoDateFrom": 1745992800000,
+        "promoDateTo": 1748411999000,
+        "sku": "7501846503203",
+        "rsrvInt1": 2,
+        "rsrvDec1": 68.0,
+        "rsrvTxt1": "F",
+        "promoReason": "PSP SIMPLE NACIONAL B05"
+    },
+    {
+        "sku": "011848245508",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "011848245638",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "058897093087",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "070662247150",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7500366003842",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7500366003910",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7500435126045",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7500478013647",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7500478014477",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7500810020920",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7500810026540",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7500810030264",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501000111091",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501000336319",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501000601776",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501000658404",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501003335029",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501008042984",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501008046883",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501008066232",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501008066560",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501008762097",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501017002115",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501018310981",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501018315252",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501025408084",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501025444976",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501026004629",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501030419099",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501030419389",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501035910034",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501035910041",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501039121993",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501042306769",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501052421254",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501055304806",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501055304813",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501055340422",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501055916016",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501064196959",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501072204431",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501073844193",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501079334070",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501199413297",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501954904169",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7501954904183",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502208807595",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502223776012",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502233117973",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502271916101",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502271916637",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502294220810",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502294221435",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502294221459",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502294221770",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502294221794",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502294223415",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502294223514",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7502294223705",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7503025984506",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7506425619047",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7506475106801",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7506475110983",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7506475113700",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7506475119580",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7509552845884",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7509552845914",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "7622210267818",
+        "rsrvTxt2": "2025/04/30"
+    },
+    {
+        "sku": "8719200450615",
+        "rsrvTxt2": "2025/04/30"
     }
 ]
