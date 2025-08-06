@@ -1,0 +1,39 @@
+{
+    "organizationCountry": "MX",
+    "organizationName": "FEMSA Comercio",
+    "businessName": "OXXO",
+    "departmentId": "12NEO",
+    "storeId": "52RSW",
+    "numberOfRecords": "1",
+    "searchId": "000000000000000000000000",
+    "searchDate": "2025-08-04 22:04:17",
+    "promotions": [
+        {
+            "lineNumber": "1",
+            "folio": "  51053520",
+            "itemCategory": " 1",
+            "type": "03",
+            "startDate": "20250805",
+            "endDate": "20250902",
+            "itemSku": "   7503034476146",
+            "category": "",
+            "providerType": "0",
+            "requiredQuantity": "001.000",
+            "discount": "00040.000",
+            "discountType": "F",
+            "optative": " ",
+            "description": "PROMO TAZON                             ",
+            "itemSubcategory": "",
+            "itemSegment": "",
+            "itemSubsegment": "",
+            "durationCode": "1000023591111111",
+            "grouper": "000.000",
+            "percent": "000.00",
+            "optativeOne": " ",
+            "sent": " ",
+            "action": "A",
+            "binCode": "",
+            "messagePsg": ""
+        }
+    ]
+}

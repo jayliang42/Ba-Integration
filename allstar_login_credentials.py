@@ -30,7 +30,7 @@ def send_get_request(url, headers):
     return response.json()
 
 
-def get_token(username="admin", password="5E811B934DC5B6465A2B9E482DC06D5B"):
+def get_token(username="admin", password="5F4830E123FA61A662D06E4BB033452F"):
     # request from as to get token
     loginResponse = send_post_request("https://americas-poc.hanshowcloud.net/proxy/allstar/user/login", {"username": username, "password": password},
                                       {"Content-Type": "application/json"})
