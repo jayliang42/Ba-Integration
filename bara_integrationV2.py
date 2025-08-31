@@ -1,6 +1,8 @@
 from datetime import datetime
 import json
 import warnings
+import os
+import bisect
 from urllib3.exceptions import InsecureRequestWarning
 
 from daily_check import check_pending_files
@@ -11,6 +13,30 @@ from credentials import mexico_city_tz, customer_code, hs_client_id as client_id
 
 # Suppress the insecure request warning
 warnings.filterwarnings('ignore', category=InsecureRequestWarning)
+
+
+def add_to_historical_files(document_name: str, store_code: str):
+    """Add a successfully integrated document to the historical files list.
+    
+    Parameters:
+    - document_name: str, the name of the document to add
+    - store_code: str, the store code
+    """
+    historical_file = f"historical_files/{store_code}.txt"
+    
+    # Read existing documents from the historical file
+    lines = []
+    if os.path.exists(historical_file):
+        with open(historical_file, "r") as f:
+            lines = [line.strip() for line in f]
+    
+    # Insert the new document in the correct position (sorted)
+    if document_name not in lines:
+        bisect.insort(lines, document_name)
+        
+        # Write the updated list back to the file
+        with open(historical_file, "w") as f:
+            f.writelines(f"{line}\n" for line in lines)
 
 
 def send_integration(customer_code: str, store_code: str, client_id: str,
@@ -66,6 +92,8 @@ def send_integration(customer_code: str, store_code: str, client_id: str,
             print(f"{document_name} successfully integrated.")
             print(response)
             write_log(document_name, "success", customer_code, store_code)
+            # Add to historical files only after successful integration
+            add_to_historical_files(document_name, store_code)
 
     return response
 
@@ -133,16 +161,6 @@ if __name__ == "__main__":
     file_type = ["ITM", "PRM"]
 
     print(f"Only integrate {file_type} files\n")
-
-    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-    # this store is for testing, use the same data as store 03
-    print("Store 01 starts\n")
-    try:
-        main(customer_code, "01", client_id, client_secret,
-             "12NEO", store03_code, "CT", file_type)
-    except Exception as e:
-        print(f"Error occurred during Store 01 integration: {e}")
-        write_log("Store 01 Integration", "failed", error_message=str(e))
 
     print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 

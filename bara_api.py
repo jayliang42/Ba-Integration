@@ -29,18 +29,44 @@ def post_request(base_url, endpoint, headers, body=None, auth=None):
     # Construct the full URL
     url = f"{base_url}{endpoint}"
 
-    # Make the POST request
-    response = requests.post(url, headers=headers,
-                             json=body, auth=auth, verify=False)
+    try:
+        # Make the POST request
+        response = requests.post(url, headers=headers,
+                                 json=body, auth=auth, verify=False, timeout=30)
 
-    # Check if the request is successful
-    if response.status_code != requests.codes.ok:
-        print(f"Error: {response.status_code} - {response.text}")
-        write_log("API request", "failed", error_message=response.text)
-        raise Exception("Request failed.")
+        # Check if the request is successful
+        if response.status_code != requests.codes.ok:
+            error_msg = f"HTTP {response.status_code} error for URL {url}: {response.text}"
+            print(f"Error: {response.status_code} - {response.text}")
+            write_log("API request", "failed", error_message=error_msg)
+            raise Exception(f"Request failed with status {response.status_code}")
 
-    # Return the response in JSON format if successful
-    return response.json()
+        # Return the response in JSON format if successful
+        return response.json()
+        
+    except requests.exceptions.Timeout:
+        error_msg = f"Request timeout (30s) for URL: {url}"
+        print(f"Error: Request timeout for {url}")
+        write_log("API request", "failed", error_message=error_msg)
+        raise Exception("Request timeout")
+        
+    except requests.exceptions.ConnectionError as e:
+        error_msg = f"Connection error for URL {url}: {str(e)}"
+        print(f"Error: Connection failed for {url}: {str(e)}")
+        write_log("API request", "failed", error_message=error_msg)
+        raise Exception("Connection error")
+        
+    except requests.exceptions.RequestException as e:
+        error_msg = f"Request exception for URL {url}: {str(e)}"
+        print(f"Error: Request failed for {url}: {str(e)}")
+        write_log("API request", "failed", error_message=error_msg)
+        raise Exception(f"Request exception: {str(e)}")
+        
+    except ValueError as e:
+        error_msg = f"JSON decode error for URL {url}: {str(e)}"
+        print(f"Error: Invalid JSON response from {url}: {str(e)}")
+        write_log("API request", "failed", error_message=error_msg)
+        raise Exception("Invalid JSON response")
 
 
 def get_Bara_bearer_token() -> str:
@@ -145,18 +171,37 @@ def get_document_base64_data(base_url: str, endpoint: str, bearer_token: str, do
         print(f"Downloading {document}...")
         # wait for 1 second before making the next request，to avoid the rate limit
         time.sleep(1)
-        # JSON body
-        body = {
-            "departmentId": department_id,
-            "source": source,
-            "storeId": store_id,
-            "documents": [
-                {"name": document, "fileType": document[:3]},
-            ]
-        }
-        response = post_request(base_url, endpoint, headers, body)
-        # record the base64 data
-        document_data_list.append(response["documents"][0]["data"])
+        
+        try:
+            # JSON body
+            body = {
+                "departmentId": department_id,
+                "source": source,
+                "storeId": store_id,
+                "documents": [
+                    {"name": document, "fileType": document[:3]},
+                ]
+            }
+            response = post_request(base_url, endpoint, headers, body)
+            
+            # Check if response contains the expected data
+            if "documents" in response and len(response["documents"]) > 0 and "data" in response["documents"][0]:
+                # record the base64 data
+                document_data_list.append(response["documents"][0]["data"])
+                print(f"✓ Successfully downloaded {document}")
+                write_log(f"Download {document}", "success", store_id, department_id, f"Document {document} downloaded successfully")
+            else:
+                error_msg = f"Invalid response format for {document}: {response}"
+                print(f"✗ Failed to download {document}: Invalid response format")
+                write_log(f"Download {document}", "failed", store_id, department_id, error_msg)
+                raise Exception(error_msg)
+                
+        except Exception as e:
+            error_msg = f"Error downloading {document}: {str(e)}"
+            print(f"✗ Failed to download {document}: {str(e)}")
+            write_log(f"Download {document}", "failed", store_id, department_id, error_msg)
+            # Re-raise the exception to stop the process
+            raise Exception(error_msg)
 
     return document_data_list
 

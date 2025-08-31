@@ -1,8 +1,8 @@
 from datetime import datetime
+import base64
+import gzip
 import json
-import os
 import re
-import bisect
 from log_helper import write_log
 from credentials import mexico_city_tz
 from refresh_date import if_refresh
@@ -55,22 +55,6 @@ def process_base64_data(document_data_list: list[dict], document_names: list[dic
         document_names[i] = document_names[i].replace(".gz", "")
         with open(f"current_files/{store_code}/{document_names[i]}", "w") as f:
             json.dump(json_data, f, indent=4)
-
-        # add the document name to historical_files/{store_code}.txt
-        historical_file = f"historical_files/{store_code}.txt"
-        new_document = document_names[i]
-        # Read the existing documents from the historical file
-        lines = []
-        if os.path.exists(historical_file):
-            with open(historical_file, "r") as f:
-                lines = [line.strip() for line in f]
-
-        # Insert the new document in the correct position
-        bisect.insort(lines, new_document)  # binary search and insert
-
-        # Write the updated list of documents to the historical file
-        with open(historical_file, "w") as f:
-            f.writelines(f"{line}\n" for line in lines)
 
     return json_data_list
 
