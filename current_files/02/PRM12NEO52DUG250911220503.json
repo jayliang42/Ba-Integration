@@ -1,0 +1,39 @@
+{
+    "organizationCountry": "MX",
+    "organizationName": "FEMSA Comercio",
+    "businessName": "OXXO",
+    "departmentId": "12NEO",
+    "storeId": "52DUG",
+    "numberOfRecords": "1",
+    "searchId": "000000000000000000000000",
+    "searchDate": "2025-09-11 22:05:03",
+    "promotions": [
+        {
+            "lineNumber": "1",
+            "folio": "  51170715",
+            "itemCategory": " 1",
+            "type": "02",
+            "startDate": "20250912",
+            "endDate": "20250916",
+            "itemSku": "   7501061651543",
+            "category": "",
+            "providerType": "0",
+            "requiredQuantity": "006.000",
+            "discount": "00063.000",
+            "discountType": "F",
+            "optative": "1",
+            "description": "PB CARTA BLANCA SIX                     ",
+            "itemSubcategory": "",
+            "itemSegment": "",
+            "itemSubsegment": "",
+            "durationCode": "1000023591111111",
+            "grouper": "001.000",
+            "percent": "000.00",
+            "optativeOne": " ",
+            "sent": " ",
+            "action": "A",
+            "binCode": "",
+            "messagePsg": ""
+        }
+    ]
+}

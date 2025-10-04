@@ -130,7 +130,7 @@ def main(customer_code: str, store_code: str, client_id: str, client_secret: str
         processed_json = process_values(
             processed_json, document_names[i], store_code)
 
-        # Send the integration
+        # Send the integration or handle empty processed items
         if processed_json != []:
             response = send_integration(
                 customer_code, store_code, client_id, client_secret, processed_json, document_names[i])
@@ -150,6 +150,11 @@ def main(customer_code: str, store_code: str, client_id: str, client_secret: str
 
                 with open(historical_file, 'w') as file:
                     file.writelines(lines)
+        else:
+            # No valid items to process, but mark file as processed to prevent re-download
+            print(f"⚠ {document_names[i]} - No valid items to process, marked as processed")
+            write_log(document_names[i], "skipped", customer_code, store_code, "No valid items to process")
+            add_to_historical_files(document_names[i], store_code)
 
 
 if __name__ == "__main__":

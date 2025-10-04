@@ -179,7 +179,7 @@ if __name__ == '__main__':
         "Content-Type": "application/json",
         "Authorization": f"Bearer {get_allstar_bearer_token()}"}
 
-    store_code = ["01", "02", "03"]
+    store_code = ["02", "03"]
     for store in store_code:
         print(f"store: {store}")
         check_promo_switch(customer_code, store, headers)

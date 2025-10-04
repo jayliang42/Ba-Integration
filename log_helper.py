@@ -25,3 +25,8 @@ def write_log(document_name, status, customer_code="", store_code="", error_mess
                 mexico_city_tz).strftime("%Y-%m-%d %H:%M:%S")
             f.write(
                 f"{time}: {document_name} successfully integrated to Customer: {customer_code}, Store: {store_code}.\n")
+        elif status == "skipped":
+            time = datetime.now(
+                mexico_city_tz).strftime("%Y-%m-%d %H:%M:%S")
+            f.write(
+                f"{time}: SKIPPED {document_name} for Customer: {customer_code}, Store: {store_code}. {error_message}\n")
