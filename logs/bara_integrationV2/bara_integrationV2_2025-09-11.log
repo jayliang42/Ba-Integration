@@ -1,0 +1,584 @@
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-10 23:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 54 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 75 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-11 00:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 54 pending items.
+Integrating 54 pending files...
+
+pending files successfully integrated.
+{'storeCode': '02', 'itemCount': 54}
+1 documents found in Bara DB.
+
+PRM12NEO52DUG250910232818.json
+
+Document names going to integrate: ['PRM12NEO52DUG250910232818.json.gz']
+
+Downloading PRM12NEO52DUG250910232818.json.gz...
+✓ Successfully downloaded PRM12NEO52DUG250910232818.json.gz
+7501055307043 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:60.0:现65.0
+PRM12NEO52DUG250910232818.json successfully integrated.
+{'storeCode': '02', 'itemCount': 2}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 75 pending items.
+Integrating 75 pending files...
+
+pending files successfully integrated.
+{'storeCode': '03', 'itemCount': 75}
+1 documents found in Bara DB.
+
+PRM12NEO52RSW250910232819.json
+
+Document names going to integrate: ['PRM12NEO52RSW250910232819.json.gz']
+
+Downloading PRM12NEO52RSW250910232819.json.gz...
+✓ Successfully downloaded PRM12NEO52RSW250910232819.json.gz
+7501055307043 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:60.0:现65.0
+PRM12NEO52RSW250910232819.json successfully integrated.
+{'storeCode': '03', 'itemCount': 2}
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-11 01:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-11 02:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-11 03:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+1 documents found in Bara DB.
+
+ITM12NEO52DUG250911022733.json
+
+Document names going to integrate: ['ITM12NEO52DUG250911022733.json.gz']
+
+Downloading ITM12NEO52DUG250911022733.json.gz...
+✓ Successfully downloaded ITM12NEO52DUG250911022733.json.gz
+7501055302451 not in promo，price1 has changed，ESL refresh by price changing。原:21.5:现23.0
+7501055302925 not in promo，price1 has changed，ESL refresh by price changing。原:34.5:现36.0
+7501055310227 not in promo，price1 has changed，ESL refresh by price changing。原:35.0:现37.0
+7501055321681 not in promo，price1 has changed，ESL refresh by price changing。原:30.0:现31.0
+7501055332175 not in promo，price1 has changed，ESL refresh by price changing。原:12.5:现13.5
+7501055349555 not in promo，price1 has changed，ESL refresh by price changing。原:25.0:现28.0
+7501055356188 not in promo，price1 has changed，ESL refresh by price changing。原:120.0:现130.0
+7501055356256 not in promo，price1 has changed，ESL refresh by price changing。原:10.0:现11.5
+ITM12NEO52DUG250911022733.json successfully integrated.
+{'storeCode': '02', 'itemCount': 9}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+1 documents found in Bara DB.
+
+ITM12NEO52RSW250911022716.json
+
+Document names going to integrate: ['ITM12NEO52RSW250911022716.json.gz']
+
+Downloading ITM12NEO52RSW250911022716.json.gz...
+✓ Successfully downloaded ITM12NEO52RSW250911022716.json.gz
+7501055302451 not in promo，price1 has changed，ESL refresh by price changing。原:21.5:现23.0
+7501055302925 not in promo，price1 has changed，ESL refresh by price changing。原:34.5:现36.0
+7501055310227 not in promo，price1 has changed，ESL refresh by price changing。原:35.0:现37.0
+7501055321681 not in promo，price1 has changed，ESL refresh by price changing。原:30.0:现31.0
+7501055332175 not in promo，price1 has changed，ESL refresh by price changing。原:12.5:现13.5
+7501055349555 not in promo，price1 has changed，ESL refresh by price changing。原:25.0:现28.0
+7501055356188 not in promo，price1 has changed，ESL refresh by price changing。原:120.0:现130.0
+7501055356256 not in promo，price1 has changed，ESL refresh by price changing。原:10.0:现11.5
+ITM12NEO52RSW250911022716.json successfully integrated.
+{'storeCode': '03', 'itemCount': 9}
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-11 04:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-11 05:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-11 06:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-11 07:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-11 08:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-11 09:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-11 10:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-11 11:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+1 documents found in Bara DB.
+
+ITM12NEO52DUG250911102943.json
+
+Document names going to integrate: ['ITM12NEO52DUG250911102943.json.gz']
+
+Downloading ITM12NEO52DUG250911102943.json.gz...
+✓ Successfully downloaded ITM12NEO52DUG250911102943.json.gz
+⚠ ITM12NEO52DUG250911102943.json - No valid items to process, marked as processed
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+1 documents found in Bara DB.
+
+ITM12NEO52RSW250911102923.json
+
+Document names going to integrate: ['ITM12NEO52RSW250911102923.json.gz']
+
+Downloading ITM12NEO52RSW250911102923.json.gz...
+✓ Successfully downloaded ITM12NEO52RSW250911102923.json.gz
+⚠ ITM12NEO52RSW250911102923.json - No valid items to process, marked as processed
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-11 12:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-11 13:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-11 14:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-11 15:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+2 documents found in Bara DB.
+
+ITM12NEO52DUG250911144323.json
+PRM12NEO52DUG250911145650.json
+
+Document names going to integrate: ['ITM12NEO52DUG250911144323.json.gz', 'PRM12NEO52DUG250911145650.json.gz']
+
+Downloading ITM12NEO52DUG250911144323.json.gz...
+✓ Successfully downloaded ITM12NEO52DUG250911144323.json.gz
+Downloading PRM12NEO52DUG250911145650.json.gz...
+✓ Successfully downloaded PRM12NEO52DUG250911145650.json.gz
+ITM12NEO52DUG250911144323.json successfully integrated.
+{'storeCode': '02', 'itemCount': 30}
+Promotion 7501061651543 is not ready to start. 2025/09/12 is in the future.
+⚠ PRM12NEO52DUG250911145650.json - No valid items to process, marked as processed
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+2 documents found in Bara DB.
+
+ITM12NEO52RSW250911144249.json
+PRM12NEO52RSW250911145718.json
+
+Document names going to integrate: ['ITM12NEO52RSW250911144249.json.gz', 'PRM12NEO52RSW250911145718.json.gz']
+
+Downloading ITM12NEO52RSW250911144249.json.gz...
+✓ Successfully downloaded ITM12NEO52RSW250911144249.json.gz
+Downloading PRM12NEO52RSW250911145718.json.gz...
+✓ Successfully downloaded PRM12NEO52RSW250911145718.json.gz
+ITM12NEO52RSW250911144249.json successfully integrated.
+{'storeCode': '03', 'itemCount': 30}
+Promotion 7501061651543 is not ready to start. 2025/09/12 is in the future.
+⚠ PRM12NEO52RSW250911145718.json - No valid items to process, marked as processed
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-11 16:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 1 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 1 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-11 17:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 1 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 1 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-11 18:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 1 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 1 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-11 19:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 1 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 1 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-11 20:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 1 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 1 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-11 21:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 1 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 1 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-11 22:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 1 pending items.
+No pending files to integrate.
+1 documents found in Bara DB.
+
+ITM12NEO52DUG250911213336.json
+
+Document names going to integrate: ['ITM12NEO52DUG250911213336.json.gz']
+
+Downloading ITM12NEO52DUG250911213336.json.gz...
+✓ Successfully downloaded ITM12NEO52DUG250911213336.json.gz
+Item 2870 is not ready to change price. 2025/09/12 is in the future.
+Item 7500383100951 is not ready to change price. 2025/09/12 is in the future.
+Item 7500383102573 is not ready to change price. 2025/09/12 is in the future.
+Item 7501001604318 is not ready to change price. 2025/09/12 is in the future.
+Item 7501518463415 is not ready to change price. 2025/09/12 is in the future.
+Item 7502213340711 is not ready to change price. 2025/09/12 is in the future.
+Item 7502213348458 is not ready to change price. 2025/09/12 is in the future.
+Item 7502214400056 is not ready to change price. 2025/09/12 is in the future.
+Item 7502294222289 is not ready to change price. 2025/09/12 is in the future.
+Item 7502294225266 is not ready to change price. 2025/09/12 is in the future.
+⚠ ITM12NEO52DUG250911213336.json - No valid items to process, marked as processed
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 1 pending items.
+No pending files to integrate.
+1 documents found in Bara DB.
+
+ITM12NEO52RSW250911213307.json
+
+Document names going to integrate: ['ITM12NEO52RSW250911213307.json.gz']
+
+Downloading ITM12NEO52RSW250911213307.json.gz...
+✓ Successfully downloaded ITM12NEO52RSW250911213307.json.gz
+Item 2870 is not ready to change price. 2025/09/12 is in the future.
+Item 5410316950527 is not ready to change price. 2025/09/12 is in the future.
+Item 7500383100951 is not ready to change price. 2025/09/12 is in the future.
+Item 7500383102573 is not ready to change price. 2025/09/12 is in the future.
+Item 7501001604318 is not ready to change price. 2025/09/12 is in the future.
+Item 7501518463415 is not ready to change price. 2025/09/12 is in the future.
+Item 7502294222289 is not ready to change price. 2025/09/12 is in the future.
+Item 7502294225266 is not ready to change price. 2025/09/12 is in the future.
+⚠ ITM12NEO52RSW250911213307.json - No valid items to process, marked as processed
+------------------------------------

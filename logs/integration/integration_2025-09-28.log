@@ -1,0 +1,4 @@
+2025-09-28 10:00:31: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-28 10:01:07: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-28 10:01:42: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-28 10:01:42: ERROR Store 02 Integration failed to integrate to Customer: , Store: . Request timeout

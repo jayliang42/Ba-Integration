@@ -1,0 +1,165 @@
+2025-10-04 00:00:01: pending files successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 00:00:06: pending files successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 04:00:32: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-10-04 04:01:08: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-10-04 04:01:43: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-10-04 04:01:43: ERROR Store 02 Integration failed to integrate to Customer: , Store: . Request timeout
+2025-10-04 04:02:14: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-10-04 08:00:08: Download ITM12NEO52DUG251004075344.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 08:00:08: SKIPPED ITM12NEO52DUG251004075344.json for Customer: Bara, Store: 02. No valid items to process
+2025-10-04 08:00:13: Download ITM12NEO52RSW251004075319.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 08:00:13: SKIPPED ITM12NEO52RSW251004075319.json for Customer: Bara, Store: 03. No valid items to process
+2025-10-04 14:00:08: Download ITM12NEO52DUG250925144005.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:00:10: Download ITM12NEO52DUG250925184003.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:00:12: Download ITM12NEO52DUG250925214020.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:00:14: Download ITM12NEO52DUG250926090223.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:00:15: Download ITM12NEO52DUG250926144933.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:00:17: Download ITM12NEO52DUG250926145429.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:00:19: Download ITM12NEO52DUG250926215226.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:00:21: Download ITM12NEO52DUG250927214426.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:00:23: Download ITM12NEO52DUG250929075308.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:00:26: Download ITM12NEO52DUG250929145435.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:00:27: Download ITM12NEO52DUG250929213151.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:00:29: Download ITM12NEO52DUG250930071441.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:00:31: Download ITM12NEO52DUG250930150601.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:00:33: Download ITM12NEO52DUG250930150740.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:00:35: Download ITM12NEO52DUG250930214553.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:00:37: Download ITM12NEO52DUG250930220044.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:00:39: Download ITM12NEO52DUG251001073420.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:00:41: Download ITM12NEO52DUG251001144352.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:00:43: Download ITM12NEO52DUG251001220018.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:00:45: Download ITM12NEO52DUG251002144230.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:00:47: Download ITM12NEO52DUG251002151520.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:00:49: Download ITM12NEO52DUG251002213755.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:00:50: Download ITM12NEO52DUG251002215305.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:00:52: Download ITM12NEO52DUG251003092040.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:00:54: Download ITM12NEO52DUG251003145903.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:00:56: Download ITM12NEO52DUG251003213626.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:00:58: Download ITM12NEO52DUG251003215109.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:01:00: Download ITM12NEO52DUG251004075344.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:01:04: ITM12NEO52DUG250925144005.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:01:19: ITM12NEO52DUG250925184003.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:01:23: ITM12NEO52DUG250925214020.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:01:24: ITM12NEO52DUG250926090223.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:01:24: ITM12NEO52DUG250926144933.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:01:34: ITM12NEO52DUG250926145429.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:01:38: ITM12NEO52DUG250926215226.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:01:39: ITM12NEO52DUG250927214426.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:01:39: ITM12NEO52DUG250929075308.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:01:41: ITM12NEO52DUG250929145435.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:01:41: ITM12NEO52DUG250929213151.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:01:42: ITM12NEO52DUG250930071441.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:01:42: ITM12NEO52DUG250930150601.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:06:00: ITM12NEO52DUG250930150740.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:06:02: ITM12NEO52DUG250930214553.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:06:06: ITM12NEO52DUG250930220044.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:06:07: ITM12NEO52DUG251001073420.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:06:13: ITM12NEO52DUG251001144352.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:06:13: ITM12NEO52DUG251001220018.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:06:13: ITM12NEO52DUG251002144230.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:06:14: ITM12NEO52DUG251002151520.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:06:18: ITM12NEO52DUG251002213755.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:06:22: ITM12NEO52DUG251002215305.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:06:22: ITM12NEO52DUG251003092040.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:06:22: ITM12NEO52DUG251003145903.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:06:23: ITM12NEO52DUG251003213626.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:06:35: ITM12NEO52DUG251003215109.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:06:35: SKIPPED ITM12NEO52DUG251004075344.json for Customer: Bara, Store: 02. No valid items to process
+2025-10-04 14:06:41: Download ITM12NEO52RSW250920143923.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:06:43: Download ITM12NEO52RSW250921052438.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:06:45: Download ITM12NEO52RSW250922144216.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:06:47: Download ITM12NEO52RSW250922214842.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:06:49: Download ITM12NEO52RSW250923092126.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:06:51: Download ITM12NEO52RSW250923145707.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:06:53: Download ITM12NEO52RSW250923214633.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:06:55: Download ITM12NEO52RSW250924144628.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:06:57: Download ITM12NEO52RSW250924212616.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:06:59: Download ITM12NEO52RSW250924214345.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:01: Download ITM12NEO52RSW250925100252.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:02: Download ITM12NEO52RSW250925143922.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:04: Download ITM12NEO52RSW250925183937.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:06: Download ITM12NEO52RSW250925213956.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:08: Download ITM12NEO52RSW250926090201.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:10: Download ITM12NEO52RSW250926144911.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:12: Download ITM12NEO52RSW250926145430.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:14: Download ITM12NEO52RSW250926215202.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:16: Download ITM12NEO52RSW250927214358.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:18: Download ITM12NEO52RSW250929075258.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:20: Download ITM12NEO52RSW250929145411.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:22: Download ITM12NEO52RSW250929213130.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:24: Download ITM12NEO52RSW250930071417.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:25: Download ITM12NEO52RSW250930150536.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:28: Download ITM12NEO52RSW250930150737.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:29: Download ITM12NEO52RSW250930214516.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:31: Download ITM12NEO52RSW250930220043.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:33: Download ITM12NEO52RSW251001073357.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:35: Download ITM12NEO52RSW251001144328.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:37: Download ITM12NEO52RSW251001215923.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:39: Download ITM12NEO52RSW251002144203.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:41: Download ITM12NEO52RSW251002151518.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:43: Download ITM12NEO52RSW251002213732.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:45: Download ITM12NEO52RSW251002215307.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:47: Download ITM12NEO52RSW251003091937.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:49: Download ITM12NEO52RSW251003145834.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:51: Download ITM12NEO52RSW251003213559.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:52: Download ITM12NEO52RSW251003215110.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:54: Download ITM12NEO52RSW251004075319.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:07:55: ITM12NEO52RSW250920143923.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:07:56: ITM12NEO52RSW250921052438.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:07:58: ITM12NEO52RSW250922144216.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:07:58: ITM12NEO52RSW250922214842.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:08:00: ITM12NEO52RSW250923092126.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:08:01: ITM12NEO52RSW250923145707.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:08:02: ITM12NEO52RSW250923214633.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:08:04: ITM12NEO52RSW250924144628.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:08:39: ITM12NEO52RSW250924212616.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:08:43: ITM12NEO52RSW250924214345.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:08:48: ITM12NEO52RSW250925100252.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:08:52: ITM12NEO52RSW250925143922.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:09:08: ITM12NEO52RSW250925183937.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:09:12: ITM12NEO52RSW250925213956.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:09:12: ITM12NEO52RSW250926090201.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:09:13: ITM12NEO52RSW250926144911.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:09:22: ITM12NEO52RSW250926145430.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:09:27: ITM12NEO52RSW250926215202.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:09:27: ITM12NEO52RSW250927214358.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:09:28: ITM12NEO52RSW250929075258.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:09:30: ITM12NEO52RSW250929145411.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:09:30: ITM12NEO52RSW250929213130.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:09:30: ITM12NEO52RSW250930071417.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:09:31: ITM12NEO52RSW250930150536.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:13:53: ITM12NEO52RSW250930150737.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:13:55: ITM12NEO52RSW250930214516.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:13:59: ITM12NEO52RSW250930220043.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:14:00: ITM12NEO52RSW251001073357.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:14:06: ITM12NEO52RSW251001144328.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:14:07: ITM12NEO52RSW251001215923.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:14:07: ITM12NEO52RSW251002144203.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:14:08: ITM12NEO52RSW251002151518.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:14:13: ITM12NEO52RSW251002213732.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:14:16: ITM12NEO52RSW251002215307.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:14:17: ITM12NEO52RSW251003091937.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:14:17: ITM12NEO52RSW251003145834.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:14:18: ITM12NEO52RSW251003213559.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:14:31: ITM12NEO52RSW251003215110.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:14:31: SKIPPED ITM12NEO52RSW251004075319.json for Customer: Bara, Store: 03. No valid items to process
+2025-10-04 14:29:23: Download PRM12NEO52DUG250925143947.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:29:25: Download PRM12NEO52DUG250930153558.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:29:27: Download PRM12NEO52DUG250930215911.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:29:29: Download PRM12NEO52DUG251002155707.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-10-04 14:29:37: PRM12NEO52DUG250925143947.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:37:28: PRM12NEO52DUG250930153558.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:37:34: PRM12NEO52DUG250930215911.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:37:47: PRM12NEO52DUG251002155707.json successfully integrated to Customer: Bara, Store: 02.
+2025-10-04 14:38:18: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-10-04 14:38:53: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-10-04 14:39:28: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-10-04 14:39:28: ERROR Store 03 Integration failed to integrate to Customer: , Store: . Request timeout
+2025-10-04 14:42:40: Download PRM12NEO52RSW250925144126.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:42:42: Download PRM12NEO52RSW250930153737.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:42:44: Download PRM12NEO52RSW250930215836.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:42:45: Download PRM12NEO52RSW251002155647.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-10-04 14:42:53: PRM12NEO52RSW250925144126.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:50:43: PRM12NEO52RSW250930153737.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:50:49: PRM12NEO52RSW250930215836.json successfully integrated to Customer: Bara, Store: 03.
+2025-10-04 14:51:02: PRM12NEO52RSW251002155647.json successfully integrated to Customer: Bara, Store: 03.

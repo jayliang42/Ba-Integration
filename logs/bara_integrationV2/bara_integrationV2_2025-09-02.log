@@ -1,0 +1,1552 @@
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-01 23:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 1 pending items.
+No pending files to integrate.
+2 documents found in Bara DB.
+
+PRM12NEO52DUG250901221938.json
+ITM12NEO52DUG250901222142.json
+
+Document names going to integrate: ['PRM12NEO52DUG250901221938.json.gz', 'ITM12NEO52DUG250901222142.json.gz']
+
+Downloading PRM12NEO52DUG250901221938.json.gz...
+✓ Successfully downloaded PRM12NEO52DUG250901221938.json.gz
+Downloading ITM12NEO52DUG250901222142.json.gz...
+✓ Successfully downloaded ITM12NEO52DUG250901222142.json.gz
+7501064120268 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+Promotion 7501064120268 is not ready to start. 2025/09/02 is in the future.
+7501064199769 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+Promotion 7501064199769 is not ready to start. 2025/09/02 is in the future.
+7503024460698 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+Promotion 7503024460698 is not ready to start. 2025/09/02 is in the future.
+7501064197482 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:248.0:现218.0
+Promotion 7501064197482 is not ready to start. 2025/09/02 is in the future.
+7501064191909 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+Promotion 7501064191909 is not ready to start. 2025/09/02 is in the future.
+Promotion 7501064193842 is not ready to start. 2025/09/02 is in the future.
+7501064191909 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现02
+Promotion 7501064191909 is not ready to start. 2025/09/02 is in the future.
+7501064101205 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现02
+Promotion 7501064101205 is not ready to start. 2025/09/02 is in the future.
+7501064194139 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 7501064194139 is not ready to start. 2025/09/02 is in the future.
+7501064193859 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 7501064193859 is not ready to start. 2025/09/02 is in the future.
+7501064194962 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 7501064194962 is not ready to start. 2025/09/02 is in the future.
+Promotion 7501064191886 is not ready to start. 2025/09/02 is in the future.
+7501064107153 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 7501064107153 is not ready to start. 2025/09/02 is in the future.
+7501064112546 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 7501064112546 is not ready to start. 2025/09/02 is in the future.
+7503024460452 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+Promotion 7503024460452 is not ready to start. 2025/09/02 is in the future.
+7501064114359 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+Promotion 7501064114359 is not ready to start. 2025/09/02 is in the future.
+7501064194504 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 7501064194504 is not ready to start. 2025/09/02 is in the future.
+7501064198168 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 7501064198168 is not ready to start. 2025/09/02 is in the future.
+Promotion 7501064195310 is not ready to start. 2025/09/02 is in the future.
+Promotion 7501064190711 is not ready to start. 2025/09/02 is in the future.
+⚠ PRM12NEO52DUG250901221938.json - No valid items to process, marked as processed
+Item 089826001415 is not ready to change price. 2025/09/02 is in the future.
+Item 65406 is not ready to change price. 2025/09/02 is in the future.
+Item 665777002352 is not ready to change price. 2025/09/02 is in the future.
+Item 7500462074548 is not ready to change price. 2025/09/02 is in the future.
+Item 7500462168483 is not ready to change price. 2025/09/02 is in the future.
+Item 7501049912284 is not ready to change price. 2025/09/02 is in the future.
+Item 7501049967062 is not ready to change price. 2025/09/02 is in the future.
+Item 7501049999360 is not ready to change price. 2025/09/02 is in the future.
+Item 7501059940178 is not ready to change price. 2025/09/02 is in the future.
+Item 7501061601128 is not ready to change price. 2025/09/02 is in the future.
+Item 7501061659365 is not ready to change price. 2025/09/02 is in the future.
+Item 7501061669289 is not ready to change price. 2025/09/02 is in the future.
+Item 7501061696988 is not ready to change price. 2025/09/02 is in the future.
+Item 7502271159591 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294226843 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294226881 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227024 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227031 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227048 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227055 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227062 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227079 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227086 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227093 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227109 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227116 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227123 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227291 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227345 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227352 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227390 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227406 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227413 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227635 is not ready to change price. 2025/09/02 is in the future.
+Item 7503024416138 is not ready to change price. 2025/09/02 is in the future.
+Item 7503024416510 is not ready to change price. 2025/09/02 is in the future.
+Item 7503028412570 is not ready to change price. 2025/09/02 is in the future.
+Item 7503032272771 is not ready to change price. 2025/09/02 is in the future.
+Item 7503032272924 is not ready to change price. 2025/09/02 is in the future.
+Item 7503032272931 is not ready to change price. 2025/09/02 is in the future.
+Item 7503053808027 is not ready to change price. 2025/09/02 is in the future.
+Item 7503053809000 is not ready to change price. 2025/09/02 is in the future.
+⚠ ITM12NEO52DUG250901222142.json - No valid items to process, marked as processed
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 1 pending items.
+No pending files to integrate.
+2 documents found in Bara DB.
+
+PRM12NEO52RSW250901221942.json
+ITM12NEO52RSW250901222144.json
+
+Document names going to integrate: ['PRM12NEO52RSW250901221942.json.gz', 'ITM12NEO52RSW250901222144.json.gz']
+
+Downloading PRM12NEO52RSW250901221942.json.gz...
+✓ Successfully downloaded PRM12NEO52RSW250901221942.json.gz
+Downloading ITM12NEO52RSW250901222144.json.gz...
+✓ Successfully downloaded ITM12NEO52RSW250901222144.json.gz
+7501064120268 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+Promotion 7501064120268 is not ready to start. 2025/09/02 is in the future.
+7501064199769 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+Promotion 7501064199769 is not ready to start. 2025/09/02 is in the future.
+7503024460698 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+Promotion 7503024460698 is not ready to start. 2025/09/02 is in the future.
+7501064197482 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:248.0:现218.0
+Promotion 7501064197482 is not ready to start. 2025/09/02 is in the future.
+7501064191909 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+Promotion 7501064191909 is not ready to start. 2025/09/02 is in the future.
+Promotion 7501064193842 is not ready to start. 2025/09/02 is in the future.
+7501064191909 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现02
+Promotion 7501064191909 is not ready to start. 2025/09/02 is in the future.
+7501064101205 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现02
+Promotion 7501064101205 is not ready to start. 2025/09/02 is in the future.
+7501064194139 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 7501064194139 is not ready to start. 2025/09/02 is in the future.
+7501064193859 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 7501064193859 is not ready to start. 2025/09/02 is in the future.
+7501064194962 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 7501064194962 is not ready to start. 2025/09/02 is in the future.
+Promotion 7501064191886 is not ready to start. 2025/09/02 is in the future.
+7501064107153 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 7501064107153 is not ready to start. 2025/09/02 is in the future.
+7501064112546 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 7501064112546 is not ready to start. 2025/09/02 is in the future.
+7503024460452 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+Promotion 7503024460452 is not ready to start. 2025/09/02 is in the future.
+7501064114359 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+Promotion 7501064114359 is not ready to start. 2025/09/02 is in the future.
+7501064194504 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 7501064194504 is not ready to start. 2025/09/02 is in the future.
+7501064198168 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 7501064198168 is not ready to start. 2025/09/02 is in the future.
+Promotion 7501064195310 is not ready to start. 2025/09/02 is in the future.
+Promotion 7501064190711 is not ready to start. 2025/09/02 is in the future.
+⚠ PRM12NEO52RSW250901221942.json - No valid items to process, marked as processed
+Item 089826001415 is not ready to change price. 2025/09/02 is in the future.
+Item 65406 is not ready to change price. 2025/09/02 is in the future.
+Item 665777002352 is not ready to change price. 2025/09/02 is in the future.
+Item 7500462074548 is not ready to change price. 2025/09/02 is in the future.
+Item 7500462168483 is not ready to change price. 2025/09/02 is in the future.
+Item 7501049912284 is not ready to change price. 2025/09/02 is in the future.
+Item 7501049967062 is not ready to change price. 2025/09/02 is in the future.
+Item 7501049999360 is not ready to change price. 2025/09/02 is in the future.
+Item 7501059940178 is not ready to change price. 2025/09/02 is in the future.
+Item 7501061601128 is not ready to change price. 2025/09/02 is in the future.
+Item 7501061659365 is not ready to change price. 2025/09/02 is in the future.
+Item 7501061669289 is not ready to change price. 2025/09/02 is in the future.
+Item 7501061696988 is not ready to change price. 2025/09/02 is in the future.
+Item 7502271159591 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294226843 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294226881 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227024 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227031 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227048 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227055 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227062 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227079 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227086 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227093 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227109 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227116 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227123 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227291 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227345 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227352 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227390 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227406 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227413 is not ready to change price. 2025/09/02 is in the future.
+Item 7502294227635 is not ready to change price. 2025/09/02 is in the future.
+Item 7503024416138 is not ready to change price. 2025/09/02 is in the future.
+Item 7503024416510 is not ready to change price. 2025/09/02 is in the future.
+Item 7503028412570 is not ready to change price. 2025/09/02 is in the future.
+Item 7503032272771 is not ready to change price. 2025/09/02 is in the future.
+Item 7503032272924 is not ready to change price. 2025/09/02 is in the future.
+Item 7503032272931 is not ready to change price. 2025/09/02 is in the future.
+Item 7503053808027 is not ready to change price. 2025/09/02 is in the future.
+Item 7503053809000 is not ready to change price. 2025/09/02 is in the future.
+⚠ ITM12NEO52RSW250901222144.json - No valid items to process, marked as processed
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-02 00:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 63 pending items.
+Integrating 63 pending files...
+
+pending files successfully integrated.
+{'storeCode': '02', 'itemCount': 63}
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 63 pending items.
+Integrating 63 pending files...
+
+pending files successfully integrated.
+{'storeCode': '03', 'itemCount': 63}
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-02 01:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-02 02:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-02 03:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-02 04:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-02 05:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-02 06:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-02 07:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-02 08:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-02 09:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-02 10:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-02 11:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-02 12:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+1 documents found in Bara DB.
+
+ITM12NEO52DUG250902115932.json
+
+Document names going to integrate: ['ITM12NEO52DUG250902115932.json.gz']
+
+Downloading ITM12NEO52DUG250902115932.json.gz...
+✓ Successfully downloaded ITM12NEO52DUG250902115932.json.gz
+⚠ ITM12NEO52DUG250902115932.json - No valid items to process, marked as processed
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+1 documents found in Bara DB.
+
+ITM12NEO52RSW250902115909.json
+
+Document names going to integrate: ['ITM12NEO52RSW250902115909.json.gz']
+
+Downloading ITM12NEO52RSW250902115909.json.gz...
+✓ Successfully downloaded ITM12NEO52RSW250902115909.json.gz
+⚠ ITM12NEO52RSW250902115909.json - No valid items to process, marked as processed
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-02 13:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-02 14:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-02 15:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+2 documents found in Bara DB.
+
+ITM12NEO52DUG250902143929.json
+PRM12NEO52DUG250902145825.json
+
+Document names going to integrate: ['ITM12NEO52DUG250902143929.json.gz', 'PRM12NEO52DUG250902145825.json.gz']
+
+Downloading ITM12NEO52DUG250902143929.json.gz...
+✓ Successfully downloaded ITM12NEO52DUG250902143929.json.gz
+Downloading PRM12NEO52DUG250902145825.json.gz...
+✓ Successfully downloaded PRM12NEO52DUG250902145825.json.gz
+⚠ ITM12NEO52DUG250902143929.json - No valid items to process, marked as processed
+7501064114359 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:66.0:现150.0
+Promotion 7501064114359 is not ready to start. 2025/09/03 is in the future.
+7503024460452 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:72.0:现150.0
+Promotion 7503024460452 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501055332175 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501055310883 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501055302925 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501055303878 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501055340002 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501055305650 is not ready to start. 2025/09/03 is in the future.
+Promotion 75007614 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501055305629 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501055379927 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501055339983 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501071120077 is not ready to start. 2025/09/03 is in the future.
+7503006897030 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:46.0:现25.0
+Promotion 7503006897030 is not ready to start. 2025/09/03 is in the future.
+7501011351097 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现02
+Promotion 7501011351097 is not ready to start. 2025/09/03 is in the future.
+07432354 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 07432354 is not ready to start. 2025/09/03 is in the future.
+75073275 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 75073275 is not ready to start. 2025/09/03 is in the future.
+75073244 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 75073244 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501055356898 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501055356928 is not ready to start. 2025/09/03 is in the future.
+7501020540666 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:46.0:现69.0
+Promotion 7501020540666 is not ready to start. 2025/09/03 is in the future.
+Promotion 760203009988 is not ready to start. 2025/09/03 is in the future.
+7501064114359 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:66.0:现78.0
+Promotion 7501064114359 is not ready to start. 2025/09/03 is in the future.
+7501064199615 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:124.0:现126.0
+Promotion 7501064199615 is not ready to start. 2025/09/03 is in the future.
+7501064196935 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:129.0:现131.0
+Promotion 7501064196935 is not ready to start. 2025/09/03 is in the future.
+Promotion 75027278 is not ready to start. 2025/09/03 is in the future.
+7501064198168 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:125.0:现119.0
+Promotion 7501064198168 is not ready to start. 2025/09/03 is in the future.
+7501064194504 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:119.0:现124.0
+Promotion 7501064194504 is not ready to start. 2025/09/03 is in the future.
+7506241203536 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:00:现02
+Promotion 7506241203536 is not ready to start. 2025/09/03 is in the future.
+7502294225099 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:13.0:现22.0
+Promotion 7502294225099 is not ready to start. 2025/09/03 is in the future.
+7501049999360 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:47.0:现50.0
+Promotion 7501049999360 is not ready to start. 2025/09/03 is in the future.
+7503024416138 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:117.0:现114.0
+Promotion 7503024416138 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503032272771 is not ready to start. 2025/09/03 is in the future.
+7501049912284 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:41.0:现44.0
+Promotion 7501049912284 is not ready to start. 2025/09/03 is in the future.
+7501061696988 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现02
+Promotion 7501061696988 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501031311682 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501013103120 is not ready to start. 2025/09/03 is in the future.
+Promotion 75078911 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501013103144 is not ready to start. 2025/09/03 is in the future.
+7501027573919 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:21.0:现38.0
+Promotion 7501027573919 is not ready to start. 2025/09/03 is in the future.
+7501943471900 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:21.0:现38.0
+Promotion 7501943471900 is not ready to start. 2025/09/03 is in the future.
+7501064190711 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:109.0:现112.0
+Promotion 7501064190711 is not ready to start. 2025/09/03 is in the future.
+7501064195310 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:109.0:现112.0
+Promotion 7501064195310 is not ready to start. 2025/09/03 is in the future.
+7501064112546 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:120.0:现127.0
+Promotion 7501064112546 is not ready to start. 2025/09/03 is in the future.
+7501020565911 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:125.0:现158.0
+Promotion 7501020565911 is not ready to start. 2025/09/03 is in the future.
+7501020565935 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:125.0:现158.0
+Promotion 7501020565935 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503024416237 is not ready to start. 2025/09/03 is in the future.
+7501061669289 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:76.0:现83.0
+Promotion 7501061669289 is not ready to start. 2025/09/03 is in the future.
+089826001415 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:76.0:现83.0
+Promotion 089826001415 is not ready to start. 2025/09/03 is in the future.
+Promotion 23461 is not ready to start. 2025/09/03 is in the future.
+7501064101205 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:85.0:现102.0
+Promotion 7501064101205 is not ready to start. 2025/09/03 is in the future.
+7501064191909 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:85.0:现102.0
+Promotion 7501064191909 is not ready to start. 2025/09/03 is in the future.
+7501032397906 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现30.0
+Promotion 7501032397906 is not ready to start. 2025/09/03 is in the future.
+7501020561159 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:35.0:现36.0
+Promotion 7501020561159 is not ready to start. 2025/09/03 is in the future.
+7501020561197 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:35.0:现36.0
+Promotion 7501020561197 is not ready to start. 2025/09/03 is in the future.
+7501020561234 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:35.0:现36.0
+Promotion 7501020561234 is not ready to start. 2025/09/03 is in the future.
+7501055914630 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:35.0:现33.0
+Promotion 7501055914630 is not ready to start. 2025/09/03 is in the future.
+7501055914807 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:35.0:现33.0
+Promotion 7501055914807 is not ready to start. 2025/09/03 is in the future.
+7501032398255 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:41.0:现38.0
+Promotion 7501032398255 is not ready to start. 2025/09/03 is in the future.
+7501295600614 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:40.0:现63.0
+Promotion 7501295600614 is not ready to start. 2025/09/03 is in the future.
+7501295600621 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:40.0:现63.0
+Promotion 7501295600621 is not ready to start. 2025/09/03 is in the future.
+75079512 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:30.0:现32.0
+Promotion 75079512 is not ready to start. 2025/09/03 is in the future.
+75079550 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:30.0:现32.0
+Promotion 75079550 is not ready to start. 2025/09/03 is in the future.
+7501040098666 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:41.0:现43.0
+Promotion 7501040098666 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501040095283 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501040095535 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501032395230 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501032332020 is not ready to start. 2025/09/03 is in the future.
+7501032332013 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:18.0:现20.0
+Promotion 7501032332013 is not ready to start. 2025/09/03 is in the future.
+7501020564969 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:15.0:现16.0
+Promotion 7501020564969 is not ready to start. 2025/09/03 is in the future.
+7501020570625 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:15.0:现16.0
+Promotion 7501020570625 is not ready to start. 2025/09/03 is in the future.
+7501020564983 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:15.0:现16.0
+Promotion 7501020564983 is not ready to start. 2025/09/03 is in the future.
+7501020564976 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:15.0:现16.0
+Promotion 7501020564976 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501055912438 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501055912476 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501055912391 is not ready to start. 2025/09/03 is in the future.
+7501020532036 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:36.0:现20.0
+Promotion 7501020532036 is not ready to start. 2025/09/03 is in the future.
+Promotion 75030551 is not ready to start. 2025/09/03 is in the future.
+7501064194214 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+Promotion 7501064194214 is not ready to start. 2025/09/03 is in the future.
+756702000328 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现03
+Promotion 756702000328 is not ready to start. 2025/09/03 is in the future.
+7501064197482 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:218.0:现224.0
+Promotion 7501064197482 is not ready to start. 2025/09/03 is in the future.
+7503028412587 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现03
+Promotion 7503028412587 is not ready to start. 2025/09/03 is in the future.
+7501061601128 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:179.0:现178.0
+Promotion 7501061601128 is not ready to start. 2025/09/03 is in the future.
+Promotion 014800515336 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501011123588 is not ready to start. 2025/09/03 is in the future.
+7506390200912 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现03
+Promotion 7506390200912 is not ready to start. 2025/09/03 is in the future.
+7501064199769 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:21.0:现24.0
+Promotion 7501064199769 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501011154902 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501011167735 is not ready to start. 2025/09/03 is in the future.
+Promotion 7500478044221 is not ready to start. 2025/09/03 is in the future.
+Promotion 7622210833662 is not ready to start. 2025/09/03 is in the future.
+7506390202329 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:30.0:现15.0
+Promotion 7506390202329 is not ready to start. 2025/09/03 is in the future.
+7501055317875 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:30.0:现14.0
+Promotion 7501055317875 is not ready to start. 2025/09/03 is in the future.
+8711327446045 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+Promotion 8711327446045 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501011131064 is not ready to start. 2025/09/03 is in the future.
+7501059278110 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:30.0:现15.0
+Promotion 7501059278110 is not ready to start. 2025/09/03 is in the future.
+7506306416437 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:00:现03
+Promotion 7506306416437 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501011167674 is not ready to start. 2025/09/03 is in the future.
+7503024460452 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:72.0:现78.0
+Promotion 7503024460452 is not ready to start. 2025/09/03 is in the future.
+7503024460698 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:21.0:现24.0
+Promotion 7503024460698 is not ready to start. 2025/09/03 is in the future.
+7501055343690 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:30.0:现14.0
+Promotion 7501055343690 is not ready to start. 2025/09/03 is in the future.
+042743230511 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现03
+Promotion 042743230511 is not ready to start. 2025/09/03 is in the future.
+Promotion 7500478043927 is not ready to start. 2025/09/03 is in the future.
+7506306416505 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现03
+Promotion 7506306416505 is not ready to start. 2025/09/03 is in the future.
+Promotion 7622210575586 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503024460018 is not ready to start. 2025/09/03 is in the future.
+7506390201926 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现03
+Promotion 7506390201926 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501073844179 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501011155008 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501011133884 is not ready to start. 2025/09/03 is in the future.
+Promotion 7500478044092 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501011155022 is not ready to start. 2025/09/03 is in the future.
+7501064120268 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:240.0:现254.0
+Promotion 7501064120268 is not ready to start. 2025/09/03 is in the future.
+7506390202213 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:30.0:现15.0
+Promotion 7506390202213 is not ready to start. 2025/09/03 is in the future.
+7501055358885 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:30.0:现14.0
+Promotion 7501055358885 is not ready to start. 2025/09/03 is in the future.
+7506390201933 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现03
+Promotion 7506390201933 is not ready to start. 2025/09/03 is in the future.
+7503024416510 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:89.0:现19.0
+Promotion 7503024416510 is not ready to start. 2025/09/03 is in the future.
+Promotion 7622210575609 is not ready to start. 2025/09/03 is in the future.
+7506306416413 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现03
+Promotion 7506306416413 is not ready to start. 2025/09/03 is in the future.
+Promotion 014800515343 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501073844186 is not ready to start. 2025/09/03 is in the future.
+7501064114359 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:66.0:现78.0
+Promotion 7501064114359 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501061651024 is not ready to start. 2025/09/03 is in the future.
+7501061659365 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:179.0:现191.0
+Promotion 7501061659365 is not ready to start. 2025/09/03 is in the future.
+7501064193842 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:218.0:现224.0
+Promotion 7501064193842 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503052023629 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503052023766 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503052023612 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503052023940 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503032460062 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503032460086 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503032460055 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503032460123 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503032460079 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503032460109 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503032460093 is not ready to start. 2025/09/03 is in the future.
+Promotion 7502254750036 is not ready to start. 2025/09/03 is in the future.
+Promotion 7502254752290 is not ready to start. 2025/09/03 is in the future.
+Promotion 7502254752313 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503027753605 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503027753650 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503027753629 is not ready to start. 2025/09/03 is in the future.
+7503037623721 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 7503037623721 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501013109689 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501013104066 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501013102789 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501013104073 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501013107296 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501013107302 is not ready to start. 2025/09/03 is in the future.
+665777001928 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现02
+Promotion 665777001928 is not ready to start. 2025/09/03 is in the future.
+665777001942 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现02
+Promotion 665777001942 is not ready to start. 2025/09/03 is in the future.
+665777001973 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现02
+Promotion 665777001973 is not ready to start. 2025/09/03 is in the future.
+665777001935 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现02
+Promotion 665777001935 is not ready to start. 2025/09/03 is in the future.
+7501073839854 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现30.0
+Promotion 7501073839854 is not ready to start. 2025/09/03 is in the future.
+7501073839304 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现30.0
+Promotion 7501073839304 is not ready to start. 2025/09/03 is in the future.
+7501073839328 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现30.0
+Promotion 7501073839328 is not ready to start. 2025/09/03 is in the future.
+7501073830509 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现30.0
+Promotion 7501073830509 is not ready to start. 2025/09/03 is in the future.
+7501073839885 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现30.0
+Promotion 7501073839885 is not ready to start. 2025/09/03 is in the future.
+7501073840355 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现30.0
+Promotion 7501073840355 is not ready to start. 2025/09/03 is in the future.
+757528042073 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 757528042073 is not ready to start. 2025/09/03 is in the future.
+757528042042 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 757528042042 is not ready to start. 2025/09/03 is in the future.
+Promotion 7502271157979 is not ready to start. 2025/09/03 is in the future.
+Promotion 7502271157993 is not ready to start. 2025/09/03 is in the future.
+Promotion 7502271157986 is not ready to start. 2025/09/03 is in the future.
+Promotion 7502271157962 is not ready to start. 2025/09/03 is in the future.
+7501073840942 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:28.0:现54.0
+Promotion 7501073840942 is not ready to start. 2025/09/03 is in the future.
+7501073841949 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:28.0:现54.0
+Promotion 7501073841949 is not ready to start. 2025/09/03 is in the future.
+7501073839892 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:28.0:现54.0
+Promotion 7501073839892 is not ready to start. 2025/09/03 is in the future.
+7501073839861 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:28.0:现54.0
+Promotion 7501073839861 is not ready to start. 2025/09/03 is in the future.
+7501073831988 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:28.0:现54.0
+Promotion 7501073831988 is not ready to start. 2025/09/03 is in the future.
+7501073831964 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:28.0:现54.0
+Promotion 7501073831964 is not ready to start. 2025/09/03 is in the future.
+7501073800908 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:28.0:现54.0
+Promotion 7501073800908 is not ready to start. 2025/09/03 is in the future.
+7501013106954 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现02
+Promotion 7501013106954 is not ready to start. 2025/09/03 is in the future.
+7501013106909 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现02
+Promotion 7501013106909 is not ready to start. 2025/09/03 is in the future.
+7501013106893 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现02
+Promotion 7501013106893 is not ready to start. 2025/09/03 is in the future.
+7506105606060 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 7506105606060 is not ready to start. 2025/09/03 is in the future.
+7506105606053 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 7506105606053 is not ready to start. 2025/09/03 is in the future.
+7506105606084 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 7506105606084 is not ready to start. 2025/09/03 is in the future.
+7506105606077 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 7506105606077 is not ready to start. 2025/09/03 is in the future.
+Promotion 7622210577030 is not ready to start. 2025/09/03 is in the future.
+Promotion 7622210577153 is not ready to start. 2025/09/03 is in the future.
+Promotion 7622210576965 is not ready to start. 2025/09/03 is in the future.
+Promotion 7622210577306 is not ready to start. 2025/09/03 is in the future.
+Promotion 7622210577450 is not ready to start. 2025/09/03 is in the future.
+Promotion 7502271158631 is not ready to start. 2025/09/03 is in the future.
+Promotion 7502271158655 is not ready to start. 2025/09/03 is in the future.
+Promotion 7502271158648 is not ready to start. 2025/09/03 is in the future.
+Promotion 7502271158624 is not ready to start. 2025/09/03 is in the future.
+7501073840355 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现35.0
+Promotion 7501073840355 is not ready to start. 2025/09/03 is in the future.
+7501073839885 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现35.0
+Promotion 7501073839885 is not ready to start. 2025/09/03 is in the future.
+7501073839304 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现35.0
+Promotion 7501073839304 is not ready to start. 2025/09/03 is in the future.
+7501073839854 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现35.0
+Promotion 7501073839854 is not ready to start. 2025/09/03 is in the future.
+7501073839328 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现35.0
+Promotion 7501073839328 is not ready to start. 2025/09/03 is in the future.
+7501073830509 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现35.0
+Promotion 7501073830509 is not ready to start. 2025/09/03 is in the future.
+7501055379941 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:44.0:现47.0
+Promotion 7501055379941 is not ready to start. 2025/09/03 is in the future.
+7501055305742 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:44.0:现47.0
+Promotion 7501055305742 is not ready to start. 2025/09/03 is in the future.
+7501055304691 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:44.0:现45.0
+Promotion 7501055304691 is not ready to start. 2025/09/03 is in the future.
+7501055367412 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:44.0:现45.0
+Promotion 7501055367412 is not ready to start. 2025/09/03 is in the future.
+7501055364077 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:44.0:现45.0
+Promotion 7501055364077 is not ready to start. 2025/09/03 is in the future.
+7501055379491 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:44.0:现45.0
+Promotion 7501055379491 is not ready to start. 2025/09/03 is in the future.
+7501055376681 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:44.0:现45.0
+Promotion 7501055376681 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503019886984 is not ready to start. 2025/09/03 is in the future.
+7501072210265 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:27.0:现25.0
+Promotion 7501072210265 is not ready to start. 2025/09/03 is in the future.
+7501072213785 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:27.0:现25.0
+Promotion 7501072213785 is not ready to start. 2025/09/03 is in the future.
+7501072209801 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:27.0:现25.0
+Promotion 7501072209801 is not ready to start. 2025/09/03 is in the future.
+7501072209832 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:27.0:现25.0
+Promotion 7501072209832 is not ready to start. 2025/09/03 is in the future.
+7501072210289 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:27.0:现25.0
+Promotion 7501072210289 is not ready to start. 2025/09/03 is in the future.
+Promotion 23461 is not ready to start. 2025/09/03 is in the future.
+7501064191909 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:85.0:现98.0
+Promotion 7501064191909 is not ready to start. 2025/09/03 is in the future.
+7503028412570 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:99.0:现117.0
+Promotion 7503028412570 is not ready to start. 2025/09/03 is in the future.
+7501125104268 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:60.0:现25.0
+Promotion 7501125104268 is not ready to start. 2025/09/03 is in the future.
+7501125104411 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:60.0:现25.0
+Promotion 7501125104411 is not ready to start. 2025/09/03 is in the future.
+7501125104688 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:60.0:现25.0
+Promotion 7501125104688 is not ready to start. 2025/09/03 is in the future.
+7501125174797 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:60.0:现25.0
+Promotion 7501125174797 is not ready to start. 2025/09/03 is in the future.
+7501125118562 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:60.0:现25.0
+Promotion 7501125118562 is not ready to start. 2025/09/03 is in the future.
+7501125144851 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:60.0:现25.0
+Promotion 7501125144851 is not ready to start. 2025/09/03 is in the future.
+7501058614322 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:17.5:现33.333
+Promotion 7501058614322 is not ready to start. 2025/09/03 is in the future.
+7501000906246 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:19.0:现33.333
+Promotion 7501000906246 is not ready to start. 2025/09/03 is in the future.
+75003388 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:15.5:现33.333
+Promotion 75003388 is not ready to start. 2025/09/03 is in the future.
+75004743 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:19.0:现33.333
+Promotion 75004743 is not ready to start. 2025/09/03 is in the future.
+75004705 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:19.0:现33.333
+Promotion 75004705 is not ready to start. 2025/09/03 is in the future.
+7501058614124 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:17.5:现33.333
+Promotion 7501058614124 is not ready to start. 2025/09/03 is in the future.
+7502294223873 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:80.0:现84.0
+Promotion 7502294223873 is not ready to start. 2025/09/03 is in the future.
+Promotion 23461 is not ready to start. 2025/09/03 is in the future.
+7501064191909 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:85.0:现92.0
+Promotion 7501064191909 is not ready to start. 2025/09/03 is in the future.
+7501064101205 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:85.0:现92.0
+Promotion 7501064101205 is not ready to start. 2025/09/03 is in the future.
+7501295600126 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:87.0:现84.0
+Promotion 7501295600126 is not ready to start. 2025/09/03 is in the future.
+7501295600157 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:87.0:现84.0
+Promotion 7501295600157 is not ready to start. 2025/09/03 is in the future.
+7501020565935 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:125.0:现95.0
+Promotion 7501020565935 is not ready to start. 2025/09/03 is in the future.
+7501020565911 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:125.0:现95.0
+Promotion 7501020565911 is not ready to start. 2025/09/03 is in the future.
+7501064191886 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:100.0:现102.0
+Promotion 7501064191886 is not ready to start. 2025/09/03 is in the future.
+7503024416510 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:89.0:现19.0
+Promotion 7503024416510 is not ready to start. 2025/09/03 is in the future.
+7501064194962 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:90.0:现96.0
+Promotion 7501064194962 is not ready to start. 2025/09/03 is in the future.
+7501064193859 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:90.0:现96.0
+Promotion 7501064193859 is not ready to start. 2025/09/03 is in the future.
+7501064194139 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:90.0:现96.0
+Promotion 7501064194139 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501061651543 is not ready to start. 2025/09/03 is in the future.
+7501032397609 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:72.0:现76.0
+Promotion 7501032397609 is not ready to start. 2025/09/03 is in the future.
+7501032397845 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:43.0:现47.0
+Promotion 7501032397845 is not ready to start. 2025/09/03 is in the future.
+7501032398576 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:32.0:现33.0
+Promotion 7501032398576 is not ready to start. 2025/09/03 is in the future.
+7501032398491 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:32.0:现33.0
+Promotion 7501032398491 is not ready to start. 2025/09/03 is in the future.
+7501020550672 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:47.0:现130.0
+Promotion 7501020550672 is not ready to start. 2025/09/03 is in the future.
+7501020550733 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:47.0:现130.0
+Promotion 7501020550733 is not ready to start. 2025/09/03 is in the future.
+7501055358106 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:34.0:现99.0
+Promotion 7501055358106 is not ready to start. 2025/09/03 is in the future.
+7501055370276 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:34.0:现99.0
+Promotion 7501055370276 is not ready to start. 2025/09/03 is in the future.
+7501055358113 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:34.0:现99.0
+Promotion 7501055358113 is not ready to start. 2025/09/03 is in the future.
+7501040092596 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:22.0:现21.0
+Promotion 7501040092596 is not ready to start. 2025/09/03 is in the future.
+7501040090783 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现28.0
+Promotion 7501040090783 is not ready to start. 2025/09/03 is in the future.
+7501040090745 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现28.0
+Promotion 7501040090745 is not ready to start. 2025/09/03 is in the future.
+7501032395605 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现28.0
+Promotion 7501032395605 is not ready to start. 2025/09/03 is in the future.
+7501032395599 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现28.0
+Promotion 7501032395599 is not ready to start. 2025/09/03 is in the future.
+7501032395582 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现28.0
+Promotion 7501032395582 is not ready to start. 2025/09/03 is in the future.
+7501032395902 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现28.0
+Promotion 7501032395902 is not ready to start. 2025/09/03 is in the future.
+7501064197482 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:218.0:现224.0
+Promotion 7501064197482 is not ready to start. 2025/09/03 is in the future.
+756702000328 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现03
+Promotion 756702000328 is not ready to start. 2025/09/03 is in the future.
+7501049967062 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:22.0:现25.0
+Promotion 7501049967062 is not ready to start. 2025/09/03 is in the future.
+7503028412587 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现03
+Promotion 7503028412587 is not ready to start. 2025/09/03 is in the future.
+7506306416079 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:115.0:现39.0
+Promotion 7506306416079 is not ready to start. 2025/09/03 is in the future.
+7506306415775 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:115.0:现39.0
+Promotion 7506306415775 is not ready to start. 2025/09/03 is in the future.
+7506306415799 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:115.0:现39.0
+Promotion 7506306415799 is not ready to start. 2025/09/03 is in the future.
+7506306418646 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+Promotion 7506306418646 is not ready to start. 2025/09/03 is in the future.
+7506306418066 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+Promotion 7506306418066 is not ready to start. 2025/09/03 is in the future.
+7501049967062 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:22.0:现25.0
+Promotion 7501049967062 is not ready to start. 2025/09/03 is in the future.
+7506306417236 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:00:现02
+Promotion 7506306417236 is not ready to start. 2025/09/03 is in the future.
+766324303509 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+Promotion 766324303509 is not ready to start. 2025/09/03 is in the future.
+⚠ PRM12NEO52DUG250902145825.json - No valid items to process, marked as processed
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+2 documents found in Bara DB.
+
+ITM12NEO52RSW250902143917.json
+PRM12NEO52RSW250902145746.json
+
+Document names going to integrate: ['ITM12NEO52RSW250902143917.json.gz', 'PRM12NEO52RSW250902145746.json.gz']
+
+Downloading ITM12NEO52RSW250902143917.json.gz...
+✓ Successfully downloaded ITM12NEO52RSW250902143917.json.gz
+Downloading PRM12NEO52RSW250902145746.json.gz...
+✓ Successfully downloaded PRM12NEO52RSW250902145746.json.gz
+⚠ ITM12NEO52RSW250902143917.json - No valid items to process, marked as processed
+7501064114359 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:66.0:现150.0
+Promotion 7501064114359 is not ready to start. 2025/09/03 is in the future.
+7503024460452 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:72.0:现150.0
+Promotion 7503024460452 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501055332175 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501055310883 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501055302925 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501055303878 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501055340002 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501055305650 is not ready to start. 2025/09/03 is in the future.
+Promotion 75007614 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501055305629 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501055379927 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501055339983 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501071120077 is not ready to start. 2025/09/03 is in the future.
+7503006897030 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:46.0:现25.0
+Promotion 7503006897030 is not ready to start. 2025/09/03 is in the future.
+7501011351097 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现02
+Promotion 7501011351097 is not ready to start. 2025/09/03 is in the future.
+07432354 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 07432354 is not ready to start. 2025/09/03 is in the future.
+75073275 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 75073275 is not ready to start. 2025/09/03 is in the future.
+75073244 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 75073244 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501055356898 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501055356928 is not ready to start. 2025/09/03 is in the future.
+7501020540666 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:46.0:现69.0
+Promotion 7501020540666 is not ready to start. 2025/09/03 is in the future.
+Promotion 760203009988 is not ready to start. 2025/09/03 is in the future.
+7501064114359 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:66.0:现78.0
+Promotion 7501064114359 is not ready to start. 2025/09/03 is in the future.
+7501064199615 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:124.0:现126.0
+Promotion 7501064199615 is not ready to start. 2025/09/03 is in the future.
+7501064196935 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:129.0:现131.0
+Promotion 7501064196935 is not ready to start. 2025/09/03 is in the future.
+Promotion 75027278 is not ready to start. 2025/09/03 is in the future.
+7501064198168 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:125.0:现119.0
+Promotion 7501064198168 is not ready to start. 2025/09/03 is in the future.
+7501064194504 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:119.0:现124.0
+Promotion 7501064194504 is not ready to start. 2025/09/03 is in the future.
+7506241203536 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:00:现02
+Promotion 7506241203536 is not ready to start. 2025/09/03 is in the future.
+7502294225099 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:13.0:现22.0
+Promotion 7502294225099 is not ready to start. 2025/09/03 is in the future.
+7501049999360 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:47.0:现50.0
+Promotion 7501049999360 is not ready to start. 2025/09/03 is in the future.
+7503024416138 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:117.0:现114.0
+Promotion 7503024416138 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503032272771 is not ready to start. 2025/09/03 is in the future.
+7501049912284 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:41.0:现44.0
+Promotion 7501049912284 is not ready to start. 2025/09/03 is in the future.
+7501061696988 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现02
+Promotion 7501061696988 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501031311682 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501013103120 is not ready to start. 2025/09/03 is in the future.
+Promotion 75078911 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501013103144 is not ready to start. 2025/09/03 is in the future.
+7501027573919 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:21.0:现38.0
+Promotion 7501027573919 is not ready to start. 2025/09/03 is in the future.
+7501943471900 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:21.0:现38.0
+Promotion 7501943471900 is not ready to start. 2025/09/03 is in the future.
+7501064190711 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:109.0:现112.0
+Promotion 7501064190711 is not ready to start. 2025/09/03 is in the future.
+7501064195310 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:109.0:现112.0
+Promotion 7501064195310 is not ready to start. 2025/09/03 is in the future.
+7501064112546 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:120.0:现127.0
+Promotion 7501064112546 is not ready to start. 2025/09/03 is in the future.
+7501020565911 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:125.0:现158.0
+Promotion 7501020565911 is not ready to start. 2025/09/03 is in the future.
+7501020565935 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:125.0:现158.0
+Promotion 7501020565935 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503024416237 is not ready to start. 2025/09/03 is in the future.
+7501061669289 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:76.0:现83.0
+Promotion 7501061669289 is not ready to start. 2025/09/03 is in the future.
+089826001415 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:76.0:现83.0
+Promotion 089826001415 is not ready to start. 2025/09/03 is in the future.
+Promotion 23461 is not ready to start. 2025/09/03 is in the future.
+7501064101205 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:85.0:现102.0
+Promotion 7501064101205 is not ready to start. 2025/09/03 is in the future.
+7501064191909 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:85.0:现102.0
+Promotion 7501064191909 is not ready to start. 2025/09/03 is in the future.
+7501032397906 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现30.0
+Promotion 7501032397906 is not ready to start. 2025/09/03 is in the future.
+7501020561159 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:35.0:现36.0
+Promotion 7501020561159 is not ready to start. 2025/09/03 is in the future.
+7501020561197 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:35.0:现36.0
+Promotion 7501020561197 is not ready to start. 2025/09/03 is in the future.
+7501020561234 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:35.0:现36.0
+Promotion 7501020561234 is not ready to start. 2025/09/03 is in the future.
+7501055914630 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:35.0:现33.0
+Promotion 7501055914630 is not ready to start. 2025/09/03 is in the future.
+7501055914807 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:35.0:现33.0
+Promotion 7501055914807 is not ready to start. 2025/09/03 is in the future.
+7501032398255 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:41.0:现38.0
+Promotion 7501032398255 is not ready to start. 2025/09/03 is in the future.
+7501295600614 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:40.0:现63.0
+Promotion 7501295600614 is not ready to start. 2025/09/03 is in the future.
+7501295600621 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:40.0:现63.0
+Promotion 7501295600621 is not ready to start. 2025/09/03 is in the future.
+75079512 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:30.0:现32.0
+Promotion 75079512 is not ready to start. 2025/09/03 is in the future.
+75079550 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:30.0:现32.0
+Promotion 75079550 is not ready to start. 2025/09/03 is in the future.
+7501040098666 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:41.0:现43.0
+Promotion 7501040098666 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501040095283 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501040095535 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501032395230 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501032332020 is not ready to start. 2025/09/03 is in the future.
+7501032332013 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:18.0:现20.0
+Promotion 7501032332013 is not ready to start. 2025/09/03 is in the future.
+7501020564969 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:15.0:现16.0
+Promotion 7501020564969 is not ready to start. 2025/09/03 is in the future.
+7501020570625 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:15.0:现16.0
+Promotion 7501020570625 is not ready to start. 2025/09/03 is in the future.
+7501020564983 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:15.0:现16.0
+Promotion 7501020564983 is not ready to start. 2025/09/03 is in the future.
+7501020564976 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:15.0:现16.0
+Promotion 7501020564976 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501055912438 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501055912476 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501055912391 is not ready to start. 2025/09/03 is in the future.
+7501020532036 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:36.0:现20.0
+Promotion 7501020532036 is not ready to start. 2025/09/03 is in the future.
+Promotion 75030551 is not ready to start. 2025/09/03 is in the future.
+7501064194214 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+Promotion 7501064194214 is not ready to start. 2025/09/03 is in the future.
+7506306416437 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:00:现03
+Promotion 7506306416437 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501011167674 is not ready to start. 2025/09/03 is in the future.
+7503024460452 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:72.0:现78.0
+Promotion 7503024460452 is not ready to start. 2025/09/03 is in the future.
+7503024460698 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:21.0:现24.0
+Promotion 7503024460698 is not ready to start. 2025/09/03 is in the future.
+7501055343690 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:30.0:现14.0
+Promotion 7501055343690 is not ready to start. 2025/09/03 is in the future.
+042743230511 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现03
+Promotion 042743230511 is not ready to start. 2025/09/03 is in the future.
+Promotion 7500478043927 is not ready to start. 2025/09/03 is in the future.
+7506306416505 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现03
+Promotion 7506306416505 is not ready to start. 2025/09/03 is in the future.
+Promotion 7622210575586 is not ready to start. 2025/09/03 is in the future.
+Promotion 014800515336 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501011123588 is not ready to start. 2025/09/03 is in the future.
+7506390200912 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现03
+Promotion 7506390200912 is not ready to start. 2025/09/03 is in the future.
+7501064199769 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:21.0:现24.0
+Promotion 7501064199769 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503024460018 is not ready to start. 2025/09/03 is in the future.
+7506390201926 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现03
+Promotion 7506390201926 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501073844179 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501011155008 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501011133884 is not ready to start. 2025/09/03 is in the future.
+Promotion 7500478044092 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501011155022 is not ready to start. 2025/09/03 is in the future.
+7501064120268 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:240.0:现254.0
+Promotion 7501064120268 is not ready to start. 2025/09/03 is in the future.
+7506390202213 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:30.0:现15.0
+Promotion 7506390202213 is not ready to start. 2025/09/03 is in the future.
+7501055358885 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:30.0:现14.0
+Promotion 7501055358885 is not ready to start. 2025/09/03 is in the future.
+7506390201933 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现03
+Promotion 7506390201933 is not ready to start. 2025/09/03 is in the future.
+7503024416510 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:89.0:现19.0
+Promotion 7503024416510 is not ready to start. 2025/09/03 is in the future.
+7506306416413 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现03
+Promotion 7506306416413 is not ready to start. 2025/09/03 is in the future.
+Promotion 014800515343 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501073844186 is not ready to start. 2025/09/03 is in the future.
+7501064114359 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:66.0:现78.0
+Promotion 7501064114359 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501061651024 is not ready to start. 2025/09/03 is in the future.
+Promotion 7622210575609 is not ready to start. 2025/09/03 is in the future.
+7501061659365 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:179.0:现191.0
+Promotion 7501061659365 is not ready to start. 2025/09/03 is in the future.
+7501064193842 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:218.0:现224.0
+Promotion 7501064193842 is not ready to start. 2025/09/03 is in the future.
+756702000328 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现03
+Promotion 756702000328 is not ready to start. 2025/09/03 is in the future.
+7501064197482 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:218.0:现224.0
+Promotion 7501064197482 is not ready to start. 2025/09/03 is in the future.
+7503028412587 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现03
+Promotion 7503028412587 is not ready to start. 2025/09/03 is in the future.
+7501061601128 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:179.0:现178.0
+Promotion 7501061601128 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501011154902 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501011167735 is not ready to start. 2025/09/03 is in the future.
+Promotion 7500478044221 is not ready to start. 2025/09/03 is in the future.
+Promotion 7622210833662 is not ready to start. 2025/09/03 is in the future.
+7506390202329 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:30.0:现15.0
+Promotion 7506390202329 is not ready to start. 2025/09/03 is in the future.
+7501055317875 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:30.0:现14.0
+Promotion 7501055317875 is not ready to start. 2025/09/03 is in the future.
+8711327446045 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+Promotion 8711327446045 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501011131064 is not ready to start. 2025/09/03 is in the future.
+7501059278110 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:30.0:现15.0
+Promotion 7501059278110 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503052023629 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503052023766 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503052023612 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503052023940 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503032460062 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503032460086 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503032460055 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503032460123 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503032460079 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503032460109 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503032460093 is not ready to start. 2025/09/03 is in the future.
+Promotion 7502254750036 is not ready to start. 2025/09/03 is in the future.
+Promotion 7502254752290 is not ready to start. 2025/09/03 is in the future.
+Promotion 7502254752313 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503027753605 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503027753650 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503027753629 is not ready to start. 2025/09/03 is in the future.
+7503037623721 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 7503037623721 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501013109689 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501013104066 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501013102789 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501013104073 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501013107296 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501013107302 is not ready to start. 2025/09/03 is in the future.
+665777001928 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现02
+Promotion 665777001928 is not ready to start. 2025/09/03 is in the future.
+665777001942 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现02
+Promotion 665777001942 is not ready to start. 2025/09/03 is in the future.
+665777001973 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现02
+Promotion 665777001973 is not ready to start. 2025/09/03 is in the future.
+665777001935 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现02
+Promotion 665777001935 is not ready to start. 2025/09/03 is in the future.
+7501073839854 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现30.0
+Promotion 7501073839854 is not ready to start. 2025/09/03 is in the future.
+7501073839304 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现30.0
+Promotion 7501073839304 is not ready to start. 2025/09/03 is in the future.
+7501073839328 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现30.0
+Promotion 7501073839328 is not ready to start. 2025/09/03 is in the future.
+7501073830509 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现30.0
+Promotion 7501073830509 is not ready to start. 2025/09/03 is in the future.
+7501073839885 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现30.0
+Promotion 7501073839885 is not ready to start. 2025/09/03 is in the future.
+7501073840355 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现30.0
+Promotion 7501073840355 is not ready to start. 2025/09/03 is in the future.
+757528042073 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 757528042073 is not ready to start. 2025/09/03 is in the future.
+757528042042 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 757528042042 is not ready to start. 2025/09/03 is in the future.
+Promotion 7502271157979 is not ready to start. 2025/09/03 is in the future.
+Promotion 7502271157993 is not ready to start. 2025/09/03 is in the future.
+Promotion 7502271157986 is not ready to start. 2025/09/03 is in the future.
+Promotion 7502271157962 is not ready to start. 2025/09/03 is in the future.
+7501073840942 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:28.0:现54.0
+Promotion 7501073840942 is not ready to start. 2025/09/03 is in the future.
+7501073841949 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:28.0:现54.0
+Promotion 7501073841949 is not ready to start. 2025/09/03 is in the future.
+7501073839892 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:28.0:现54.0
+Promotion 7501073839892 is not ready to start. 2025/09/03 is in the future.
+7501073839861 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:28.0:现54.0
+Promotion 7501073839861 is not ready to start. 2025/09/03 is in the future.
+7501073831988 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:28.0:现54.0
+Promotion 7501073831988 is not ready to start. 2025/09/03 is in the future.
+7501073831964 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:28.0:现54.0
+Promotion 7501073831964 is not ready to start. 2025/09/03 is in the future.
+7501073800908 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:28.0:现54.0
+Promotion 7501073800908 is not ready to start. 2025/09/03 is in the future.
+7501013106954 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现02
+Promotion 7501013106954 is not ready to start. 2025/09/03 is in the future.
+7501013106909 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现02
+Promotion 7501013106909 is not ready to start. 2025/09/03 is in the future.
+7501013106893 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现02
+Promotion 7501013106893 is not ready to start. 2025/09/03 is in the future.
+7506105606060 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 7506105606060 is not ready to start. 2025/09/03 is in the future.
+7506105606053 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 7506105606053 is not ready to start. 2025/09/03 is in the future.
+7506105606084 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 7506105606084 is not ready to start. 2025/09/03 is in the future.
+7506105606077 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现02
+Promotion 7506105606077 is not ready to start. 2025/09/03 is in the future.
+Promotion 7622210577030 is not ready to start. 2025/09/03 is in the future.
+Promotion 7622210577153 is not ready to start. 2025/09/03 is in the future.
+Promotion 7622210576965 is not ready to start. 2025/09/03 is in the future.
+Promotion 7622210577306 is not ready to start. 2025/09/03 is in the future.
+Promotion 7622210577450 is not ready to start. 2025/09/03 is in the future.
+Promotion 7502271158631 is not ready to start. 2025/09/03 is in the future.
+Promotion 7502271158655 is not ready to start. 2025/09/03 is in the future.
+Promotion 7502271158648 is not ready to start. 2025/09/03 is in the future.
+Promotion 7502271158624 is not ready to start. 2025/09/03 is in the future.
+7501073840355 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现35.0
+Promotion 7501073840355 is not ready to start. 2025/09/03 is in the future.
+7501073839885 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现35.0
+Promotion 7501073839885 is not ready to start. 2025/09/03 is in the future.
+7501073839304 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现35.0
+Promotion 7501073839304 is not ready to start. 2025/09/03 is in the future.
+7501073839854 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现35.0
+Promotion 7501073839854 is not ready to start. 2025/09/03 is in the future.
+7501073839328 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现35.0
+Promotion 7501073839328 is not ready to start. 2025/09/03 is in the future.
+7501073830509 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现35.0
+Promotion 7501073830509 is not ready to start. 2025/09/03 is in the future.
+7501055379941 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:44.0:现47.0
+Promotion 7501055379941 is not ready to start. 2025/09/03 is in the future.
+7501055305742 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:44.0:现47.0
+Promotion 7501055305742 is not ready to start. 2025/09/03 is in the future.
+7501055304691 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:44.0:现45.0
+Promotion 7501055304691 is not ready to start. 2025/09/03 is in the future.
+7501055367412 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:44.0:现45.0
+Promotion 7501055367412 is not ready to start. 2025/09/03 is in the future.
+7501055364077 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:44.0:现45.0
+Promotion 7501055364077 is not ready to start. 2025/09/03 is in the future.
+7501055379491 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:44.0:现45.0
+Promotion 7501055379491 is not ready to start. 2025/09/03 is in the future.
+7501055376681 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:44.0:现45.0
+Promotion 7501055376681 is not ready to start. 2025/09/03 is in the future.
+Promotion 7503019886984 is not ready to start. 2025/09/03 is in the future.
+7501072210265 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:27.0:现25.0
+Promotion 7501072210265 is not ready to start. 2025/09/03 is in the future.
+7501072213785 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:27.0:现25.0
+Promotion 7501072213785 is not ready to start. 2025/09/03 is in the future.
+7501072209801 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:27.0:现25.0
+Promotion 7501072209801 is not ready to start. 2025/09/03 is in the future.
+7501072209832 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:27.0:现25.0
+Promotion 7501072209832 is not ready to start. 2025/09/03 is in the future.
+7501072210289 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:27.0:现25.0
+Promotion 7501072210289 is not ready to start. 2025/09/03 is in the future.
+Promotion 23461 is not ready to start. 2025/09/03 is in the future.
+7501064191909 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:85.0:现98.0
+Promotion 7501064191909 is not ready to start. 2025/09/03 is in the future.
+7503028412570 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:99.0:现117.0
+Promotion 7503028412570 is not ready to start. 2025/09/03 is in the future.
+7501125104268 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:60.0:现25.0
+Promotion 7501125104268 is not ready to start. 2025/09/03 is in the future.
+7501125104411 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:60.0:现25.0
+Promotion 7501125104411 is not ready to start. 2025/09/03 is in the future.
+7501125104688 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:60.0:现25.0
+Promotion 7501125104688 is not ready to start. 2025/09/03 is in the future.
+7501125174797 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:60.0:现25.0
+Promotion 7501125174797 is not ready to start. 2025/09/03 is in the future.
+7501125118562 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:60.0:现25.0
+Promotion 7501125118562 is not ready to start. 2025/09/03 is in the future.
+7501125144851 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:60.0:现25.0
+Promotion 7501125144851 is not ready to start. 2025/09/03 is in the future.
+7501058614322 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:17.5:现33.333
+Promotion 7501058614322 is not ready to start. 2025/09/03 is in the future.
+7501000906246 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:19.0:现33.333
+Promotion 7501000906246 is not ready to start. 2025/09/03 is in the future.
+75003388 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:15.5:现33.333
+Promotion 75003388 is not ready to start. 2025/09/03 is in the future.
+75004743 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:19.0:现33.333
+Promotion 75004743 is not ready to start. 2025/09/03 is in the future.
+75004705 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:19.0:现33.333
+Promotion 75004705 is not ready to start. 2025/09/03 is in the future.
+7501058614124 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:17.5:现33.333
+Promotion 7501058614124 is not ready to start. 2025/09/03 is in the future.
+7502294223873 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:80.0:现84.0
+Promotion 7502294223873 is not ready to start. 2025/09/03 is in the future.
+Promotion 23461 is not ready to start. 2025/09/03 is in the future.
+7501064191909 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:85.0:现92.0
+Promotion 7501064191909 is not ready to start. 2025/09/03 is in the future.
+7501064101205 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:85.0:现92.0
+Promotion 7501064101205 is not ready to start. 2025/09/03 is in the future.
+7501295600126 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:87.0:现84.0
+Promotion 7501295600126 is not ready to start. 2025/09/03 is in the future.
+7501295600157 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:87.0:现84.0
+Promotion 7501295600157 is not ready to start. 2025/09/03 is in the future.
+7501020565935 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:125.0:现95.0
+Promotion 7501020565935 is not ready to start. 2025/09/03 is in the future.
+7501020565911 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:125.0:现95.0
+Promotion 7501020565911 is not ready to start. 2025/09/03 is in the future.
+7501064191886 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:100.0:现102.0
+Promotion 7501064191886 is not ready to start. 2025/09/03 is in the future.
+7503024416510 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:89.0:现19.0
+Promotion 7503024416510 is not ready to start. 2025/09/03 is in the future.
+7501064194962 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:90.0:现96.0
+Promotion 7501064194962 is not ready to start. 2025/09/03 is in the future.
+7501064193859 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:90.0:现96.0
+Promotion 7501064193859 is not ready to start. 2025/09/03 is in the future.
+7501064194139 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:90.0:现96.0
+Promotion 7501064194139 is not ready to start. 2025/09/03 is in the future.
+Promotion 7501061651543 is not ready to start. 2025/09/03 is in the future.
+7501032397609 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:72.0:现76.0
+Promotion 7501032397609 is not ready to start. 2025/09/03 is in the future.
+7501032397845 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:43.0:现47.0
+Promotion 7501032397845 is not ready to start. 2025/09/03 is in the future.
+7501032398576 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:32.0:现33.0
+Promotion 7501032398576 is not ready to start. 2025/09/03 is in the future.
+7501032398491 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:32.0:现33.0
+Promotion 7501032398491 is not ready to start. 2025/09/03 is in the future.
+7501020550672 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:47.0:现130.0
+Promotion 7501020550672 is not ready to start. 2025/09/03 is in the future.
+7501020550733 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:47.0:现130.0
+Promotion 7501020550733 is not ready to start. 2025/09/03 is in the future.
+7501055358106 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:34.0:现99.0
+Promotion 7501055358106 is not ready to start. 2025/09/03 is in the future.
+7501055370276 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:34.0:现99.0
+Promotion 7501055370276 is not ready to start. 2025/09/03 is in the future.
+7501055358113 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:34.0:现99.0
+Promotion 7501055358113 is not ready to start. 2025/09/03 is in the future.
+7501040092596 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:22.0:现21.0
+Promotion 7501040092596 is not ready to start. 2025/09/03 is in the future.
+7501040090783 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现28.0
+Promotion 7501040090783 is not ready to start. 2025/09/03 is in the future.
+7501040090745 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现28.0
+Promotion 7501040090745 is not ready to start. 2025/09/03 is in the future.
+7501032395605 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现28.0
+Promotion 7501032395605 is not ready to start. 2025/09/03 is in the future.
+7501032395599 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现28.0
+Promotion 7501032395599 is not ready to start. 2025/09/03 is in the future.
+7501032395582 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现28.0
+Promotion 7501032395582 is not ready to start. 2025/09/03 is in the future.
+7501032395902 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:29.0:现28.0
+Promotion 7501032395902 is not ready to start. 2025/09/03 is in the future.
+7501064197482 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:218.0:现224.0
+Promotion 7501064197482 is not ready to start. 2025/09/03 is in the future.
+756702000328 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现03
+Promotion 756702000328 is not ready to start. 2025/09/03 is in the future.
+7501049967062 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:22.0:现25.0
+Promotion 7501049967062 is not ready to start. 2025/09/03 is in the future.
+7503028412587 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现03
+Promotion 7503028412587 is not ready to start. 2025/09/03 is in the future.
+7506306416079 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:115.0:现39.0
+Promotion 7506306416079 is not ready to start. 2025/09/03 is in the future.
+7506306415799 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:115.0:现39.0
+Promotion 7506306415799 is not ready to start. 2025/09/03 is in the future.
+7506306418646 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+Promotion 7506306418646 is not ready to start. 2025/09/03 is in the future.
+7506306418066 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+Promotion 7506306418066 is not ready to start. 2025/09/03 is in the future.
+7506306415775 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:115.0:现39.0
+Promotion 7506306415775 is not ready to start. 2025/09/03 is in the future.
+7501049967062 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:22.0:现25.0
+Promotion 7501049967062 is not ready to start. 2025/09/03 is in the future.
+7506306417236 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:00:现02
+Promotion 7506306417236 is not ready to start. 2025/09/03 is in the future.
+766324303509 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+Promotion 766324303509 is not ready to start. 2025/09/03 is in the future.
+⚠ PRM12NEO52RSW250902145746.json - No valid items to process, marked as processed
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-02 16:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 264 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 264 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-02 17:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 264 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 264 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-02 18:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 264 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 264 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-02 19:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 264 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 264 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-02 20:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 264 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 264 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-02 21:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 264 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 264 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-02 22:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 264 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 264 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------

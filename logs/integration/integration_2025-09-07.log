@@ -1,0 +1,50 @@
+2025-09-07 00:00:01: pending files successfully integrated to Customer: Bara, Store: 02.
+2025-09-07 00:00:03: pending files successfully integrated to Customer: Bara, Store: 03.
+2025-09-07 11:00:32: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 11:01:07: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 11:01:42: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 11:01:42: ERROR Store 02 Integration failed to integrate to Customer: , Store: . Request timeout
+2025-09-07 11:02:13: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 11:02:48: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 11:03:23: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 11:03:23: ERROR Store 03 Integration failed to integrate to Customer: , Store: . Request timeout
+2025-09-07 12:00:31: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 12:01:07: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 12:01:42: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 12:01:42: ERROR Store 02 Integration failed to integrate to Customer: , Store: . Request timeout
+2025-09-07 12:02:12: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 12:02:48: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 12:03:23: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 12:03:23: ERROR Store 03 Integration failed to integrate to Customer: , Store: . Request timeout
+2025-09-07 13:00:31: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 13:01:07: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 13:01:42: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 13:01:42: ERROR Store 02 Integration failed to integrate to Customer: , Store: . Request timeout
+2025-09-07 13:02:13: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 13:02:48: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 13:03:23: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 13:03:23: ERROR Store 03 Integration failed to integrate to Customer: , Store: . Request timeout
+2025-09-07 14:00:32: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 14:01:07: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 14:01:43: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 14:01:43: ERROR Store 02 Integration failed to integrate to Customer: , Store: . Request timeout
+2025-09-07 14:02:13: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 14:02:49: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 14:03:24: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 14:03:24: ERROR Store 03 Integration failed to integrate to Customer: , Store: . Request timeout
+2025-09-07 15:00:32: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 15:01:07: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 15:01:42: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 15:01:42: ERROR Store 02 Integration failed to integrate to Customer: , Store: . Request timeout
+2025-09-07 15:02:13: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 15:02:48: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 15:03:23: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 15:03:23: ERROR Store 03 Integration failed to integrate to Customer: , Store: . Request timeout
+2025-09-07 16:00:32: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 16:01:07: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 16:01:42: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 16:01:42: ERROR Store 02 Integration failed to integrate to Customer: , Store: . Request timeout
+2025-09-07 16:02:13: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 16:02:48: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 16:03:24: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-07 16:03:24: ERROR Store 03 Integration failed to integrate to Customer: , Store: . Request timeout

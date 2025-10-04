@@ -1,0 +1,1165 @@
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-02 23:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 684 pending items.
+No pending files to integrate.
+1 documents found in Bara DB.
+
+ITM12NEO52DUG250902220139.json
+
+Document names going to integrate: ['ITM12NEO52DUG250902220139.json.gz']
+
+Downloading ITM12NEO52DUG250902220139.json.gz...
+✓ Successfully downloaded ITM12NEO52DUG250902220139.json.gz
+Item 07432354 is not ready to change price. 2025/09/03 is in the future.
+Item 4897031960382 is not ready to change price. 2025/09/03 is in the future.
+Item 4897031961105 is not ready to change price. 2025/09/03 is in the future.
+Item 7500383151557 is not ready to change price. 2025/09/03 is in the future.
+Item 7501040001598 is not ready to change price. 2025/09/03 is in the future.
+Item 7501040082139 is not ready to change price. 2025/09/03 is in the future.
+Item 8719200450516 is not ready to change price. 2025/09/03 is in the future.
+⚠ ITM12NEO52DUG250902220139.json - No valid items to process, marked as processed
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 683 pending items.
+No pending files to integrate.
+1 documents found in Bara DB.
+
+ITM12NEO52RSW250902220059.json
+
+Document names going to integrate: ['ITM12NEO52RSW250902220059.json.gz']
+
+Downloading ITM12NEO52RSW250902220059.json.gz...
+✓ Successfully downloaded ITM12NEO52RSW250902220059.json.gz
+Item 07432354 is not ready to change price. 2025/09/03 is in the future.
+Item 4897031960382 is not ready to change price. 2025/09/03 is in the future.
+Item 4897031961105 is not ready to change price. 2025/09/03 is in the future.
+Item 7500383151557 is not ready to change price. 2025/09/03 is in the future.
+Item 8719200450516 is not ready to change price. 2025/09/03 is in the future.
+⚠ ITM12NEO52RSW250902220059.json - No valid items to process, marked as processed
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-03 00:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 691 pending items.
+Integrating 691 pending files...
+
+pending files successfully integrated.
+{'storeCode': '02', 'itemCount': 691}
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 688 pending items.
+Integrating 688 pending files...
+
+pending files successfully integrated.
+{'storeCode': '03', 'itemCount': 688}
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-03 01:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+1 documents found in Bara DB.
+
+PRM12NEO52DUG250903005720.json
+
+Document names going to integrate: ['PRM12NEO52DUG250903005720.json.gz']
+
+Downloading PRM12NEO52DUG250903005720.json.gz...
+✓ Successfully downloaded PRM12NEO52DUG250903005720.json.gz
+4902 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501027286024 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501032398675 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+64909 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501013101911 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501736223310 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506390202862 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506245158573 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501013104769 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506390201629 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294224351 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7503025984476 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+608875007072 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501013103410 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+604722013074 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025414054 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294221213 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506443100305 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7503035393978 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7503046433984 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025403058 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7503046187016 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501052421421 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501017372751 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501048100200 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501013103427 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025401610 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506245116078 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506245160392 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025423841 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506245138513 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025410469 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7503036165437 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506443106451 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500366001985 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+64648 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+016000227170 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现03
+7502271911472 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502271911427 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501090543512 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501026005671 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+8076809513050 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500383100678 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294224986 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501030421498 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500383208213 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501030421412 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501090543505 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506443102354 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506443100473 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500383131627 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+744886155057 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500383058191 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500383131634 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502247427129 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502247427181 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501055381463 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501008057490 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+75002794 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501039122501 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现03
+7509546663388 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506306249233 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506306249240 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501055916030 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+8445290925299 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501003311450 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+661440000052 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501056340131 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7791293022598 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501039120149 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+661440000205 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7791293025797 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7509546058955 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501761869149 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501059225350 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+041789003998 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501059225411 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501059296305 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501003340122 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501018310561 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501064194214 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:214.0:现208.0
+7509546073767 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501018310264 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501071301698 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501003150233 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501003314666 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501058620101 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501058620200 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501058616470 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501058624666 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501069213903 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501071301094 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501039122099 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501018203849 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501052472102 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501001604103 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501052470085 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501003110305 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501001604318 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501032930868 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501001163983 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435138048 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506475114998 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506309839202 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+037836041273 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501058618924 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501045400860 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501045400846 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501518492484 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501045403007 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501518492262 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294223125 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+735257002513 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501158414051 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294223156 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501052420172 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501052421513 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501045403014 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+8076809578387 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506475117197 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506475120227 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294221299 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+041789003981 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7509546687353 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501018310943 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501018310974 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501018310233 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501018311018 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7509546666396 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435198011 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501006719932 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435144476 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+3014260019723 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435127363 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501056326173 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501943444928 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501943433090 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501943471962 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501943444942 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501943444966 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501943447615 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506475103053 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501027555007 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506425600007 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435022811 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506309837239 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501199400815 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+013117023305 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+013117023312 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+013117000702 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+013117000719 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+013117019971 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435169035 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435022828 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435162241 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435138772 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501199410913 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501199410937 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500459000482 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501199413327 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435150736 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435161275 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506339323474 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435108256 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501199413334 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7509546076171 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501032905736 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294225273 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现03
+7501077400050 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294220414 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501052472119 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501071301148 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501003310941 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500478008285 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500478014484 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501000625253 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500478022502 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500478044610 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500478043804 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501008726488 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+038629002068 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502271157757 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294223309 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294220933 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294223279 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294223286 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294220940 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294221442 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294221411 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502271157764 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294221428 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294223316 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501008731413 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501008703441 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501008762899 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294220902 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7622210894458 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501045403281 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501071301629 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501071308581 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501071308598 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501071301087 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501058624130 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501003305855 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501404603116 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7503000437652 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501055909544 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+8076809531351 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501032903596 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501032907570 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7591005574007 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501943489066 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506425606900 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501199413280 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501058619235 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501058642134 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501059240681 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501032300302 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现03
+7502294220964 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025440299 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025440305 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025403034 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025405151 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+75000622 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025403041 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025451158 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025456283 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025401733 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025411992 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+75000639 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025413057 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+75000615 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294220957 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+735257006306 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501052474076 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501058628831 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294225358 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+735257002490 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+735257002506 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+735257003909 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506425601769 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506425622016 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506425654178 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+735257002452 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+735257002469 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+735257002636 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501019068911 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501019006371 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501019006654 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+020800600347 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294225099 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:22.0:现13.0
+7502294220971 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025456320 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025422158 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501072210265 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:25.0:现10.0
+7501072210289 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:25.0:现10.0
+7501072213785 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:25.0:现10.0
+7506425600021 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+038629003683 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现03
+7506425600397 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025413002 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025443979 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025414153 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025414108 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025408121 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025416232 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025430436 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025444938 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435222600 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435196253 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435222570 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7509546672670 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501035907508 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7509546680132 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7509546068619 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7509546072760 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501035905368 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7509546682358 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501035905344 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7509546680293 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7891024039625 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7509546680262 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501030474739 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:00:现03
+7509546681511 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7509546017389 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+658480001958 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现03
+7501072202314 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501072202697 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501058611420 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501000909612 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506443105706 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501000913367 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501058611062 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7503000438321 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501032395957 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+013117011180 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+013117011531 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+013117011753 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506475104722 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501158414655 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294223941 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现03
+7502294223958 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现03
+7502294223965 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现03
+7509546052977 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7509546697468 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7509546076218 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501518463156 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501020567106 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现03
+7501020569339 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现03
+75062927 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501058625236 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506306246256 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501032300241 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+067238891190 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294223293 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501064101205 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:00:现03
+PRM12NEO52DUG250903005720.json successfully integrated.
+{'storeCode': '02', 'itemCount': 317}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+1 documents found in Bara DB.
+
+PRM12NEO52RSW250903005718.json
+
+Document names going to integrate: ['PRM12NEO52RSW250903005718.json.gz']
+
+Downloading PRM12NEO52RSW250903005718.json.gz...
+✓ Successfully downloaded PRM12NEO52RSW250903005718.json.gz
+4902 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501027286024 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501032398675 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+64909 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501013101911 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501736223310 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506390202862 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506245158573 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501013104769 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506390201629 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294224351 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7503025984476 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+608875007072 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501013103410 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+604722013074 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025414054 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294221213 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506443100305 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7503035393978 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7503046433984 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025403058 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7503046187016 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501052421421 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501017372751 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501048100200 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501013103427 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025401610 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506245116078 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506245160392 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025423841 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506245138513 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025410469 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7503036165437 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506443106451 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500366001985 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+64648 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+016000227170 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现03
+7502271911472 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502271911427 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501090543512 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501026005671 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+8076809513050 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500383100678 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294224986 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501030421498 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500383208213 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501030421412 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501090543505 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506443102354 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506443100473 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500383131627 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+744886155057 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500383058191 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500383131634 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502247427129 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502247427181 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501055381463 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501008057490 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+75002794 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501039122501 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现03
+7509546663388 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506306249233 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506306249240 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501055916030 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+8445290925299 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501003311450 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+661440000052 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501056340131 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7791293022598 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501039120149 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+661440000205 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7791293025797 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7509546058955 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501761869149 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501059225350 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+041789003998 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501059225411 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501059296305 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501003340122 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501018310561 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501064194214 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:214.0:现208.0
+7509546073767 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501018310264 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501071301698 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501003150233 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501003314666 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501058620101 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501058620200 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501058616470 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501058624666 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501069213903 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501071301094 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501039122099 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501018203849 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501052472102 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501001604103 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501052470085 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501003110305 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501001604318 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501032930868 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501001163983 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435138048 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506475114998 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506309839202 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+037836041273 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501058618924 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501045400860 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501045400846 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501518492484 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501045403007 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501518492262 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294223125 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+735257002513 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501158414051 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294223156 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501052420172 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501052421513 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501045403014 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+8076809578387 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506475117197 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506475120227 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294221299 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+041789003981 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7509546687353 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501018310943 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501018310974 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501018310233 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501018311018 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7509546666396 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435198011 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501006719932 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435144476 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+3014260019723 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435127363 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501056326173 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501943444928 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501943433090 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501943471962 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501943444942 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501943444966 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501943447615 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506475103053 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501027555007 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506425600007 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435022811 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506309837239 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501199400815 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+013117023305 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+013117023312 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+013117000702 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+013117000719 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+013117019971 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435169035 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435022828 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435162241 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435138772 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501199410913 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501199410937 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500459000482 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501199413327 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435150736 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435161275 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506339323474 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435108256 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501199413334 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7509546076171 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501032905736 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294225273 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现03
+7501077400050 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294220414 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501052472119 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501071301148 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501003310941 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500478008285 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500478014484 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501000625253 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500478022502 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500478044610 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500478043804 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501008726488 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+038629002068 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502271157757 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294223309 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294220933 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294223279 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294223286 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294220940 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294221442 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294221411 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502271157764 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294221428 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294223316 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501008731413 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501008703441 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501008762899 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294220902 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7622210894458 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501045403281 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501071301629 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501071308581 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501071308598 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501071301087 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501058624130 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501003305855 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501404603116 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7503000437652 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501055909544 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+8076809531351 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501032903596 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501032907570 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7591005574007 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501943489066 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506425606900 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501199413280 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501058619235 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501058642134 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501059240681 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501032300302 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现03
+7502294220964 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025440299 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025440305 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025403034 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025405151 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+75000622 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025403041 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025451158 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025456283 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025401733 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025411992 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+75000639 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025413057 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+75000615 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294220957 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+735257006306 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501052474076 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501058628831 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294225358 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+735257002490 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+735257002506 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+735257003909 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506425601769 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506425622016 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506425654178 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+735257002452 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+735257002469 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+735257002636 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501019068911 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501019006371 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501019006654 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+020800600347 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294225099 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:22.0:现13.0
+7502294220971 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025456320 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025422158 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501072210265 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:25.0:现10.0
+7501072210289 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:25.0:现10.0
+7501072213785 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:25.0:现10.0
+7506425600021 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+038629003683 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现03
+7506425600397 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025413002 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025443979 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025414153 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025414108 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025408121 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025416232 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025430436 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501025444938 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435222600 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435196253 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7500435222570 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7509546672670 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501035907508 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7509546680132 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7509546068619 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7509546072760 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501035905368 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7509546682358 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501035905344 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7509546680293 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7891024039625 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7509546680262 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501030474739 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:00:现03
+7509546681511 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7509546017389 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+658480001958 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:Target data not found:现03
+7501072202314 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501072202697 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501058611420 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501000909612 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506443105706 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501000913367 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501058611062 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7503000438321 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501032395957 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+013117011180 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+013117011531 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+013117011753 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506475104722 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501158414655 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294223941 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现03
+7502294223958 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现03
+7502294223965 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现03
+7509546052977 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7509546697468 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7509546076218 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501518463156 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501020567106 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现03
+7501020569339 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:02:现03
+75062927 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501058625236 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7506306246256 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501032300241 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+067238891190 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7502294223293 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+7501064101205 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:00:现03
+PRM12NEO52RSW250903005718.json successfully integrated.
+{'storeCode': '03', 'itemCount': 317}
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-03 02:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-03 03:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-03 04:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-03 05:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-03 06:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-03 07:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-03 08:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-03 09:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-03 10:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-03 11:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-03 12:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-03 13:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+Error: Request timeout for https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-03 14:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-03 15:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-03 16:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-03 17:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+2 documents found in Bara DB.
+
+ITM12NEO52DUG250903162711.json
+ITM12NEO52DUG250903162755.json
+
+Document names going to integrate: ['ITM12NEO52DUG250903162711.json.gz', 'ITM12NEO52DUG250903162755.json.gz']
+
+Downloading ITM12NEO52DUG250903162711.json.gz...
+✓ Successfully downloaded ITM12NEO52DUG250903162711.json.gz
+Downloading ITM12NEO52DUG250903162755.json.gz...
+✓ Successfully downloaded ITM12NEO52DUG250903162755.json.gz
+Item 7501040001598 is not ready to change price. 2025/09/04 is in the future.
+Item 7501040082139 is not ready to change price. 2025/09/04 is in the future.
+Item 7501040098666 is not ready to change price. 2025/09/04 is in the future.
+⚠ ITM12NEO52DUG250903162711.json - No valid items to process, marked as processed
+Item 7501040001598 is not ready to change price. 2025/09/04 is in the future.
+Item 7501040082139 is not ready to change price. 2025/09/04 is in the future.
+Item 7501040098666 is not ready to change price. 2025/09/04 is in the future.
+⚠ ITM12NEO52DUG250903162755.json - No valid items to process, marked as processed
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+2 documents found in Bara DB.
+
+ITM12NEO52RSW250903162646.json
+ITM12NEO52RSW250903162728.json
+
+Document names going to integrate: ['ITM12NEO52RSW250903162646.json.gz', 'ITM12NEO52RSW250903162728.json.gz']
+
+Downloading ITM12NEO52RSW250903162646.json.gz...
+✓ Successfully downloaded ITM12NEO52RSW250903162646.json.gz
+Downloading ITM12NEO52RSW250903162728.json.gz...
+✓ Successfully downloaded ITM12NEO52RSW250903162728.json.gz
+⚠ ITM12NEO52RSW250903162646.json - No valid items to process, marked as processed
+⚠ ITM12NEO52RSW250903162728.json - No valid items to process, marked as processed
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-03 18:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 6 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-03 19:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 6 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-03 20:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 6 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-03 21:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 6 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-03 22:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 6 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------

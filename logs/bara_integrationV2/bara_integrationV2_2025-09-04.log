@@ -1,0 +1,1018 @@
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-03 23:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 6 pending items.
+No pending files to integrate.
+1 documents found in Bara DB.
+
+ITM12NEO52DUG250903225012.json
+
+Document names going to integrate: ['ITM12NEO52DUG250903225012.json.gz']
+
+Downloading ITM12NEO52DUG250903225012.json.gz...
+✓ Successfully downloaded ITM12NEO52DUG250903225012.json.gz
+Item 7502294227321 is not ready to change price. 2025/09/04 is in the future.
+Item 7502294227338 is not ready to change price. 2025/09/04 is in the future.
+⚠ ITM12NEO52DUG250903225012.json - No valid items to process, marked as processed
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+1 documents found in Bara DB.
+
+ITM12NEO52RSW250903224418.json
+
+Document names going to integrate: ['ITM12NEO52RSW250903224418.json.gz']
+
+Downloading ITM12NEO52RSW250903224418.json.gz...
+✓ Successfully downloaded ITM12NEO52RSW250903224418.json.gz
+Item 7502294227321 is not ready to change price. 2025/09/04 is in the future.
+Item 7502294227338 is not ready to change price. 2025/09/04 is in the future.
+⚠ ITM12NEO52RSW250903224418.json - No valid items to process, marked as processed
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-04 00:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 8 pending items.
+Integrating 8 pending files...
+
+pending files successfully integrated.
+{'storeCode': '02', 'itemCount': 8}
+1 documents found in Bara DB.
+
+PRM12NEO52DUG250903231749.json
+
+Document names going to integrate: ['PRM12NEO52DUG250903231749.json.gz']
+
+Downloading PRM12NEO52DUG250903231749.json.gz...
+✓ Successfully downloaded PRM12NEO52DUG250903231749.json.gz
+7501064199615 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:126.0:现124.0
+7501064196935 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:131.0:现129.0
+PRM12NEO52DUG250903231749.json successfully integrated.
+{'storeCode': '02', 'itemCount': 3}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 2 pending items.
+Integrating 2 pending files...
+
+pending files successfully integrated.
+{'storeCode': '03', 'itemCount': 2}
+1 documents found in Bara DB.
+
+PRM12NEO52RSW250903231732.json
+
+Document names going to integrate: ['PRM12NEO52RSW250903231732.json.gz']
+
+Downloading PRM12NEO52RSW250903231732.json.gz...
+✓ Successfully downloaded PRM12NEO52RSW250903231732.json.gz
+7501064199615 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:126.0:现124.0
+7501064196935 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:131.0:现129.0
+PRM12NEO52RSW250903231732.json successfully integrated.
+{'storeCode': '03', 'itemCount': 3}
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-04 01:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-04 02:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-04 03:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-04 04:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-04 05:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-04 06:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-04 07:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-04 08:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-04 09:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-04 10:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-04 11:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+1 documents found in Bara DB.
+
+PRM12NEO52DUG250904101343.json
+
+Document names going to integrate: ['PRM12NEO52DUG250904101343.json.gz']
+
+Downloading PRM12NEO52DUG250904101343.json.gz...
+✓ Successfully downloaded PRM12NEO52DUG250904101343.json.gz
+PRM12NEO52DUG250904101343.json successfully integrated.
+{'storeCode': '02', 'itemCount': 55}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+1 documents found in Bara DB.
+
+PRM12NEO52RSW250904101339.json
+
+Document names going to integrate: ['PRM12NEO52RSW250904101339.json.gz']
+
+Downloading PRM12NEO52RSW250904101339.json.gz...
+✓ Successfully downloaded PRM12NEO52RSW250904101339.json.gz
+PRM12NEO52RSW250904101339.json successfully integrated.
+{'storeCode': '03', 'itemCount': 55}
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-04 12:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+1 documents found in Bara DB.
+
+ITM12NEO52DUG250904110419.json
+
+Document names going to integrate: ['ITM12NEO52DUG250904110419.json.gz']
+
+Downloading ITM12NEO52DUG250904110419.json.gz...
+✓ Successfully downloaded ITM12NEO52DUG250904110419.json.gz
+Item 7501055356263 is not ready to change price. 2025/09/05 is in the future.
+Item 7502294221060 is not ready to change price. 2025/09/05 is in the future.
+Item 7502294221060 is not ready to change price. 2025/09/05 is in the future.
+ITM12NEO52DUG250904110419.json successfully integrated.
+{'storeCode': '02', 'itemCount': 22}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+1 documents found in Bara DB.
+
+ITM12NEO52RSW250904110354.json
+
+Document names going to integrate: ['ITM12NEO52RSW250904110354.json.gz']
+
+Downloading ITM12NEO52RSW250904110354.json.gz...
+✓ Successfully downloaded ITM12NEO52RSW250904110354.json.gz
+Item 7501055356263 is not ready to change price. 2025/09/05 is in the future.
+Item 7502294221060 is not ready to change price. 2025/09/05 is in the future.
+Item 7502294221060 is not ready to change price. 2025/09/05 is in the future.
+ITM12NEO52RSW250904110354.json successfully integrated.
+{'storeCode': '03', 'itemCount': 22}
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-04 13:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 3 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 3 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-04 14:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 3 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 3 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-04 15:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 3 pending items.
+No pending files to integrate.
+1 documents found in Bara DB.
+
+PRM12NEO52DUG250904145354.json
+
+Document names going to integrate: ['PRM12NEO52DUG250904145354.json.gz']
+
+Downloading PRM12NEO52DUG250904145354.json.gz...
+✓ Successfully downloaded PRM12NEO52DUG250904145354.json.gz
+PRM12NEO52DUG250904145354.json successfully integrated.
+{'storeCode': '02', 'itemCount': 186}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 3 pending items.
+No pending files to integrate.
+1 documents found in Bara DB.
+
+PRM12NEO52RSW250904145355.json
+
+Document names going to integrate: ['PRM12NEO52RSW250904145355.json.gz']
+
+Downloading PRM12NEO52RSW250904145355.json.gz...
+✓ Successfully downloaded PRM12NEO52RSW250904145355.json.gz
+7501209701345 not in promo，saleMode has changed to promo，ESL refresh by price changing。原:03:现03
+PRM12NEO52RSW250904145355.json successfully integrated.
+{'storeCode': '03', 'itemCount': 187}
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-04 16:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 3 pending items.
+No pending files to integrate.
+1 documents found in Bara DB.
+
+ITM12NEO52DUG250904150917.json
+
+Document names going to integrate: ['ITM12NEO52DUG250904150917.json.gz']
+
+Downloading ITM12NEO52DUG250904150917.json.gz...
+✓ Successfully downloaded ITM12NEO52DUG250904150917.json.gz
+Item 602499165637 is not ready to change price. 2025/09/05 is in the future.
+Item 602499165644 is not ready to change price. 2025/09/05 is in the future.
+Item 7502247545014 is not ready to change price. 2025/09/05 is in the future.
+Item 7502294221060 is not ready to change price. 2025/09/05 is in the future.
+Item 7502294221060 is not ready to change price. 2025/09/05 is in the future.
+Item 7502294228540 is not ready to change price. 2025/09/05 is in the future.
+Item 7502294228540 is not ready to change price. 2025/09/05 is in the future.
+ITM12NEO52DUG250904150917.json successfully integrated.
+{'storeCode': '02', 'itemCount': 32}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 3 pending items.
+No pending files to integrate.
+1 documents found in Bara DB.
+
+ITM12NEO52RSW250904150848.json
+
+Document names going to integrate: ['ITM12NEO52RSW250904150848.json.gz']
+
+Downloading ITM12NEO52RSW250904150848.json.gz...
+✓ Successfully downloaded ITM12NEO52RSW250904150848.json.gz
+Item 602499165637 is not ready to change price. 2025/09/05 is in the future.
+Item 602499165644 is not ready to change price. 2025/09/05 is in the future.
+Item 7502247545014 is not ready to change price. 2025/09/05 is in the future.
+Item 7502294221060 is not ready to change price. 2025/09/05 is in the future.
+Item 7502294221060 is not ready to change price. 2025/09/05 is in the future.
+Item 7502294228540 is not ready to change price. 2025/09/05 is in the future.
+Item 7502294228540 is not ready to change price. 2025/09/05 is in the future.
+ITM12NEO52RSW250904150848.json successfully integrated.
+{'storeCode': '03', 'itemCount': 32}
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-04 17:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 10 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 10 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-04 18:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 10 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 10 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-04 19:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 10 pending items.
+No pending files to integrate.
+1 documents found in Bara DB.
+
+ITM12NEO52DUG250904182012.json
+
+Document names going to integrate: ['ITM12NEO52DUG250904182012.json.gz']
+
+Downloading ITM12NEO52DUG250904182012.json.gz...
+✓ Successfully downloaded ITM12NEO52DUG250904182012.json.gz
+0984 not in promo，price1 has changed，ESL refresh by price changing。原:380.0:现398.0
+1241 not in promo，price1 has changed，ESL refresh by price changing。原:204.0:现196.0
+1242 not in promo，price1 has changed，ESL refresh by price changing。原:100.0:现104.0
+1268 not in promo，price1 has changed，ESL refresh by price changing。原:25.0:现172.0
+1270 not in promo，price1 has changed，ESL refresh by price changing。原:Target data not found:现208.0
+1271 not in promo，price1 has changed，ESL refresh by price changing。原:35.57:现216.0
+36823 not in promo，price1 has changed，ESL refresh by price changing。原:112.0:现124.0
+4982 not in promo，price1 has changed，ESL refresh by price changing。原:248.0:现240.0
+50789 not in promo，price1 has changed，ESL refresh by price changing。原:152.0:现144.0
+55578 not in promo，price1 has changed，ESL refresh by price changing。原:96.0:现98.0
+56003 not in promo，price1 has changed，ESL refresh by price changing。原:22.0:现25.0
+7500810003251 not in promo，price1 has changed，ESL refresh by price changing。原:30.0:现32.0
+7500810005651 not in promo，price1 has changed，ESL refresh by price changing。原:30.0:现32.0
+7500810011126 not in promo，price1 has changed，ESL refresh by price changing。原:24.0:现25.0
+7500810015803 not in promo，price1 has changed，ESL refresh by price changing。原:45.0:现48.0
+7500810022061 not in promo，price1 has changed，ESL refresh by price changing。原:52.0:现54.0
+7500810036624 not in promo，price1 has changed，ESL refresh by price changing。原:25.0:现23.0
+7501000111602 not in promo，price1 has changed，ESL refresh by price changing。原:51.0:现53.0
+7501000112203 not in promo，price1 has changed，ESL refresh by price changing。原:18.0:现19.0
+7501000112845 not in promo，price1 has changed，ESL refresh by price changing。原:12.0:现13.0
+7501000142705 not in promo，price1 has changed，ESL refresh by price changing。原:22.0:现25.0
+7501000153800 not in promo，price1 has changed，ESL refresh by price changing。原:26.0:现27.0
+7501005102735 not in promo，price1 has changed，ESL refresh by price changing。原:37.0:现35.0
+7501008001622 not in promo，price1 has changed，ESL refresh by price changing。原:73.32:现78.0
+7501008057032 not in promo，price1 has changed，ESL refresh by price changing。原:67.16:现70.0
+7501008057292 not in promo，price1 has changed，ESL refresh by price changing。原:67.16:现70.0
+7501008066386 not in promo，price1 has changed，ESL refresh by price changing。原:67.16:现70.0
+7501008077320 not in promo，price1 has changed，ESL refresh by price changing。原:49.0:现59.0
+7501008081723 not in promo，price1 has changed，ESL refresh by price changing。原:49.0:现45.0
+7501020500080 not in promo，price1 has changed，ESL refresh by price changing。原:104.0:现87.0
+7501020511468 not in promo，price1 has changed，ESL refresh by price changing。原:79.0:现81.0
+7501020512335 not in promo，price1 has changed，ESL refresh by price changing。原:100.0:现82.0
+7501020514308 not in promo，price1 has changed，ESL refresh by price changing。原:7.0:现7.5
+7501020514315 not in promo，price1 has changed，ESL refresh by price changing。原:7.0:现7.5
+7501020520088 not in promo，price1 has changed，ESL refresh by price changing。原:28.0:现29.5
+7501020520101 not in promo，price1 has changed，ESL refresh by price changing。原:28.0:现29.0
+7501020537390 not in promo，price1 has changed，ESL refresh by price changing。原:37.0:现33.0
+7501020547047 not in promo，price1 has changed，ESL refresh by price changing。原:47.5:现47.0
+7501020547061 not in promo，price1 has changed，ESL refresh by price changing。原:51.0:现47.0
+7501020548495 not in promo，price1 has changed，ESL refresh by price changing。原:38.0:现40.0
+7501020556827 not in promo，price1 has changed，ESL refresh by price changing。原:23.0:现23.5
+7501020557688 not in promo，price1 has changed，ESL refresh by price changing。原:38.0:现38.5
+7501020561173 not in promo，price1 has changed，ESL refresh by price changing。原:72.5:现55.0
+7501020561906 not in promo，price1 has changed，ESL refresh by price changing。原:44.0:现42.0
+7501020563733 not in promo，price1 has changed，ESL refresh by price changing。原:47.0:现41.0
+7501020564082 not in promo，price1 has changed，ESL refresh by price changing。原:23.0:现22.5
+7501020565775 not in promo，price1 has changed，ESL refresh by price changing。原:42.0:现39.0
+7501020567663 not in promo，price1 has changed，ESL refresh by price changing。原:7.5:现7.0
+7501020567687 not in promo，price1 has changed，ESL refresh by price changing。原:38.5:现39.0
+7501020567700 not in promo，price1 has changed，ESL refresh by price changing。原:38.5:现39.0
+7501020567731 not in promo，price1 has changed，ESL refresh by price changing。原:48.0:现50.0
+7501030409854 not in promo，price1 has changed，ESL refresh by price changing。原:30.0:现32.0
+7501030418399 not in promo，price1 has changed，ESL refresh by price changing。原:26.0:现27.0
+7501030467090 not in promo，price1 has changed，ESL refresh by price changing。原:60.0:现62.0
+7501030472698 not in promo，price1 has changed，ESL refresh by price changing。原:25.0:现27.0
+7501030486664 not in promo，price1 has changed，ESL refresh by price changing。原:37.0:现33.0
+7501035910089 not in promo，price1 has changed，ESL refresh by price changing。原:44.0:现45.0
+7501039122181 not in promo，price1 has changed，ESL refresh by price changing。原:144.9:现115.0
+7501040083617 not in promo，price1 has changed，ESL refresh by price changing。原:57.0:现55.0
+7501040098581 not in promo，price1 has changed，ESL refresh by price changing。原:20.0:现21.0
+7501055335060 not in promo，price1 has changed，ESL refresh by price changing。原:40.0:现44.0
+7501055910274 not in promo，price1 has changed，ESL refresh by price changing。原:39.0:现41.0
+7501055914463 not in promo，price1 has changed，ESL refresh by price changing。原:36.0:现37.0
+7501055916016 not in promo，price1 has changed，ESL refresh by price changing。原:43.0:现39.0
+7501058625229 not in promo，price1 has changed，ESL refresh by price changing。原:330.0:现344.0
+7501059296367 not in promo，price1 has changed，ESL refresh by price changing。原:45.4:现45.0
+7501072204431 not in promo，price1 has changed，ESL refresh by price changing。原:137.0:现120.0
+7501082780505 not in promo，price1 has changed，ESL refresh by price changing。原:Target data not found:现15.0
+7501110400047 not in promo，price1 has changed，ESL refresh by price changing。原:18.5:现20.0
+7501130934973 not in promo，price1 has changed，ESL refresh by price changing。原:20.0:现25.0
+7501130934980 not in promo，price1 has changed，ESL refresh by price changing。原:20.0:现23.0
+7501130935512 not in promo，price1 has changed，ESL refresh by price changing。原:15.0:现20.0
+7501161502011 not in promo，price1 has changed，ESL refresh by price changing。原:9.0:现8.5
+7501161502035 not in promo，price1 has changed，ESL refresh by price changing。原:9.0:现8.5
+7501209701024 not in promo，price1 has changed，ESL refresh by price changing。原:26.0:现25.0
+7501209705695 not in promo，price1 has changed，ESL refresh by price changing。原:16.0:现16.5
+7502268549565 not in promo，price1 has changed，ESL refresh by price changing。原:32.0:现29.0
+7502271156958 not in promo，price1 has changed，ESL refresh by price changing。原:12.16:现11.0
+7502271157177 not in promo，price1 has changed，ESL refresh by price changing。原:31.0:现31.5
+7502271157238 not in promo，price1 has changed，ESL refresh by price changing。原:22.0:现21.0
+7502271157818 not in promo，price1 has changed，ESL refresh by price changing。原:16.5:现16.0
+7502294221060 not in promo，price1 has changed，ESL refresh by price changing。原:25.0:现20.0
+7502294221640 not in promo，price1 has changed，ESL refresh by price changing。原:34.32:现32.0
+7502294221817 not in promo，price1 has changed，ESL refresh by price changing。原:11.0:现12.0
+7502294222555 not in promo，price1 has changed，ESL refresh by price changing。原:16.5:现16.0
+7502294224078 not in promo，price1 has changed，ESL refresh by price changing。原:62.32:现60.0
+7502294224085 not in promo，price1 has changed，ESL refresh by price changing。原:15.16:现14.0
+7502294224467 not in promo，price1 has changed，ESL refresh by price changing。原:10.0:现12.0
+7502294224504 not in promo，price1 has changed，ESL refresh by price changing。原:36.0:现38.0
+7502294226249 not in promo，price1 has changed，ESL refresh by price changing。原:28.0:现27.0
+7502294226904 not in promo，price1 has changed，ESL refresh by price changing。原:14.47:现13.0
+7503025984032 not in promo，price1 has changed，ESL refresh by price changing。原:65.0:现60.0
+7503025984391 not in promo，price1 has changed，ESL refresh by price changing。原:65.0:现60.0
+7503035393411 not in promo，price1 has changed，ESL refresh by price changing。原:55.0:现65.0
+7503053309012 not in promo，price1 has changed，ESL refresh by price changing。原:57.0:现49.0
+7503053309036 not in promo，price1 has changed，ESL refresh by price changing。原:122.0:现109.0
+7503053309043 not in promo，price1 has changed，ESL refresh by price changing。原:65.0:现60.0
+7506306415010 not in promo，price1 has changed，ESL refresh by price changing。原:42.0:现47.0
+7506306416789 not in promo，price1 has changed，ESL refresh by price changing。原:30.0:现35.0
+7506306416888 not in promo，price1 has changed，ESL refresh by price changing。原:15.0:现17.0
+7506306418356 not in promo，price1 has changed，ESL refresh by price changing。原:25.0:现30.0
+7506390201452 not in promo，price1 has changed，ESL refresh by price changing。原:25.0:现30.0
+7506390202220 not in promo，price1 has changed，ESL refresh by price changing。原:40.0:现41.0
+7506390202565 not in promo，price1 has changed，ESL refresh by price changing。原:15.0:现19.0
+7506390202831 not in promo，price1 has changed，ESL refresh by price changing。原:45.0:现49.0
+7506390202848 not in promo，price1 has changed，ESL refresh by price changing。原:45.0:现48.0
+7506443100466 not in promo，price1 has changed，ESL refresh by price changing。原:15.0:现14.0
+7506475106153 not in promo，price1 has changed，ESL refresh by price changing。原:285.0:现295.0
+7506475106801 not in promo，price1 has changed，ESL refresh by price changing。原:38.0:现41.0
+75081898 not in promo，price1 has changed，ESL refresh by price changing。原:29.0:现30.0
+7509546000985 not in promo，price1 has changed，ESL refresh by price changing。原:22.0:现23.0
+7509546075136 not in promo，price1 has changed，ESL refresh by price changing。原:11.0:现11.5
+7613287216458 not in promo，price1 has changed，ESL refresh by price changing。原:15.0:现15.5
+7622210571380 not in promo，price1 has changed，ESL refresh by price changing。原:11.0:现12.0
+ITM12NEO52DUG250904182012.json successfully integrated.
+{'storeCode': '02', 'itemCount': 320}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 10 pending items.
+No pending files to integrate.
+1 documents found in Bara DB.
+
+ITM12NEO52RSW250904182008.json
+
+Document names going to integrate: ['ITM12NEO52RSW250904182008.json.gz']
+
+Downloading ITM12NEO52RSW250904182008.json.gz...
+✓ Successfully downloaded ITM12NEO52RSW250904182008.json.gz
+0984 not in promo，price1 has changed，ESL refresh by price changing。原:380.0:现398.0
+1241 not in promo，price1 has changed，ESL refresh by price changing。原:204.0:现196.0
+1242 not in promo，price1 has changed，ESL refresh by price changing。原:100.0:现104.0
+1268 not in promo，price1 has changed，ESL refresh by price changing。原:25.0:现172.0
+1270 not in promo，price1 has changed，ESL refresh by price changing。原:Target data not found:现208.0
+1271 not in promo，price1 has changed，ESL refresh by price changing。原:35.57:现216.0
+36823 not in promo，price1 has changed，ESL refresh by price changing。原:112.0:现124.0
+4982 not in promo，price1 has changed，ESL refresh by price changing。原:248.0:现240.0
+50789 not in promo，price1 has changed，ESL refresh by price changing。原:152.0:现144.0
+55578 not in promo，price1 has changed，ESL refresh by price changing。原:96.0:现98.0
+56003 not in promo，price1 has changed，ESL refresh by price changing。原:22.0:现25.0
+7500463666643 not in promo，price1 has changed，ESL refresh by price changing。原:80.0:现70.0
+7500810003251 not in promo，price1 has changed，ESL refresh by price changing。原:30.0:现32.0
+7500810005651 not in promo，price1 has changed，ESL refresh by price changing。原:30.0:现32.0
+7500810011126 not in promo，price1 has changed，ESL refresh by price changing。原:24.0:现25.0
+7500810015803 not in promo，price1 has changed，ESL refresh by price changing。原:45.0:现48.0
+7500810022061 not in promo，price1 has changed，ESL refresh by price changing。原:52.0:现54.0
+7500810036624 not in promo，price1 has changed，ESL refresh by price changing。原:25.0:现23.0
+7501000111602 not in promo，price1 has changed，ESL refresh by price changing。原:51.0:现53.0
+7501000112203 not in promo，price1 has changed，ESL refresh by price changing。原:18.0:现19.0
+7501000112845 not in promo，price1 has changed，ESL refresh by price changing。原:12.0:现13.0
+7501000142705 not in promo，price1 has changed，ESL refresh by price changing。原:22.0:现25.0
+7501000153800 not in promo，price1 has changed，ESL refresh by price changing。原:26.0:现27.0
+7501005102735 not in promo，price1 has changed，ESL refresh by price changing。原:37.0:现35.0
+7501008001622 not in promo，price1 has changed，ESL refresh by price changing。原:73.32:现78.0
+7501008057032 not in promo，price1 has changed，ESL refresh by price changing。原:67.16:现70.0
+7501008057292 not in promo，price1 has changed，ESL refresh by price changing。原:67.16:现70.0
+7501008066386 not in promo，price1 has changed，ESL refresh by price changing。原:67.16:现70.0
+7501008077320 not in promo，price1 has changed，ESL refresh by price changing。原:49.0:现59.0
+7501008081723 not in promo，price1 has changed，ESL refresh by price changing。原:49.0:现45.0
+7501020500080 not in promo，price1 has changed，ESL refresh by price changing。原:104.0:现87.0
+7501020512335 not in promo，price1 has changed，ESL refresh by price changing。原:100.0:现82.0
+7501020514308 not in promo，price1 has changed，ESL refresh by price changing。原:7.0:现7.5
+7501020514315 not in promo，price1 has changed，ESL refresh by price changing。原:7.0:现7.5
+7501020520088 not in promo，price1 has changed，ESL refresh by price changing。原:28.0:现29.5
+7501020520101 not in promo，price1 has changed，ESL refresh by price changing。原:28.0:现29.0
+7501020537390 not in promo，price1 has changed，ESL refresh by price changing。原:37.0:现33.0
+7501020547047 not in promo，price1 has changed，ESL refresh by price changing。原:47.5:现47.0
+7501020547061 not in promo，price1 has changed，ESL refresh by price changing。原:51.0:现47.0
+7501020548495 not in promo，price1 has changed，ESL refresh by price changing。原:38.0:现40.0
+7501020556827 not in promo，price1 has changed，ESL refresh by price changing。原:23.0:现23.5
+7501020557688 not in promo，price1 has changed，ESL refresh by price changing。原:38.0:现38.5
+7501020561173 not in promo，price1 has changed，ESL refresh by price changing。原:72.5:现55.0
+7501020561906 not in promo，price1 has changed，ESL refresh by price changing。原:44.0:现42.0
+7501020563733 not in promo，price1 has changed，ESL refresh by price changing。原:47.0:现41.0
+7501020564082 not in promo，price1 has changed，ESL refresh by price changing。原:23.0:现22.5
+7501020565775 not in promo，price1 has changed，ESL refresh by price changing。原:42.0:现39.0
+7501020567663 not in promo，price1 has changed，ESL refresh by price changing。原:7.5:现7.0
+7501020567687 not in promo，price1 has changed，ESL refresh by price changing。原:38.5:现39.0
+7501020567700 not in promo，price1 has changed，ESL refresh by price changing。原:38.5:现39.0
+7501020567731 not in promo，price1 has changed，ESL refresh by price changing。原:48.0:现50.0
+7501030409854 not in promo，price1 has changed，ESL refresh by price changing。原:30.0:现32.0
+7501030418399 not in promo，price1 has changed，ESL refresh by price changing。原:26.0:现27.0
+7501030467090 not in promo，price1 has changed，ESL refresh by price changing。原:60.0:现62.0
+7501030472698 not in promo，price1 has changed，ESL refresh by price changing。原:25.0:现27.0
+7501030486664 not in promo，price1 has changed，ESL refresh by price changing。原:37.0:现33.0
+7501035910089 not in promo，price1 has changed，ESL refresh by price changing。原:44.0:现45.0
+7501039122181 not in promo，price1 has changed，ESL refresh by price changing。原:144.9:现115.0
+7501040083617 not in promo，price1 has changed，ESL refresh by price changing。原:57.0:现55.0
+7501040098581 not in promo，price1 has changed，ESL refresh by price changing。原:20.0:现21.0
+7501055335060 not in promo，price1 has changed，ESL refresh by price changing。原:40.0:现44.0
+7501055910274 not in promo，price1 has changed，ESL refresh by price changing。原:39.0:现41.0
+7501055914463 not in promo，price1 has changed，ESL refresh by price changing。原:36.0:现37.0
+7501055916016 not in promo，price1 has changed，ESL refresh by price changing。原:43.0:现39.0
+7501058625229 not in promo，price1 has changed，ESL refresh by price changing。原:330.0:现344.0
+7501059296367 not in promo，price1 has changed，ESL refresh by price changing。原:45.4:现45.0
+7501072204431 not in promo，price1 has changed，ESL refresh by price changing。原:137.0:现120.0
+7501082780505 not in promo，price1 has changed，ESL refresh by price changing。原:Target data not found:现15.0
+7501100662004 not in promo，price1 has changed，ESL refresh by price changing。原:65.0:现60.0
+7501110400047 not in promo，price1 has changed，ESL refresh by price changing。原:18.5:现20.0
+7501130934973 not in promo，price1 has changed，ESL refresh by price changing。原:20.0:现25.0
+7501130934980 not in promo，price1 has changed，ESL refresh by price changing。原:20.0:现23.0
+7501130935512 not in promo，price1 has changed，ESL refresh by price changing。原:15.0:现20.0
+7501161502011 not in promo，price1 has changed，ESL refresh by price changing。原:9.0:现8.5
+7501161502035 not in promo，price1 has changed，ESL refresh by price changing。原:9.0:现8.5
+7501209701024 not in promo，price1 has changed，ESL refresh by price changing。原:26.0:现25.0
+7501209705695 not in promo，price1 has changed，ESL refresh by price changing。原:16.0:现16.5
+7502268549565 not in promo，price1 has changed，ESL refresh by price changing。原:32.0:现29.0
+7502271156958 not in promo，price1 has changed，ESL refresh by price changing。原:12.16:现11.0
+7502271157177 not in promo，price1 has changed，ESL refresh by price changing。原:31.0:现31.5
+7502271157238 not in promo，price1 has changed，ESL refresh by price changing。原:22.0:现21.0
+7502271157818 not in promo，price1 has changed，ESL refresh by price changing。原:16.5:现16.0
+7502294221060 not in promo，price1 has changed，ESL refresh by price changing。原:25.0:现20.0
+7502294221640 not in promo，price1 has changed，ESL refresh by price changing。原:34.32:现32.0
+7502294221817 not in promo，price1 has changed，ESL refresh by price changing。原:11.0:现12.0
+7502294222555 not in promo，price1 has changed，ESL refresh by price changing。原:16.5:现16.0
+7502294224078 not in promo，price1 has changed，ESL refresh by price changing。原:62.32:现60.0
+7502294224085 not in promo，price1 has changed，ESL refresh by price changing。原:15.16:现14.0
+7502294224467 not in promo，price1 has changed，ESL refresh by price changing。原:10.0:现12.0
+7502294224504 not in promo，price1 has changed，ESL refresh by price changing。原:36.0:现38.0
+7502294226249 not in promo，price1 has changed，ESL refresh by price changing。原:28.0:现27.0
+7502294226904 not in promo，price1 has changed，ESL refresh by price changing。原:14.47:现13.0
+7503025984032 not in promo，price1 has changed，ESL refresh by price changing。原:65.0:现60.0
+7503025984391 not in promo，price1 has changed，ESL refresh by price changing。原:65.0:现60.0
+7503035393411 not in promo，price1 has changed，ESL refresh by price changing。原:55.0:现65.0
+7503053309012 not in promo，price1 has changed，ESL refresh by price changing。原:57.0:现49.0
+7503053309036 not in promo，price1 has changed，ESL refresh by price changing。原:122.0:现109.0
+7503053309043 not in promo，price1 has changed，ESL refresh by price changing。原:65.0:现60.0
+7506306415010 not in promo，price1 has changed，ESL refresh by price changing。原:42.0:现47.0
+7506306416789 not in promo，price1 has changed，ESL refresh by price changing。原:30.0:现35.0
+7506306416888 not in promo，price1 has changed，ESL refresh by price changing。原:15.0:现17.0
+7506306418356 not in promo，price1 has changed，ESL refresh by price changing。原:25.0:现30.0
+7506390201452 not in promo，price1 has changed，ESL refresh by price changing。原:25.0:现30.0
+7506390202220 not in promo，price1 has changed，ESL refresh by price changing。原:40.0:现41.0
+7506390202565 not in promo，price1 has changed，ESL refresh by price changing。原:15.0:现19.0
+7506390202831 not in promo，price1 has changed，ESL refresh by price changing。原:45.0:现49.0
+7506390202848 not in promo，price1 has changed，ESL refresh by price changing。原:45.0:现48.0
+7506443100466 not in promo，price1 has changed，ESL refresh by price changing。原:15.0:现14.0
+7506475106153 not in promo，price1 has changed，ESL refresh by price changing。原:285.0:现295.0
+7506475106801 not in promo，price1 has changed，ESL refresh by price changing。原:38.0:现41.0
+75081898 not in promo，price1 has changed，ESL refresh by price changing。原:29.0:现30.0
+7509546000985 not in promo，price1 has changed，ESL refresh by price changing。原:22.0:现23.0
+7509546075136 not in promo，price1 has changed，ESL refresh by price changing。原:11.0:现11.5
+7613287216458 not in promo，price1 has changed，ESL refresh by price changing。原:15.0:现15.5
+7622210571380 not in promo，price1 has changed，ESL refresh by price changing。原:11.0:现12.0
+ITM12NEO52RSW250904182008.json successfully integrated.
+{'storeCode': '03', 'itemCount': 318}
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-04 20:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 10 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 10 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-04 21:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 10 pending items.
+No pending files to integrate.
+1 documents found in Bara DB.
+
+ITM12NEO52DUG250904203945.json
+
+Document names going to integrate: ['ITM12NEO52DUG250904203945.json.gz']
+
+Downloading ITM12NEO52DUG250904203945.json.gz...
+✓ Successfully downloaded ITM12NEO52DUG250904203945.json.gz
+1537 not in promo，price1 has changed，ESL refresh by price changing。原:Target data not found:现170.0
+44069 not in promo，price1 has changed，ESL refresh by price changing。原:128.0:现132.0
+50348 not in promo，price1 has changed，ESL refresh by price changing。原:84.0:现88.0
+602499165637 not in promo，price1 has changed，ESL refresh by price changing。原:10.0:现20.0
+602499165644 not in promo，price1 has changed，ESL refresh by price changing。原:10.0:现20.0
+7501000101238 not in promo，price1 has changed，ESL refresh by price changing。原:60.0:现63.0
+7501000106325 not in promo，price1 has changed，ESL refresh by price changing。原:39.0:现41.0
+7501000111503 not in promo，price1 has changed，ESL refresh by price changing。原:46.0:现48.0
+7501000111800 not in promo，price1 has changed，ESL refresh by price changing。原:33.0:现34.0
+7501000300730 not in promo，price1 has changed，ESL refresh by price changing。原:61.0:现63.0
+7501000309726 not in promo，price1 has changed，ESL refresh by price changing。原:48.0:现49.0
+7501000364695 not in promo，price1 has changed，ESL refresh by price changing。原:28.5:现30.0
+7501020511390 not in promo，price1 has changed，ESL refresh by price changing。原:39.0:现35.0
+7501020537970 not in promo，price1 has changed，ESL refresh by price changing。原:23.5:现21.0
+7501020541113 not in promo，price1 has changed，ESL refresh by price changing。原:28.0:现29.5
+7501020547054 not in promo，price1 has changed，ESL refresh by price changing。原:51.0:现47.0
+7501020561258 not in promo，price1 has changed，ESL refresh by price changing。原:72.5:现55.0
+7501020562040 not in promo，price1 has changed，ESL refresh by price changing。原:45.0:现43.0
+7501020563726 not in promo，price1 has changed，ESL refresh by price changing。原:47.0:现41.0
+7501020564860 not in promo，price1 has changed，ESL refresh by price changing。原:72.0:现65.0
+7501020567380 not in promo，price1 has changed，ESL refresh by price changing。原:48.0:现50.0
+7501030452553 not in promo，price1 has changed，ESL refresh by price changing。原:54.0:现55.0
+7501030474227 not in promo，price1 has changed，ESL refresh by price changing。原:26.0:现27.0
+7501035904118 not in promo，price1 has changed，ESL refresh by price changing。原:38.0:现40.0
+7501040095122 not in promo，price1 has changed，ESL refresh by price changing。原:62.0:现66.0
+7501040095160 not in promo，price1 has changed，ESL refresh by price changing。原:62.0:现66.0
+7501055321681 not in promo，price1 has changed，ESL refresh by price changing。原:28.0:现30.0
+7501055381890 not in promo，price1 has changed，ESL refresh by price changing。原:28.0:现23.0
+7501055910250 not in promo，price1 has changed，ESL refresh by price changing。原:39.0:现41.0
+7501055913411 not in promo，price1 has changed，ESL refresh by price changing。原:39.0:现41.0
+7501055914487 not in promo，price1 has changed，ESL refresh by price changing。原:36.0:现37.0
+7501058608383 not in promo，price1 has changed，ESL refresh by price changing。原:40.0:现37.0
+7501058618597 not in promo，price1 has changed，ESL refresh by price changing。原:29.0:现31.0
+7501125104275 not in promo，price1 has changed，ESL refresh by price changing。原:32.0:现29.0
+7501130900411 not in promo，price1 has changed，ESL refresh by price changing。原:20.0:现25.0
+7501161502028 not in promo，price1 has changed，ESL refresh by price changing。原:9.0:现8.5
+7501216819576 not in promo，price1 has changed，ESL refresh by price changing。原:37.0:现38.0
+7501216819811 not in promo，price1 has changed，ESL refresh by price changing。原:38.0:现41.0
+75013820 not in promo，price1 has changed，ESL refresh by price changing。原:45.0:现49.0
+7501689022022 not in promo，price1 has changed，ESL refresh by price changing。原:37.0:现38.0
+7501689025009 not in promo，price1 has changed，ESL refresh by price changing。原:42.0:现46.0
+7502271156965 not in promo，price1 has changed，ESL refresh by price changing。原:12.16:现11.0
+7502271157191 not in promo，price1 has changed，ESL refresh by price changing。原:25.0:现25.5
+7502294220803 not in promo，price1 has changed，ESL refresh by price changing。原:10.8:现10.0
+7502294221237 not in promo，price1 has changed，ESL refresh by price changing。原:60.44:现50.0
+7502294221275 not in promo，price1 has changed，ESL refresh by price changing。原:32.48:现29.0
+7502294221824 not in promo，price1 has changed，ESL refresh by price changing。原:30.0:现32.0
+7502294221831 not in promo，price1 has changed，ESL refresh by price changing。原:11.0:现12.0
+7502294221848 not in promo，price1 has changed，ESL refresh by price changing。原:30.0:现32.0
+7502294222630 not in promo，price1 has changed，ESL refresh by price changing。原:34.32:现32.0
+7502294222739 not in promo，price1 has changed，ESL refresh by price changing。原:47.0:现47.9
+7502294222746 not in promo，price1 has changed，ESL refresh by price changing。原:17.0:现18.0
+7502294224474 not in promo，price1 has changed，ESL refresh by price changing。原:106.0:现108.0
+7502294225815 not in promo，price1 has changed，ESL refresh by price changing。原:10.4:现10.0
+7503031361209 not in promo，price1 has changed，ESL refresh by price changing。原:22.0:现23.0
+7503032606828 not in promo，price1 has changed，ESL refresh by price changing。原:32.0:现33.0
+7503035393534 not in promo，price1 has changed，ESL refresh by price changing。原:75.0:现79.0
+7506205807596 not in promo，price1 has changed，ESL refresh by price changing。原:51.21:现49.0
+7506306414471 not in promo，price1 has changed，ESL refresh by price changing。原:42.0:现47.0
+7506390201711 not in promo，price1 has changed，ESL refresh by price changing。原:15.0:现19.0
+7506390202794 not in promo，price1 has changed，ESL refresh by price changing。原:45.0:现46.0
+7506390202817 not in promo，price1 has changed，ESL refresh by price changing。原:45.0:现46.0
+7506390202824 not in promo，price1 has changed，ESL refresh by price changing。原:45.0:现46.0
+7506390202886 not in promo，price1 has changed，ESL refresh by price changing。原:40.0:现44.0
+7506390202978 not in promo，price1 has changed，ESL refresh by price changing。原:40.0:现44.0
+7506390203241 not in promo，price1 has changed，ESL refresh by price changing。原:45.0:现46.0
+7506475106146 not in promo，price1 has changed，ESL refresh by price changing。原:259.0:现283.0
+7506475106818 not in promo，price1 has changed，ESL refresh by price changing。原:36.0:现39.5
+75073107 not in promo，price1 has changed，ESL refresh by price changing。原:95.0:现99.0
+7509546032023 not in promo，price1 has changed，ESL refresh by price changing。原:16.5:现18.5
+7509546688817 not in promo，price1 has changed，ESL refresh by price changing。原:28.0:现29.0
+7622210561558 not in promo，price1 has changed，ESL refresh by price changing。原:35.0:现37.0
+7622210571328 not in promo，price1 has changed，ESL refresh by price changing。原:11.0:现12.0
+ITM12NEO52DUG250904203945.json successfully integrated.
+{'storeCode': '02', 'itemCount': 179}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 10 pending items.
+No pending files to integrate.
+1 documents found in Bara DB.
+
+ITM12NEO52RSW250904203921.json
+
+Document names going to integrate: ['ITM12NEO52RSW250904203921.json.gz']
+
+Downloading ITM12NEO52RSW250904203921.json.gz...
+✓ Successfully downloaded ITM12NEO52RSW250904203921.json.gz
+1537 not in promo，price1 has changed，ESL refresh by price changing。原:Target data not found:现170.0
+44069 not in promo，price1 has changed，ESL refresh by price changing。原:128.0:现132.0
+50348 not in promo，price1 has changed，ESL refresh by price changing。原:84.0:现88.0
+602499165637 not in promo，price1 has changed，ESL refresh by price changing。原:10.0:现20.0
+602499165644 not in promo，price1 has changed，ESL refresh by price changing。原:10.0:现20.0
+7501000101238 not in promo，price1 has changed，ESL refresh by price changing。原:60.0:现63.0
+7501000106325 not in promo，price1 has changed，ESL refresh by price changing。原:39.0:现41.0
+7501000111503 not in promo，price1 has changed，ESL refresh by price changing。原:46.0:现48.0
+7501000111800 not in promo，price1 has changed，ESL refresh by price changing。原:33.0:现34.0
+7501000300730 not in promo，price1 has changed，ESL refresh by price changing。原:61.0:现63.0
+7501000309726 not in promo，price1 has changed，ESL refresh by price changing。原:48.0:现49.0
+7501000364695 not in promo，price1 has changed，ESL refresh by price changing。原:28.5:现30.0
+7501020511390 not in promo，price1 has changed，ESL refresh by price changing。原:39.0:现35.0
+7501020537970 not in promo，price1 has changed，ESL refresh by price changing。原:23.5:现21.0
+7501020541113 not in promo，price1 has changed，ESL refresh by price changing。原:28.0:现29.5
+7501020547054 not in promo，price1 has changed，ESL refresh by price changing。原:51.0:现47.0
+7501020561258 not in promo，price1 has changed，ESL refresh by price changing。原:72.5:现55.0
+7501020562040 not in promo，price1 has changed，ESL refresh by price changing。原:45.0:现43.0
+7501020563726 not in promo，price1 has changed，ESL refresh by price changing。原:47.0:现41.0
+7501020564860 not in promo，price1 has changed，ESL refresh by price changing。原:72.0:现65.0
+7501020567380 not in promo，price1 has changed，ESL refresh by price changing。原:48.0:现50.0
+7501030452553 not in promo，price1 has changed，ESL refresh by price changing。原:54.0:现55.0
+7501030474227 not in promo，price1 has changed，ESL refresh by price changing。原:26.0:现27.0
+7501035904118 not in promo，price1 has changed，ESL refresh by price changing。原:38.0:现40.0
+7501040095122 not in promo，price1 has changed，ESL refresh by price changing。原:62.0:现66.0
+7501040095160 not in promo，price1 has changed，ESL refresh by price changing。原:62.0:现66.0
+7501055321681 not in promo，price1 has changed，ESL refresh by price changing。原:28.0:现30.0
+7501055381890 not in promo，price1 has changed，ESL refresh by price changing。原:28.0:现23.0
+7501055910250 not in promo，price1 has changed，ESL refresh by price changing。原:39.0:现41.0
+7501055913411 not in promo，price1 has changed，ESL refresh by price changing。原:39.0:现41.0
+7501055914487 not in promo，price1 has changed，ESL refresh by price changing。原:36.0:现37.0
+7501058608383 not in promo，price1 has changed，ESL refresh by price changing。原:40.0:现37.0
+7501058618597 not in promo，price1 has changed，ESL refresh by price changing。原:29.0:现31.0
+7501125104275 not in promo，price1 has changed，ESL refresh by price changing。原:32.0:现29.0
+7501130900411 not in promo，price1 has changed，ESL refresh by price changing。原:20.0:现25.0
+7501161502028 not in promo，price1 has changed，ESL refresh by price changing。原:9.0:现8.5
+75013820 not in promo，price1 has changed，ESL refresh by price changing。原:45.0:现49.0
+7501689022022 not in promo，price1 has changed，ESL refresh by price changing。原:37.0:现38.0
+7501689025009 not in promo，price1 has changed，ESL refresh by price changing。原:42.0:现46.0
+7502271156965 not in promo，price1 has changed，ESL refresh by price changing。原:12.16:现11.0
+7502271157191 not in promo，price1 has changed，ESL refresh by price changing。原:25.0:现25.5
+7502294220803 not in promo，price1 has changed，ESL refresh by price changing。原:10.8:现10.0
+7502294221237 not in promo，price1 has changed，ESL refresh by price changing。原:60.44:现50.0
+7502294221275 not in promo，price1 has changed，ESL refresh by price changing。原:32.48:现29.0
+7502294221824 not in promo，price1 has changed，ESL refresh by price changing。原:30.0:现32.0
+7502294221831 not in promo，price1 has changed，ESL refresh by price changing。原:11.0:现12.0
+7502294221848 not in promo，price1 has changed，ESL refresh by price changing。原:30.0:现32.0
+7502294222630 not in promo，price1 has changed，ESL refresh by price changing。原:34.32:现32.0
+7502294222739 not in promo，price1 has changed，ESL refresh by price changing。原:47.0:现47.9
+7502294222746 not in promo，price1 has changed，ESL refresh by price changing。原:17.0:现18.0
+7502294224474 not in promo，price1 has changed，ESL refresh by price changing。原:106.0:现108.0
+7502294225815 not in promo，price1 has changed，ESL refresh by price changing。原:10.4:现10.0
+7503031361209 not in promo，price1 has changed，ESL refresh by price changing。原:22.0:现23.0
+7503032606828 not in promo，price1 has changed，ESL refresh by price changing。原:32.0:现33.0
+7503035393534 not in promo，price1 has changed，ESL refresh by price changing。原:75.0:现79.0
+7506205807596 not in promo，price1 has changed，ESL refresh by price changing。原:51.21:现49.0
+7506306414471 not in promo，price1 has changed，ESL refresh by price changing。原:42.0:现47.0
+7506390201711 not in promo，price1 has changed，ESL refresh by price changing。原:15.0:现19.0
+7506390202794 not in promo，price1 has changed，ESL refresh by price changing。原:45.0:现46.0
+7506390202817 not in promo，price1 has changed，ESL refresh by price changing。原:45.0:现46.0
+7506390202824 not in promo，price1 has changed，ESL refresh by price changing。原:45.0:现46.0
+7506390202886 not in promo，price1 has changed，ESL refresh by price changing。原:40.0:现44.0
+7506390202978 not in promo，price1 has changed，ESL refresh by price changing。原:40.0:现44.0
+7506390203241 not in promo，price1 has changed，ESL refresh by price changing。原:45.0:现46.0
+7506475106146 not in promo，price1 has changed，ESL refresh by price changing。原:259.0:现283.0
+7506475106818 not in promo，price1 has changed，ESL refresh by price changing。原:36.0:现39.5
+75073107 not in promo，price1 has changed，ESL refresh by price changing。原:95.0:现99.0
+7509546032023 not in promo，price1 has changed，ESL refresh by price changing。原:16.5:现18.5
+7509546688817 not in promo，price1 has changed，ESL refresh by price changing。原:28.0:现29.0
+7622210561558 not in promo，price1 has changed，ESL refresh by price changing。原:35.0:现37.0
+7622210571328 not in promo，price1 has changed，ESL refresh by price changing。原:11.0:现12.0
+ITM12NEO52RSW250904203921.json successfully integrated.
+{'storeCode': '03', 'itemCount': 177}
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-04 22:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 10 pending items.
+No pending files to integrate.
+2 documents found in Bara DB.
+
+ITM12NEO52DUG250904214344.json
+ITM12NEO52DUG250904215014.json
+
+Document names going to integrate: ['ITM12NEO52DUG250904214344.json.gz', 'ITM12NEO52DUG250904215014.json.gz']
+
+Downloading ITM12NEO52DUG250904214344.json.gz...
+✓ Successfully downloaded ITM12NEO52DUG250904214344.json.gz
+Downloading ITM12NEO52DUG250904215014.json.gz...
+✓ Successfully downloaded ITM12NEO52DUG250904215014.json.gz
+ITM12NEO52DUG250904214344.json successfully integrated.
+{'storeCode': '02', 'itemCount': 9}
+Item 7501011143241 is not ready to change price. 2025/09/05 is in the future.
+Item 7501011194465 is not ready to change price. 2025/09/05 is in the future.
+⚠ ITM12NEO52DUG250904215014.json - No valid items to process, marked as processed
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 10 pending items.
+No pending files to integrate.
+2 documents found in Bara DB.
+
+ITM12NEO52RSW250904214321.json
+ITM12NEO52RSW250904215015.json
+
+Document names going to integrate: ['ITM12NEO52RSW250904214321.json.gz', 'ITM12NEO52RSW250904215015.json.gz']
+
+Downloading ITM12NEO52RSW250904214321.json.gz...
+✓ Successfully downloaded ITM12NEO52RSW250904214321.json.gz
+Downloading ITM12NEO52RSW250904215015.json.gz...
+✓ Successfully downloaded ITM12NEO52RSW250904215015.json.gz
+ITM12NEO52RSW250904214321.json successfully integrated.
+{'storeCode': '03', 'itemCount': 9}
+Item 7501011143241 is not ready to change price. 2025/09/05 is in the future.
+Item 7501011194465 is not ready to change price. 2025/09/05 is in the future.
+⚠ ITM12NEO52RSW250904215015.json - No valid items to process, marked as processed
+------------------------------------

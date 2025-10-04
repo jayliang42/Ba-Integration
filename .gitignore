@@ -1,5 +1,4 @@
 # macOS system files
 .DS_Store
 
-logs/
 __pycache__/

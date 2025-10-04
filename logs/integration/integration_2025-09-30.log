@@ -1,0 +1,32 @@
+2025-09-30 00:00:01: pending files successfully integrated to Customer: Bara, Store: 02.
+2025-09-30 00:00:05: pending files successfully integrated to Customer: Bara, Store: 03.
+2025-09-30 08:00:09: Download ITM12NEO52DUG250930071441.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-09-30 08:00:09: SKIPPED ITM12NEO52DUG250930071441.json for Customer: Bara, Store: 02. No valid items to process
+2025-09-30 08:00:15: Download ITM12NEO52RSW250930071417.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-09-30 08:00:15: SKIPPED ITM12NEO52RSW250930071417.json for Customer: Bara, Store: 03. No valid items to process
+2025-09-30 10:00:32: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-30 11:00:32: ERROR API request failed to integrate to Customer: , Store: . Request timeout (30s) for URL: https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents
+2025-09-30 16:00:07: Download ITM12NEO52DUG250930150601.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-09-30 16:00:10: Download ITM12NEO52DUG250930150740.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-09-30 16:00:12: Download PRM12NEO52DUG250930153558.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-09-30 16:00:12: SKIPPED ITM12NEO52DUG250930150601.json for Customer: Bara, Store: 02. No valid items to process
+2025-09-30 16:00:13: SKIPPED ITM12NEO52DUG250930150740.json for Customer: Bara, Store: 02. No valid items to process
+2025-09-30 16:09:07: SKIPPED PRM12NEO52DUG250930153558.json for Customer: Bara, Store: 02. No valid items to process
+2025-09-30 16:09:11: Download ITM12NEO52RSW250930150536.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-09-30 16:09:14: Download ITM12NEO52RSW250930150737.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-09-30 16:09:16: Download PRM12NEO52RSW250930153737.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-09-30 16:09:16: SKIPPED ITM12NEO52RSW250930150536.json for Customer: Bara, Store: 03. No valid items to process
+2025-09-30 16:09:17: SKIPPED ITM12NEO52RSW250930150737.json for Customer: Bara, Store: 03. No valid items to process
+2025-09-30 16:18:10: SKIPPED PRM12NEO52RSW250930153737.json for Customer: Bara, Store: 03. No valid items to process
+2025-09-30 22:00:06: Download ITM12NEO52DUG250930214553.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-09-30 22:00:08: Download PRM12NEO52DUG250930215911.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-09-30 22:00:10: ITM12NEO52DUG250930214553.json successfully integrated to Customer: Bara, Store: 02.
+2025-09-30 22:00:16: SKIPPED PRM12NEO52DUG250930215911.json for Customer: Bara, Store: 02. No valid items to process
+2025-09-30 22:00:19: Download ITM12NEO52RSW250930214516.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-09-30 22:00:21: Download PRM12NEO52RSW250930215836.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-09-30 22:00:23: ITM12NEO52RSW250930214516.json successfully integrated to Customer: Bara, Store: 03.
+2025-09-30 22:00:29: SKIPPED PRM12NEO52RSW250930215836.json for Customer: Bara, Store: 03. No valid items to process
+2025-09-30 23:00:07: Download ITM12NEO52DUG250930220044.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-09-30 23:00:07: SKIPPED ITM12NEO52DUG250930220044.json for Customer: Bara, Store: 02. No valid items to process
+2025-09-30 23:00:11: Download ITM12NEO52RSW250930220043.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-09-30 23:00:11: SKIPPED ITM12NEO52RSW250930220043.json for Customer: Bara, Store: 03. No valid items to process

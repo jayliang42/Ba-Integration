@@ -1,0 +1,707 @@
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-15 23:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 1 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-16 00:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 1 pending items.
+Integrating 1 pending files...
+
+pending files successfully integrated.
+{'storeCode': '02', 'itemCount': 1}
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-16 01:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-16 02:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-16 03:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-16 04:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-16 05:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-16 06:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 0 pending items.
+No pending files to integrate.
+1 documents found in Bara DB.
+
+PRM12NEO52DUG250916054425.json
+
+Document names going to integrate: ['PRM12NEO52DUG250916054425.json.gz']
+
+Downloading PRM12NEO52DUG250916054425.json.gz...
+✓ Successfully downloaded PRM12NEO52DUG250916054425.json.gz
+Promotion 102051749 is not ready to start. 2025/09/17 is in the future.
+Promotion 101640955 is not ready to start. 2025/09/17 is in the future.
+Promotion 101654003 is not ready to start. 2025/09/17 is in the future.
+Promotion 101631004 is not ready to start. 2025/09/17 is in the future.
+Promotion 101599059 is not ready to start. 2025/09/17 is in the future.
+Promotion 101599032 is not ready to start. 2025/09/17 is in the future.
+Promotion 101561931 is not ready to start. 2025/09/17 is in the future.
+Promotion 101815356 is not ready to start. 2025/09/17 is in the future.
+Promotion 101716358 is not ready to start. 2025/09/17 is in the future.
+Promotion 101438546 is not ready to start. 2025/09/17 is in the future.
+Promotion 101420557 is not ready to start. 2025/09/17 is in the future.
+Promotion 101518909 is not ready to start. 2025/09/17 is in the future.
+Promotion 101470722 is not ready to start. 2025/09/17 is in the future.
+Promotion 102068575 is not ready to start. 2025/09/17 is in the future.
+Promotion 102054641 is not ready to start. 2025/09/17 is in the future.
+Promotion 111100021 is not ready to start. 2025/09/17 is in the future.
+Promotion 101969451 is not ready to start. 2025/09/17 is in the future.
+Promotion 101665061 is not ready to start. 2025/09/17 is in the future.
+Promotion 101633131 is not ready to start. 2025/09/17 is in the future.
+Promotion 101639057 is not ready to start. 2025/09/17 is in the future.
+Promotion 101556948 is not ready to start. 2025/09/17 is in the future.
+Promotion 101804391 is not ready to start. 2025/09/17 is in the future.
+Promotion 101815372 is not ready to start. 2025/09/17 is in the future.
+Promotion 101778381 is not ready to start. 2025/09/17 is in the future.
+Promotion 101415627 is not ready to start. 2025/09/17 is in the future.
+Promotion 101528904 is not ready to start. 2025/09/17 is in the future.
+Promotion 101999503 is not ready to start. 2025/09/17 is in the future.
+Promotion 102024708 is not ready to start. 2025/09/17 is in the future.
+Promotion 101600945 is not ready to start. 2025/09/17 is in the future.
+Promotion 101804382 is not ready to start. 2025/09/17 is in the future.
+Promotion 101716340 is not ready to start. 2025/09/17 is in the future.
+Promotion 101716323 is not ready to start. 2025/09/17 is in the future.
+Promotion 101415619 is not ready to start. 2025/09/17 is in the future.
+Promotion 101420531 is not ready to start. 2025/09/17 is in the future.
+Promotion 101301507 is not ready to start. 2025/09/17 is in the future.
+Promotion 101301494 is not ready to start. 2025/09/17 is in the future.
+Promotion 101518933 is not ready to start. 2025/09/17 is in the future.
+Promotion 101511926 is not ready to start. 2025/09/17 is in the future.
+Promotion 101518896 is not ready to start. 2025/09/17 is in the future.
+Promotion 101444541 is not ready to start. 2025/09/17 is in the future.
+Promotion 111050051 is not ready to start. 2025/09/17 is in the future.
+Promotion 111050035 is not ready to start. 2025/09/17 is in the future.
+Promotion 101630984 is not ready to start. 2025/09/17 is in the future.
+Promotion 101630968 is not ready to start. 2025/09/17 is in the future.
+Promotion 101815348 is not ready to start. 2025/09/17 is in the future.
+Promotion 101778356 is not ready to start. 2025/09/17 is in the future.
+Promotion 101757328 is not ready to start. 2025/09/17 is in the future.
+Promotion 101757344 is not ready to start. 2025/09/17 is in the future.
+Promotion 101415678 is not ready to start. 2025/09/17 is in the future.
+Promotion 101518917 is not ready to start. 2025/09/17 is in the future.
+Promotion 101478880 is not ready to start. 2025/09/17 is in the future.
+Promotion 101470749 is not ready to start. 2025/09/17 is in the future.
+Promotion 110250001 is not ready to start. 2025/09/17 is in the future.
+Promotion 102054704 is not ready to start. 2025/09/17 is in the future.
+Promotion 101955367 is not ready to start. 2025/09/17 is in the future.
+Promotion 101919323 is not ready to start. 2025/09/17 is in the future.
+Promotion 101665044 is not ready to start. 2025/09/17 is in the future.
+Promotion 101639065 is not ready to start. 2025/09/17 is in the future.
+Promotion 101630950 is not ready to start. 2025/09/17 is in the future.
+Promotion 101415539 is not ready to start. 2025/09/17 is in the future.
+Promotion 101518925 is not ready to start. 2025/09/17 is in the future.
+Promotion 101999520 is not ready to start. 2025/09/17 is in the future.
+Promotion 101906320 is not ready to start. 2025/09/17 is in the future.
+Promotion 101879325 is not ready to start. 2025/09/17 is in the future.
+Promotion 101633149 is not ready to start. 2025/09/17 is in the future.
+Promotion 101639073 is not ready to start. 2025/09/17 is in the future.
+Promotion 101599067 is not ready to start. 2025/09/17 is in the future.
+Promotion 101599041 is not ready to start. 2025/09/17 is in the future.
+Promotion 101716374 is not ready to start. 2025/09/17 is in the future.
+Promotion 101420565 is not ready to start. 2025/09/17 is in the future.
+Promotion 101528912 is not ready to start. 2025/09/17 is in the future.
+Promotion 101528921 is not ready to start. 2025/09/17 is in the future.
+Promotion 101511900 is not ready to start. 2025/09/17 is in the future.
+Promotion 101511897 is not ready to start. 2025/09/17 is in the future.
+Promotion 102054712 is not ready to start. 2025/09/17 is in the future.
+Promotion 111150028 is not ready to start. 2025/09/17 is in the future.
+Promotion 102018851 is not ready to start. 2025/09/17 is in the future.
+Promotion 102024687 is not ready to start. 2025/09/17 is in the future.
+Promotion 102024695 is not ready to start. 2025/09/17 is in the future.
+Promotion 101665052 is not ready to start. 2025/09/17 is in the future.
+Promotion 101630992 is not ready to start. 2025/09/17 is in the future.
+Promotion 101815364 is not ready to start. 2025/09/17 is in the future.
+Promotion 101716366 is not ready to start. 2025/09/17 is in the future.
+Promotion 101415660 is not ready to start. 2025/09/17 is in the future.
+Promotion 102054632 is not ready to start. 2025/09/17 is in the future.
+Promotion 111050043 is not ready to start. 2025/09/17 is in the future.
+Promotion 101823321 is not ready to start. 2025/09/17 is in the future.
+Promotion 101639049 is not ready to start. 2025/09/17 is in the future.
+Promotion 101630976 is not ready to start. 2025/09/17 is in the future.
+Promotion 101815381 is not ready to start. 2025/09/17 is in the future.
+Promotion 101802328 is not ready to start. 2025/09/17 is in the future.
+Promotion 101716331 is not ready to start. 2025/09/17 is in the future.
+Promotion 101716382 is not ready to start. 2025/09/17 is in the future.
+Promotion 101528891 is not ready to start. 2025/09/17 is in the future.
+Promotion 101528883 is not ready to start. 2025/09/17 is in the future.
+Promotion 101511889 is not ready to start. 2025/09/17 is in the future.
+Promotion 101470731 is not ready to start. 2025/09/17 is in the future.
+Promotion 110300004 is not ready to start. 2025/09/17 is in the future.
+Promotion 102059572 is not ready to start. 2025/09/17 is in the future.
+Promotion 7622210589194 is not ready to start. 2025/09/17 is in the future.
+Promotion 757528042080 is not ready to start. 2025/09/17 is in the future.
+7506105606077 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:40.0:现22.0
+Promotion 7506105606077 is not ready to start. 2025/09/17 is in the future.
+757528042073 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:40.0:现22.0
+Promotion 757528042073 is not ready to start. 2025/09/17 is in the future.
+Promotion 757528041984 is not ready to start. 2025/09/17 is in the future.
+7506105606053 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:40.0:现22.0
+Promotion 7506105606053 is not ready to start. 2025/09/17 is in the future.
+757528042042 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:40.0:现22.0
+Promotion 757528042042 is not ready to start. 2025/09/17 is in the future.
+7506105606084 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:40.0:现22.0
+Promotion 7506105606084 is not ready to start. 2025/09/17 is in the future.
+7506105606060 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:40.0:现22.0
+Promotion 7506105606060 is not ready to start. 2025/09/17 is in the future.
+Promotion 7622210589200 is not ready to start. 2025/09/17 is in the future.
+Promotion 757528042011 is not ready to start. 2025/09/17 is in the future.
+Promotion 7501000278404 is not ready to start. 2025/09/17 is in the future.
+⚠ PRM12NEO52DUG250916054425.json - No valid items to process, marked as processed
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-16 07:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-16 08:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 0 pending items.
+No pending files to integrate.
+1 documents found in Bara DB.
+
+PRM12NEO52RSW250916072609.json
+
+Document names going to integrate: ['PRM12NEO52RSW250916072609.json.gz']
+
+Downloading PRM12NEO52RSW250916072609.json.gz...
+✓ Successfully downloaded PRM12NEO52RSW250916072609.json.gz
+Promotion 102051749 is not ready to start. 2025/09/17 is in the future.
+Promotion 101640955 is not ready to start. 2025/09/17 is in the future.
+Promotion 101654003 is not ready to start. 2025/09/17 is in the future.
+Promotion 101631004 is not ready to start. 2025/09/17 is in the future.
+Promotion 101599059 is not ready to start. 2025/09/17 is in the future.
+Promotion 101599032 is not ready to start. 2025/09/17 is in the future.
+Promotion 101561931 is not ready to start. 2025/09/17 is in the future.
+Promotion 101815356 is not ready to start. 2025/09/17 is in the future.
+Promotion 101716358 is not ready to start. 2025/09/17 is in the future.
+Promotion 101438546 is not ready to start. 2025/09/17 is in the future.
+Promotion 101420557 is not ready to start. 2025/09/17 is in the future.
+Promotion 101518909 is not ready to start. 2025/09/17 is in the future.
+Promotion 101470722 is not ready to start. 2025/09/17 is in the future.
+Promotion 102068575 is not ready to start. 2025/09/17 is in the future.
+Promotion 102054641 is not ready to start. 2025/09/17 is in the future.
+Promotion 111100021 is not ready to start. 2025/09/17 is in the future.
+Promotion 101969451 is not ready to start. 2025/09/17 is in the future.
+Promotion 101665061 is not ready to start. 2025/09/17 is in the future.
+Promotion 101633131 is not ready to start. 2025/09/17 is in the future.
+Promotion 101639057 is not ready to start. 2025/09/17 is in the future.
+Promotion 101556948 is not ready to start. 2025/09/17 is in the future.
+Promotion 101804391 is not ready to start. 2025/09/17 is in the future.
+Promotion 101815372 is not ready to start. 2025/09/17 is in the future.
+Promotion 101778381 is not ready to start. 2025/09/17 is in the future.
+Promotion 101415627 is not ready to start. 2025/09/17 is in the future.
+Promotion 101528904 is not ready to start. 2025/09/17 is in the future.
+Promotion 101999503 is not ready to start. 2025/09/17 is in the future.
+Promotion 102024708 is not ready to start. 2025/09/17 is in the future.
+Promotion 101600945 is not ready to start. 2025/09/17 is in the future.
+Promotion 101804382 is not ready to start. 2025/09/17 is in the future.
+Promotion 101716340 is not ready to start. 2025/09/17 is in the future.
+Promotion 101716323 is not ready to start. 2025/09/17 is in the future.
+Promotion 101415619 is not ready to start. 2025/09/17 is in the future.
+Promotion 101420531 is not ready to start. 2025/09/17 is in the future.
+Promotion 101301507 is not ready to start. 2025/09/17 is in the future.
+Promotion 101301494 is not ready to start. 2025/09/17 is in the future.
+Promotion 101518933 is not ready to start. 2025/09/17 is in the future.
+Promotion 101511926 is not ready to start. 2025/09/17 is in the future.
+Promotion 101518896 is not ready to start. 2025/09/17 is in the future.
+Promotion 101444541 is not ready to start. 2025/09/17 is in the future.
+Promotion 111050051 is not ready to start. 2025/09/17 is in the future.
+Promotion 111050035 is not ready to start. 2025/09/17 is in the future.
+Promotion 101630984 is not ready to start. 2025/09/17 is in the future.
+Promotion 101630968 is not ready to start. 2025/09/17 is in the future.
+Promotion 101815348 is not ready to start. 2025/09/17 is in the future.
+Promotion 101778356 is not ready to start. 2025/09/17 is in the future.
+Promotion 101757328 is not ready to start. 2025/09/17 is in the future.
+Promotion 101757344 is not ready to start. 2025/09/17 is in the future.
+Promotion 101415678 is not ready to start. 2025/09/17 is in the future.
+Promotion 101518917 is not ready to start. 2025/09/17 is in the future.
+Promotion 101478880 is not ready to start. 2025/09/17 is in the future.
+Promotion 101470749 is not ready to start. 2025/09/17 is in the future.
+Promotion 110250001 is not ready to start. 2025/09/17 is in the future.
+Promotion 102054704 is not ready to start. 2025/09/17 is in the future.
+Promotion 101955367 is not ready to start. 2025/09/17 is in the future.
+Promotion 101919323 is not ready to start. 2025/09/17 is in the future.
+Promotion 101665044 is not ready to start. 2025/09/17 is in the future.
+Promotion 101639065 is not ready to start. 2025/09/17 is in the future.
+Promotion 101630950 is not ready to start. 2025/09/17 is in the future.
+Promotion 101415539 is not ready to start. 2025/09/17 is in the future.
+Promotion 101518925 is not ready to start. 2025/09/17 is in the future.
+Promotion 101999520 is not ready to start. 2025/09/17 is in the future.
+Promotion 101906320 is not ready to start. 2025/09/17 is in the future.
+Promotion 101879325 is not ready to start. 2025/09/17 is in the future.
+Promotion 101633149 is not ready to start. 2025/09/17 is in the future.
+Promotion 101639073 is not ready to start. 2025/09/17 is in the future.
+Promotion 101599067 is not ready to start. 2025/09/17 is in the future.
+Promotion 101599041 is not ready to start. 2025/09/17 is in the future.
+Promotion 101716374 is not ready to start. 2025/09/17 is in the future.
+Promotion 101420565 is not ready to start. 2025/09/17 is in the future.
+Promotion 101528912 is not ready to start. 2025/09/17 is in the future.
+Promotion 101528921 is not ready to start. 2025/09/17 is in the future.
+Promotion 101511900 is not ready to start. 2025/09/17 is in the future.
+Promotion 101511897 is not ready to start. 2025/09/17 is in the future.
+Promotion 102054712 is not ready to start. 2025/09/17 is in the future.
+Promotion 111150028 is not ready to start. 2025/09/17 is in the future.
+Promotion 102018851 is not ready to start. 2025/09/17 is in the future.
+Promotion 102024687 is not ready to start. 2025/09/17 is in the future.
+Promotion 102024695 is not ready to start. 2025/09/17 is in the future.
+Promotion 101665052 is not ready to start. 2025/09/17 is in the future.
+Promotion 101630992 is not ready to start. 2025/09/17 is in the future.
+Promotion 101815364 is not ready to start. 2025/09/17 is in the future.
+Promotion 101716366 is not ready to start. 2025/09/17 is in the future.
+Promotion 101415660 is not ready to start. 2025/09/17 is in the future.
+Promotion 102054632 is not ready to start. 2025/09/17 is in the future.
+Promotion 111050043 is not ready to start. 2025/09/17 is in the future.
+Promotion 101823321 is not ready to start. 2025/09/17 is in the future.
+Promotion 101639049 is not ready to start. 2025/09/17 is in the future.
+Promotion 101630976 is not ready to start. 2025/09/17 is in the future.
+Promotion 101815381 is not ready to start. 2025/09/17 is in the future.
+Promotion 101802328 is not ready to start. 2025/09/17 is in the future.
+Promotion 101716331 is not ready to start. 2025/09/17 is in the future.
+Promotion 101716382 is not ready to start. 2025/09/17 is in the future.
+Promotion 101528891 is not ready to start. 2025/09/17 is in the future.
+Promotion 101528883 is not ready to start. 2025/09/17 is in the future.
+Promotion 101511889 is not ready to start. 2025/09/17 is in the future.
+Promotion 101470731 is not ready to start. 2025/09/17 is in the future.
+Promotion 110300004 is not ready to start. 2025/09/17 is in the future.
+Promotion 102059572 is not ready to start. 2025/09/17 is in the future.
+Promotion 7622210589194 is not ready to start. 2025/09/17 is in the future.
+Promotion 757528042080 is not ready to start. 2025/09/17 is in the future.
+7506105606077 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:40.0:现22.0
+Promotion 7506105606077 is not ready to start. 2025/09/17 is in the future.
+757528042073 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:40.0:现22.0
+Promotion 757528042073 is not ready to start. 2025/09/17 is in the future.
+Promotion 757528041984 is not ready to start. 2025/09/17 is in the future.
+7506105606053 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:40.0:现22.0
+Promotion 7506105606053 is not ready to start. 2025/09/17 is in the future.
+757528042042 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:40.0:现22.0
+Promotion 757528042042 is not ready to start. 2025/09/17 is in the future.
+7506105606084 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:40.0:现22.0
+Promotion 7506105606084 is not ready to start. 2025/09/17 is in the future.
+7506105606060 in promo，rsrvDec1 has changed，ESL refresh by price changing。原:40.0:现22.0
+Promotion 7506105606060 is not ready to start. 2025/09/17 is in the future.
+Promotion 7622210589200 is not ready to start. 2025/09/17 is in the future.
+Promotion 757528042011 is not ready to start. 2025/09/17 is in the future.
+Promotion 7501000278404 is not ready to start. 2025/09/17 is in the future.
+⚠ PRM12NEO52RSW250916072609.json - No valid items to process, marked as processed
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-16 09:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-16 10:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-16 11:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-16 12:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-16 13:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-16 14:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-16 15:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-16 16:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-16 17:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-16 18:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-16 19:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-16 20:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-16 21:00:00
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------
+------------------------------------
+Now in UTC-6 Mexico City: 2025-09-16 22:00:01
+Only integrate ['ITM', 'PRM'] files
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 02 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Store 03 starts
+
+Found 111 pending items.
+No pending files to integrate.
+0 documents found in Bara DB.
+
+------------------------------------

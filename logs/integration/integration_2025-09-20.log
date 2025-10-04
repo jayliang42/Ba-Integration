@@ -1,0 +1,16 @@
+2025-09-20 00:00:01: pending files successfully integrated to Customer: Bara, Store: 02.
+2025-09-20 00:00:07: Download PRM12NEO52DUG250919232024.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-09-20 00:00:08: PRM12NEO52DUG250919232024.json successfully integrated to Customer: Bara, Store: 02.
+2025-09-20 00:00:09: pending files successfully integrated to Customer: Bara, Store: 03.
+2025-09-20 02:00:08: ERROR API request failed to integrate to Customer: , Store: . HTTP 500 error for URL https://api.oxxo.io/xapi-multichannel-outbound/api/v1/documents: {
+    "code": "X500199",
+    "message": "Internal server error has occurred, please try again later."
+}
+2025-09-20 09:00:10: Download ITM12NEO52RSW250920082117.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-09-20 09:00:11: ITM12NEO52RSW250920082117.json successfully integrated to Customer: Bara, Store: 03.
+2025-09-20 15:00:07: Download ITM12NEO52DUG250920143948.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-09-20 15:00:08: ITM12NEO52DUG250920143948.json successfully integrated to Customer: Bara, Store: 02.
+2025-09-20 15:00:12: Download ITM12NEO52RSW250920143923.json.gz successfully integrated to Customer: 52RSW, Store: 12NEO.
+2025-09-20 15:00:12: SKIPPED ITM12NEO52RSW250920143923.json for Customer: Bara, Store: 03. No valid items to process
+2025-09-20 22:00:06: Download ITM12NEO52DUG250920212954.json.gz successfully integrated to Customer: 52DUG, Store: 12NEO.
+2025-09-20 22:00:06: SKIPPED ITM12NEO52DUG250920212954.json for Customer: Bara, Store: 02. No valid items to process
